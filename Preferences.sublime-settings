@@ -1,0 +1,140 @@
+{
+    // Global
+
+    // Theme style changes format of sidebar icons, tab buttons, 
+    // scroll bars, quick panels, panel buttons.
+    // Options are: "mix", "analog" and "digital".
+    // Treble Dark Theme style options
+    "dark_theme_style": "analog",
+
+    // Treble Light Theme style options
+    "light_theme_style": "mix",
+
+    // Treble Adaptive Theme style options
+    "adaptive_theme_style": "digital",
+
+    // Accent color are used on several places, like: sidebar 
+    // selected file/folder, tab buttons, selected or matched 
+    // on quick panels and auto complete, panel buttons, 
+    // indexing stauts progress bar, update window.
+    // Colors options are: "blue", "purple", "pink", "red",
+    // "orange", "yellow", "green", "grayscale" and
+    // "color-scheme".
+    "accent_color": "color-scheme",
+
+    // Display a wider scroll bar option.
+    "wide_scroll_bars": false,
+
+    // This option changes background color tone of title bar, 
+    // sidebar, panels, status bar and maybe tab depends on 
+    // tab style. It darks or lights based on Color-scheme 
+    // background color. Adaptive theme only.
+    "adaptive_contrast": false,
+
+    // Change opacity of theme text, icons and buttons.
+    // Valid options are: "low", "medium", and "high".
+    "theme_opacity": "high",
+
+    // Option to show icons on input panels and quick panels. 
+    // Console, search and command palette icons.
+    "show_input_icon": true,
+
+    // Row padding space in sidebar, quick panels and auto
+    // complete. Valid options are: "normal" and "large".
+    "row_padding_space": "normal",
+
+    // Sidebar
+
+    // Disclosure is the icon on the left of folder icon.
+    // author: D'Aneo Theme 
+    // https://github.com/SublimeText/Theme-DAneo/
+    "show_disclosure_buttons": true,
+
+    // Show or hide icons file types.
+    // author: D'Aneo Theme 
+    // https://github.com/SublimeText/Theme-DAneo/
+    "show_sidebar_icons": true,
+
+    // Folder icon colors accepted: "blue", "yellow" or 
+    // "graphite".
+    "folder_icon_color": "blue",
+
+    // Folder icon style can be "solid" or "outline".
+    "folder_icon_style": "solid",
+
+    // Controls whether to show vcs status of untracked files and folders
+    // by the color of their labels in the sidebar.
+    // author: D'Aneo Theme 
+    // https://github.com/SublimeText/Theme-DAneo/
+    "show_sidebar_untracked_label_colors": false,
+
+    // Controls whether to show vcs status of tracked files and folders
+    // by the color of their labels in the sidebar.
+    // author: D'Aneo Theme 
+    // https://github.com/SublimeText/Theme-DAneo/
+    "show_sidebar_tracked_label_colors": false,
+
+    // Controls whether to show vcs status of ignored files and folders
+    // by the color of their labels in the sidebar.
+    // author: D'Aneo Theme 
+    // https://github.com/SublimeText/Theme-DAneo/
+    "show_sidebar_ignored_label_colors": true,
+
+    // Git status badge style on the right of sidebar 
+    // files/folder labels. Options: "letters" or "circle".
+    "git_status_badge_style": "letters",
+
+    // Git status badge color on the right of sidebar 
+    // files/folder labels. Options: "multicolor" or "grayscale"
+    "git_status_badge_color": "multicolor",
+
+    // Tabs
+
+    // Tabs style options: "do", "re", "mi" and "fa".
+    "tab_style": "re",
+
+    // Show highlight color for added and deleted file.
+    "show_add_delete_color": true,
+
+    // Tab highlight modified style. Valid options are: "8vb" and "8va".
+    "tab_modified_style": "8va",
+
+    // Dark and Light theme option to display background for 
+    // tabs style "do" and "re".
+    "tabset_background": true,
+
+    // Quick panels
+
+    // Option to display or not, quick panels and auto complete 
+    // panels shadow.
+    "overlay_shadows": true,
+
+    // Display kind containers in grayscale.
+    "kind_container_grayscale": false,
+
+    // Panels
+
+    // Option to display or hide close button on panel.
+    // author: D'Aneo Theme 
+    // https://github.com/SublimeText/Theme-DAneo/
+    "show_panel_close_button": true,
+
+    // Option to make transparent background the buttons panels.
+    "button_background_transparent": false,
+
+    // Use accent color on panel icon buttons.
+    "show_panel_icon_accent": false,
+
+    // Option that group panel icon buttons. Like in ST3.
+    "show_buttons_grouping": false,
+
+    // Panel size buttons. Buttons on Find, Replace and 
+    // Find in files panels. Valid options are: "small",
+    // "medium" and "large".
+    "panel_button_size": "medium",
+
+    // Panel content width of Find, Replace, Find in files,
+    // Console and Output. Valid values are: "full" and "center".
+    "panel_content_width": "center"
+
+}
