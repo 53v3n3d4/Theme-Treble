@@ -1,0 +1,45 @@
+{
+  "name": "js",
+  "version": "0.2.1",
+  "description": "Treble theme builder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/53v3n3d4/Treble-Theme/src/js"
+  },
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build-adaptive-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('adaptive-merge'));\" ",
+    "build-adaptive-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('adaptive-replace'));\" ",
+    "build-dark-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('dark-merge'));\" ",
+    "build-dark-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('dark-replace'));\" ",
+    "build-light-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('light-merge'));\" ",
+    "build-light-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('light-replace'));\" ",
+    "jest-coverage": "jest --coverage",
+    "lint": "eslint '**/*.js'",
+    "test": "jest",
+    "watch": "node script/watch.js "
+  },
+  "keywords": [],
+  "author": "Seven Eda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/53v3n3d4/Treble-Theme/issues"
+  },
+  "homepage": "https://github.com/53v3n3d4/Treble-Theme/",
+  "dependencies": {
+    "sublime-builder": "https://github.com/53v3n3d4/sublime-builder"
+  },
+  "packageManager": "yarn@3.3.0",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "babel-plugin-transform-import-meta": "^2.2.0",
+    "eslint": "^8.30.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.3.1"
+  }
+}
