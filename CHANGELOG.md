@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.2.1] - 2022-12-20
+- Better descriptions for tabs settings
+
 ## [0.2.0] - 2022-12-20
 
 - Add Treble Adaptive
