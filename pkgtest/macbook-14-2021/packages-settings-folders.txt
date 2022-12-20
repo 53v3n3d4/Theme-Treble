@@ -1,0 +1,60 @@
+Processes: 401 total, 2 running, 399 sleeping, 1564 threads 
+2022/12/13 02:00:40
+Load Avg: 1.13, 1.25, 1.38 
+CPU usage: 6.84% user, 10.95% sys, 82.19% idle 
+MemRegions: 45740 total, 2048M resident, 0B private, 1198M shared.
+PhysMem: 10G used (1454M wired), 5053M unused.
+VM: 152T vsize, 0B framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 87969/30M in, 196814/239M out.
+Disks: 268379/5792M read, 93727/1350M written.
+
+PID   COMMAND      %CPU TIME     #TH #WQ #PORTS MEM  PURG  CMPRS PGRP PPID STATE    BOOSTS %CPU_ME %CPU_OTHRS UID FAULTS COW MSGSENT MSGRECV SYSBSD SYSMACH CSW   PAGEINS IDLEW POWER INSTRS CYCLES USER         #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+1734  sublime_text 0.0  00:08.99 21  2   341    216M 1328K 0B    1734 1    sleeping  0[38] 0.00000 0.00000    501 39768  444 69425   55927   122071 191158  83187 3223    1600  0.0   0      0      macbookpro14 N/A    N/A   N/A   N/A   N/A   N/A  
+Processes: 401 total, 2 running, 399 sleeping, 1590 threads 
+2022/12/13 02:00:45
+Load Avg: 1.12, 1.24, 1.37 
+CPU usage: 0.55% user, 0.67% sys, 98.76% idle 
+MemRegions: 45740 total, 2048M resident, 0B private, 1198M shared.
+PhysMem: 10G used (1438M wired), 5054M unused.
+VM: 152T vsize, 0B framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 87971/30M in, 196814/239M out.
+Disks: 268379/5792M read, 93729/1350M written.
+
+PID   COMMAND      %CPU TIME     #TH #WQ #PORTS MEM  PURG  CMPRS PGRP PPID STATE    BOOSTS %CPU_ME %CPU_OTHRS UID FAULTS COW MSGSENT MSGRECV SYSBSD  SYSMACH CSW    PAGEINS IDLEW POWER INSTRS  CYCLES  USER         #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+1734  sublime_text 0.0  00:08.99 21  2   341    216M 1328K 0B    1734 1    sleeping  0[38] 0.00000 0.00000    501 39768  444 69425   56001+  122135+ 191296+ 83258+ 3223    1600  0.0   1641626 2179610 macbookpro14 N/A    N/A   N/A   N/A   N/A   N/A  
+Processes: 401 total, 3 running, 398 sleeping, 1579 threads 
+2022/12/13 02:00:50
+Load Avg: 1.11, 1.24, 1.37 
+CPU usage: 0.59% user, 1.32% sys, 98.7% idle 
+MemRegions: 45740 total, 2048M resident, 0B private, 1198M shared.
+PhysMem: 10G used (1450M wired), 5054M unused.
+VM: 152T vsize, 0B framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 87974/30M in, 196816/239M out.
+Disks: 268380/5792M read, 93781/1351M written.
+
+PID   COMMAND      %CPU TIME     #TH #WQ #PORTS MEM  PURG  CMPRS PGRP PPID STATE    BOOSTS %CPU_ME %CPU_OTHRS UID FAULTS COW MSGSENT MSGRECV SYSBSD  SYSMACH CSW    PAGEINS IDLEW POWER INSTRS  CYCLES  USER         #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+1734  sublime_text 0.0  00:09.00 21  2   341    216M 1328K 0B    1734 1    sleeping  0[38] 0.00000 0.00000    501 39768  444 69425   56083+  122206+ 191449+ 83335+ 3223    1600  0.0   1794181 2498040 macbookpro14 N/A    N/A   N/A   N/A   N/A   N/A  
+Processes: 401 total, 2 running, 399 sleeping, 1591 threads 
+2022/12/13 02:00:55
+Load Avg: 1.10, 1.23, 1.37 
+CPU usage: 1.35% user, 1.3% sys, 97.61% idle 
+MemRegions: 45740 total, 2048M resident, 0B private, 1198M shared.
+PhysMem: 10G used (1391M wired), 5055M unused.
+VM: 152T vsize, 0B framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 87976/30M in, 196816/239M out.
+Disks: 268383/5792M read, 93784/1351M written.
+
+PID   COMMAND      %CPU TIME     #TH #WQ #PORTS MEM  PURG  CMPRS PGRP PPID STATE    BOOSTS %CPU_ME %CPU_OTHRS UID FAULTS COW MSGSENT MSGRECV SYSBSD  SYSMACH CSW    PAGEINS IDLEW POWER INSTRS  CYCLES  USER         #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+1734  sublime_text 0.0  00:09.00 21  2   341    216M 1328K 0B    1734 1    sleeping  0[38] 0.00000 0.00000    501 39768  444 69425   56148+  122265+ 191569+ 83400+ 3223    1601+ 0.0   1454188 1949917 macbookpro14 N/A    N/A   N/A   N/A   N/A   N/A  
+Processes: 402 total, 2 running, 400 sleeping, 1584 threads 
+2022/12/13 02:01:00
+Load Avg: 1.09, 1.23, 1.37 
+CPU usage: 0.57% user, 0.79% sys, 98.62% idle 
+MemRegions: 45805 total, 2049M resident, 0B private, 1198M shared.
+PhysMem: 10G used (1439M wired), 5048M unused.
+VM: 152T vsize, 0B framework vsize, 0(0) swapins, 0(0) swapouts.
+Networks: packets: 87977/30M in, 196816/239M out.
+Disks: 268383/5792M read, 93784/1351M written.
+
+PID   COMMAND      %CPU TIME     #TH #WQ #PORTS MEM  PURG  CMPRS PGRP PPID STATE    BOOSTS %CPU_ME %CPU_OTHRS UID FAULTS COW MSGSENT MSGRECV SYSBSD  SYSMACH CSW    PAGEINS IDLEW POWER INSTRS  CYCLES  USER         #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+1734  sublime_text 0.0  00:09.00 21  2   341    216M 1328K 0B    1734 1    sleeping  0[38] 0.00000 0.00000    501 39768  444 69425   56229+  122332+ 191717+ 83475+ 3223    1601  0.0   1718794 2112434 macbookpro14 N/A    N/A   N/A   N/A   N/A   N/A  
