@@ -1,0 +1,14 @@
+{
+    "name": "Treble Widgets Light",
+    "variables": {},
+    "globals":
+    {
+        "background": "#EAE3E9",
+        "foreground": "#404040",
+        "caret": "#9B9B9B",
+        "selection": "#FFFFFF",
+        "selection_border": "transparent",
+        "bracket_contents_options": "underline"
+    },
+    "rules": []
+}

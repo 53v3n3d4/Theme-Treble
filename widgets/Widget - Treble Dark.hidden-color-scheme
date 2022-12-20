@@ -1,0 +1,14 @@
+{
+    "name": "Treble Widgets Dark",
+    "variables": {},
+    "globals":
+    {
+        "background": "#2D2C2F",
+        "foreground": "#F0F0F7",
+        "caret": "#F3EFF2",
+        "selection": "#525055",
+        "selection_border": "transparent",
+        "bracket_contents_options": "underline"
+    },
+    "rules": []
+}
