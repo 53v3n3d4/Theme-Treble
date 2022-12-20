@@ -91,12 +91,27 @@
     // Tabs
 
     // Tabs style options: "do", "re", "mi" and "fa".
+    // Options "do" and "re" can have a tabset background color. 
+    // While "mi" and "fa" always have a tabset transparent background. 
+    // Which is set by features like tabset_background or 
+    // adaptive_contrast.
+    // Inactive sheet dimming is supported on option "do" with a 
+    // background color.
+    // Option "mi" and "fa" have a selected tab button that follow 
+    // accent_color feature.
+    // A minimal layout can be achieved with option "do" and 
+    // tabset_background feature false (Dark and Light themes) or 
+    // adaptive_contrast feature false (Adaptive theme).
     "tab_style": "re",
 
     // Show highlight color for added and deleted file.
     "show_add_delete_color": true,
 
-    // Tab highlight modified style. Valid options are: "8vb" and "8va".
+    // Tab highlight modified style. Valid options are: "8vb" and 
+    // "8va".
+    // Option "8vb" display a full width bar at bottom of tab 
+    // button. While "8va" display a center width bar inside tab
+    // button.
     "tab_modified_style": "8va",
 
     // Dark and Light theme option to display background for 
