@@ -62,7 +62,10 @@ You can also see theme settings in [Preferences.sublime-settings](https://github
 
 ## Package installation
 
-The only way to install it is manually now.  
+The recommended way to install is through [PackageControl.io](https://packagecontrol.io/packages/Theme%20-%20Treble).  
+- Menu `Tools > Command Palette > Package Control: Install Package`  
+- Type `Treble`, search for `Theme - Treble`  
+- Click to install it  
 
 To install manually, [download](https://github.com/53v3n3d4/Theme-Treble/releases) the latest release version zip file and uncompress it on your Sublime Text `Packages` folder.  
 - Download the zip file on [`releases`](https://github.com/53v3n3d4/Theme-Treble/releases) page  
@@ -75,6 +78,10 @@ Mac/Linux `$ git clone https://github.com/53v3n3d4/Theme-Treble.git Theme\ -\ Tr
 Windows `$ git clone https://github.com/53v3n3d4/Theme-Treble.git "Theme - Treble"`  
 
 ## Uninstall
+
+To remove package using Package Control.  
+- Menu `Tools > Command Palette > Package Control: Remove Package`  
+- Click on `Theme - Treble`  
 
 To uninstall manually, go to your Sublime Text folder.  
 - Menu `Sublime Text > Preferences > Browse packages...`  
