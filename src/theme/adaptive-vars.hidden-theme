@@ -1,0 +1,626 @@
+{
+    "extends": "colors-palette.hidden-theme",
+    "variables":
+    {
+        // Light and Dark variable names refer to Light and Dark color scheme background
+        // Lighter and Darker Tone variable names refer to tonality
+
+        // Font size
+        // 1.2rem = 13
+        "font-size-sidebar-heading":                     "1.0rem",
+        "font-size-sidebar-label":                       "1.1rem",
+        "font-size-quick-panel-label-key-binding":       "1.2rem",
+        "font-size-quick-panel-label-hint":              "1.1rem",
+        "font-size-quick-panel-label":                   "1.2rem",
+        "font-size-kind-label":                          "1.3rem",
+        "font-size-kind-label-auto-complete":            "1.3rem", // Letter inside kind container auto complete popup
+        "font-size-auto-complete-label":                 "1.0rem",
+        "font-size-auto-complete-kind-label":            "1.0rem",
+        "font-size-auto-complete-hint":                  "1.0rem",
+        "font-size-auto-complete-details":               "1.0rem",
+        "font-size-text-line-control-overlay":           "1.2rem",
+        "font-size-text-line-control-switch-project":    "1.2rem",
+        "font-size-label-control":                       "1.0rem",
+        "font-size-label-control-status-bar":            "1.0rem",
+        "font-size-title-label-control":                 "2.0rem",
+        "font-size-tool-tip-label-control":              "1.0rem",
+
+        // Title bar
+        "title-bar-bg":         "var(bg-color)",
+        // "title-bar-fg-dark":    "color(var(bg-color) blend(white 44%))",
+        "title-bar-fg-dark":    "color(var(gray3) a(0.9))", // fix Update windows not work file_light
+        "title-bar-fg-light":   "color(var(bg-color) blend(black 44%))",
+
+        // Title bar Theme opacity setting
+        // "title-bar-fg-medium-dark":     "color(var(bg-color) blend(var(white1) 67%))",
+        "title-bar-fg-medium-dark":     "color(var(gray4) a(0.5))", // fix Update windows not work file_light
+        "title-bar-fg-medium-light":    "color(var(bg-color) blend(var(black1) 60%))",
+        // "title-bar-fg-low-dark":        "color(var(bg-color) blend(var(white1) 87%))",
+        "title-bar-fg-low-dark":        "color(var(black4) a(0.5))", // fix Update windows not work file_light
+        "title-bar-fg-low-light":       "color(var(bg-color) blend(var(black1) 77%))",
+
+        // Title bar Adaptive contrast setting
+        "title-bar-bg-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 96%))",
+        "title-bar-bg-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 93%))",
+
+        // Sidebar
+        "sidebar-container-bg":           "var(bg-color)",
+        "sidebar-container-bg-border":    "var(bg-color)",
+        "tree-row-hover-dark":            "color(var(white1) a(0.03))",
+        "tree-row-hover-light":           "color(var(black1) a(0.04))",
+
+        // Sidebar Adaptive contrast setting
+        "sidebar-container-bg-adaptive-contrast-dark":            "color(var(bg-color) blend(var(white1) 98%))",
+        "sidebar-container-bg-adaptive-contrast-light":           "color(var(bg-color) blend(var(black1) 97%))",
+        "sidebar-container-bg-border-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 98%))",
+        "sidebar-container-bg-border-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 97%))",
+
+        // Sidebar and Tab label
+        "heading-dark":                  "var(gray2)",
+        "heading-light":                 "var(black4)",
+        "label-normal-dark":             "color(var(white1) a(0.6))",
+        "label-normal-light":            "color(var(black1) a(0.6))",
+        "label-hover-dark":              "var(white2)",
+        "label-hover-light":             "var(black2)",
+        "label-selected-dark":           "var(white2)",
+        "label-selected-light":          "var(black2)",
+        "label-hover-selected-dark":     "color(var(white2) a(0.6))",
+        "label-hover-selected-light":    "color(var(black2) a(0.6))",
+
+        // Sidebar and Tab label opacity
+        "heading-opacity":                     1.0,
+        "label-normal-opacity":                1.0,
+        "label-hover-opacity":                 1.0,
+        "label-selected-opacity":              1.0,
+        "label-hover-selected-opacity":        1.0,
+        // "tab-label-hover-selected-opacity":    0.7, // testing not using
+
+        // Sidebar and Tab label Theme opacity setting
+        "heading-opacity-medium":         0.65,
+        "label-normal-opacity-medium":    0.65,
+        "heading-opacity-low":            0.45,
+        "label-normal-opacity-low":       0.45,
+
+        // Sidebar disclosure, close and dirty
+        "sidebar-disclosure-button-dark":     "var(gray2)",
+        "sidebar-disclosure-button-light":    "var(gray4)",
+        "sidebar-close-button-dark":          "var(white2)",
+        "sidebar-close-button-light":         "var(black2)",
+        "sidebar-dirty-button-dark":          "var(gray2)",
+        "sidebar-dirty-button-light":         "var(gray3)",
+
+        // Sidebar diclosure, folder icon, file type icon, open files close/dirty, vcs status badge opacity
+        "sidebar-icon-opacity-normal":            { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+        "sidebar-icon-opacity-hover":             { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+        "sidebar-icon-opacity-selected":          { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+        "sidebar-icon-opacity-hover-selected":    { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+        "sidebar-icon-opacity-vcs-ignored":       { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
+
+        // Sidebar diclosure, folder icon, file type icon, open files close/dirty opacity 
+        // Theme opacity setting
+        "sidebar-icon-opacity-medium":    { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
+        "sidebar-icon-opacity-low":       { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
+
+        // Folder icon colors
+        "folder-blue":              "var(blue3)",
+        "folder-yellow":            "var(yellow3)",
+        "folder-graphite-dark":     "var(gray2)",
+        "folder-graphite-light":    "var(gray4)",
+        "folder-loading-dark":      "var(white2)",
+        "folder-loading-light":     "var(black4)",
+
+        // Vcs status multicolor
+        "vcs-modified":                 "color(var(gold1) min-contrast(var(bg-color) 1.5))",
+        "vcs-modified-darker-tone":     "var(yellow5)",
+        "vcs-untracked":                "color(var(green-light3) min-contrast(var(bg-color) 2.0))",
+        "vcs-untracked-darker-tone":    "var(green3)",
+        "vcs-missing":                  "var(orange1)",
+        "vcs-added":                    "var(blue3)",
+        "vcs-added-lighter-tone":       "var(blue5)",
+        "vcs-staged":                   "var(blue3)",
+        "vcs-staged-lighter-tone":      "var(blue5)",
+        "vcs-deleted":                  "var(red3)",
+        "vcs-unmerged":                 "var(red1)",
+        "vcs-unmerged-darker-tone":     "var(red2)",
+        "vcs-ignored":                  "color(var(white1) a(0.3))",
+        "vcs-ignored-light":            "color(var(black1) a(0.3))",
+        "vcs-ignored-darker-tone":      "var(gray4)",
+        "vcs-ignored-lighter-tone":     "var(gray2)",
+
+        // Vcs status grayscale
+        "vcs-status-badge-dark":                        "color(var(white1) a(0.6))",
+        "vcs-status-badge-light":                       "color(var(black1) a(0.6))",
+        "vcs-status-badge-hover-row-dark":              "var(white2)",
+        "vcs-status-badge-hover-row-light":             "var(black2)",
+        "vcs-status-badge-selected-row-dark":           "var(white2)",
+        "vcs-status-badge-selected-row-light":          "var(black2)",
+        "vcs-status-badge-hover-selected-row-dark":     "color(var(white2) a(0.6))",
+        "vcs-status-badge-hover-selected-row-light":    "color(var(black2) a(0.6))",
+
+        // Tabs
+        "tabset-control-bg":           "var(bg-color)",
+        "tabset-control-bg-border":    "var(bg-color)",
+
+        // Tabs Adaptive contrast setting
+        "tabset-control-bg-adaptive-contrast-dark":            "color(var(bg-color) blend(var(white1) 98%))",
+        "tabset-control-bg-adaptive-contrast-light":           "color(var(bg-color) blend(var(black1) 97%))",
+        "tabset-control-bg-border-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 98%))",
+        "tabset-control-bg-border-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 97%))",
+        "tab-control-bg-adaptive-contrast-dark":               "color(var(bg-color) blend(var(white1) 98%))",
+        "tab-control-bg-adaptive-contrast-light":              "color(var(bg-color) blend(var(black1) 97%))",
+
+        // Tabs opacity Tabset accent setting
+        "tab-selected-accent":    0.14,
+
+        // Tab, scroll tabs, new tab and dropdown
+        "tab-unselected-dark":                  "color(var(white1) a(0.05))",
+        "tab-unselected-light":                 "color(var(black1) a(0.06))",
+        "tab-unselected-transparent":           "transparent",
+        "tab-unselected-bg":                    "var(bg-color)",
+        "tab-hover-dark":                       "color(var(white1) a(0.1))",
+        "tab-hover-light":                      "color(var(black1) a(0.1))",
+        "tab-hover-transparent":                "transparent",
+        "tab-selected-dark":                    "color(var(white1) a(0.1))",
+        "tab-selected-light":                   "color(var(black1) a(0.1))",
+        "tab-selected-transparent":             "transparent",
+        "tab-modified-dirty-dark":              "var(gray4)",
+        "tab-modified-dirty-light":             "var(gray2)",
+        "tab-divider-dark":                     "var(gray4)",
+        "tab-divider-light":                    "var(gray2)",
+        "tab-modified-added":                   "var(green2)", // green2 to diff from accent color green
+        "tab-modified-deleted":                 "var(vcs-deleted)",
+
+        // Tab, scroll tabs, new tab and dropdown Adaptive contrast setting
+        "tab-hover-tab-style-do-adaptive-contrast-dark":     "color(var(white1) a(0.07))",
+        "tab-hover-tab-style-do-adaptive-contrast-light":    "color(var(black1) a(0.07))",
+
+        // Tab, scroll tabs, new tab and dropdown opacity
+        "tab-icon-normal-opacity":                1,
+        "tab-button-bg-normal-opacity":           1,
+
+        // Tab, scroll tabs, new tab and dropdown Adaptive contrast setting
+        "tab-selected-adaptive-contrast":           "var(bg-color)",
+
+        // Tab, scroll tabs, new tab and dropdown opacity Theme opacity setting
+        "tab-icon-normal-opacity-medium":    0.65,
+        "tab-icon-normal-opacity-low":       0.40,
+
+        // Tab close button
+        "tab-x-button-normal":                     "var(gray4)",
+        "tab-x-button-hover-dark":                 "var(white2)",
+        "tab-x-button-hover-light":                "var(black2)",
+        "tab-square-circle-button-hover-dark":     "color(var(white1) a(15%))",
+        "tab-square-circle-button-hover-light":    "color(var(black1) a(10%))",
+        "tab-dirty-button":                        "var(gray3)",
+
+        // Tab close button opacity
+        "tab-x-button-opacity":          { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+        "tab-x-button-opacity-hover":    { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+        "tab-dirty-button-opacity":      { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+
+        // Tab close button opacity Theme opacity setting
+        "tab-x-button-opacity-medium":        { "target": 0.7, "speed": 4.0, "interpolation": "smoothstep" },
+        "tab-x-button-opacity-low":           { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+        "tab-dirty-button-opacity-medium":    { "target": 0.7, "speed": 4.0, "interpolation": "smoothstep" },
+        "tab-dirty-button-opacity-low":       { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+
+        // Tab chevron, plus and dropdown icon
+        "tab-chevron-icon":                "var(gray4)",
+        "tab-chevron-icon-hover-dark":     "var(white2)",
+        "tab-chevron-icon-hover-light":    "var(black2)",
+        "tab-plus-icon":                   "var(gray4)",
+        "tab-plus-icon-hover-dark":        "var(white2)",
+        "tab-plus-icon-hover-light":       "var(black2)",
+
+        // Accent colors
+        "accent-blue":            "var(blue1)",
+        "accent-purple":          "var(purple1)",
+        "accent-pink":            "var(pink-light3)",
+        "accent-red":             "var(red1)",
+        "accent-orange":          "var(orange2)",
+        // "accent-yellow":          "var(yellow3)",
+        "accent-yellow":          "color(var(yellow3) min-contrast(var(bg-color) 1.5))",
+        // "accent-green":           "var(green1)",
+        "accent-green":           "color(var(green-light5) min-contrast(var(bg-color) 2.0))",
+        "accent-white":           "var(white2)",
+        "accent-black":           "var(black2)",
+        "accent-color-scheme":    "var(--accent)",
+
+        // Accent overlay - selected row
+        "accent-white-selected-row":    "color(var(black2) a(0.1))",
+        "accent-black-selected-row":    "color(var(white2) a(0.1))",
+
+        // Overlay
+        "overlay-shadow-dark":               "color(var(black1) a(0.8))",
+        "overlay-shadow-light":              "color(var(black4) a(0.4))",
+        "overlay-background":                "var(bg-color)",
+        "overlay-border":                    "color(var(gray4) a(0.4))",
+        "overlay-border-no-shadow-dark":     "var(black4)",
+        "overlay-border-no-shadow-light":    "var(gray4)",
+
+        // Kind color
+        "kind-color-red":       "var(red3)",
+        "kind-color-orange":    "var(orange-light2)",
+        "kind-color-yellow":    "var(yellow-light1)",
+        "kind-color-green":     "var(green5)",
+        "kind-color-cyan":      "var(green5)",
+        "kind-color-blue":      "var(blue4)",
+        "kind-color-purple":    "var(purple4)",
+        "kind-color-pink":      "var(pink1)",
+        "kind-color-dark":      "var(gray1)",
+        "kind-color-light":     "var(black4)",
+
+        // Kind label
+        "kind-function-color":      "var(kind-color-red)",
+        "kind-keyword-color":       "var(kind-color-pink)",
+        "kind-markup-color":        "var(kind-color-orange)",
+        "kind-namespace-color":     "var(kind-color-blue)",
+        "kind-navigation-color":    "var(kind-color-yellow)",
+        "kind-snippet-color":       "var(kind-color-green)",
+        "kind-type-color":          "var(kind-color-purple)",
+        "kind-variable-color":      "var(kind-color-cyan)",
+
+        // Kind container
+        "kind-container-red":       "var(red4)",
+        "kind-container-pink":      "var(pink-light2)",
+        "kind-container-orange":    "var(orange4)",
+        "kind-container-blue":      "var(blue-light4)",
+        "kind-container-yellow":    "var(gold1)",
+        "kind-container-green":     "var(green-light4)",
+        "kind-container-purple":    "var(purple1)",
+        "kind-container-cyan":      "var(cyan1)",
+        "kind-container-dark":      "var(black4)",
+        "kind-container-light":     "var(gray2)",
+
+        // Kind container opacity
+        "kind-container-opacity-normal":      { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+        "kind-container-opacity-selected":    { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+        "kind-label-opacity-normal":          { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+        "kind-label-opacity-selected":        { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+
+        // Kind container opacity Theme opacity setting
+        "kind-container-opacity-medium":    { "target": 0.65, "speed": 4.0, "interpolation": "smoothstep" },
+        "kind-container-opacity-low":       { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+        "kind-label-opacity-medium":        { "target": 0.65, "speed": 4.0, "interpolation": "smoothstep" },
+        "kind-label-opacity-low":           { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+
+        // Quick panel
+        "quick-panel-row-bg":    "var(bg-color)",
+
+        // Quick panel label
+        "quick-panel-label-fg-dark":                    "color(var(white1) a(0.6))",
+        "quick-panel-label-fg-light":                   "color(var(black1) a(0.6))",
+        "quick-panel-label-selected-dark":              "var(white2)",
+        "quick-panel-label-selected-match-dark":        "var(white1)",
+        "quick-panel-label-selected-light":             "var(black2)",
+        "quick-panel-label-selected-match-light":       "var(black1)",
+        "quick-panel-path-label-dark":                  "color(var(gray4) a(0.7))",
+        "quick-panel-path-label-light":                 "color(var(gray4) a(0.5))",
+        "quick-panel-label-key-binding-dark":           "color(var(gray4) a(0.7))",
+        "quick-panel-label-key-binding-light":          "color(var(gray4) a(0.5))",
+        "quick-panel-label-hint-dark":                  "color(var(gray4) a(0.7))",
+        "quick-panel-label-hint-light":                 "color(var(gray4) a(0.5))",
+        "quick-panel-detail-label-link-color-dark":     "var(blue5)",
+        "quick-panel-detail-label-link-color-light":    "var(blue3)",
+
+        // Quick panel label Theme opacity setting
+        "quick-panel-label-fg-dark-medium":              "color(var(white1) a(0.35))",
+        "quick-panel-label-fg-light-medium":             "color(var(black1) a(0.35))",
+        "quick-panel-label-fg-dark-low":                 "color(var(white1) a(0.27))",
+        "quick-panel-label-fg-light-low":                "color(var(black1) a(0.27))",
+        "quick-panel-path-label-dark-medium":            "color(var(gray4) a(0.4))",
+        "quick-panel-path-label-light-medium":           "color(var(gray4) a(0.27))",
+        "quick-panel-path-label-dark-low":               "color(var(gray4) a(0.33))",
+        "quick-panel-path-label-light-low":              "color(var(gray4) a(0.22))",
+        "quick-panel-label-key-binding-dark-medium":     "color(var(gray4) a(0.4))",
+        "quick-panel-label-key-binding-light-medium":    "color(var(gray4) a(0.27))",
+        "quick-panel-label-key-binding-dark-low":        "color(var(gray4) a(0.33))",
+        "quick-panel-label-key-binding-light-low":       "color(var(gray4) a(0.22))",
+        "quick-panel-label-hint-dark-medium":            "color(var(gray4) a(0.4))",
+        "quick-panel-label-hint-light-medium":           "color(var(gray4) a(0.27))",
+        "quick-panel-label-hint-dark-low":               "color(var(gray4) a(0.33))",
+        "quick-panel-label-hint-light-low":              "color(var(gray4) a(0.22))",
+
+        // Sheet
+        "sheet-dark-modifier":     "blend(var(black3) 80%)",
+        "sheet-light-modifier":    "blend(var(black3) 97%)",
+
+        // Views
+        "text-area-modifier-dark":             "blend(var(black1) 80%)",
+        "text-area-modifier-light":            "l(- 5%) s(* 80%)",
+        "text-area-console-panel-modifier":    "l(- 4%)",
+        "text-area-output-panel-modifier":     "l(- 4%)",
+        "text-area-dialog-modifier":           "l(- 4%)",
+        "grid-border-color-dark":              "color(var(bg-color) l(+ 11%))",
+        "grid-border-color-light":             "color(var(bg-color) l(- 11%))",
+        "minimap-viewport-color-dark":         "color(var(gray2) a(0.14))",
+        "minimap-viewport-color-light":        "color(var(gray2) a(0.27))",
+        "fold-button-color":                   "var(orange1)",
+        "popup-shadow-dark":                   "color(var(black1) a(0.3))",
+        "popup-shadow-light":                  "color(var(black4) a(0.4))",
+        "popup-html-border":                   "color(var(gray4) a(0.4))",
+        "popup-control-bg":                    "var(bg-color)",
+
+        // Views opacity
+        "minimap-viewport-no-show":    { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
+        "minimap-viewport-hover":      { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" },
+        "fold-button-hover":           { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+
+        // Views Adaptive contrast setting
+        "text-area-modifier-adaptive-contrast-dark":                   "l(- 4%)",
+        "text-area-modifier-adaptive-contrast-light":                  "l(- 5%) s(* 80%)",
+        "text-area-console-panel-modifier-adaptive-contrast-dark":     "l(- 4%)", //"blend(var(black1) 26%)",
+        "text-area-console-panel-modifier-adaptive-contrast-light":    "blend(var(black1) 86%)",
+        "text-area-output-panel-modifier-adaptive-contrast":           "blend(var(black1) 86%)",
+
+        // Auto complete
+        "auto-complete-label-fg-dark":                   "color(var(white1) a(0.6))",
+        "auto-complete-label-fg-light":                  "color(var(black1) a(0.6))",
+        "auto-complete-label-selected-dark":             "var(white2)",
+        "auto-complete-label-selected-match-dark":       "var(white1)",
+        "auto-complete-label-selected-light":            "var(black2)",
+        "auto-complete-label-selected-match-light":      "var(black1)",
+        "auto-complete-hint-dark":                       "color(var(gray4) a(0.7))",
+        "auto-complete-hint-light":                      "color(var(gray4) a(0.5))",
+        "auto-complete-kind-name-label-border":          "var(gray4)",
+        "auto-complete-detail-pane-bg-color-dark":       "color(var(white1) a(0.03))",
+        "auto-complete-detail-pane-bg-color-light":      "color(var(black1) a(0.03))",
+        "auto-complete-detail-pane-link-color-dark":     "var(blue5)",
+        "auto-complete-detail-pane-link-color-light":    "var(blue3)",
+
+        // Auto complete Theme opacity setting
+        "auto-complete-label-fg-dark-medium":             "color(var(white1) a(0.35))",
+        "auto-complete-label-fg-light-medium":            "color(var(black1) a(0.35))",
+        "auto-complete-label-fg-dark-low":                "color(var(white1) a(0.27))",
+        "auto-complete-label-fg-light-low":               "color(var(black1) a(0.27))",
+        "auto-complete-kind-name-label-border-medium":    "color(var(gray4) a(0.7)",
+        "auto-complete-kind-name-label-border-low":       "color(var(gray4) a(0.4)",
+
+        // Auto complete opacity
+        "auto-complete-hint-opacity":               1,
+        "auto-complete-hint-opacity-selected":      1,
+        "auto-complete-kind-name-label-opacity":    1,
+        "auto-complete-detail-pane-opacity":        1,
+
+        // Auto complete opacity Theme opacity setting
+        "auto-complete-hint-opacity-medium":               0.7,
+        "auto-complete-hint-opacity-low":                  0.4,
+        "auto-complete-kind-name-label-opacity-medium":    0.7,
+        "auto-complete-kind-name-label-opacity-low":       0.4,
+        "auto-complete-detail-pane-opacity-medium":        0.7,
+        "auto-complete-detail-pane-opacity-low":           0.4,
+
+        // Table row opacity
+        "table-row-accent-color-opacity":    { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" },
+
+        // Panel
+        "panel-control-bg":    "var(bg-color)",
+
+        // Panel Adaptive contrast setting
+        "panel-control-bg-adaptive-contrast-dark":     "color(var(bg-color) blend(white 96%))",
+        "panel-control-bg-adaptive-contrast-light":    "color(var(bg-color) blend(black 95%))",
+
+        // Panel Adaptive dividers
+        "panel-control-adaptive-div-border-dark":     "color(var(gray2) a(0.1))",
+        "panel-control-adaptive-div-border-light":    "color(var(gray2) a(0.27))",
+
+        // Panel close button
+        "panel-x-button-normal":                     "var(gray4)",
+        "panel-x-button-hover-dark":                 "var(white2)",
+        "panel-x-button-hover-light":                "var(black2)",
+        "panel-square-circle-button-hover-dark":     "color(var(white1) a(15%))",
+        "panel-square-circle-button-hover-light":    "color(var(black1) a(10%))",
+
+        // Panel close button opacity
+        "panel-x-button-opacity":          { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+        "panel-x-button-opacity-hover":    { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+
+        // Panel close button opacity Theme opacity setting
+        "panel-x-button-opacity-medium":    { "target": 0.7, "speed": 4.0, "interpolation": "smoothstep" },
+        "panel-x-button-opacity-low":       { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+
+        // Status bar
+        "status-bar-bg":                                "var(bg-color)",
+        "status-bar-bg-border":                         "var(bg-color)",
+        "vcs-changes-annotation-border-dark":           "color(var(white1) a(0.3))",
+        "vcs-changes-annotation-border-light":          "color(var(black1) a(0.3))",
+        "vcs-changes-annotation-border-hover-dark":     "color(var(white1) a(0.4))",
+        "vcs-changes-annotation-border-hover-light":    "color(var(black1) a(0.4))",
+        // Maybe do a status icon and merge sidebar button and branch icon
+        "sidebar-button-control-dark":                  "color(var(white1) a(0.6))",
+        "sidebar-button-control-light":                 "color(var(black1) a(0.6))",
+        "sidebar-button-control-hover-dark":            "var(white2)",
+        "sidebar-button-control-hover-light":           "var(black2)",
+        "branch-icon-dark":                             "color(var(white1) a(0.65))",
+        "branch-icon-light":                            "color(var(black1) a(0.6))",
+        "branch-icon-hover-dark":                       "var(white2)",
+        "branch-icon-hover-light":                      "var(black2)",
+
+        // Status bar icon opacity - Sidebar button, Vcs branch
+        "status-bar-icon-opacity-normal":    { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+        "status-bar-icon-opacity-hover":     { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+
+        // Status bar Theme opacity setting - Sidebar button, Vcs branch
+        "status-bar-icon-opacity-medium":    { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+        "status-bar-icon-opacity-low":       { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+        "vcs-changes-annotation-border-dark-medium":     "color(var(white1) a(0.13))",
+        "vcs-changes-annotation-border-light-medium":    "color(var(black1) a(0.13))",
+        "vcs-changes-annotation-border-dark-low":        "color(var(white1) a(0.07))",
+        "vcs-changes-annotation-border-light-low":       "color(var(black1) a(0.07))",
+
+        // Status bar Adaptive contrast setting
+        "status-bar-bg-adaptive-contrast-dark":            "color(var(bg-color) blend(var(white1) 94%))",
+        "status-bar-bg-adaptive-contrast-light":           "color(var(bg-color) blend(var(black1) 93%))",
+        "status-bar-bg-border-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 94%))",
+        "status-bar-bg-border-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 93%))",
+
+        // Status bar Adaptive dividers
+        "status-bar-adaptive-div-border-dark":     "color(var(gray2) a(0.1))",
+        "status-bar-adaptive-div-border-light":    "color(var(gray2) a(0.27))",
+
+        // Dialogs
+        "dialog-bg":                  "var(bg-color)",
+        "progress-bar-control-bg":    "var(gray2)",
+
+        // Scroll bars
+        "scroll-track-control-dark":                  "transparent",
+        "scroll-track-control-light":                 "transparent",
+        "scroll-track-control-hover-dark":            "color(var(white1) a(0.14))",
+        "scroll-track-control-hover-light":           "color(var(black1) a(0.04))",
+        "scroll-track-control-border-hover-dark":     "color(var(gray2) a(0.1))",
+        "scroll-track-control-border-hover-light":    "color(var(gray2) a(0.27))",
+        "scroll-track-control-wide-dark":             "color(var(white1) a(0.01))",
+        "scroll-track-control-wide-light":            "color(var(black1) a(0.01))",
+        "scroll-track-control-border-wide-dark":      "color(var(gray2) a(0.11))",
+        "scroll-track-control-border-wide-light":     "color(var(gray2) a(0.11))",
+        "puck-control-dark":                          "color(var(white1) a(0.54))",
+        "puck-control-light":                         "color(var(black1) a(0.54))",
+        "puck-control-hover-dark":                    "color(var(white1) a(0.54))",
+        "puck-control-hover-light":                   "color(var(black1) a(0.54))",
+        "puck-control-wide-dark":                     "color(var(white1) a(0.11))",
+        "puck-control-wide-light":                    "color(var(black1) a(0.11))",
+        "puck-control-wide-hover-dark":               "color(var(white1) a(0.33))",
+        "puck-control-wide-hover-light":              "color(var(black1) a(0.33))",
+
+        // Scroll bars opacity
+        "scroll-track-control-opacity":          { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" },
+        "scroll-track-control-opacity-hover":    { "target": 1.0, "speed": 1.0, "interpolation": "smoothstep" },
+        "puck-control-opacity":                  { "target": 1.0, "speed": 1.0, "interpolation": "smoothstep" },
+        "puck-control-opacity-hover":            { "target": 1.0, "speed": 1.0, "interpolation": "smoothstep" },
+
+        // Scroll bars Adaptive contrast setting
+        "scroll-bar-control-bg-sidebar-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 98%))",
+        "scroll-bar-control-bg-sidebar-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 97%))",
+
+        // Inputs
+        "text-line-control-bg-border-panel-dark":       "color(var(bg-color) blend(var(gray5) 96%))",
+        "text-line-control-bg-border-panel-light":      "color(var(bg-color) blend(var(gray4) 90%))",
+        "text-line-overlay-control-icon":               "var(gray4)",
+        "text-line-panel-control-icon":                 "color(var(gray4) a(0.5)",
+        "dropdown-button-control":                      "var(gray4)",
+        "dropdown-button-control-hover":                "color(var(gray4) l(+ 22%))",
+
+        // Inputs opactity
+        // Overlay, Go to, Color Scheme, Theme and Quick Switch Project selected accent...
+        "text-line-control-border-selected-accent-opacity": { "target": 0.6, "speed": 1.0, "interpolation": "smoothstep" },
+
+        // Inputs Adaptive contrast setting
+        "text-line-control-bg-panel-adaptive-contrast-dark":            "color(var(bg-color) blend(var(white1) 96%))",
+        "text-line-control-bg-panel-adaptive-contrast-light":           "color(var(bg-color) blend(var(black1) 95%))",
+        "text-line-control-bg-border-panel-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 91%))",
+        "text-line-control-bg-border-panel-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 89%))",
+        "text-line-control-bg-switch-proj-window-adaptive-contrast":    "var(bg-color)",
+
+        // Buttons
+        "button-control-bg-dark":                   "color(var(white1) a(0.05))",
+        "button-control-bg-light":                  "color(var(black1) a(0.03))",
+        "button-control-bg-hover-dark":             "color(var(white1) a(0.10))",
+        "button-control-bg-hover-light":            "color(var(black1) a(0.07))",
+        "button-control-bg-pressed-dark":           "color(var(white1) a(0.13))",
+        "button-control-bg-pressed-light":          "color(var(black1) a(0.09))",
+        "button-control-dialog-bg":                 "color(var(gray4) a(0.3))",
+        "icon-button-control-bg-dark":              "color(var(white1) a(0.05))",
+        "icon-button-control-bg-light":             "color(var(black1) a(0.03))",
+        "icon-button-control-bg-border-dark":       "color(var(white1) a(0.02))",
+        "icon-button-control-bg-border-light":      "color(var(black1) a(0.02))",
+        "icon-button-control-bg-hover-dark":        "color(var(white1) a(0.10))",
+        "icon-button-control-bg-hover-light":       "color(var(black1) a(0.07))",
+        "icon-button-control-bg-selected-dark":     "color(var(white1) a(0.13))",
+        "icon-button-control-bg-selected-light":    "color(var(black1) a(0.09))",
+
+        // Buttons opacity
+        "button-control-bg-disabled":                        0.3,
+        "button-control-bg-opacity":                         1.0,
+        "button-control-bg-opacity-hover":                   1.0,
+        "button-control-bg-opacity-pressed":                 1.0,
+        "button-control-bg-border-opacity":                  1.0,
+        "button-control-bg-border-opacity-hover":            1.0,
+        "button-control-bg-border-opacity-pressed":          1.0,
+        "icon-button-control-bg-opacity":                    1.0,
+        "icon-button-control-bg-opacity-hover":              1.0,
+        "icon-button-control-bg-opacity-selected":           1.0,
+        "icon-button-control-bg-border-opacity":             1.0,
+        "icon-button-control-bg-border-opacity-hover":       1.0,
+        "icon-button-control-bg-border-opacity-selected":    1.0,
+        "icon-opacity":                                      0.9,
+        "icon-opacity-hover":                                1.0,
+        "icon-opacity-selected":                             0.9,
+        "icon-opacity-hover-selected":                       0.7,
+
+        // Buttons Button background transparent setting
+        "button-control-bg-transparent":                                   "transparent",
+        "button-control-bg-border-button-bg-transparent-dark":             "color(var(white1) a(0.2))",
+        "button-control-bg-border-button-bg-transparent-light":            "color(var(black1) a(0.2))",
+        "button-control-bg-border-hover-button-bg-transparent-dark":       "color(var(white1) a(0.3))",
+        "button-control-bg-border-hover-button-bg-transparent-light":      "color(var(black1) a(0.3))",
+        "button-control-bg-border-pressed-button-bg-transparent-dark":     "color(var(white1) a(0.4))",
+        "button-control-bg-border-pressed-button-bg-transparent-light":    "color(var(black1) a(0.4))",
+        "icon-button-control-bg-transparent":                              "transparent",
+        "icon-button-control-bg-border-transparent":                       "transparent",
+
+        // Buttons Theme opacity setting Medium/Low
+        "button-control-bg-opacity-medium":                0.7,
+        "button-control-bg-opacity-low":                   0.4,
+        "button-control-bg-border-opacity-medium":         0.7,
+        "button-control-bg-border-opacity-low":            0.4,
+        "icon-button-control-bg-opacity-medium":           0.7,
+        "icon-button-control-bg-opacity-low":              0.4,
+        "icon-button-control-bg-border-opacity-medium":    0.7,
+        "icon-button-control-bg-border-opacity-low":       0.4,
+        "icon-opacity-medium":                             0.7,
+        "icon-opacity-low":                                0.4,
+
+        // Buttons Icons
+        "icon-button-normal":            "var(gray4)",
+        "icon-button-hover-dark":        "var(white2)",
+        "icon-button-hover-light":       "var(black2)",
+        "icon-button-selected-dark":     "var(white2)",
+        "icon-button-selected-light":    "var(black2)",
+
+        // Labels
+        "label-control-fg-dark":                         "color(var(white1) a(0.6))",
+        "label-control-fg-light":                        "color(var(black1) a(0.6))",
+        "label-control-status-bar-fg-dark":              "color(var(white1) a(0.6))",
+        "label-control-status-bar-fg-light":             "color(var(black1) a(0.6))",
+        "label-control-status-bar-fg-shadow-dark":       "color(var(black1) a(0.3))",
+        "label-control-status-bar-fg-shadow-light":      "color(var(black4) a(0.04))",
+        "label-control-status-button-fg-hover-dark":     "var(white2)",
+        "label-control-status-button-fg-hover-light":    "var(black2)",
+        "title-label-control-dark":                      "var(gray2)", // Title label used in the About window
+        "title-label-control-light":                     "var(gray3)",
+
+        // Labels opacity
+        "label-control-fg-opacity":                         1,
+        "label-control-status-bar-fg-opacity":              1,
+        "label-control-status-bar-fg-opacity-hover":        1,
+        "label-control-button-control-opacity-disabled":    0.5,
+
+        // Labels Theme opacity setting
+        "label-control-fg-opacity-medium":               0.65,
+        "label-control-fg-opacity-low":                  0.40,
+        "label-control-status-bar-fg-opacity-medium":    0.65,
+        "label-control-status-bar-fg-opacity-low":       0.40,
+
+        // Tool tips
+        "tool-tip-control-bg":           "var(bg-color)",
+        "tool-tip-label-control-fg":     "var(gray3)",
+
+        // Checkbox
+        "checkbox-box-control-bg-border":    "var(gray4)",
+        "checkbox-box-control-check":        "var(white1)",
+
+        // Checkbox opacity
+        "checkbox-bg-opacity-disabled":      0.2,
+        "checkbox-icon-opacity-disabled":    0.4,
+
+        // Radio button
+        "radio-button-list-control-bg":           "var(gray4)",
+        "radio-button-list-control-bg-border":    "var(gray4)",
+        "radio-button-list-control-on":           "var(white1)",
+
+        // Radio button opacity
+        "radio-button-opacity-hover":    0.7
+
+    },
+    "rules": []
+}
