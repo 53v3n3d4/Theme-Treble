@@ -90,20 +90,20 @@ Below are theme options available and can be customize at your option.
     // Folder icon style can be "solid" or "outline".
     "folder_icon_style": "solid",
 
-    // Controls whether to show vcs status of untracked files and folders
-    // by the color of their labels in the sidebar.
+    // Controls whether to show vcs status of untracked files 
+    // and folders by the color of their labels in the sidebar.
     // author: D'Aneo Theme 
     // https://github.com/SublimeText/Theme-DAneo/
     "show_sidebar_untracked_label_colors": false,
 
-    // Controls whether to show vcs status of tracked files and folders
-    // by the color of their labels in the sidebar.
+    // Controls whether to show vcs status of tracked files 
+    // and folders by the color of their labels in the sidebar.
     // author: D'Aneo Theme 
     // https://github.com/SublimeText/Theme-DAneo/
     "show_sidebar_tracked_label_colors": false,
 
-    // Controls whether to show vcs status of ignored files and folders
-    // by the color of their labels in the sidebar.
+    // Controls whether to show vcs status of ignored files 
+    // and folders by the color of their labels in the sidebar.
     // author: D'Aneo Theme 
     // https://github.com/SublimeText/Theme-DAneo/
     "show_sidebar_ignored_label_colors": true,
@@ -119,17 +119,28 @@ Below are theme options available and can be customize at your option.
     // Tabs
 
     // Tabs style options: "do", "re", "mi" and "fa".
-    // Options "do" and "re" can have a tabset background color. 
-    // While "mi" and "fa" always have a tabset transparent background. 
-    // Which is set by features like tabset_background or 
-    // adaptive_contrast.
-    // Inactive sheet dimming is supported on option "do" with a 
-    // background color.
-    // Option "mi" and "fa" have selected tab button that follow 
-    // accent_color feature.
+    // Option "do": Only "do" style has tab button glued to 
+    // sheet view. This option has support for inactive sheet 
+    // dimming feature if tabset_background set to true 
+    // (Dark and Light theme) or adaptive_contrast set to 
+    // true (Adaptive theme).
     // A minimal layout can be achieved with option "do" and 
-    // tabset_background feature false (Dark and Light themes) or 
-    // adaptive_contrast feature false (Adaptive theme).
+    // tabset_background/adaptive_constrast set to false. This
+    // result in tab button showing only text separate by line
+    // dividers.
+
+    // Option "re": All buttons, selected or unselected, 
+    // has a background color. Format of button will vary from
+    // theme style choosen (analog, mix or digital).
+
+    // Option "mi": Selected tab button will be painted with 
+    // accent_color. Tabset will always be transparent. And, like
+    // option "do", unselected buttons are only text separated 
+    // by line dividers.
+
+    // Option "fa": Similar to "mi", seleted tab button will be 
+    // painted with accent_color. And tabset will be transparent. 
+    // But unselected tab buttons will have a background color.
     "tab_style": "re",
 
     // Show highlight color for added and deleted file.
