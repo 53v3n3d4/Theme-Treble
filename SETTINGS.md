@@ -20,7 +20,7 @@
 ## Theme settings
 
 Below are theme options available and can be customize at your option.  
-- Go to menu `Sublime text > Preferences > Settings > Package Settings > Theme - Treble > settings`. It is the same if you go to `Packages/User/Preferences.sublime-settings`  
+- Go to menu `Sublime text > Preferences > Settings > Package Settings > Theme - Treble > Settings`. It is the same if you go to `Packages/User/Preferences.sublime-settings`  
 - Copy the option you want on the right window of `Preferences.sublime-settings`  
 - Save your preferences  
 
@@ -44,7 +44,7 @@ Below are theme options available and can be customize at your option.
     // Accent color are used on several places, like: sidebar 
     // selected file/folder, tab buttons, selected or matched 
     // on quick panels and auto complete, panel buttons, 
-    // indexing stauts progress bar, update window.
+    // indexing stauts progress bar, check for updates window.
     // Colors options are: "blue", "purple", "pink", "red",
     // "orange", "yellow", "green", "grayscale" and
     // "color-scheme".
@@ -64,7 +64,8 @@ Below are theme options available and can be customize at your option.
     "theme_opacity": "high",
 
     // Option to show icons on input panels and quick panels. 
-    // Console, search and command palette icons.
+    // Console, find/replace, goto file and command palette 
+    // icons.
     "show_input_icon": true,
 
     // Row padding space in sidebar, quick panels and auto
@@ -119,8 +120,8 @@ Below are theme options available and can be customize at your option.
     // Tabs
 
     // Tabs style options: "do", "re", "mi" and "fa".
-    // Option "do": Only "do" style has tab button glued to 
-    // sheet view. This option has support for inactive sheet 
+    // - "do": Only "do" style has tab button glued to sheet 
+    // view. This option has support for inactive sheet 
     // dimming feature if tabset_background set to true 
     // (Dark and Light theme) or adaptive_contrast set to 
     // true (Adaptive theme).
@@ -128,19 +129,19 @@ Below are theme options available and can be customize at your option.
     // tabset_background/adaptive_constrast set to false. This
     // result in tab button showing only text separate by line
     // dividers.
-
-    // Option "re": All buttons, selected or unselected, 
-    // has a background color. Format of button will vary from
-    // theme style choosen (analog, mix or digital).
-
-    // Option "mi": Selected tab button will be painted with 
-    // accent_color. Tabset will always be transparent. And, like
-    // option "do", unselected buttons are only text separated 
-    // by line dividers.
-
-    // Option "fa": Similar to "mi", seleted tab button will be 
-    // painted with accent_color. And tabset will be transparent. 
-    // But unselected tab buttons will have a background color.
+    // - "re": All buttons, selected or unselected, has a 
+    // background color. Format of button will vary from theme 
+    // style choosen (analog, mix or digital). Like "do"
+    // option, tabset bar can have a background color or be 
+    // transparent.
+    // - "mi": Selected tab button will be painted with 
+    // accent_color. Tabset bar will always be transparent. 
+    // And, like option "do", unselected buttons are only text 
+    // separated by line dividers.
+    // - "fa": Similar to "mi", seleted tab button will be 
+    // painted with accent_color. And tabset bar will be 
+    // transparent. But unselected tab buttons will have a 
+    // background color.
     "tab_style": "re",
 
     // Show highlight color for added and deleted file.
@@ -148,9 +149,11 @@ Below are theme options available and can be customize at your option.
 
     // Tab highlight modified style. Valid options are: "8vb" and 
     // "8va".
-    // Option "8vb" display a full width bar at bottom of tab 
-    // button. While "8va" display a center width bar inside tab
+    // - "8vb": display a full width bar at bottom of tab 
+    // - "8va": display a center width bar inside tab
     // button.
+    // This feature works only if sublime setting, 
+    // highlight_modified_tabs set to true.
     "tab_modified_style": "8va",
 
     // Dark and Light theme option to display background for 
