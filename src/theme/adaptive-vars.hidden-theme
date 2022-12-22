@@ -102,8 +102,8 @@
         "sidebar-icon-opacity-low":       { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
 
         // Folder icon colors
-        "folder-blue":              "var(blue3)",
-        "folder-yellow":            "var(yellow3)",
+        "folder-blue":              "color(var(blue3) l(+ 5%))",
+        "folder-yellow":            "color(var(yellow3) l(- 18%))",
         "folder-graphite-dark":     "var(gray2)",
         "folder-graphite-light":    "var(gray4)",
         "folder-loading-dark":      "var(white2)",
@@ -219,7 +219,7 @@
         "accent-red":             "var(red1)",
         "accent-orange":          "var(orange2)",
         // "accent-yellow":          "var(yellow3)",
-        "accent-yellow":          "color(var(yellow3) min-contrast(var(bg-color) 1.5))",
+        "accent-yellow":          "color(var(yellow3) min-contrast(var(bg-color) 1.7))",
         // "accent-green":           "var(green1)",
         "accent-green":           "color(var(green-light5) min-contrast(var(bg-color) 2.0))",
         "accent-white":           "var(white2)",

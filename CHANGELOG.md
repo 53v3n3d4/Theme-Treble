@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.2.2] - 2023
+- Improve descriptions settings
+- Change folder icon color tone, blue and yellow 
+- Change accent yellow and green tone
+
 ## [0.2.1] - 2022-12-20
 - Better descriptions for tabs settings
 

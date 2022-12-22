@@ -406,7 +406,7 @@
             "attributes": [
                 "selected"
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "tree_row",
@@ -1563,14 +1563,14 @@
             "settings": {
                 "folder_icon_color": "blue"
             },
-            "layer0.tint": "#0282F2"
+            "layer0.tint": "color(#0282F2 l(+ 5%))"
         },
         {
             "class": "icon_folder",
             "settings": {
                 "folder_icon_color": "yellow"
             },
-            "layer0.tint": "#FFC849"
+            "layer0.tint": "color(#FFC849 l(- 18%))"
         },
         {
             "class": "icon_folder",
@@ -1811,14 +1811,14 @@
             "settings": {
                 "folder_icon_color": "blue"
             },
-            "layer0.tint": "#0282F2"
+            "layer0.tint": "color(#0282F2 l(+ 5%))"
         },
         {
             "class": "icon_folder_loading",
             "settings": {
                 "folder_icon_color": "yellow"
             },
-            "layer0.tint": "#FFC849"
+            "layer0.tint": "color(#FFC849 l(- 18%))"
         },
         {
             "class": "icon_folder_loading",
@@ -2034,14 +2034,14 @@
             "settings": {
                 "folder_icon_color": "blue"
             },
-            "layer0.tint": "#0282F2"
+            "layer0.tint": "color(#0282F2 l(+ 5%))"
         },
         {
             "class": "icon_folder_dup",
             "settings": {
                 "folder_icon_color": "yellow"
             },
-            "layer0.tint": "#FFC849"
+            "layer0.tint": "color(#FFC849 l(- 18%))"
         },
         {
             "class": "icon_folder_dup",
@@ -4051,7 +4051,7 @@
             "attributes": [
                 "selected"
             ],
-            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "tab_control",
@@ -4308,7 +4308,7 @@
                 "dirty",
                 "selected"
             ],
-            "layer2.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer2.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "tab_control",
@@ -4643,7 +4643,7 @@
                     ]
                 }
             ],
-            "fg": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "fg": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "tab_label",
@@ -4866,7 +4866,7 @@
                     ]
                 }
             ],
-            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "tab_close_button",
@@ -5167,8 +5167,8 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(color(#FFC849 min-contrast(var(--background) 1.5)) a(0.3)",
-            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(color(#FFC849 min-contrast(var(--background) 1.7)) a(0.3)",
+            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "tab_close_button",
@@ -5521,7 +5521,7 @@
                     ]
                 }
             ],
-            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "tab_close_button",
@@ -6312,7 +6312,7 @@
             "attributes": [
                 "selected"
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "mini_quick_panel_row",
@@ -6452,7 +6452,7 @@
             "attributes": [
                 "selected"
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "quick_panel_row",
@@ -11928,7 +11928,7 @@
             "settings": {
                 "accent_color": "yellow"
             },
-            "match_fg": "color(#FFC849 min-contrast(var(--background) 1.5))",
+            "match_fg": "color(#FFC849 min-contrast(var(--background) 1.7))",
             "selected_fg": "#161818",
             "selected_match_fg": "#000000"
         },
@@ -12856,7 +12856,7 @@
             "attributes": [
                 "selected"
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))",
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))",
             "layer0.opacity": {"target":1,"speed":20,"interpolation":"smoothstep"}
         },
         {
@@ -13023,7 +13023,7 @@
             "settings": {
                 "accent_color": "yellow"
             },
-            "match_fg": "color(#FFC849 min-contrast(var(--background) 1.5))",
+            "match_fg": "color(#FFC849 min-contrast(var(--background) 1.7))",
             "selected_fg": "#161818",
             "selected_match_fg": "#000000"
         },
@@ -13970,7 +13970,7 @@
             "settings": {
                 "accent_color": "yellow"
             },
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "progress_gauge_control",
@@ -15023,7 +15023,7 @@
                     "class": "overlay_control"
                 }
             ],
-            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "text_line_control",
@@ -15201,7 +15201,7 @@
                     "class": "switch_project_window"
                 }
             ],
-            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer1.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "text_line_control",
@@ -15929,7 +15929,7 @@
             "attributes": [
                 "selected"
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "icon_button_control",
@@ -16365,7 +16365,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "icon_regex",
@@ -16751,7 +16751,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "icon_case",
@@ -17137,7 +17137,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "icon_whole_word",
@@ -17523,7 +17523,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "icon_wrap",
@@ -17909,7 +17909,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "icon_in_selection",
@@ -18295,7 +18295,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "icon_highlight",
@@ -18681,7 +18681,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "icon_preserve_case",
@@ -19067,7 +19067,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "icon_context",
@@ -19453,7 +19453,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "icon_use_buffer",
@@ -19839,7 +19839,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "icon_use_gitignore",
@@ -20164,7 +20164,7 @@
                     "class": "button_control"
                 }
             ],
-            "color": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "color": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "label_control",
@@ -20389,7 +20389,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "checkbox_box_control",
@@ -20620,7 +20620,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.5))"
+            "layer0.tint": "color(#FFC849 min-contrast(var(--background) 1.7))"
         },
         {
             "class": "checkbox_box_control",
