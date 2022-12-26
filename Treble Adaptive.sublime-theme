@@ -16061,8 +16061,20 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-regex.png"
+        },
+        {
+            "class": "icon_regex",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(#161818 a(0.6))"
         },
         {
             "class": "icon_regex",
@@ -16447,8 +16459,20 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-case-sensitive.png"
+        },
+        {
+            "class": "icon_case",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(#161818 a(0.6))"
         },
         {
             "class": "icon_case",
@@ -16833,8 +16857,20 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-whole-word.png"
+        },
+        {
+            "class": "icon_whole_word",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(#161818 a(0.6))"
         },
         {
             "class": "icon_whole_word",
@@ -17219,8 +17255,20 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-wrap.png"
+        },
+        {
+            "class": "icon_wrap",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(#161818 a(0.6))"
         },
         {
             "class": "icon_wrap",
@@ -17605,8 +17653,20 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-in-selection.png"
+        },
+        {
+            "class": "icon_in_selection",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(#161818 a(0.6))"
         },
         {
             "class": "icon_in_selection",
@@ -17991,8 +18051,20 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-highlight.png"
+        },
+        {
+            "class": "icon_highlight",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(#161818 a(0.6))"
         },
         {
             "class": "icon_highlight",
@@ -18377,8 +18449,20 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-preserve-case.png"
+        },
+        {
+            "class": "icon_preserve_case",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(#161818 a(0.6))"
         },
         {
             "class": "icon_preserve_case",
@@ -18763,8 +18847,20 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-context.png"
+        },
+        {
+            "class": "icon_context",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(#161818 a(0.6))"
         },
         {
             "class": "icon_context",
@@ -19149,8 +19245,20 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-buffer.png"
+        },
+        {
+            "class": "icon_use_buffer",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(#161818 a(0.6))"
         },
         {
             "class": "icon_use_buffer",
@@ -19535,8 +19643,20 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-gitignore.png"
+        },
+        {
+            "class": "icon_use_gitignore",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(#161818 a(0.6))"
         },
         {
             "class": "icon_use_gitignore",

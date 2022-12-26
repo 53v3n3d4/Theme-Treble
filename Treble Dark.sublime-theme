@@ -14678,7 +14678,7 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-regex.png"
         },
         {
@@ -14958,7 +14958,7 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-case-sensitive.png"
         },
         {
@@ -15238,7 +15238,7 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-whole-word.png"
         },
         {
@@ -15518,7 +15518,7 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-wrap.png"
         },
         {
@@ -15798,7 +15798,7 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-in-selection.png"
         },
         {
@@ -16078,7 +16078,7 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-highlight.png"
         },
         {
@@ -16358,7 +16358,7 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-preserve-case.png"
         },
         {
@@ -16638,7 +16638,7 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-context.png"
         },
         {
@@ -16918,7 +16918,7 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-buffer.png"
         },
         {
@@ -17198,7 +17198,7 @@
                 9,
                 9
             ],
-            "layer0.tint": "#5D6C79",
+            "layer0.tint": "color(#F0F0F7 a(0.6))",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-gitignore.png"
         },
         {

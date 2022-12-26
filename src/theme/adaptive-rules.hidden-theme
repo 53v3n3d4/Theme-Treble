@@ -13169,8 +13169,15 @@
                 9,
                 9
             ],
-            "layer0.tint": "var(icon-button-normal)",
+            "layer0.tint": "var(icon-button-dark)",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-regex.png"
+        },
+        {
+            "class": "icon_regex",
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]}
+            ],
+            "layer0.tint": "var(icon-button-light)"
         },
         // Icon regex Theme opacity setting
         {
@@ -13442,8 +13449,15 @@
                 9,
                 9
             ],
-            "layer0.tint": "var(icon-button-normal)",
+            "layer0.tint": "var(icon-button-dark)",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-case-sensitive.png"
+        },
+        {
+            "class": "icon_case",
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]}
+            ],
+            "layer0.tint": "var(icon-button-light)"
         },
         // Icon case Theme opacity setting
         {
@@ -13711,8 +13725,15 @@
                 9,
                 9
             ],
-            "layer0.tint": "var(icon-button-normal)",
+            "layer0.tint": "var(icon-button-dark)",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-whole-word.png"
+        },
+        {
+            "class": "icon_whole_word",
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]}
+            ],
+            "layer0.tint": "var(icon-button-light)"
         },
         // Icon whole word Theme opacity setting
         {
@@ -13980,8 +14001,15 @@
                 9,
                 9
             ],
-            "layer0.tint": "var(icon-button-normal)",
+            "layer0.tint": "var(icon-button-dark)",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-wrap.png"
+        },
+        {
+            "class": "icon_wrap",
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]}
+            ],
+            "layer0.tint": "var(icon-button-light)"
         },
         // Icon wrap Theme opacity setting
         {
@@ -14249,8 +14277,15 @@
                 9,
                 9
             ],
-            "layer0.tint": "var(icon-button-normal)",
+            "layer0.tint": "var(icon-button-dark)",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-in-selection.png"
+        },
+        {
+            "class": "icon_in_selection",
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]}
+            ],
+            "layer0.tint": "var(icon-button-light)"
         },
         // Icon in selection Theme opacity setting
         {
@@ -14518,8 +14553,15 @@
                 9,
                 9
             ],
-            "layer0.tint": "var(icon-button-normal)",
+            "layer0.tint": "var(icon-button-dark)",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-highlight.png"
+        },
+        {
+            "class": "icon_highlight",
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]}
+            ],
+            "layer0.tint": "var(icon-button-light)"
         },
         // Icon highlight Theme opacity setting
         {
@@ -14787,8 +14829,15 @@
                 9,
                 9
             ],
-            "layer0.tint": "var(icon-button-normal)",
+            "layer0.tint": "var(icon-button-dark)",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-preserve-case.png"
+        },
+        {
+            "class": "icon_preserve_case",
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]}
+            ],
+            "layer0.tint": "var(icon-button-light)"
         },
         // Icon preserve case Theme opacity setting
         {
@@ -15056,8 +15105,15 @@
                 9,
                 9
             ],
-            "layer0.tint": "var(icon-button-normal)",
+            "layer0.tint": "var(icon-button-dark)",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-context.png"
+        },
+        {
+            "class": "icon_context",
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]}
+            ],
+            "layer0.tint": "var(icon-button-light)"
         },
         // Icon context Theme opacity setting
         {
@@ -15325,8 +15381,15 @@
                 9,
                 9
             ],
-            "layer0.tint": "var(icon-button-normal)",
+            "layer0.tint": "var(icon-button-dark)",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-buffer.png"
+        },
+        {
+            "class": "icon_use_buffer",
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]}
+            ],
+            "layer0.tint": "var(icon-button-light)"
         },
         // Icon use buffer Theme opacity setting
         {
@@ -15594,8 +15657,15 @@
                 9,
                 9
             ],
-            "layer0.tint": "var(icon-button-normal)",
+            "layer0.tint": "var(icon-button-dark)",
             "layer0.texture": "Theme - Treble/textures/buttons/icon-gitignore.png"
+        },
+        {
+            "class": "icon_use_gitignore",
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]}
+            ],
+            "layer0.tint": "var(icon-button-light)"
         },
         // Icon use gitignore Theme opacity setting
         {

@@ -571,7 +571,8 @@
         "icon-opacity-low":                                0.4,
 
         // Buttons Icons
-        "icon-button-normal":            "var(gray4)",
+        "icon-button-dark":              "color(var(white2) a(0.6))",
+        "icon-button-light":             "color(var(black2) a(0.6))",
         "icon-button-hover-dark":        "var(white2)",
         "icon-button-hover-light":       "var(black2)",
         "icon-button-selected-dark":     "var(white2)",
