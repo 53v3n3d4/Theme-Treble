@@ -59,6 +59,14 @@ Below are theme options available and can be customize at your option.
     // background color. Adaptive theme only.
     "adaptive_contrast": false,
 
+    // Control the tone of title bar, sidebar, panels, status 
+    // bar and maybe tabset. Only works when adaptive_contrast
+    // is true.
+    // Options valid are:
+    // - "dark": darken the background color.
+    // - "light": lighten the background color.
+    "adaptive_contrast_tone": "dark",
+
     // Change opacity of theme text, icons and buttons.
     // Valid options are: "low", "medium", and "high".
     "theme_opacity": "high",
@@ -152,7 +160,7 @@ Below are theme options available and can be customize at your option.
     // - "8vb": display a full width bar at bottom of tab 
     // - "8va": display a center width bar inside tab
     // button.
-    // This feature works only if sublime setting, 
+    // This feature works only if sublime setting 
     // highlight_modified_tabs set to true.
     "tab_modified_style": "8va",
 

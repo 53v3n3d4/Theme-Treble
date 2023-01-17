@@ -1,10 +1,12 @@
 # Changelog
 
-## [0.2.2] - 2023
+## [0.2.2] - 2023-01-17
 - Improve settings descriptions
 - Change folder icon color tone, blue and yellow 
 - Change accent yellow and green tone
-- Tune panel icon color Dark/Adaptive theme
+- Change panel icon color, gray -> black/white
+- Add adaptive contrast tone feature: light and dark
+- Add scroll tabs shadow effect for tab style "re" and "fa"
 
 ## [0.2.1] - 2022-12-20
 - Better descriptions for tabs settings

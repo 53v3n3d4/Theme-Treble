@@ -2024,6 +2024,26 @@
             ],
             "tab_height": 31
         },
+        // Tabset control Tab style Re Analog
+        // Tabset background setting
+        {
+            "class": "tabset_control",
+            "settings": {
+                "tab_style": "re",
+                "dark_theme_style": "analog",
+                "tabset_background": false
+            },
+            "tab_overlap": -2
+        },
+        // Tabset control Tab style Fa Analog
+        {
+            "class": "tabset_control",
+            "settings": {
+                "tab_style": "fa",
+                "dark_theme_style": "analog"
+            },
+            "tab_overlap": -2
+        },
         // Tabset control
         {
             "class": "tabset_control",
@@ -2548,7 +2568,7 @@
             "settings": {
                 "tab_style": ["re", "fa"]
             },
-            "layer0.tint": "var(bg-color)",
+            "layer0.tint": "var(tab-unselected-shadow-dark)",
             "layer0.opacity": 1,
             "layer1.tint": "var(tab-unselected-dark)"
         },
@@ -2560,6 +2580,7 @@
             "attributes": [
                 "file_light"
             ],
+            "layer0.tint": "var(tab-unselected-shadow-light)",
             "layer1.tint": "var(tab-unselected-light)"
         },
         // Tab control unselected Tab style Re Tabset background setting
@@ -2569,7 +2590,7 @@
                 "tab_style": "re",
                 "tabset_background": true
             },
-            "layer0.tint": "var(tab-control-bg-tabset-bg)",
+            "layer0.tint": "var(tab-unselected-shadow-tab-style-re-tabset-bg)",
             "layer0.opacity": 1,
             "layer1.tint": "var(tab-unselected-tab-style-re-tabset-bg)"
         },
@@ -2637,7 +2658,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer1.tint": "var(tab-hover-light)"
+            "layer1.tint": "var(tab-hover-tab-style-re-tabset-bg)"
         },
         // Tab control selected Tab style Do
         {
@@ -2688,6 +2709,9 @@
             "attributes": [
                 "selected"
             ],
+            // Bg-color needed because transparency tint.
+            // When lots of tabs above each other, transparency shows through.
+            "layer0.tint": "var(bg-color)",
             "layer1.tint": "var(tab-selected-dark)"
         },
         {
@@ -2713,6 +2737,7 @@
             "attributes": [
                 "selected"
             ],
+            "layer0.tint": "var(tab-control-bg-tabset-bg)",
             "layer1.tint": "var(tab-selected-tab-style-re-tabset-bg)"
         },
         // Tab control selected Tab style Mi and Fa
@@ -2724,6 +2749,9 @@
             "attributes": [
                 "selected"
             ],
+            // Bg-color needed because transparency tint.
+            // When lots of tabs above each other, transparency shows through.
+            "layer0.tint": "var(bg-color)",
             "layer1.opacity": "var(tab-selected-accent)"
         },
         // Tab control selected Tab style Mi and Fa Accent color Blue
@@ -4218,7 +4246,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "var(tab-hover-light)",
+            "layer0.tint": "var(tab-hover-tabset-bg)",
             "layer2.tint": "var(tab-chevron-icon-hover-light)"
         },
         // Scroll tabs left button Hide tab scrolling buttons setting
@@ -4337,7 +4365,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "var(tab-hover-light)",
+            "layer0.tint": "var(tab-hover-tabset-bg)",
             "layer2.tint": "var(tab-chevron-icon-hover-light)"
         },
         // Scroll tabs right button Hide tab scrolling buttons setting
@@ -4454,7 +4482,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "var(tab-hover-light)",
+            "layer0.tint": "var(tab-hover-tabset-bg)",
             "layer2.tint": "var(tab-plus-icon-hover-light)"
         },
         // New tab button Hide new tab button setting setting
@@ -4571,7 +4599,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "var(tab-hover-light)",
+            "layer0.tint": "var(tab-hover-tabset-bg)",
             "layer2.tint": "var(tab-chevron-icon-hover-light)"
         },
         /** Tab connector */

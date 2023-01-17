@@ -149,7 +149,8 @@
             "class": "title_bar",
             "settings": {
                 "themed_title_bar": true,
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
             },
             "bg": "var(title-bar-bg-adaptive-contrast-dark)",
             "style": "system"
@@ -158,7 +159,8 @@
             "class": "title_bar",
             "settings": {
                 "themed_title_bar": true,
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
             },
             "bg": "var(title-bar-bg-adaptive-contrast-dark)",
             "style": "dark"
@@ -167,11 +169,12 @@
             "class": "title_bar",
             "settings": {
                 "themed_title_bar": true,
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
             },
-            "attributes": [
-                    "file_light"
-                ],
+            // "attributes": [
+            //         "file_light"
+            //     ],
             "bg": "var(title-bar-bg-adaptive-contrast-light)",
             "style": "light"
         },
@@ -221,14 +224,20 @@
         // Sidebar container Adaptive contrast
         {
             "class": "sidebar_container",
-            "settings": ["adaptive_contrast"],
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
             "layer0.tint": "var(sidebar-container-bg-adaptive-contrast-dark)",
             "layer1.tint": "var(sidebar-container-bg-border-adaptive-contrast-dark)"
         },
         {
             "class": "sidebar_container",
-            "settings": ["adaptive_contrast"],
-            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            // "parents": [{"class": "window", "attributes": ["file_light"]}],
             "layer0.tint": "var(sidebar-container-bg-adaptive-contrast-light)",
             "layer1.tint": "var(sidebar-container-bg-border-adaptive-contrast-light)"
         },
@@ -2553,6 +2562,16 @@
                 2
             ],
             "tab_height": 31
+            // "spacing": 1
+        },
+        // Tabset control Tab style Re and Fa Analog
+        {
+            "class": "tabset_control",
+            "settings": {
+                "tab_style": ["re", "fa"],
+                "adaptive_theme_style": "analog"
+            },
+            "tab_overlap": -2
         },
         // Tabset control
         {
@@ -2565,6 +2584,7 @@
             "class": "tabset_control",
             "settings": {
                 "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light",
                 "tab_style": ["do", "re"]
             },
             "layer0.tint": "var(tabset-control-bg-adaptive-contrast-dark)",
@@ -2575,9 +2595,10 @@
             "class": "tabset_control",
             "settings": {
                 "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark",
                 "tab_style": ["do", "re"]
             },
-            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            // "parents": [{"class": "window", "attributes": ["file_light"]}],
             "layer0.tint": "var(tabset-control-bg-adaptive-contrast-light)",
             "layer1.tint": "var(tabset-control-bg-border-adaptive-contrast-light)"
         },
@@ -3078,7 +3099,8 @@
             "class": "tab_control",
             "settings": {
                 "tab_style": "do",
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
             },
             "layer0.tint": "var(tab-control-bg-adaptive-contrast-dark)",
             "layer0.opacity": 1
@@ -3087,11 +3109,12 @@
             "class": "tab_control",
             "settings": {
                 "tab_style": "do",
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
             },
-            "parents": [
-                {"class": "window", "attributes": ["file_light"]}
-            ],
+            // "parents": [
+            //     {"class": "window", "attributes": ["file_light"]}
+            // ],
             "layer0.tint": "var(tab-control-bg-adaptive-contrast-light)"
         },
         // Tab control unselected Tab style Re and Fa
@@ -3100,7 +3123,7 @@
             "settings": {
                 "tab_style": ["re", "fa"]
             },
-            "layer0.tint": "var(bg-color)",
+            "layer0.tint": "var(tab-unselected-shadow-dark)",
             "layer0.opacity": 1,
             "layer1.tint": "var(tab-unselected-dark)"
         },
@@ -3112,6 +3135,7 @@
             "attributes": [
                 "file_light"
             ],
+            "layer0.tint": "var(tab-unselected-shadow-light)",
             "layer1.tint": "var(tab-unselected-light)"
         },
         // Tab control hover Tab style Do and Mi
@@ -3130,7 +3154,8 @@
             "class": "tab_control",
             "settings": {
                 "tab_style": "do",
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
             },
             "attributes": ["hover", "!selected"],
             "tint_modifier": "var(tab-hover-tab-style-do-adaptive-contrast-dark)",
@@ -3140,10 +3165,11 @@
             "class": "tab_control",
             "settings": {
                 "tab_style": "do",
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
             },
             "attributes": ["hover", "!selected"],
-            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            // "parents": [{"class": "window", "attributes": ["file_light"]}],
             "tint_modifier": "var(tab-hover-tab-style-do-adaptive-contrast-light)"
         },
         // Tab control hover Tab style Re and Fa
@@ -3217,6 +3243,9 @@
             "attributes": [
                 "selected"
             ],
+            // Bg-color needed because transparency tint.
+            // When lots of tabs above each other, transparency shows through.
+            "layer0.tint": "var(bg-color)",
             "layer1.tint": "var(tab-selected-dark)"
         },
         {
@@ -3240,6 +3269,9 @@
             "attributes": [
                 "selected"
             ],
+            // Bg-color needed because transparency tint.
+            // When lots of tabs above each other, transparency shows through.
+            "layer0.tint": "var(bg-color)",
             "layer1.opacity": "var(tab-selected-accent)"
         },
         // Tab control selected Tab style Mi and Fa Accent color Blue
@@ -9787,7 +9819,8 @@
             "class": "text_area_control",
             "settings": {
                 "inactive_sheet_dimming": true,
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
             },
             "attributes": ["!highlighted"],
             "parents": [{"class": "panel_control"}],
@@ -9797,9 +9830,11 @@
             "class": "text_area_control",
             "settings": {
                 "inactive_sheet_dimming": true,
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
             },
-            "attributes": ["file_light", "!highlighted"],
+            "attributes": ["!highlighted"],
+            // "attributes": ["file_light", "!highlighted"],
             "parents": [{"class": "panel_control"}],
             "background_modifier": "var(text-area-modifier-adaptive-contrast-light)"
         },
@@ -9818,7 +9853,8 @@
             "class": "text_area_control",
             "settings": {
                 "inactive_sheet_dimming": true,
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
             },
             "attributes": ["!highlighted"],
             "parents": [{"class": "console_panel"}],
@@ -9828,9 +9864,11 @@
             "class": "text_area_control",
             "settings": {
                 "inactive_sheet_dimming": true,
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
             },
-            "attributes": ["file_light", "!highlighted"],
+            "attributes": ["!highlighted"],
+            // "attributes": ["file_light", "!highlighted"],
             "parents": [{"class": "console_panel"}],
             "background_modifier": "var(text-area-console-panel-modifier-adaptive-contrast-light)"
         },
@@ -10625,13 +10663,19 @@
         // Panel control Adaptive contrast setting
         {
             "class": "panel_control",
-            "settings": ["adaptive_contrast"],
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
             "layer0.tint": "var(panel-control-bg-adaptive-contrast-dark)"
         },
         {
             "class": "panel_control",
-            "settings": ["adaptive_contrast"],
-            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            // "parents": [{"class": "window", "attributes": ["file_light"]}],
             "layer0.tint": "var(panel-control-bg-adaptive-contrast-light)"
         },
         // Panel control Adaptive dividers setting
@@ -10924,14 +10968,20 @@
         // Status bar Adaptive contrast
         {
             "class": "status_bar",
-            "settings": ["adaptive_contrast"],
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
             "layer0.tint": "var(status-bar-bg-adaptive-contrast-dark)",
             "layer1.tint": "var(status-bar-bg-border-adaptive-contrast-dark)"
         },
         {
             "class": "status_bar",
-            "settings": ["adaptive_contrast"],
-            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            // "parents": [{"class": "window", "attributes": ["file_light"]}],
             "layer0.tint": "var(status-bar-bg-adaptive-contrast-light)",
             "layer1.tint": "var(status-bar-bg-border-adaptive-contrast-light)"
         },
@@ -11881,7 +11931,8 @@
         {
             "class": "text_line_control",
             "settings": {
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
             },
             "parents": [
                 {"class": "panel_control"}
@@ -11892,10 +11943,11 @@
         {
             "class": "text_line_control",
             "settings": {
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
             },
             "parents": [
-                {"class": "window", "attributes": ["file_light"]},
+                // {"class": "window", "attributes": ["file_light"]},
                 {"class": "panel_control"}
             ],
             "color_scheme_tint": "var(text-line-control-bg-panel-adaptive-contrast-light)",

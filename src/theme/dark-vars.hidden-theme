@@ -133,15 +133,17 @@
         "tab-selected-accent":    0.14,
 
         // Tab, scroll tabs, new tab and dropdown
-        "tab-unselected-dark":                  "color(var(white1) a(0.03))",
-        "tab-unselected-light":                 "color(var(black1) a(0.03))",
+        "tab-unselected-shadow-dark":           "color(var(bg-color) blend(white 60%))",
+        "tab-unselected-shadow-light":          "color(var(bg-color) blend(black 60%))",
+        "tab-unselected-dark":                  "color(var(bg-color) blend(white 95%))", //"color(var(white1) a(0.03))",
+        "tab-unselected-light":                 "color(var(bg-color) blend(black 95%))", //"color(var(black1) a(0.03))",
         "tab-unselected-transparent":           "transparent",
         "tab-unselected-bg":                    "var(bg-color)",
-        "tab-hover-dark":                       "color(var(white1) a(0.1))",
-        "tab-hover-light":                      "color(var(black1) a(0.07))",
+        "tab-hover-dark":                       "color(var(bg-color) blend(white 90%))", //"color(var(white1) a(0.1))",
+        "tab-hover-light":                      "color(var(bg-color) blend(black 90%))", //"color(var(black1) a(0.07))",
         "tab-hover-transparent":                "transparent",
-        "tab-selected-dark":                    "color(var(white1) a(0.1))",
-        "tab-selected-light":                   "color(var(black1) a(0.07))",
+        "tab-selected-dark":                    "color(var(bg-color) blend(white 90%))", //"color(var(white1) a(0.1))",
+        "tab-selected-light":                   "color(var(bg-color) blend(black 90%))", //"color(var(black1) a(0.07))",
         "tab-selected-transparent":             "transparent",
         "tab-modified-dirty-dark":              "var(gray4)",
         "tab-modified-dirty-light":             "var(gray2)",
@@ -151,9 +153,13 @@
         "tab-modified-deleted":                 "var(vcs-deleted)",
 
         // Tab, scroll tabs, new tab and dropdown Tabset background setting
-        "tab-hover-tab-style-do-tabset-bg-dark":     "color(var(white1) a(0.067))",
-        "tab-hover-tab-style-do-tabset-bg-light":    "color(var(black1) a(0.09))",
-        "tab-selected-tab-style-re-tabset-bg":       "var(black7)",
+        "tab-hover-tab-style-do-tabset-bg-dark":           "color(var(white1) a(0.067))",
+        "tab-hover-tab-style-do-tabset-bg-light":          "color(var(black1) a(0.09))",
+        "tab-unselected-shadow-tab-style-re-tabset-bg":    "var(black1)",
+        "tab-unselected-tab-style-re-tabset-bg":           "color(var(black6) blend(white 95%))", //"color(var(white1) a(0.03))",
+        "tab-hover-tab-style-re-tabset-bg":                "color(var(black6) blend(white 90%))", //"color(var(white1) a(0.1))",
+        "tab-selected-tab-style-re-tabset-bg":             "var(black7)",
+        "tab-hover-tabset-bg":                             "color(var(black6) blend(white 90%))",
 
         // Tab, scroll tabs, new tab and dropdown opacity
         "tab-icon-normal-opacity":                1,

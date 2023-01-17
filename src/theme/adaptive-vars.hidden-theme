@@ -40,8 +40,8 @@
         "title-bar-fg-low-light":       "color(var(bg-color) blend(var(black1) 77%))",
 
         // Title bar Adaptive contrast setting
-        "title-bar-bg-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 96%))",
-        "title-bar-bg-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 93%))",
+        "title-bar-bg-adaptive-contrast-dark":     "color(var(bg-color) l(+ 6.7%))", //"color(var(bg-color) blend(var(white1) 96%))",
+        "title-bar-bg-adaptive-contrast-light":    "color(var(bg-color) l(- 6.7%))", //"color(var(bg-color) blend(var(black1) 93%))",
 
         // Sidebar
         "sidebar-container-bg":           "var(bg-color)",
@@ -50,10 +50,10 @@
         "tree-row-hover-light":           "color(var(black1) a(0.04))",
 
         // Sidebar Adaptive contrast setting
-        "sidebar-container-bg-adaptive-contrast-dark":            "color(var(bg-color) blend(var(white1) 98%))",
-        "sidebar-container-bg-adaptive-contrast-light":           "color(var(bg-color) blend(var(black1) 97%))",
-        "sidebar-container-bg-border-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 98%))",
-        "sidebar-container-bg-border-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 97%))",
+        "sidebar-container-bg-adaptive-contrast-dark":            "color(var(bg-color) l(+ 3.7%))", //"color(var(bg-color) blend(var(white1) 98%))",
+        "sidebar-container-bg-adaptive-contrast-light":           "color(var(bg-color) l(- 3.7%))", //"color(var(bg-color) blend(var(black1) 97%))",
+        "sidebar-container-bg-border-adaptive-contrast-dark":     "color(var(bg-color) l(+ 3.7%))", //"color(var(bg-color) blend(var(white1) 98%))",
+        "sidebar-container-bg-border-adaptive-contrast-light":    "color(var(bg-color) l(- 3.7%))", //"color(var(bg-color) blend(var(black1) 97%))",
 
         // Sidebar and Tab label
         "heading-dark":                  "var(gray2)",
@@ -142,26 +142,28 @@
         "tabset-control-bg-border":    "var(bg-color)",
 
         // Tabs Adaptive contrast setting
-        "tabset-control-bg-adaptive-contrast-dark":            "color(var(bg-color) blend(var(white1) 98%))",
-        "tabset-control-bg-adaptive-contrast-light":           "color(var(bg-color) blend(var(black1) 97%))",
-        "tabset-control-bg-border-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 98%))",
-        "tabset-control-bg-border-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 97%))",
-        "tab-control-bg-adaptive-contrast-dark":               "color(var(bg-color) blend(var(white1) 98%))",
-        "tab-control-bg-adaptive-contrast-light":              "color(var(bg-color) blend(var(black1) 97%))",
+        "tabset-control-bg-adaptive-contrast-dark":            "color(var(bg-color) l(+ 3.7%))", //"color(var(bg-color) blend(var(white1) 98%))",
+        "tabset-control-bg-adaptive-contrast-light":           "color(var(bg-color) l(- 3.7%))", //"color(var(bg-color) blend(var(black1) 97%))",
+        "tabset-control-bg-border-adaptive-contrast-dark":     "color(var(bg-color) l(+ 3.7%))", //"color(var(bg-color) blend(var(white1) 98%))",
+        "tabset-control-bg-border-adaptive-contrast-light":    "color(var(bg-color) l(- 3.7%))", //"color(var(bg-color) blend(var(black1) 97%))",
+        "tab-control-bg-adaptive-contrast-dark":               "color(var(bg-color) l(+ 3.7%))", //"color(var(bg-color) blend(var(white1) 98%))",
+        "tab-control-bg-adaptive-contrast-light":              "color(var(bg-color) l(- 3.7%))", //"color(var(bg-color) blend(var(black1) 97%))",
 
         // Tabs opacity Tabset accent setting
         "tab-selected-accent":    0.14,
 
         // Tab, scroll tabs, new tab and dropdown
-        "tab-unselected-dark":                  "color(var(white1) a(0.05))",
-        "tab-unselected-light":                 "color(var(black1) a(0.06))",
+        "tab-unselected-shadow-dark":           "color(var(bg-color) blend(white 60%))",
+        "tab-unselected-shadow-light":          "color(var(bg-color) blend(black 60%))",
+        "tab-unselected-dark":                  "color(var(bg-color) blend(white 95%))", //"color(var(white1) a(0.05))",
+        "tab-unselected-light":                 "color(var(bg-color) blend(black 95%))", //"color(var(black1) a(0.06))",
         "tab-unselected-transparent":           "transparent",
         "tab-unselected-bg":                    "var(bg-color)",
-        "tab-hover-dark":                       "color(var(white1) a(0.1))",
-        "tab-hover-light":                      "color(var(black1) a(0.1))",
+        "tab-hover-dark":                       "color(var(bg-color) blend(white 90%))", //"color(var(white1) a(0.1))",
+        "tab-hover-light":                      "color(var(bg-color) blend(black 90%))", //"color(var(black1) a(0.1))",
         "tab-hover-transparent":                "transparent",
-        "tab-selected-dark":                    "color(var(white1) a(0.1))",
-        "tab-selected-light":                   "color(var(black1) a(0.1))",
+        "tab-selected-dark":                    "color(var(bg-color) blend(white 90%))", //"color(var(white1) a(0.1))",
+        "tab-selected-light":                   "color(var(bg-color) blend(black 90%))", //"color(var(black1) a(0.1))",
         "tab-selected-transparent":             "transparent",
         "tab-modified-dirty-dark":              "var(gray4)",
         "tab-modified-dirty-light":             "var(gray2)",
@@ -171,8 +173,8 @@
         "tab-modified-deleted":                 "var(vcs-deleted)",
 
         // Tab, scroll tabs, new tab and dropdown Adaptive contrast setting
-        "tab-hover-tab-style-do-adaptive-contrast-dark":     "color(var(white1) a(0.07))",
-        "tab-hover-tab-style-do-adaptive-contrast-light":    "color(var(black1) a(0.07))",
+        "tab-hover-tab-style-do-adaptive-contrast-dark":     "color(var(bg-color) l(- 1.7%))", //"color(var(white1) a(0.07))",
+        "tab-hover-tab-style-do-adaptive-contrast-light":    "color(var(bg-color) l(+ 2.7%))", //"color(var(black1) a(0.07))",
 
         // Tab, scroll tabs, new tab and dropdown opacity
         "tab-icon-normal-opacity":                1,
@@ -349,9 +351,9 @@
         // Views Adaptive contrast setting
         "text-area-modifier-adaptive-contrast-dark":                   "l(- 4%)",
         "text-area-modifier-adaptive-contrast-light":                  "l(- 5%) s(* 80%)",
-        "text-area-console-panel-modifier-adaptive-contrast-dark":     "l(- 4%)", //"blend(var(black1) 26%)",
-        "text-area-console-panel-modifier-adaptive-contrast-light":    "blend(var(black1) 86%)",
-        "text-area-output-panel-modifier-adaptive-contrast":           "blend(var(black1) 86%)",
+        "text-area-console-panel-modifier-adaptive-contrast-dark":     "l(- 4.7%)", //"blend(var(black1) 26%)",
+        "text-area-console-panel-modifier-adaptive-contrast-light":    "l(- 4.7%)", //"blend(var(black1) 86%)",
+        "text-area-output-panel-modifier-adaptive-contrast":           "l(- 4.7%)", //"blend(var(black1) 86%)",
 
         // Auto complete
         "auto-complete-label-fg-dark":                   "color(var(white1) a(0.6))",
@@ -397,8 +399,8 @@
         "panel-control-bg":    "var(bg-color)",
 
         // Panel Adaptive contrast setting
-        "panel-control-bg-adaptive-contrast-dark":     "color(var(bg-color) blend(white 96%))",
-        "panel-control-bg-adaptive-contrast-light":    "color(var(bg-color) blend(black 95%))",
+        "panel-control-bg-adaptive-contrast-dark":     "color(var(bg-color) l(+ 4.7%))", //"color(var(bg-color) blend(white 96%))",
+        "panel-control-bg-adaptive-contrast-light":    "color(var(bg-color) l(- 4.7%))", //"color(var(bg-color) blend(black 95%))",
 
         // Panel Adaptive dividers
         "panel-control-adaptive-div-border-dark":     "color(var(gray2) a(0.1))",
@@ -449,10 +451,10 @@
         "vcs-changes-annotation-border-light-low":       "color(var(black1) a(0.07))",
 
         // Status bar Adaptive contrast setting
-        "status-bar-bg-adaptive-contrast-dark":            "color(var(bg-color) blend(var(white1) 94%))",
-        "status-bar-bg-adaptive-contrast-light":           "color(var(bg-color) blend(var(black1) 93%))",
-        "status-bar-bg-border-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 94%))",
-        "status-bar-bg-border-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 93%))",
+        "status-bar-bg-adaptive-contrast-dark":            "color(var(bg-color) l(+ 6.7%))", //"color(var(bg-color) blend(var(white1) 94%))",
+        "status-bar-bg-adaptive-contrast-light":           "color(var(bg-color) l(- 6.7%))", //"color(var(bg-color) blend(var(black1) 93%))",
+        "status-bar-bg-border-adaptive-contrast-dark":     "color(var(bg-color) l(+ 6.7%))", //"color(var(bg-color) blend(var(white1) 94%))",
+        "status-bar-bg-border-adaptive-contrast-light":    "color(var(bg-color) l(- 6.7%))", //"color(var(bg-color) blend(var(black1) 93%))",
 
         // Status bar Adaptive dividers
         "status-bar-adaptive-div-border-dark":     "color(var(gray2) a(0.1))",
@@ -505,8 +507,8 @@
         "text-line-control-border-selected-accent-opacity": { "target": 0.6, "speed": 1.0, "interpolation": "smoothstep" },
 
         // Inputs Adaptive contrast setting
-        "text-line-control-bg-panel-adaptive-contrast-dark":            "color(var(bg-color) blend(var(white1) 96%))",
-        "text-line-control-bg-panel-adaptive-contrast-light":           "color(var(bg-color) blend(var(black1) 95%))",
+        "text-line-control-bg-panel-adaptive-contrast-dark":            "color(var(bg-color) l(+ 4.7%))", //""color(var(bg-color) blend(var(white1) 96%))",
+        "text-line-control-bg-panel-adaptive-contrast-light":           "color(var(bg-color) l(- 4.7%))", //""color(var(bg-color) blend(var(black1) 95%))",
         "text-line-control-bg-border-panel-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 91%))",
         "text-line-control-bg-border-panel-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 89%))",
         "text-line-control-bg-switch-proj-window-adaptive-contrast":    "var(bg-color)",
