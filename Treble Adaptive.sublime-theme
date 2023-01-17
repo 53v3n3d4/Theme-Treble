@@ -3009,8 +3009,7 @@
                 "tab_style": [
                     "re",
                     "fa"
-                ],
-                "adaptive_theme_style": "analog"
+                ]
             },
             "tab_overlap": -2
         },

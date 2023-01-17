@@ -2030,7 +2030,7 @@
             "class": "tabset_control",
             "settings": {
                 "tab_style": "re",
-                "dark_theme_style": "analog",
+                // "dark_theme_style": "analog",
                 "tabset_background": false
             },
             "tab_overlap": -2
@@ -2039,8 +2039,8 @@
         {
             "class": "tabset_control",
             "settings": {
-                "tab_style": "fa",
-                "dark_theme_style": "analog"
+                "tab_style": "fa"
+                // "dark_theme_style": "analog"
             },
             "tab_overlap": -2
         },

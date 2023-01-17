@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.2.3] - 2023
+- Fix space tab style "re" and "fa", theme style mix/digital
+
 ## [0.2.2] - 2023-01-17
 - Improve settings descriptions
 - Change folder icon color tone, blue and yellow 
