@@ -3820,7 +3820,7 @@
                 "hover",
                 "!selected"
             ],
-            "tint_modifier": "color(var(--background) l(- 1.7%))",
+            "tint_modifier": "color(var(--background) l(- 1.3%))",
             "layer1.opacity": 1
         },
         {
@@ -3835,6 +3835,27 @@
                 "!selected"
             ],
             "tint_modifier": "color(var(--background) l(+ 2.7%))"
+        },
+        {
+            "class": "tab_control",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover",
+                "!selected"
+            ],
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "tint_modifier": "color(var(--background) l(- 1.3%))"
         },
         {
             "class": "tab_control",

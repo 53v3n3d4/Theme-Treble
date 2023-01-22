@@ -3172,6 +3172,17 @@
             // "parents": [{"class": "window", "attributes": ["file_light"]}],
             "tint_modifier": "var(tab-hover-tab-style-do-adaptive-contrast-light)"
         },
+        {
+            "class": "tab_control",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": ["hover", "!selected"],
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "tint_modifier": "var(tab-hover-tab-style-do-adaptive-contrast-dark)"
+        },
         // Tab control hover Tab style Re and Fa
         {
             "class": "tab_control",
