@@ -3158,7 +3158,7 @@
                 "adaptive_contrast_tone": "light"
             },
             "attributes": ["hover", "!selected"],
-            "tint_modifier": "var(tab-hover-tab-style-do-adaptive-contrast-dark)",
+            "tint_modifier": "var(tab-hover-tab-style-do-adaptive-contrast-medium-dark)",
             "layer1.opacity": 1
         },
         {
