@@ -5,6 +5,7 @@
 - Fix white color scheme tab hover color, tab style do and adaptive contrast tone dark
 - Change tab hover color tone, tab style do and adaptive contrast tone dark
 - Fix checkbox check and radio button on color, adaptive theme
+- Change overlay shadow color tone
 
 ## [0.2.2] - 2023-01-17
 - Improve settings descriptions
