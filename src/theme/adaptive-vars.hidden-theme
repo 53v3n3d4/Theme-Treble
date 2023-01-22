@@ -611,7 +611,7 @@
 
         // Checkbox
         "checkbox-box-control-bg-border":    "var(gray4)",
-        "checkbox-box-control-check":        "var(white1)",
+        "checkbox-box-control-check":        "var(bg-color)", //"var(white1)",
 
         // Checkbox opacity
         "checkbox-bg-opacity-disabled":      0.2,
@@ -620,7 +620,7 @@
         // Radio button
         "radio-button-list-control-bg":           "var(gray4)",
         "radio-button-list-control-bg-border":    "var(gray4)",
-        "radio-button-list-control-on":           "var(white1)",
+        "radio-button-list-control-on":           "var(bg-color)", //"var(white1)",
 
         // Radio button opacity
         "radio-button-opacity-hover":    0.7

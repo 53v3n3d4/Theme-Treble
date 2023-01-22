@@ -4,6 +4,7 @@
 - Fix space tab style "re" and "fa", theme style mix/digital
 - Fix white color scheme tab hover color, tab style do and adaptive contrast tone dark
 - Change tab hover color tone, tab style do and adaptive contrast tone dark
+- Fix checkbox check and radio button on color, adaptive theme
 
 ## [0.2.2] - 2023-01-17
 - Improve settings descriptions

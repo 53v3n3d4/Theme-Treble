@@ -20379,7 +20379,7 @@
             "layer0.opacity": 0,
             "layer1.tint": "#5D6C79",
             "layer1.opacity": 1,
-            "layer2.tint": "#FFFFFF",
+            "layer2.tint": "var(--background)",
             "layer2.opacity": 0
         },
         {
@@ -20593,7 +20593,7 @@
             "layer1.tint": "#5D6C79",
             "layer1.opacity": 1,
             "layer1.texture": "Theme - Treble/textures/checkbox/radio-button-bg-border.png",
-            "layer2.tint": "#FFFFFF",
+            "layer2.tint": "var(--background)",
             "layer2.opacity": 0,
             "layer2.texture": "Theme - Treble/textures/checkbox/radio-button-on.png"
         },
