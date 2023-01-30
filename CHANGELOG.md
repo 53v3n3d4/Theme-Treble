@@ -1,8 +1,11 @@
 # Changelog
 
+## [0.2.4] - 2023
+- Change checkbox box control check color, dark and light theme
+
 ## [0.2.3] - 2023-01-30
 - Fix space tab style "re" and "fa", theme style mix/digital
-- Fix white color scheme tab hover color, tab style do and adaptive contrast tone dark
+- Fix white color scheme tab hover color, tab style do digital and adaptive contrast tone dark
 - Change tab hover color tone, tab style do and adaptive contrast tone dark
 - Fix checkbox check and radio button on color, adaptive theme
 - Change overlay shadow color tone

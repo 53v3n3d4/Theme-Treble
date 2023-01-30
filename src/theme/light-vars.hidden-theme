@@ -522,7 +522,7 @@
 
         // Checkbox
         "checkbox-box-control-bg-border":    "var(gray4)",
-        "checkbox-box-control-check":        "var(white1)",
+        "checkbox-box-control-check":        "var(white5)",
 
         // Checkbox opacity
         "checkbox-bg-opacity-disabled":      0.2,
