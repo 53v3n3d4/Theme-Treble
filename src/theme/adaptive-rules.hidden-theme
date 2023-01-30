@@ -4694,6 +4694,55 @@
             "layer0.tint": "var(tab-hover-light)",
             "layer2.tint": "var(tab-chevron-icon-hover-light)"
         },
+        // Scroll tabs left button hover and hover/file_light
+        // Tab style Do Digital Adaptive contrast setting
+        {
+            "class": "scroll_tabs_left_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-medium-dark)"
+        },
+        {
+            "class": "scroll_tabs_left_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-light)"
+        },
+        {
+            "class": "scroll_tabs_left_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "parents": [
+                {
+                    "class": "edit_window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-dark)"
+        },
         // Scroll tabs left button Hide tab scrolling buttons setting
         {
             "class": "scroll_tabs_left_button",
@@ -4798,6 +4847,55 @@
             "layer0.tint": "var(tab-hover-light)",
             "layer2.tint": "var(tab-chevron-icon-hover-light)"
         },
+        // Scroll tabs right button hover and hover/file_light
+        // Tab style Do Digital Adaptive contrast setting
+        {
+            "class": "scroll_tabs_right_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-medium-dark)"
+        },
+        {
+            "class": "scroll_tabs_right_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-light)"
+        },
+        {
+            "class": "scroll_tabs_right_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "parents": [
+                {
+                    "class": "edit_window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-dark)"
+        },
         // Scroll tabs right button Hide tab scrolling buttons setting
         {
             "class": "scroll_tabs_right_button",
@@ -4900,6 +4998,55 @@
             "layer0.tint": "var(tab-hover-light)",
             "layer2.tint": "var(tab-plus-icon-hover-light)"
         },
+        // New tab button button hover and hover/file_light
+        // Tab style Do Digital Adaptive contrast setting
+        {
+            "class": "new_tab_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-medium-dark)"
+        },
+        {
+            "class": "new_tab_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-light)"
+        },
+        {
+            "class": "new_tab_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "parents": [
+                {
+                    "class": "edit_window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-dark)"
+        },
         // New tab button Hide new tab button setting setting
         {
             "class": "new_tab_button",
@@ -5001,6 +5148,55 @@
             ],
             "layer0.tint": "var(tab-hover-light)",
             "layer2.tint": "var(tab-chevron-icon-hover-light)"
+        },
+        // Show tabs dropdown button hover and hover/file_light
+        // Tab style Do Digital Adaptive contrast setting
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-medium-dark)"
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-light)"
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "parents": [
+                {
+                    "class": "edit_window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(tab-hover-tab-style-do-adaptive-contrast-dark)"
         },
         /** Tab connector */
         // When the tab is overhanging to the left/right of its sheet, which can occur during sheet multi-selection

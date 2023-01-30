@@ -5737,6 +5737,53 @@
         },
         {
             "class": "scroll_tabs_left_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "color(var(--background) l(- 1.7%))"
+        },
+        {
+            "class": "scroll_tabs_left_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "color(var(--background) l(+ 2.7%))"
+        },
+        {
+            "class": "scroll_tabs_left_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "parents": [
+                {
+                    "class": "edit_window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(var(--background) l(- 6.3%))"
+        },
+        {
+            "class": "scroll_tabs_left_button",
             "settings": [
                 "hide_tab_scrolling_buttons"
             ],
@@ -5860,6 +5907,53 @@
         },
         {
             "class": "scroll_tabs_right_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "color(var(--background) l(- 1.7%))"
+        },
+        {
+            "class": "scroll_tabs_right_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "color(var(--background) l(+ 2.7%))"
+        },
+        {
+            "class": "scroll_tabs_right_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "parents": [
+                {
+                    "class": "edit_window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(var(--background) l(- 6.3%))"
+        },
+        {
+            "class": "scroll_tabs_right_button",
             "settings": [
                 "hide_tab_scrolling_buttons"
             ],
@@ -5976,6 +6070,53 @@
         },
         {
             "class": "new_tab_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "color(var(--background) l(- 1.7%))"
+        },
+        {
+            "class": "new_tab_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "color(var(--background) l(+ 2.7%))"
+        },
+        {
+            "class": "new_tab_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "parents": [
+                {
+                    "class": "edit_window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(var(--background) l(- 6.3%))"
+        },
+        {
+            "class": "new_tab_button",
             "settings": [
                 "hide_new_tab_button"
             ],
@@ -6089,6 +6230,53 @@
             ],
             "layer0.tint": "color(var(--background) blend(black 90%))",
             "layer2.tint": "#161818"
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "color(var(--background) l(- 1.7%))"
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "color(var(--background) l(+ 2.7%))"
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": {
+                "tab_style": "do",
+                "adaptive_theme_style": "digital",
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "hover"
+            ],
+            "parents": [
+                {
+                    "class": "edit_window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(var(--background) l(- 6.3%))"
         },
         {
             "class": "overlay_control",

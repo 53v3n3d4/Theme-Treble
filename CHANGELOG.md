@@ -1,11 +1,12 @@
 # Changelog
 
-## [0.2.3] - 2023
+## [0.2.3] - 2023-01-30
 - Fix space tab style "re" and "fa", theme style mix/digital
 - Fix white color scheme tab hover color, tab style do and adaptive contrast tone dark
 - Change tab hover color tone, tab style do and adaptive contrast tone dark
 - Fix checkbox check and radio button on color, adaptive theme
 - Change overlay shadow color tone
+- Change scroll tabs, new tab and show tabs dropdown buttons hover color, tab style do digital and adaptive contrast
 
 ## [0.2.2] - 2023-01-17
 - Improve settings descriptions
@@ -19,7 +20,6 @@
 - Better descriptions for tabs settings
 
 ## [0.2.0] - 2022-12-20
-
 - Add Treble Adaptive
 - Add textures for sidebar, panels, buttons, quick panels, tabs, views and scroll bars
 - Add auto complete
