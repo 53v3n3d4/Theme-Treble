@@ -496,8 +496,8 @@
         "scroll-bar-control-bg-sidebar-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 97%))",
 
         // Inputs
-        "text-line-control-bg-border-panel-dark":       "color(var(bg-color) blend(var(gray5) 96%))",
-        "text-line-control-bg-border-panel-light":      "color(var(bg-color) blend(var(gray4) 90%))",
+        "text-line-control-bg-border-panel-dark":       "color(var(bg-color) blend(var(white1) 93%))",
+        "text-line-control-bg-border-panel-light":      "color(var(bg-color) blend(var(black1) 92%))",
         "text-line-overlay-control-icon":               "var(gray4)",
         "text-line-panel-control-icon":                 "color(var(gray4) a(0.5)",
         "dropdown-button-control":                      "var(gray4)",
@@ -510,8 +510,10 @@
         // Inputs Adaptive contrast setting
         "text-line-control-bg-panel-adaptive-contrast-dark":            "color(var(bg-color) l(+ 4.7%))", //""color(var(bg-color) blend(var(white1) 96%))",
         "text-line-control-bg-panel-adaptive-contrast-light":           "color(var(bg-color) l(- 4.7%))", //""color(var(bg-color) blend(var(black1) 95%))",
-        "text-line-control-bg-border-panel-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 91%))",
-        "text-line-control-bg-border-panel-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 89%))",
+        "text-line-control-bg-border-panel-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 97%))",
+        "text-line-control-bg-border-panel-adaptive-contrast-medium-dark":     "color(var(bg-color) blend(var(white1) 86%))",
+        "text-line-control-bg-border-panel-adaptive-contrast-medium-light":    "color(var(bg-color) blend(var(black1) 95%))",
+        "text-line-control-bg-border-panel-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 87%))",
         "text-line-control-bg-switch-proj-window-adaptive-contrast":    "var(bg-color)",
 
         // Buttons

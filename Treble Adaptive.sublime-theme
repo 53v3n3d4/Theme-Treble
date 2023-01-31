@@ -14826,7 +14826,7 @@
                 8,
                 0
             ],
-            "layer1.tint": "color(var(--background) blend(#D8D8D8 96%))",
+            "layer1.tint": "color(var(--background) blend(#FFFFFF 93%))",
             "layer1.opacity": 1,
             "layer1.inner_margin": [
                 8,
@@ -14838,7 +14838,7 @@
             "attributes": [
                 "file_light"
             ],
-            "layer1.tint": "color(var(--background) blend(#5D6C79 90%))"
+            "layer1.tint": "color(var(--background) blend(#000000 92%))"
         },
         {
             "class": "text_line_control",
@@ -14851,8 +14851,7 @@
                     "class": "panel_control"
                 }
             ],
-            "color_scheme_tint": "color(var(--background) l(+ 4.7%))",
-            "layer1.tint": "color(var(--background) blend(#FFFFFF 91%))"
+            "color_scheme_tint": "color(var(--background) l(+ 4.7%))"
         },
         {
             "class": "text_line_control",
@@ -14865,8 +14864,71 @@
                     "class": "panel_control"
                 }
             ],
-            "color_scheme_tint": "color(var(--background) l(- 4.7%))",
-            "layer1.tint": "color(var(--background) blend(#000000 89%))"
+            "color_scheme_tint": "color(var(--background) l(- 4.7%))"
+        },
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "parents": [
+                {
+                    "class": "panel_control"
+                }
+            ],
+            "layer1.tint": "color(var(--background) blend(#FFFFFF 97%))"
+        },
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                },
+                {
+                    "class": "panel_control"
+                }
+            ],
+            "layer1.tint": "color(var(--background) blend(#000000 87%))"
+        },
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "parents": [
+                {
+                    "class": "panel_control"
+                }
+            ],
+            "layer1.tint": "color(var(--background) blend(#FFFFFF 86%))"
+        },
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                },
+                {
+                    "class": "panel_control"
+                }
+            ],
+            "layer1.tint": "color(var(--background) blend(#000000 95%))"
         },
         {
             "class": "text_line_control",

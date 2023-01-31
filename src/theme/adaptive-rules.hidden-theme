@@ -1,8 +1,3 @@
-/**
- * @file Treble Adaptive.sublime-theme - Treble Adaptive Theme
- * @copyright Seven Eda
- * @license MIT license
- */
 {
     "extends": "adaptive-vars.hidden-theme",
     "variables": {},
@@ -12135,6 +12130,7 @@
             "layer1.tint": "var(text-line-control-bg-border-panel-light)"
         },
         // Text line control Panel control Adaptive contrast setting
+        // Background input
         {
             "class": "text_line_control",
             "settings": {
@@ -12144,8 +12140,8 @@
             "parents": [
                 {"class": "panel_control"}
             ],
-            "color_scheme_tint": "var(text-line-control-bg-panel-adaptive-contrast-dark)",
-            "layer1.tint": "var(text-line-control-bg-border-panel-adaptive-contrast-dark)"
+            "color_scheme_tint": "var(text-line-control-bg-panel-adaptive-contrast-dark)"
+            // "layer1.tint": "var(text-line-control-bg-border-panel-adaptive-contrast-dark)"
         },
         {
             "class": "text_line_control",
@@ -12157,8 +12153,56 @@
                 // {"class": "window", "attributes": ["file_light"]},
                 {"class": "panel_control"}
             ],
-            "color_scheme_tint": "var(text-line-control-bg-panel-adaptive-contrast-light)",
+            "color_scheme_tint": "var(text-line-control-bg-panel-adaptive-contrast-light)"
+            // "layer1.tint": "var(text-line-control-bg-border-panel-adaptive-contrast-light)"
+        },
+        // Text line control Panel control Adaptive contrast setting
+        // Border input
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "parents": [
+                {"class": "panel_control"}
+            ],
+            "layer1.tint": "var(text-line-control-bg-border-panel-adaptive-contrast-dark)"
+        },
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]},
+                {"class": "panel_control"}
+            ],
             "layer1.tint": "var(text-line-control-bg-border-panel-adaptive-contrast-light)"
+        },
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "parents": [
+                {"class": "panel_control"}
+            ],
+            "layer1.tint": "var(text-line-control-bg-border-panel-adaptive-contrast-medium-dark)"
+        },
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]},
+                {"class": "panel_control"}
+            ],
+            "layer1.tint": "var(text-line-control-bg-border-panel-adaptive-contrast-medium-light)"
         },
         // Text line control Switch project window Adaptive contrast setting
         {

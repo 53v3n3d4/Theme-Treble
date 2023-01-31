@@ -1,14 +1,15 @@
 # Changelog
 
 ## [0.2.4] - 2023
-- Change checkbox box control check color, dark and light theme
-- Change fold button control color
+- Change checkbox control check and radio button on color, dark and light theme
+- Change fold button control color, orange -> gray
+- Change input panel border color tone, adaptive theme
 
 ## [0.2.3] - 2023-01-30
 - Fix space tab style "re" and "fa", theme style mix/digital
 - Fix white color scheme tab hover color, tab style do digital and adaptive contrast tone dark
 - Change tab hover color tone, tab style do and adaptive contrast tone dark
-- Fix checkbox check and radio button on color, adaptive theme
+- Fix checkbox control check and radio button on color, adaptive theme
 - Change overlay shadow color tone
 - Change scroll tabs, new tab and show tabs dropdown buttons hover color, tab style do digital and adaptive contrast
 

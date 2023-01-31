@@ -531,7 +531,7 @@
         // Radio button
         "radio-button-list-control-bg":           "var(gray4)",
         "radio-button-list-control-bg-border":    "var(gray4)",
-        "radio-button-list-control-on":           "var(white1)",
+        "radio-button-list-control-on":           "var(white5)",
 
         // Radio button opacity
         "radio-button-opacity-hover":    0.7
