@@ -44,7 +44,7 @@ Below are theme options available and can be customize at your option.
     // Accent color are used on several places, like: sidebar 
     // selected file/folder, tab buttons, selected or matched 
     // on quick panels and auto complete, panel buttons, 
-    // indexing stauts progress bar, check for updates window.
+    // indexing status progress bar, check for updates window.
     // Colors options are: "blue", "purple", "pink", "red",
     // "orange", "yellow", "green", "grayscale" and
     // "color-scheme".
