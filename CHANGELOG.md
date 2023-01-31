@@ -2,6 +2,7 @@
 
 ## [0.2.4] - 2023
 - Change checkbox box control check color, dark and light theme
+- Change fold button control color
 
 ## [0.2.3] - 2023-01-30
 - Fix space tab style "re" and "fa", theme style mix/digital
