@@ -10164,7 +10164,7 @@
         {
             "class": "fold_button_control",
             "content_margin": 8,
-            "layer0.tint": "var(fold-button-color)",
+            "layer0.tint": "var(fold-button-color-dark)",
             "layer0.opacity": 1,
             "layer0.texture": "Theme - Treble/textures/views/fold-closed.png",
             "layer0.inner_margin": [
@@ -10174,6 +10174,19 @@
                 16
             ]
         },
+        {
+            "class": "fold_button_control",
+            "parents": [
+                {
+                    "class": "window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(fold-button-color-light)"
+        },
+        // Fold button control hover, expanded and hover/expanded
         {
             "class": "fold_button_control",
             "attributes": ["hover"],

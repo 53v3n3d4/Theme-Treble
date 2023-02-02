@@ -12812,6 +12812,18 @@
         },
         {
             "class": "fold_button_control",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "#9B9B9B"
+        },
+        {
+            "class": "fold_button_control",
             "attributes": [
                 "hover"
             ],
