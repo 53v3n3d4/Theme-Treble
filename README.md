@@ -71,7 +71,7 @@ To install manually, [download](https://github.com/53v3n3d4/Theme-Treble/release
 - Download the zip file on [`releases`](https://github.com/53v3n3d4/Theme-Treble/releases) page  
 - Menu `Sublime Text > Preferences > Browse packages...` to open destination folder  
 - Then unzip `Theme-Treble zip file` inside `Packages` folder  
-- Rename folder `Theme-Treble` folder to `Theme - Treble`. This is important for textures images work  
+- Rename folder `Theme-Treble` to `Theme - Treble`. This is important for textures images work  
 
 > If you prefer clone this repo  
 Mac/Linux `$ git clone https://github.com/53v3n3d4/Theme-Treble.git Theme\ -\ Treble`  
