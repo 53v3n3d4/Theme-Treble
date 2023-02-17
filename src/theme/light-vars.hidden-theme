@@ -301,7 +301,7 @@
 
         // Views
         "text-area-modifier-dark":             "blend(var(black1) 80%)",
-        "text-area-modifier-light":            "l(- 5%) s(* 80%)",
+        "text-area-modifier-light":            "l(- 5%)",
         "text-area-console-panel-modifier":    "l(- 4%)",
         "text-area-output-panel-modifier":     "l(- 4%)",
         "text-area-dialog-modifier":           "l(- 4%)",

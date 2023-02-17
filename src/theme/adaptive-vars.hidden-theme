@@ -330,7 +330,7 @@
 
         // Views
         "text-area-modifier-dark":             "blend(var(black1) 80%)",
-        "text-area-modifier-light":            "l(- 5%) s(* 80%)",
+        "text-area-modifier-light":            "l(- 5%)",
         "text-area-console-panel-modifier":    "l(- 4%)",
         "text-area-output-panel-modifier":     "l(- 4%)",
         "text-area-dialog-modifier":           "l(- 4%)",
@@ -352,10 +352,10 @@
 
         // Views Adaptive contrast setting
         "text-area-modifier-adaptive-contrast-dark":                   "l(- 4%)",
-        "text-area-modifier-adaptive-contrast-light":                  "l(- 5%) s(* 80%)",
+        "text-area-modifier-adaptive-contrast-light":                  "l(- 5%)",
         "text-area-console-panel-modifier-adaptive-contrast-dark":     "l(- 4.7%)", //"blend(var(black1) 26%)",
-        "text-area-console-panel-modifier-adaptive-contrast-light":    "l(- 4.7%)", //"blend(var(black1) 86%)",
-        "text-area-output-panel-modifier-adaptive-contrast":           "l(- 4.7%)", //"blend(var(black1) 86%)",
+        "text-area-console-panel-modifier-adaptive-contrast-light":    "l(- 6.7%)", //"blend(var(black1) 96%)",
+        "text-area-output-panel-modifier-adaptive-contrast":           "l(- 6.7%)", //"blend(var(black1) 86%)",
 
         // Auto complete
         "auto-complete-label-fg-dark":                   "color(var(white1) a(0.6))",

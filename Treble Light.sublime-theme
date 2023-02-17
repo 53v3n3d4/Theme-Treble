@@ -11628,7 +11628,7 @@
                     "class": "text_line_control"
                 }
             ],
-            "background_modifier": "l(- 5%) s(* 80%)"
+            "background_modifier": "l(- 5%)"
         },
         {
             "class": "text_area_control",

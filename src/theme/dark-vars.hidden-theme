@@ -301,9 +301,9 @@
 
         // Views
         "text-area-modifier-dark":             "blend(var(black1) 80%)",
-        "text-area-modifier-light":            "l(- 5%) s(* 80%)",
-        "text-area-console-panel-modifier":    "l(- 4%)",
-        "text-area-output-panel-modifier":     "l(- 4%)",
+        "text-area-modifier-light":            "l(- 5%)",
+        "text-area-console-panel-modifier":    "l(- 5%)",
+        "text-area-output-panel-modifier":     "l(- 5%)",
         "text-area-dialog-modifier":           "l(- 4%)",
         "grid-border-color-dark":              "color(var(bg-color) l(+ 11%))",
         "grid-border-color-light":             "color(var(bg-color) l(- 11%))",
@@ -435,7 +435,7 @@
         "text-line-control-color-scheme-tint":                   "var(black6)",
         "text-line-control-color-scheme-tint-overlay":           "var(black3)",
         "text-line-control-color-scheme-tint-switch-project":    "var(black3)",
-        "text-line-control-bg-border-panel":                     "var(gray6)",
+        "text-line-control-bg-border-panel":                     "color(var(gray6) a(0.5))",
         "text-line-overlay-control-icon":                        "var(gray4)",
         "text-line-panel-control-icon":                          "color(var(gray4) a(0.5)",
         "dropdown-button-control":                               "var(gray4)",

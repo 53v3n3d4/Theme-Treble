@@ -12606,7 +12606,7 @@
                     "class": "text_line_control"
                 }
             ],
-            "background_modifier": "l(- 5%) s(* 80%)"
+            "background_modifier": "l(- 5%)"
         },
         {
             "class": "text_area_control",
@@ -12640,7 +12640,7 @@
                     "class": "panel_control"
                 }
             ],
-            "background_modifier": "l(- 5%) s(* 80%)"
+            "background_modifier": "l(- 5%)"
         },
         {
             "class": "text_area_control",
@@ -12689,7 +12689,7 @@
                     "class": "console_panel"
                 }
             ],
-            "background_modifier": "l(- 4.7%)"
+            "background_modifier": "l(- 6.7%)"
         },
         {
             "class": "text_area_control",
@@ -12713,7 +12713,7 @@
                     "class": "output_panel"
                 }
             ],
-            "background_modifier": "l(- 4.7%)"
+            "background_modifier": "l(- 6.7%)"
         },
         {
             "class": "text_area_control",

@@ -1,10 +1,13 @@
 # Changelog
 
-## [0.2.4] - 2023
+## [0.2.4] - 2023-02-17
 - Change checkbox control check and radio button on color, dark and light theme
 - Change fold button control color, orange -> gray
-- Change input panel border color tone - adaptive contrast, adaptive theme
+- Change input text line control border color tone - adaptive contrast, adaptive theme
 - Change image texture fold button control
+- Delete saturation on text area modifier variables
+- Increase contrast text area modifier console and output, dark and adaptive theme
+- Change input text line control border color to light tone, dark theme
 
 ## [0.2.3] - 2023-01-30
 - Fix space tab style "re" and "fa", theme style mix/digital
