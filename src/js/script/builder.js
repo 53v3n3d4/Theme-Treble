@@ -9,7 +9,6 @@ E.g. sublimeFile('adaptive-replace').`
 
 // Write sublime file
 // Themes: Adaptive, Dark, Light
-// Color-schemes: Bc,
 export function sublimeFile (name) {
   switch (name) {
     case 'adaptive-merge':
