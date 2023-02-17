@@ -351,8 +351,8 @@
         "fold-button-hover":           { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
 
         // Views Adaptive contrast setting
-        "text-area-modifier-adaptive-contrast-dark":                   "l(- 4%)",
-        "text-area-modifier-adaptive-contrast-light":                  "l(- 5%)",
+        "text-area-modifier-adaptive-contrast-dark":                   "l(- 6.3%)",
+        "text-area-modifier-adaptive-contrast-light":                  "l(- 4%)",
         "text-area-console-panel-modifier-adaptive-contrast-dark":     "l(- 4.7%)", //"blend(var(black1) 26%)",
         "text-area-console-panel-modifier-adaptive-contrast-light":    "l(- 6.7%)", //"blend(var(black1) 96%)",
         "text-area-output-panel-modifier-adaptive-contrast":           "l(- 6.7%)", //"blend(var(black1) 86%)",
