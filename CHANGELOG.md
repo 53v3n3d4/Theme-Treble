@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.2.5] - 2023
+- Change puck control !dark color to lighter tone
+
 ## [0.2.4] - 2023-02-17
 - Change checkbox control check and radio button on color, dark and light theme
 - Change fold button control color, orange -> gray

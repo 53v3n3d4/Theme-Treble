@@ -10975,7 +10975,7 @@
                 {"class": "scroll_bar_control", "attributes": ["hover"]},
                 {"class": "scroll_track_control"}
             ],
-            "layer0.tint": "var(puck-control-light)"
+            "layer0.tint": "var(puck-control-hover-light)"
         },
         // Puck control vertical Wide scroll bars setting
         {

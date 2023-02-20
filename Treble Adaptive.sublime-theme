@@ -14539,7 +14539,7 @@
             "attributes": [
                 "!dark"
             ],
-            "layer0.tint": "color(#000000 a(0.54))"
+            "layer0.tint": "color(#000000 a(0.37))"
         },
         {
             "class": "puck_control",
@@ -14736,7 +14736,7 @@
                     "class": "scroll_track_control"
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.54))"
+            "layer0.tint": "color(#000000 a(0.37))"
         },
         {
             "class": "puck_control",
