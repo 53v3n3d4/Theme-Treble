@@ -417,9 +417,9 @@
         "scroll-track-control-border-wide-dark":      "color(var(gray2) a(0.11))",
         "scroll-track-control-border-wide-light":     "color(var(gray2) a(0.11))",
         "puck-control-dark":                          "color(var(white1) a(0.54))",
-        "puck-control-light":                         "color(var(black1) a(0.37))",
+        "puck-control-light":                         "color(var(black1) a(0.41))",
         "puck-control-hover-dark":                    "color(var(white1) a(0.54))",
-        "puck-control-hover-light":                   "color(var(black1) a(0.37))",
+        "puck-control-hover-light":                   "color(var(black1) a(0.41))",
         "puck-control-wide-dark":                     "color(var(white1) a(0.11))",
         "puck-control-wide-light":                    "color(var(black1) a(0.11))",
         "puck-control-wide-hover-dark":               "color(var(white1) a(0.33))",
@@ -445,13 +445,13 @@
 
         // Buttons
         "button-control-bg":                  "color(var(black1) a(0.03))",
-        "button-control-bg-hover":            "color(var(black1) a(0.07))",
-        "button-control-bg-pressed":          "color(var(black1) a(0.09))",
+        "button-control-bg-hover":            "color(var(black1) a(0.09))",
+        "button-control-bg-pressed":          "color(var(black1) a(0.11))",
         "button-control-dialog-bg":           "color(var(gray4) a(0.3))",
         "icon-button-control-bg":             "color(var(black1) a(0.03))",
         "icon-button-control-bg-border":      "color(var(black1) a(0.02))",
-        "icon-button-control-bg-hover":       "color(var(black1) a(0.07))",
-        "icon-button-control-bg-selected":    "color(var(black1) a(0.09))",
+        "icon-button-control-bg-hover":       "color(var(black1) a(0.09))",
+        "icon-button-control-bg-selected":    "color(var(black1) a(0.11))",
 
         // Buttons opacity
         "button-control-bg-disabled":                        0.3,

@@ -13255,7 +13255,7 @@
             "attributes": [
                 "!dark"
             ],
-            "layer0.tint": "color(#000000 a(0.37))"
+            "layer0.tint": "color(#000000 a(0.41))"
         },
         {
             "class": "puck_control",
@@ -13264,7 +13264,7 @@
                     "class": "overlay_control"
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.37))"
+            "layer0.tint": "color(#000000 a(0.41))"
         },
         {
             "class": "puck_control",
@@ -13469,7 +13469,7 @@
                     "class": "scroll_track_control"
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.37))"
+            "layer0.tint": "color(#000000 a(0.41))"
         },
         {
             "class": "puck_control",
@@ -13487,7 +13487,7 @@
                     "class": "scroll_track_control"
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.37))"
+            "layer0.tint": "color(#000000 a(0.41))"
         },
         {
             "class": "puck_control",
@@ -14293,7 +14293,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "color(#000000 a(0.07))",
+            "layer0.tint": "color(#000000 a(0.09))",
             "layer0.opacity": 1
         },
         {
@@ -14315,7 +14315,7 @@
             "attributes": [
                 "pressed"
             ],
-            "layer0.tint": "color(#000000 a(0.09))",
+            "layer0.tint": "color(#000000 a(0.11))",
             "layer0.opacity": 1
         },
         {
@@ -14452,7 +14452,7 @@
                 "show_buttons_grouping": true
             },
             "layer0.tint": "transparent",
-            "layer1.tint": "color(#000000 a(0.09))"
+            "layer1.tint": "color(#000000 a(0.11))"
         },
         {
             "class": "icon_button_control",
@@ -14593,7 +14593,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "color(#000000 a(0.07))",
+            "layer0.tint": "color(#000000 a(0.09))",
             "layer0.opacity": 1
         },
         {
@@ -14601,7 +14601,7 @@
             "attributes": [
                 "selected"
             ],
-            "layer0.tint": "color(#000000 a(0.09))",
+            "layer0.tint": "color(#000000 a(0.11))",
             "layer0.opacity": 1
         },
         {

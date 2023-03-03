@@ -13176,7 +13176,7 @@
             "attributes": [
                 "!dark"
             ],
-            "layer0.tint": "color(#000000 a(0.37))"
+            "layer0.tint": "color(#000000 a(0.41))"
         },
         {
             "class": "puck_control",
@@ -13390,7 +13390,7 @@
                     "class": "scroll_track_control"
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.37))"
+            "layer0.tint": "color(#000000 a(0.41))"
         },
         {
             "class": "puck_control",
@@ -14216,7 +14216,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.10))",
+            "layer0.tint": "color(#FFFFFF a(0.12))",
             "layer0.opacity": 1
         },
         {
@@ -14238,7 +14238,7 @@
             "attributes": [
                 "pressed"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.13))",
+            "layer0.tint": "color(#FFFFFF a(0.15))",
             "layer0.opacity": 1
         },
         {
@@ -14375,7 +14375,7 @@
                 "show_buttons_grouping": true
             },
             "layer0.tint": "transparent",
-            "layer1.tint": "color(#FFFFFF a(0.13))"
+            "layer1.tint": "color(#FFFFFF a(0.15))"
         },
         {
             "class": "icon_button_control",
@@ -14516,7 +14516,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.10))",
+            "layer0.tint": "color(#FFFFFF a(0.12))",
             "layer0.opacity": 1
         },
         {
@@ -14524,7 +14524,7 @@
             "attributes": [
                 "selected"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.13))",
+            "layer0.tint": "color(#FFFFFF a(0.15))",
             "layer0.opacity": 1
         },
         {
