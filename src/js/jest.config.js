@@ -1,6 +1,6 @@
 export default {
   verbose: true,
   transform: {
-    '\\.[jt]sx?$': 'babel-jest'
+    '^.+\\.(t|j)sx?$': '@swc/jest'
   }
 }
