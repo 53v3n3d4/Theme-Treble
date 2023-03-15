@@ -6342,8 +6342,8 @@
         },
         {
             "class": "kind_container kind_markup",
-            "layer1.tint": "#FF5A00",
-            "layer2.tint": "#F2DBCC"
+            "layer1.tint": "color(#FD8F3F l(+ 11%))",
+            "layer2.tint": "color(#FF5A00 l(- 7%))"
         },
         {
             "class": "kind_label",
@@ -6352,7 +6352,7 @@
                     "class": "kind_container kind_markup"
                 }
             ],
-            "color": "#F2DBCC"
+            "color": "color(#FF5A00 l(- 7%))"
         },
         {
             "class": "kind_container kind_markup",
@@ -6608,8 +6608,8 @@
         },
         {
             "class": "kind_container kind_navigation",
-            "layer1.tint": "#FFB500",
-            "layer2.tint": "#F9EFDA"
+            "layer1.tint": "color(#F9EFDA l(- 17%))",
+            "layer2.tint": "color(#FFB500 l(- 17%))"
         },
         {
             "class": "kind_label",
@@ -6618,7 +6618,7 @@
                     "class": "kind_container kind_navigation"
                 }
             ],
-            "color": "#F9EFDA"
+            "color": "color(#FFB500 l(- 17%))"
         },
         {
             "class": "kind_container kind_navigation",
@@ -7275,9 +7275,9 @@
         },
         {
             "class": "kind_container kind_color_orangish",
-            "layer1.tint": "#FF5A00",
+            "layer1.tint": "color(#FD8F3F l(+ 11%))",
             "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-            "layer2.tint": "#F2DBCC",
+            "layer2.tint": "color(#FF5A00 l(- 7%))",
             "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
         },
         {
@@ -7287,7 +7287,7 @@
                     "class": "kind_container kind_color_orangish"
                 }
             ],
-            "color": "#F2DBCC"
+            "color": "color(#FF5A00 l(- 7%))"
         },
         {
             "class": "kind_container kind_color_orangish",
@@ -7410,9 +7410,9 @@
         },
         {
             "class": "kind_container kind_color_yellowish",
-            "layer1.tint": "#FFB500",
+            "layer1.tint": "color(#F9EFDA l(- 17%))",
             "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-            "layer2.tint": "#F9EFDA",
+            "layer2.tint": "color(#FFB500 l(- 17%))",
             "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
         },
         {
@@ -7422,7 +7422,7 @@
                     "class": "kind_container kind_color_yellowish"
                 }
             ],
-            "color": "#F9EFDA"
+            "color": "color(#FFB500 l(- 17%))"
         },
         {
             "class": "kind_container kind_color_yellowish",

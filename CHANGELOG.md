@@ -3,6 +3,7 @@
 ## [0.2.5] - 2023
 - Change puck control !dark color to lighter tone
 - Change icon-button-control hover and selected color for better contrast
+- Change kind container colors orange and yellow to different tones
 
 ## [0.2.4] - 2023-02-17
 - Change checkbox control check and radio button on color, dark and light theme

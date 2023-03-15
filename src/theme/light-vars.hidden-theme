@@ -227,8 +227,8 @@
 
         // Kind color
         "kind-color-red":       "var(red3)",
-        "kind-color-orange":    "var(orange-light2)",
-        "kind-color-yellow":    "var(yellow-light1)",
+        "kind-color-orange":    "color(var(orange4) l(- 7%))",
+        "kind-color-yellow":    "color(var(gold1) l(- 17%))",
         "kind-color-green":     "var(green5)",
         "kind-color-cyan":      "var(green5)",
         "kind-color-blue":      "var(blue4)",
@@ -250,9 +250,9 @@
         // Kind container
         "kind-container-red":       "var(red4)",
         "kind-container-pink":      "var(pink-light2)",
-        "kind-container-orange":    "var(orange4)",
+        "kind-container-orange":    "color(var(orange1) l(+ 11%))",
         "kind-container-blue":      "var(blue-light4)",
-        "kind-container-yellow":    "var(gold1)",
+        "kind-container-yellow":    "color(var(yellow-light1) l(- 17%))",
         "kind-container-green":     "var(green-light4)",
         "kind-container-purple":    "var(purple1)",
         "kind-container-cyan":      "var(cyan1)",
