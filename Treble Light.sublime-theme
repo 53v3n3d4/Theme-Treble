@@ -11628,7 +11628,7 @@
                     "class": "text_line_control"
                 }
             ],
-            "background_modifier": "l(- 5%)"
+            "background_modifier": "blend(#000000 96%)"
         },
         {
             "class": "text_area_control",
@@ -11643,7 +11643,7 @@
                     "class": "console_panel"
                 }
             ],
-            "background_modifier": "l(- 4%)"
+            "background_modifier": "blend(#000000 96%)"
         },
         {
             "class": "text_area_control",
@@ -11652,7 +11652,7 @@
                     "class": "output_panel"
                 }
             ],
-            "background_modifier": "l(- 4%)"
+            "background_modifier": "blend(#000000 96%)"
         },
         {
             "class": "text_area_control",
@@ -11661,7 +11661,7 @@
                     "class": "dialog"
                 }
             ],
-            "background_modifier": "l(- 4%)"
+            "background_modifier": "blend(#000000 96%)"
         },
         {
             "class": "grid_layout_control",

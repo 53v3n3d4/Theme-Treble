@@ -301,10 +301,10 @@
 
         // Views
         "text-area-modifier-dark":             "blend(var(black1) 80%)",
-        "text-area-modifier-light":            "l(- 5%)",
-        "text-area-console-panel-modifier":    "l(- 4%)",
-        "text-area-output-panel-modifier":     "l(- 4%)",
-        "text-area-dialog-modifier":           "l(- 4%)",
+        "text-area-modifier-light":            "blend(var(black1) 96%)",
+        "text-area-console-panel-modifier":    "blend(var(black1) 96%)",
+        "text-area-output-panel-modifier":     "blend(var(black1) 96%)",
+        "text-area-dialog-modifier":           "blend(var(black1) 96%)",
         "grid-border-color-dark":              "color(var(bg-color) l(+ 11%))",
         "grid-border-color-light":             "color(var(bg-color) l(- 11%))",
         "minimap-viewport-color-dark":         "color(var(gray2) a(0.14))",
