@@ -30,15 +30,15 @@
   "dependencies": {
     "sublime-builder": "https://github.com/53v3n3d4/sublime-builder.git#commit=25fef4770639b83b9eb59639933bb98ab70987d9"
   },
-  "packageManager": "yarn@3.4.1",
+  "packageManager": "yarn@4.0.2",
   "devDependencies": {
-    "@swc/core": "^1.3.40",
-    "@swc/jest": "^0.2.24",
-    "eslint": "^8.36.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
+    "@swc/core": "^1.3.106",
+    "@swc/jest": "^0.2.31",
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
-    "jest": "^29.5.0"
+    "jest": "^29.7.0"
   }
 }
