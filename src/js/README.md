@@ -1,14 +1,5 @@
 ## Build
 
-Yarn/PnP and node -e {script} gives error module not found.  
-Npm and node -e works.  
-
-If prefer using yarn, use setting below.  
-```
-// .yarnrc.yml
-nodeLinker: pnpm
-```
-
 ```
 // Script
 $ yarn build-adaptive-replace

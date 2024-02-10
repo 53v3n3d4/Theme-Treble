@@ -9,12 +9,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build-adaptive-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('adaptive-merge'));\" ",
-    "build-adaptive-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('adaptive-replace'));\" ",
-    "build-dark-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('dark-merge'));\" ",
-    "build-dark-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('dark-replace'));\" ",
-    "build-light-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('light-merge'));\" ",
-    "build-light-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('light-replace'));\" ",
+    "build-adaptive-merge": "node -e \"import('./index.js').then(b => b.sublimeFile('adaptive-merge'));\" ",
+    "build-adaptive-replace": "node -e \"import('./index.js').then(b => b.sublimeFile('adaptive-replace'));\" ",
+    "build-dark-merge": "node -e \"import('./index.js').then(b => b.sublimeFile('dark-merge'));\" ",
+    "build-dark-replace": "node -e \"import('./index.js').then(b => b.sublimeFile('dark-replace'));\" ",
+    "build-light-merge": "node -e \"import('./index.js').then(b => b.sublimeFile('light-merge'));\" ",
+    "build-light-replace": "node -e \"import('./index.js').then(b => b.sublimeFile('light-replace'));\" ",
     "jest-coverage": "jest --coverage",
     "lint": "eslint '**/*.js'",
     "test": "jest",
@@ -30,10 +30,10 @@
   "dependencies": {
     "sublime-builder": "https://github.com/53v3n3d4/sublime-builder.git#commit=25fef4770639b83b9eb59639933bb98ab70987d9"
   },
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "yarn@4.1.0",
   "devDependencies": {
-    "@swc/core": "^1.3.106",
-    "@swc/jest": "^0.2.31",
+    "@swc/core": "^1.4.0",
+    "@swc/jest": "^0.2.36",
     "eslint": "^8.56.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.1",
