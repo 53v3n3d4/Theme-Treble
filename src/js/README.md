@@ -1,11 +1,20 @@
 ## Build
 
 ```
+// Install using corepack
+$ corepack enable
+
+// Install the package manager configured in the local project
+$ corepack install
+
+// Install dependecies
+$ yarn install
+
 // Script
 $ yarn build-adaptive-replace
 
 // Node
-$ node -e 'import("./builder.js").then(b => b.sublimeFile("adaptive-replace"));'
+$ node -e 'import("./index.js").then(b => b.sublimeFile("adaptive-replace"));'
 ```
 
 Option to build files using merge files or replace variables.  
