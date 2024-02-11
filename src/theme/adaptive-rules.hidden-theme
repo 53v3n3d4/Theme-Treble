@@ -143,9 +143,9 @@
         {
             "class": "title_bar",
             "settings": {
-                "themed_title_bar": true,
                 "adaptive_contrast": true,
-                "adaptive_contrast_tone": "light"
+                "adaptive_contrast_tone": "light",
+                "themed_title_bar": true
             },
             "bg": "var(title-bar-bg-adaptive-contrast-dark)",
             "style": "system"
@@ -153,9 +153,9 @@
         {
             "class": "title_bar",
             "settings": {
-                "themed_title_bar": true,
                 "adaptive_contrast": true,
-                "adaptive_contrast_tone": "light"
+                "adaptive_contrast_tone": "light",
+                "themed_title_bar": true
             },
             "bg": "var(title-bar-bg-adaptive-contrast-dark)",
             "style": "dark"
@@ -163,9 +163,9 @@
         {
             "class": "title_bar",
             "settings": {
-                "themed_title_bar": true,
                 "adaptive_contrast": true,
-                "adaptive_contrast_tone": "dark"
+                "adaptive_contrast_tone": "dark",
+                "themed_title_bar": true
             },
             // "attributes": [
             //         "file_light"

@@ -11685,7 +11685,7 @@
             "settings": [
                 "always_show_minimap_viewport"
             ],
-            "viewport_color": "color(#B4B4B4 a(0.14))",
+            "viewport_color": "color(var(--background) l(+ 9%))",
             "viewport_opacity": 1
         },
         {
@@ -11698,14 +11698,14 @@
                     ]
                 }
             ],
-            "viewport_color": "color(#B4B4B4 a(0.27))"
+            "viewport_color": "color(var(--background) l(- 7%))"
         },
         {
             "class": "minimap_control",
             "settings": [
                 "!always_show_minimap_viewport"
             ],
-            "viewport_color": "color(#B4B4B4 a(0.14))",
+            "viewport_color": "color(var(--background) l(+ 9%))",
             "viewport_opacity": {"target":0,"speed":4,"interpolation":"smoothstep"}
         },
         {
@@ -11721,7 +11721,7 @@
                     ]
                 }
             ],
-            "viewport_color": "color(#B4B4B4 a(0.27))"
+            "viewport_color": "color(var(--background) l(- 7%))"
         },
         {
             "class": "minimap_control",
