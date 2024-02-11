@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2.5] - 2024
+## [0.2.5] - 2024-02-11
 - Change puck control !dark color to lighter tone
 - Change icon-button-control hover and selected color for better contrast
 - Change kind container colors orange and yellow to different tones
