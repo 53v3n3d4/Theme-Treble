@@ -14258,29 +14258,28 @@
         {
             "class": "scroll_bar_control",
             "settings": {
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
             },
             "parents": [
                 {
                     "class": "sidebar_container"
                 }
             ],
-            "layer0.tint": "color(var(--background) blend(#FFFFFF 98%))"
+            "layer0.tint": "color(var(--background) l(- 3.7%))"
         },
         {
             "class": "scroll_bar_control",
-            "attributes": [
-                "!dark"
-            ],
             "settings": {
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
             },
             "parents": [
                 {
                     "class": "sidebar_container"
                 }
             ],
-            "layer0.tint": "color(var(--background) blend(#000000 97%))"
+            "layer0.tint": "color(var(--background) l(+ 3.7%))"
         },
         {
             "class": "scroll_track_control",
@@ -14358,8 +14357,8 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.14))",
-            "layer1.tint": "color(#B4B4B4 a(0.1))"
+            "layer0.tint": "color(var(--background) l(+ 11%))",
+            "layer1.tint": "color(var(--background) l(+ 17%))"
         },
         {
             "class": "scroll_track_control",
@@ -14367,8 +14366,8 @@
                 "hover",
                 "!dark"
             ],
-            "layer0.tint": "color(#000000 a(0.04))",
-            "layer1.tint": "color(#B4B4B4 a(0.27))"
+            "layer0.tint": "color(var(--background) l(- 7%))",
+            "layer1.tint": "color(var(--background) l(- 13%))"
         },
         {
             "class": "scroll_track_control",
@@ -14417,8 +14416,8 @@
             "settings": [
                 "wide_scroll_bars"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.01))",
-            "layer1.tint": "color(#B4B4B4 a(0.11))"
+            "layer0.tint": "color(var(--background) l(+ 3%))",
+            "layer1.tint": "color(var(--background) l(+ 11%))"
         },
         {
             "class": "scroll_track_control",
@@ -14428,8 +14427,8 @@
             "attributes": [
                 "!dark"
             ],
-            "layer0.tint": "color(#000000 a(0.01))",
-            "layer1.tint": "color(#B4B4B4 a(0.11))"
+            "layer0.tint": "color(var(--background) l(- 4%))",
+            "layer1.tint": "color(var(--background) l(- 9%))"
         },
         {
             "class": "scroll_corner_control",
@@ -14532,14 +14531,14 @@
         },
         {
             "class": "puck_control",
-            "layer0.tint": "color(#FFFFFF a(0.54))"
+            "layer0.tint": "color(var(--background) l(+ 39%) a(0.8))"
         },
         {
             "class": "puck_control",
             "attributes": [
                 "!dark"
             ],
-            "layer0.tint": "color(#000000 a(0.41))"
+            "layer0.tint": "color(var(--background) s(- 27%) l(- 35%) a(0.7))"
         },
         {
             "class": "puck_control",
@@ -14718,7 +14717,7 @@
                     "class": "scroll_track_control"
                 }
             ],
-            "layer0.tint": "color(#FFFFFF a(0.54))"
+            "layer0.tint": "color(var(--background) l(+ 39%) a(0.8))"
         },
         {
             "class": "puck_control",
@@ -14736,7 +14735,7 @@
                     "class": "scroll_track_control"
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.41))"
+            "layer0.tint": "color(var(--background) s(- 27%) l(- 35%) a(0.7))"
         },
         {
             "class": "puck_control",
@@ -14775,7 +14774,7 @@
             "settings": [
                 "wide_scroll_bars"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.11))"
+            "layer0.tint": "color(var(--background) l(+ 16%) a(0.8))"
         },
         {
             "class": "puck_control",
@@ -14785,7 +14784,7 @@
             "attributes": [
                 "!dark"
             ],
-            "layer0.tint": "color(#000000 a(0.11))"
+            "layer0.tint": "color(var(--background) s(- 7%) l(- 15%) a(0.7))"
         },
         {
             "class": "puck_control",
@@ -14803,7 +14802,7 @@
                     "class": "scroll_track_control"
                 }
             ],
-            "layer0.tint": "color(#FFFFFF a(0.33))"
+            "layer0.tint": "color(var(--background) l(+ 26%) a(0.8))"
         },
         {
             "class": "puck_control",
@@ -14824,7 +14823,7 @@
                     "class": "scroll_track_control"
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.33))"
+            "layer0.tint": "color(var(--background) s(- 17%) l(- 25%) a(0.7))"
         },
         {
             "class": "text_line_control",

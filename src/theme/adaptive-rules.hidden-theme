@@ -11617,7 +11617,8 @@
         {
             "class": "scroll_bar_control",
             "settings": {
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
             },
             "parents": [
                 {"class": "sidebar_container"}
@@ -11626,11 +11627,12 @@
         },
         {
             "class": "scroll_bar_control",
-            "attributes": [
-                "!dark"
-            ],
+            // "attributes": [
+            //     "!dark"
+            // ],
             "settings": {
-                "adaptive_contrast": true
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
             },
             "parents": [
                 {"class": "sidebar_container"}

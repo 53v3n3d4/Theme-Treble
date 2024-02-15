@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.2.6] - 2024
+
+### Adaptive
+- Change puck control, scroll bar control and scroll track control color, white/black -> background
+
 ## [0.2.5] - 2024-02-11
 - Change puck control !dark color to lighter tone
 - Change icon-button-control hover and selected color for better contrast
