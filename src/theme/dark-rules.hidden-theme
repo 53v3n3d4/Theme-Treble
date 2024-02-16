@@ -11080,11 +11080,32 @@
                 0
             ],
             "layer1.tint": "var(text-line-control-bg-border-panel)",
-            "layer1.opacity": 1,
             "layer1.inner_margin": [
                 8, 
                 0
             ]
+        },
+        // Text line control Theme opacity setting
+        {
+            "class": "text_line_control",
+            "settings": {
+                "theme_opacity": "high"
+            },
+            "layer1.opacity": "var(text-line-control-bg-border-panel-opacity)"
+        },
+        {
+            "class": "text_line_control",
+            "settings": {
+                "theme_opacity": "medium"
+            },
+            "layer1.opacity": "var(text-line-control-bg-border-panel-opacity-medium)"
+        },
+        {
+            "class": "text_line_control",
+            "settings": {
+                "theme_opacity": "low"
+            },
+            "layer1.opacity": "var(text-line-control-bg-border-panel-opacity-low)"
         },
         // Text line control Mix and Digital
         {

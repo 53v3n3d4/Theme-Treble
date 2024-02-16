@@ -443,7 +443,12 @@
 
         // Inputs opactity
         // Overlay, Go to, Color Scheme, Theme and Quick Switch Project selected accent...
+        "text-line-control-bg-border-panel-opacity":        1,
         "text-line-control-border-selected-accent-opacity": { "target": 0.6, "speed": 1.0, "interpolation": "smoothstep" },
+
+        // Inputs Theme opacity setting Medium/Low
+        "text-line-control-bg-border-panel-opacity-medium":    0.7,
+        "text-line-control-bg-border-panel-opacity-low":       0.4,
 
         // Buttons
         "button-control-bg":                  "color(var(white1) a(0.05))",
