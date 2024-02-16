@@ -8,6 +8,7 @@
 ### Adaptive
 - Change puck control, scroll bar control and scroll track control color, white/black -> background
 - Change button control dialog color, gray -> background
+- Change button control bg color, white/black -> background
 
 ## [0.2.5] - 2024-02-11
 - Change puck control !dark color to lighter tone
@@ -16,7 +17,7 @@
 - Change minimap viewport color
 
 ### Light
-- Change light theme background text area control to lighter tone
+- Change background text area control to lighter tone
 
 ## [0.2.4] - 2023-02-17
 - Change checkbox control check and radio button on color, dark and light theme

@@ -12803,6 +12803,55 @@
             ],
             "layer0.tint": "var(button-control-bg-light)"
         },
+        // Button control colors Adaptive contrast setting
+        {
+            "class": "button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "layer0.tint": "var(button-control-bg-medium-dark)"
+        },
+        {
+            "class": "button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+             "parents": [
+                {
+                    "class": "window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(button-control-bg-medium-light)"
+        },
+        {
+            "class": "button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "layer0.tint": "var(button-control-bg-low-dark)"
+        },
+        {
+            "class": "button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+             "parents": [
+                {
+                    "class": "window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(button-control-bg-low-light)"
+        },
         // Button control Icon button size setting
         {
             "class": "button_control",
@@ -13058,6 +13107,37 @@
             "layer0.tint": "var(button-control-dialog-bg-light)",
             "layer1.opacity": 0
         },
+        // Button control hover Dialog
+        // not working
+        // {
+        //     "class": "button_control",
+        //     "attributes": ["hover"],
+        //     "parents": [{"class": "dialog"}],
+        //     "min_size": [
+        //         64,
+        //         22
+        //     ],
+        //     "layer0.tint": "var(button-control-dialog-bg-dark)",
+        //     "layer1.opacity": 0
+        // },
+        // {
+        //     "class": "button_control",
+        //     "attributes": ["hover"], // !dark not working
+        //     "parents": [
+        //         {
+        //             "class": "dialog",
+        //             "attributes": [
+        //                 "file_light"
+        //             ]
+        //         }
+        //     ],
+        //     "min_size": [
+        //         64,
+        //         22
+        //     ],
+        //     "layer0.tint": "var(button-control-dialog-bg-light)",
+        //     "layer1.opacity": 0
+        // },
         // Button control disabled
         {
             "class": "button_control",
@@ -13119,6 +13199,55 @@
             ],
             "layer0.tint": "var(icon-button-control-bg-light)",
             "layer1.tint": "var(icon-button-control-bg-border-light)"
+        },
+        // Icon button control Adaptive contrast setting
+        {
+            "class": "icon_button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "layer0.tint": "var(icon-button-control-bg-medium-dark)"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+             "parents": [
+                {
+                    "class": "window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(icon-button-control-bg-medium-light)"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "layer0.tint": "var(icon-button-control-bg-low-dark)"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+             "parents": [
+                {
+                    "class": "window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(icon-button-control-bg-low-light)"
         },
         // Icon button control Theme opacity setting
         {

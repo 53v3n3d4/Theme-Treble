@@ -15551,7 +15551,7 @@
                 16,
                 8
             ],
-            "layer0.tint": "color(#FFFFFF a(0.05))",
+            "layer0.tint": "color(var(--background) l(+ 5%))",
             "layer0.inner_margin": 8,
             "layer1.opacity": 0
         },
@@ -15565,7 +15565,55 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.03))"
+            "layer0.tint": "color(var(--background) l(- 5%))"
+        },
+        {
+            "class": "button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "layer0.tint": "color(var(--background) l(+ 2%))"
+        },
+        {
+            "class": "button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(var(--background) l(- 9%))"
+        },
+        {
+            "class": "button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "layer0.tint": "color(var(--background) l(+ 1%))"
+        },
+        {
+            "class": "button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(var(--background) l(- 2%))"
         },
         {
             "class": "button_control",
@@ -15693,7 +15741,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.12))",
+            "layer0.tint": "color(var(--background) l(+ 10%))",
             "layer0.opacity": 1
         },
         {
@@ -15712,7 +15760,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.09))"
+            "layer0.tint": "color(var(--background) l(- 13%))"
         },
         {
             "class": "button_control",
@@ -15722,7 +15770,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.12))"
+            "layer0.tint": "color(var(--background) l(+ 10%))"
         },
         {
             "class": "button_control",
@@ -15740,7 +15788,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "color(#000000 a(0.09))"
+            "layer0.tint": "color(var(--background) l(- 13%))"
         },
         {
             "class": "button_control",
@@ -15750,7 +15798,7 @@
             "attributes": [
                 "pressed"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.15))",
+            "layer0.tint": "color(var(--background) l(+ 16%))",
             "layer0.opacity": 1
         },
         {
@@ -15769,7 +15817,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.11))"
+            "layer0.tint": "color(var(--background) l(- 16%))"
         },
         {
             "class": "button_control",
@@ -15779,7 +15827,7 @@
             "attributes": [
                 "pressed"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.15))"
+            "layer0.tint": "color(var(--background) l(+ 16%))"
         },
         {
             "class": "button_control",
@@ -15797,7 +15845,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.11))"
+            "layer0.tint": "color(var(--background) l(- 16%))"
         },
         {
             "class": "button_control",
@@ -15880,7 +15928,7 @@
         },
         {
             "class": "icon_button_control",
-            "layer0.tint": "color(#FFFFFF a(0.05))",
+            "layer0.tint": "color(var(--background) l(+ 5%))",
             "layer1.tint": "color(#FFFFFF a(0.02))",
             "layer1.opacity": 1
         },
@@ -15894,8 +15942,56 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.03))",
+            "layer0.tint": "color(var(--background) l(- 5%))",
             "layer1.tint": "color(#000000 a(0.02))"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "layer0.tint": "color(var(--background) l(+ 2%))"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(var(--background) l(- 9%))"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "layer0.tint": "color(var(--background) l(+ 1%))"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "color(var(--background) l(- 2%))"
         },
         {
             "class": "icon_button_control",
@@ -16110,7 +16206,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.12))",
+            "layer0.tint": "color(var(--background) l(+ 10%))",
             "layer0.opacity": 1
         },
         {
@@ -16126,14 +16222,14 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(#000000 a(0.09))"
+            "layer0.tint": "color(var(--background) l(- 13%))"
         },
         {
             "class": "icon_button_control",
             "attributes": [
                 "selected"
             ],
-            "layer0.tint": "color(#FFFFFF a(0.15))",
+            "layer0.tint": "color(var(--background) l(+ 16%))",
             "layer0.opacity": 1
         },
         {
@@ -16149,7 +16245,7 @@
             "attributes": [
                 "selected"
             ],
-            "layer0.tint": "color(#000000 a(0.11))"
+            "layer0.tint": "color(var(--background) l(- 16%))"
         },
         {
             "class": "icon_button_control",
