@@ -12933,8 +12933,9 @@
             "attributes": [
                 "hover"
             ],
-            "layer1.tint": "var(button-control-bg-border-hover-button-bg-transparent-dark)",
-            "layer1.opacity": "var(button-control-bg-border-opacity-hover)"
+            "layer0.tint": "var(button-control-bg-hover-transparent-dark)"
+            // "layer1.tint": "var(button-control-bg-border-hover-button-bg-transparent-dark)",
+            // "layer1.opacity": "var(button-control-bg-border-opacity-hover)"
         },
         {
             "class": "button_control",
@@ -12950,7 +12951,8 @@
             "attributes": [
                 "hover"
             ],
-            "layer1.tint": "var(button-control-bg-border-hover-button-bg-transparent-light)"
+            "layer0.tint": "var(button-control-bg-hover-transparent-light)"
+            // "layer1.tint": "var(button-control-bg-border-hover-button-bg-transparent-light)"
         },
         // Button control pressed
         {
@@ -12985,8 +12987,9 @@
             "attributes": [
                 "pressed"
             ],
-            "layer1.tint": "var(button-control-bg-border-pressed-button-bg-transparent-dark)",
-            "layer1.opacity": "var(button-control-bg-border-opacity-hover)"
+            "layer0.tint": "var(button-control-bg-pressed-transparent-dark)"
+            // "layer1.tint": "var(button-control-bg-border-pressed-button-bg-transparent-dark)",
+            // "layer1.opacity": "var(button-control-bg-border-opacity-hover)"
         },
         {
             "class": "button_control",
@@ -13002,7 +13005,8 @@
                     ]
                 }
             ],
-            "layer1.tint": "var(button-control-bg-border-pressed-button-bg-transparent-light)"
+            "layer0.tint": "var(button-control-bg-pressed-transparent-light)"
+            // "layer1.tint": "var(button-control-bg-border-pressed-button-bg-transparent-light)"
         },
         // Button control Dialog
         {

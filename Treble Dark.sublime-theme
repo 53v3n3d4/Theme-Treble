@@ -14227,8 +14227,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer1.tint": "color(#FFFFFF a(0.2))",
-            "layer1.opacity": 1
+            "layer0.tint": "color(#FFFFFF a(0.12))"
         },
         {
             "class": "button_control",
@@ -14249,8 +14248,7 @@
             "attributes": [
                 "pressed"
             ],
-            "layer1.tint": "color(#FFFFFF a(0.3))",
-            "layer1.opacity": 1
+            "layer0.tint": "color(#FFFFFF a(0.15))"
         },
         {
             "class": "button_control",

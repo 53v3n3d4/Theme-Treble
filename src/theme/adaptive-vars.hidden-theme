@@ -556,12 +556,16 @@
 
         // Buttons Button background transparent setting
         "button-control-bg-transparent":                                   "transparent",
+        "button-control-bg-hover-transparent-dark":                        "color(var(white1) a(0.12))",
+        "button-control-bg-hover-transparent-light":                       "color(var(black1) a(0.09))",
+        "button-control-bg-pressed-transparent-dark":                      "color(var(white1) a(0.15))",
+        "button-control-bg-pressed-transparent-light":                     "color(var(black1) a(0.11))",
         "button-control-bg-border-button-bg-transparent-dark":             "color(var(white1) a(0.11))",
         "button-control-bg-border-button-bg-transparent-light":            "color(var(black1) a(0.11))",
-        "button-control-bg-border-hover-button-bg-transparent-dark":       "color(var(white1) a(0.2))",
-        "button-control-bg-border-hover-button-bg-transparent-light":      "color(var(black1) a(0.2))",
-        "button-control-bg-border-pressed-button-bg-transparent-dark":     "color(var(white1) a(0.3))",
-        "button-control-bg-border-pressed-button-bg-transparent-light":    "color(var(black1) a(0.3))",
+        // "button-control-bg-border-hover-button-bg-transparent-dark":       "color(var(white1) a(0.2))", // not using hover border
+        // "button-control-bg-border-hover-button-bg-transparent-light":      "color(var(black1) a(0.2))",
+        // "button-control-bg-border-pressed-button-bg-transparent-dark":     "color(var(white1) a(0.3))", // not using pressed border
+        // "button-control-bg-border-pressed-button-bg-transparent-light":    "color(var(black1) a(0.3))",
         "icon-button-control-bg-transparent":                              "transparent",
         "icon-button-control-bg-border-transparent":                       "transparent",
 

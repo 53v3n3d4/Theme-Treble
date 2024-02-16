@@ -11725,8 +11725,9 @@
             "attributes": [
                 "hover"
             ],
-            "layer1.tint": "var(button-control-bg-border-hover-button-bg-transparent)",
-            "layer1.opacity": "var(button-control-bg-border-opacity-hover)"
+            "layer0.tint": "var(button-control-bg-hover-transparent)"
+            // "layer1.tint": "var(button-control-bg-border-hover-button-bg-transparent)",
+            // "layer1.opacity": "var(button-control-bg-border-opacity-hover)"
         },
         // Button control pressed
         {
@@ -11745,8 +11746,9 @@
             "attributes": [
                 "pressed"
             ],
-            "layer1.tint": "var(button-control-bg-border-pressed-button-bg-transparent)",
-            "layer1.opacity": "var(button-control-bg-border-opacity-hover)"
+            "layer0.tint": "var(button-control-bg-pressed-transparent)"
+            // "layer1.tint": "var(button-control-bg-border-pressed-button-bg-transparent)",
+            // "layer1.opacity": "var(button-control-bg-border-opacity-hover)"
         },
         // Button control Dialog
         {

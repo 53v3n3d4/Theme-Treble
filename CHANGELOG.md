@@ -2,6 +2,7 @@
 
 ## [0.2.6] - 2024
 - Fix border icon button group and text line control, settings show button transparent and show grouping true
+- Change button control hover, setting button background setting
 
 ### Adaptive
 - Change puck control, scroll bar control and scroll track control color, white/black -> background
