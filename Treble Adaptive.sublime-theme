@@ -14837,7 +14837,7 @@
                 8,
                 0
             ],
-            "layer1.tint": "color(var(--background) blend(#FFFFFF 93%))",
+            "layer1.tint": "color(#FFFFFF a(0.11))",
             "layer1.opacity": 1,
             "layer1.inner_margin": [
                 8,
@@ -14849,7 +14849,7 @@
             "attributes": [
                 "file_light"
             ],
-            "layer1.tint": "color(var(--background) blend(#000000 92%))"
+            "layer1.tint": "color(#000000 a(0.11))"
         },
         {
             "class": "text_line_control",
@@ -14888,7 +14888,7 @@
                     "class": "panel_control"
                 }
             ],
-            "layer1.tint": "color(var(--background) blend(#FFFFFF 97%))"
+            "layer1.tint": "color(#FFFFFF a(0.11))"
         },
         {
             "class": "text_line_control",
@@ -14907,7 +14907,7 @@
                     "class": "panel_control"
                 }
             ],
-            "layer1.tint": "color(var(--background) blend(#000000 87%))"
+            "layer1.tint": "color(#000000 a(0.11))"
         },
         {
             "class": "text_line_control",
@@ -15604,7 +15604,7 @@
                 "button_background_transparent"
             ],
             "layer0.tint": "transparent",
-            "layer1.tint": "color(#FFFFFF a(0.2))",
+            "layer1.tint": "color(#FFFFFF a(0.11))",
             "layer1.inner_margin": 8
         },
         {
@@ -15620,7 +15620,7 @@
                     ]
                 }
             ],
-            "layer1.tint": "color(#000000 a(0.2))"
+            "layer1.tint": "color(#000000 a(0.11))"
         },
         {
             "class": "button_control",
@@ -15702,7 +15702,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer1.tint": "color(#FFFFFF a(0.3))",
+            "layer1.tint": "color(#FFFFFF a(0.2))",
             "layer1.opacity": 1
         },
         {
@@ -15721,7 +15721,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer1.tint": "color(#000000 a(0.3))"
+            "layer1.tint": "color(#000000 a(0.2))"
         },
         {
             "class": "button_control",
@@ -15760,7 +15760,7 @@
             "attributes": [
                 "pressed"
             ],
-            "layer1.tint": "color(#FFFFFF a(0.4))",
+            "layer1.tint": "color(#FFFFFF a(0.3))",
             "layer1.opacity": 1
         },
         {
@@ -15779,7 +15779,7 @@
                     ]
                 }
             ],
-            "layer1.tint": "color(#000000 a(0.4))"
+            "layer1.tint": "color(#000000 a(0.3))"
         },
         {
             "class": "button_control",
@@ -15917,7 +15917,7 @@
                 "show_buttons_grouping": true
             },
             "layer0.tint": "transparent",
-            "layer1.tint": "color(#FFFFFF a(0.15))"
+            "layer1.tint": "color(#FFFFFF a(0.11))"
         },
         {
             "class": "icon_button_control",

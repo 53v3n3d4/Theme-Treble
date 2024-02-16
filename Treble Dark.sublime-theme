@@ -13544,7 +13544,7 @@
                 8,
                 0
             ],
-            "layer1.tint": "color(#525055 a(0.5))",
+            "layer1.tint": "color(#FFFFFF a(0.1))",
             "layer1.opacity": 1,
             "layer1.inner_margin": [
                 8,
@@ -14162,7 +14162,7 @@
                 "button_background_transparent"
             ],
             "layer0.tint": "transparent",
-            "layer1.tint": "color(#FFFFFF a(0.2))",
+            "layer1.tint": "color(#FFFFFF a(0.1))",
             "layer1.inner_margin": 8
         },
         {
@@ -14227,7 +14227,7 @@
             "attributes": [
                 "hover"
             ],
-            "layer1.tint": "color(#FFFFFF a(0.3))",
+            "layer1.tint": "color(#FFFFFF a(0.2))",
             "layer1.opacity": 1
         },
         {
@@ -14249,7 +14249,7 @@
             "attributes": [
                 "pressed"
             ],
-            "layer1.tint": "color(#FFFFFF a(0.4))",
+            "layer1.tint": "color(#FFFFFF a(0.3))",
             "layer1.opacity": 1
         },
         {
@@ -14375,7 +14375,7 @@
                 "show_buttons_grouping": true
             },
             "layer0.tint": "transparent",
-            "layer1.tint": "color(#FFFFFF a(0.15))"
+            "layer1.tint": "color(#FFFFFF a(0.1))"
         },
         {
             "class": "icon_button_control",

@@ -497,8 +497,8 @@
         "scroll-bar-control-bg-sidebar-adaptive-contrast-light":    "color(var(bg-color) l(+ 3.7%))",
 
         // Inputs
-        "text-line-control-bg-border-panel-dark":       "color(var(bg-color) blend(var(white1) 93%))",
-        "text-line-control-bg-border-panel-light":      "color(var(bg-color) blend(var(black1) 92%))",
+        "text-line-control-bg-border-panel-dark":       "color(var(white1) a(0.11))",
+        "text-line-control-bg-border-panel-light":      "color(var(black1) a(0.11))",
         "text-line-overlay-control-icon":               "var(gray4)",
         "text-line-panel-control-icon":                 "color(var(gray4) a(0.5)",
         "dropdown-button-control":                      "var(gray4)",
@@ -511,10 +511,10 @@
         // Inputs Adaptive contrast setting
         "text-line-control-bg-panel-adaptive-contrast-dark":            "color(var(bg-color) l(+ 4.7%))", //""color(var(bg-color) blend(var(white1) 96%))",
         "text-line-control-bg-panel-adaptive-contrast-light":           "color(var(bg-color) l(- 4.7%))", //""color(var(bg-color) blend(var(black1) 95%))",
-        "text-line-control-bg-border-panel-adaptive-contrast-dark":     "color(var(bg-color) blend(var(white1) 97%))",
+        "text-line-control-bg-border-panel-adaptive-contrast-dark":     "color(var(white1) a(0.11))",
         "text-line-control-bg-border-panel-adaptive-contrast-medium-dark":     "color(var(bg-color) blend(var(white1) 86%))",
         "text-line-control-bg-border-panel-adaptive-contrast-medium-light":    "color(var(bg-color) blend(var(black1) 95%))",
-        "text-line-control-bg-border-panel-adaptive-contrast-light":    "color(var(bg-color) blend(var(black1) 87%))",
+        "text-line-control-bg-border-panel-adaptive-contrast-light":    "color(var(black1) a(0.11))",
         "text-line-control-bg-switch-proj-window-adaptive-contrast":    "var(bg-color)",
 
         // Buttons
@@ -527,6 +527,7 @@
         "button-control-dialog-bg":                 "color(var(gray4) a(0.3))",
         "icon-button-control-bg-dark":              "color(var(white1) a(0.05))",
         "icon-button-control-bg-light":             "color(var(black1) a(0.03))",
+        // Button group and transparent setting true using button-control-bg-border-button-bg-transparent-light
         "icon-button-control-bg-border-dark":       "color(var(white1) a(0.02))",
         "icon-button-control-bg-border-light":      "color(var(black1) a(0.02))",
         "icon-button-control-bg-hover-dark":        "color(var(white1) a(0.12))",
@@ -555,12 +556,12 @@
 
         // Buttons Button background transparent setting
         "button-control-bg-transparent":                                   "transparent",
-        "button-control-bg-border-button-bg-transparent-dark":             "color(var(white1) a(0.2))",
-        "button-control-bg-border-button-bg-transparent-light":            "color(var(black1) a(0.2))",
-        "button-control-bg-border-hover-button-bg-transparent-dark":       "color(var(white1) a(0.3))",
-        "button-control-bg-border-hover-button-bg-transparent-light":      "color(var(black1) a(0.3))",
-        "button-control-bg-border-pressed-button-bg-transparent-dark":     "color(var(white1) a(0.4))",
-        "button-control-bg-border-pressed-button-bg-transparent-light":    "color(var(black1) a(0.4))",
+        "button-control-bg-border-button-bg-transparent-dark":             "color(var(white1) a(0.11))",
+        "button-control-bg-border-button-bg-transparent-light":            "color(var(black1) a(0.11))",
+        "button-control-bg-border-hover-button-bg-transparent-dark":       "color(var(white1) a(0.2))",
+        "button-control-bg-border-hover-button-bg-transparent-light":      "color(var(black1) a(0.2))",
+        "button-control-bg-border-pressed-button-bg-transparent-dark":     "color(var(white1) a(0.3))",
+        "button-control-bg-border-pressed-button-bg-transparent-light":    "color(var(black1) a(0.3))",
         "icon-button-control-bg-transparent":                              "transparent",
         "icon-button-control-bg-border-transparent":                       "transparent",
 

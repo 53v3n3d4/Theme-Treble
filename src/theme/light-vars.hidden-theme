@@ -433,7 +433,7 @@
 
         // Inputs
         "text-line-control-color-scheme-tint":          "var(white5)",
-        "text-line-control-bg-border-panel":      "var(gray5)", //"color(var(bg-color) blend(var(gray4) 90%))",
+        "text-line-control-bg-border-panel":            "color(var(black1) a(0.1))",
         "text-line-overlay-control-icon":               "var(gray4)",
         "text-line-panel-control-icon":                 "color(var(gray4) a(0.5)",
         "dropdown-button-control":                      "var(gray4)",
@@ -449,6 +449,7 @@
         "button-control-bg-pressed":          "color(var(black1) a(0.11))",
         "button-control-dialog-bg":           "color(var(gray4) a(0.3))",
         "icon-button-control-bg":             "color(var(black1) a(0.03))",
+        // Button group and transparent setting true using button-control-bg-border-button-bg-transparent
         "icon-button-control-bg-border":      "color(var(black1) a(0.02))",
         "icon-button-control-bg-hover":       "color(var(black1) a(0.09))",
         "icon-button-control-bg-selected":    "color(var(black1) a(0.11))",
@@ -474,9 +475,9 @@
 
         // Buttons Button background transparent setting
         "button-control-bg-transparent":                             "transparent",
-        "button-control-bg-border-button-bg-transparent":            "color(var(black1) a(0.2))",
-        "button-control-bg-border-hover-button-bg-transparent":      "color(var(black1) a(0.3))",
-        "button-control-bg-border-pressed-button-bg-transparent":    "color(var(black1) a(0.4))",
+        "button-control-bg-border-button-bg-transparent":            "color(var(black1) a(0.1))",
+        "button-control-bg-border-hover-button-bg-transparent":      "color(var(black1) a(0.2))",
+        "button-control-bg-border-pressed-button-bg-transparent":    "color(var(black1) a(0.3))",
         "icon-button-control-bg-transparent":                        "transparent",
         "icon-button-control-bg-border-transparent":                 "transparent",
 

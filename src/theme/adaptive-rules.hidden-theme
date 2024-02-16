@@ -13137,7 +13137,7 @@
                 "show_buttons_grouping": true
             },
             "layer0.tint": "var(icon-button-control-bg-transparent)",
-            "layer1.tint": "var(icon-button-control-bg-selected-dark)"
+            "layer1.tint": "var(button-control-bg-border-button-bg-transparent-dark)"
         },
         {
             "class": "icon_button_control",
@@ -13154,7 +13154,7 @@
                 }
             ],
             "layer0.tint": "var(icon-button-control-bg-transparent)",
-            "layer1.tint": "var(icon-button-control-bg-selected-light)"
+            "layer1.tint": "var(button-control-bg-border-button-bg-transparent-light)"
         },
         {
             "class": "icon_button_control",

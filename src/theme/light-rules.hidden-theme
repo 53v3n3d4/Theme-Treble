@@ -11873,7 +11873,7 @@
                 "show_buttons_grouping": true
             },
             "layer0.tint": "var(icon-button-control-bg-transparent)",
-            "layer1.tint": "var(icon-button-control-bg-selected)"
+            "layer1.tint": "var(button-control-bg-border-button-bg-transparent)"
         },
         {
             "class": "icon_button_control",

@@ -435,7 +435,7 @@
         "text-line-control-color-scheme-tint":                   "var(black6)",
         "text-line-control-color-scheme-tint-overlay":           "var(black3)",
         "text-line-control-color-scheme-tint-switch-project":    "var(black3)",
-        "text-line-control-bg-border-panel":                     "color(var(gray6) a(0.5))",
+        "text-line-control-bg-border-panel":                     "color(var(white1) a(0.1))",
         "text-line-overlay-control-icon":                        "var(gray4)",
         "text-line-panel-control-icon":                          "color(var(gray4) a(0.5)",
         "dropdown-button-control":                               "var(gray4)",
@@ -451,6 +451,7 @@
         "button-control-bg-pressed":          "color(var(white1) a(0.15))",
         "button-control-dialog-bg":           "color(var(gray4) a(0.3))",
         "icon-button-control-bg":             "color(var(white1) a(0.05))",
+        // Button group and transparent setting true using button-control-bg-border-button-bg-transparent
         "icon-button-control-bg-border":      "color(var(white1) a(0.02))",
         "icon-button-control-bg-hover":       "color(var(white1) a(0.12))",
         "icon-button-control-bg-selected":    "color(var(white1) a(0.15))",
@@ -476,9 +477,9 @@
 
         // Buttons Button background transparent setting
         "button-control-bg-transparent":                             "transparent",
-        "button-control-bg-border-button-bg-transparent":            "color(var(white1) a(0.2))",
-        "button-control-bg-border-hover-button-bg-transparent":      "color(var(white1) a(0.3))",
-        "button-control-bg-border-pressed-button-bg-transparent":    "color(var(white1) a(0.4))",
+        "button-control-bg-border-button-bg-transparent":            "color(var(white1) a(0.1))",
+        "button-control-bg-border-hover-button-bg-transparent":      "color(var(white1) a(0.2))",
+        "button-control-bg-border-pressed-button-bg-transparent":    "color(var(white1) a(0.3))",
         "icon-button-control-bg-transparent":                        "transparent",
         "icon-button-control-bg-border-transparent":                 "transparent",
 
