@@ -13037,7 +13037,25 @@
                 64,
                 22
             ],
-            "layer0.tint": "var(button-control-dialog-bg)",
+            "layer0.tint": "var(button-control-dialog-bg-dark)",
+            "layer1.opacity": 0
+        },
+        {
+            "class": "button_control",
+            // "attributes": ["!dark"], // not working
+            "parents": [
+                {
+                    "class": "dialog",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "min_size": [
+                64,
+                22
+            ],
+            "layer0.tint": "var(button-control-dialog-bg-light)",
             "layer1.opacity": 0
         },
         // Button control disabled

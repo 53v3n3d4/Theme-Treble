@@ -529,7 +529,8 @@
         "button-control-bg-hover-light":            "color(var(black1) a(0.09))",
         "button-control-bg-pressed-dark":           "color(var(white1) a(0.15))",
         "button-control-bg-pressed-light":          "color(var(black1) a(0.11))",
-        "button-control-dialog-bg":                 "color(var(gray4) a(0.3))",
+        "button-control-dialog-bg-dark":            "color(var(bg-color) l(+ 5%))",
+        "button-control-dialog-bg-light":           "color(var(bg-color) l(- 5%))",
         "icon-button-control-bg-dark":              "color(var(white1) a(0.05))",
         "icon-button-control-bg-light":             "color(var(black1) a(0.03))",
         // Button group and transparent setting true using button-control-bg-border-button-bg-transparent-light

@@ -7,6 +7,7 @@
 
 ### Adaptive
 - Change puck control, scroll bar control and scroll track control color, white/black -> background
+- Change button control dialog color, gray -> background
 
 ## [0.2.5] - 2024-02-11
 - Change puck control !dark color to lighter tone
