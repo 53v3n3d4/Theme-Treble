@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.7] - 2024
+- Change opacity panel close button
+
+### Adaptive
+- Add panel close button file light
+- Change text line control panel control and overlay control color tone
+
+### Dark
+- Change text line control panel control color to dark tone
+
+### Light
+- Change text line control panel control color to dark tone
+
 ## [0.2.6] - 2024-02-16
 - Fix border icon button group and text line control, settings button background transparent and show grouping true
 - Change button control hover, setting button background transparent setting

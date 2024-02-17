@@ -12472,7 +12472,7 @@
                 9
             ],
             "layer0.opacity": 0,
-            "layer1.tint": "#5D6C79",
+            "layer1.tint": "#B4B4B4",
             "layer1.texture": "Theme - Treble/textures/panels/panel-x.png"
         },
         {
@@ -12481,7 +12481,7 @@
                 "show_panel_close_button": true,
                 "theme_opacity": "high"
             },
-            "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+            "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
         },
         {
             "class": "panel_close_button",
@@ -12489,7 +12489,7 @@
                 "show_panel_close_button": true,
                 "theme_opacity": "medium"
             },
-            "layer1.opacity": {"target":0.7,"speed":4,"interpolation":"smoothstep"}
+            "layer1.opacity": {"target":0.5,"speed":4,"interpolation":"smoothstep"}
         },
         {
             "class": "panel_close_button",
@@ -12497,7 +12497,7 @@
                 "show_panel_close_button": true,
                 "theme_opacity": "low"
             },
-            "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+            "layer1.opacity": {"target":0.3,"speed":4,"interpolation":"smoothstep"}
         },
         {
             "class": "panel_close_button",
@@ -13635,8 +13635,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "color(#5D6C79 a(0.5)",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-find-replace.png",
             "layer2.inner_margin": [
                 28,
@@ -13661,8 +13661,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "color(#5D6C79 a(0.5)",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-find-replace.png",
             "layer2.inner_margin": [
                 28,
@@ -13687,8 +13687,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "color(#5D6C79 a(0.5)",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-find-replace.png",
             "layer2.inner_margin": [
                 28,
@@ -13713,8 +13713,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "color(#5D6C79 a(0.5)",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-console.png",
             "layer2.inner_margin": [
                 33,
@@ -13764,8 +13764,8 @@
                 20,
                 6
             ],
-            "layer2.tint": "#5D6C79",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-goto-file.png",
             "layer2.inner_margin": [
                 40,
@@ -13790,8 +13790,8 @@
                 20,
                 6
             ],
-            "layer2.tint": "#5D6C79",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-command-palette.png",
             "layer2.inner_margin": [
                 36,

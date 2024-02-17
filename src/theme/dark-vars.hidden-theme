@@ -366,17 +366,17 @@
         "panel-control-switch-project-panel-bg":    "var(black3)",
 
         // Panel close button
-        "panel-x-button-normal":               "var(gray4)",
+        "panel-x-button-normal":               "var(gray2)",
         "panel-x-button-hover":                "var(white2)",
         "panel-square-circle-button-hover":    "color(var(white1) a(15%))",
 
         // Panel close button opacity
-        "panel-x-button-opacity":          { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+        "panel-x-button-opacity":          { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
         "panel-x-button-opacity-hover":    { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
 
         // Panel close button opacity Theme opacity setting
-        "panel-x-button-opacity-medium":    { "target": 0.7, "speed": 4.0, "interpolation": "smoothstep" },
-        "panel-x-button-opacity-low":       { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+        "panel-x-button-opacity-medium":    { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
+        "panel-x-button-opacity-low":       { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
 
         // Status bar
         "status-bar-bg":                          "var(black5)",
@@ -436,8 +436,8 @@
         "text-line-control-color-scheme-tint-overlay":           "var(black3)",
         "text-line-control-color-scheme-tint-switch-project":    "var(black3)",
         "text-line-control-bg-border-panel":                     "color(var(white1) a(0.1))",
-        "text-line-overlay-control-icon":                        "var(gray4)",
-        "text-line-panel-control-icon":                          "color(var(gray4) a(0.5)",
+        "text-line-control-overlay-control-icon":                "var(gray2)",
+        "text-line-control-panel-control-icon":                  "var(gray2)",
         "dropdown-button-control":                               "var(gray4)",
         "dropdown-button-control-hover":                         "color(var(gray4) l(+ 22%))",
 
@@ -445,6 +445,8 @@
         // Overlay, Go to, Color Scheme, Theme and Quick Switch Project selected accent...
         "text-line-control-bg-border-panel-opacity":        1,
         "text-line-control-border-selected-accent-opacity": { "target": 0.6, "speed": 1.0, "interpolation": "smoothstep" },
+        "text-line-control-overlay-control-icon-opacity":   0.8,
+        "text-line-control-panel-control-icon-opacity":     0.8,
 
         // Inputs Theme opacity setting Medium/Low
         "text-line-control-bg-border-panel-opacity-medium":    0.7,

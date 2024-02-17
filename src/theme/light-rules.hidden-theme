@@ -11152,6 +11152,33 @@
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-console-square.png",
             "layer1.texture": "Theme - Treble/textures/inputs/input-bg-console-square-border.png"
         },
+        // Text line control Panel control
+        // This rule more general panel control mess with rule not defined
+        // Example: quick switch project got affected
+        // This conflict content_margin, inner_margin, opacity
+        // do not occur if defined in panel control subclasses.
+        // Example: panel_control find_panel
+        // {
+        //     "class": "text_line_control",
+        //     "settings": ["show_input_icon"],
+        //     "parents": [
+        //         {"class": "panel_control"}
+        //     ],
+        //     "content_margin": [
+        //         28,
+        //         10,
+        //         6,
+        //         10
+        //     ],
+        //     "layer2.tint": "var(text-line-control-panel-control-icon)",
+        //     "layer2.opacity": "var(text-line-control-panel-control-icon-opacity)",
+        //     "layer2.inner_margin": [
+        //         28,
+        //         28,
+        //         0,
+        //         0
+        //     ]
+        // },
         // Text line control Panel control Find panel Show input icon setting
         {
             "class": "text_line_control",
@@ -11165,8 +11192,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "var(text-line-panel-control-icon)",
-            "layer2.opacity": 1,
+            "layer2.tint": "var(text-line-control-panel-control-icon)",
+            "layer2.opacity": "var(text-line-control-panel-control-icon-opacity)",
             "layer2.texture": "Theme - Treble/textures/inputs/input-find-replace.png",
             "layer2.inner_margin": [
                 28,
@@ -11188,8 +11215,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "var(text-line-panel-control-icon)",
-            "layer2.opacity": 1,
+            "layer2.tint": "var(text-line-control-panel-control-icon)",
+            "layer2.opacity": "var(text-line-control-panel-control-icon-opacity)",
             "layer2.texture": "Theme - Treble/textures/inputs/input-find-replace.png",
             "layer2.inner_margin": [
                 28,
@@ -11211,8 +11238,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "var(text-line-panel-control-icon)",
-            "layer2.opacity": 1,
+            "layer2.tint": "var(text-line-control-panel-control-icon)",
+            "layer2.opacity": "var(text-line-control-panel-control-icon-opacity)",
             "layer2.texture": "Theme - Treble/textures/inputs/input-find-replace.png",
             "layer2.inner_margin": [
                 28,
@@ -11234,8 +11261,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "var(text-line-panel-control-icon)",
-            "layer2.opacity": 1.0,
+            "layer2.tint": "var(text-line-control-panel-control-icon)",
+            "layer2.opacity": "var(text-line-control-panel-control-icon-opacity)",
             "layer2.texture": "Theme - Treble/textures/inputs/input-console.png",
             "layer2.inner_margin": [
                 33,
@@ -11270,6 +11297,22 @@
                 2
             ]
         },
+        // Text line control Overlay control colors
+        // This rule more general overlay control mess with rule not defined
+        // Example: go to symbol in project got affected
+        // This conflict color and opacity do not occur if defined 
+        // in overlay control subclasses.
+        // Example: overlay_control goto_file
+        // See rules below
+        // {
+        //     "class": "text_line_control",
+        //     "settings": ["show_input_icon"],
+        //     "parents": [
+        //         {"class": "overlay_control"}
+        //     ],
+        //     "layer2.tint": "var(text-line-control-overlay-control-icon)",
+        //     "layer2.opacity": "var(text-line-control-overlay-control-icon-opacity)"
+        // },
         // Text line control Overlay control Goto file Show input icon setting
         // Goto anything panel
         {
@@ -11284,8 +11327,8 @@
                 20,
                 6
             ],
-            "layer2.tint": "var(text-line-overlay-control-icon)",
-            "layer2.opacity": 1,
+            "layer2.tint": "var(text-line-control-overlay-control-icon)",
+            "layer2.opacity": "var(text-line-control-overlay-control-icon-opacity)",
             "layer2.texture": "Theme - Treble/textures/inputs/input-goto-file.png",
             "layer2.inner_margin": [
                 40, 
@@ -11308,8 +11351,8 @@
                 20,
                 6
             ],
-            "layer2.tint": "var(text-line-overlay-control-icon)",
-            "layer2.opacity": 1,
+            "layer2.tint": "var(text-line-control-overlay-control-icon)",
+            "layer2.opacity": "var(text-line-control-overlay-control-icon-opacity)",
             "layer2.texture": "Theme - Treble/textures/inputs/input-command-palette.png",
             "layer2.inner_margin": [
                 36, 

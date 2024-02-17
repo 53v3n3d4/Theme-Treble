@@ -409,19 +409,20 @@
         "panel-control-adaptive-div-border-light":    "color(var(gray2) a(0.27))",
 
         // Panel close button
-        "panel-x-button-normal":                     "var(gray4)",
+        "panel-x-button-dark":                       "var(gray2)",
+        "panel-x-button-light":                      "var(gray4)",
         "panel-x-button-hover-dark":                 "var(white2)",
         "panel-x-button-hover-light":                "var(black2)",
         "panel-square-circle-button-hover-dark":     "color(var(bg-color) l(+ 5%))",
         "panel-square-circle-button-hover-light":    "color(var(bg-color) l(- 9%))",
 
         // Panel close button opacity
-        "panel-x-button-opacity":          { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+        "panel-x-button-opacity":          { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
         "panel-x-button-opacity-hover":    { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
 
         // Panel close button opacity Theme opacity setting
-        "panel-x-button-opacity-medium":    { "target": 0.7, "speed": 4.0, "interpolation": "smoothstep" },
-        "panel-x-button-opacity-low":       { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+        "panel-x-button-opacity-medium":    { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
+        "panel-x-button-opacity-low":       { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
 
         // Status bar
         "status-bar-bg":                                "var(bg-color)",
@@ -497,30 +498,34 @@
         "scroll-bar-control-bg-sidebar-adaptive-contrast-light":    "color(var(bg-color) l(+ 3.7%))",
 
         // Inputs
-        "text-line-control-bg-border-panel-dark":       "color(var(white1) a(0.11))",
-        "text-line-control-bg-border-panel-light":      "color(var(black1) a(0.11))",
-        "text-line-overlay-control-icon":               "var(gray4)",
-        "text-line-panel-control-icon":                 "color(var(gray4) a(0.5)",
-        "dropdown-button-control":                      "var(gray4)",
-        "dropdown-button-control-hover":                "color(var(gray4) l(+ 22%))",
+        "text-line-control-bg-border-panel-dark":          "color(var(white1) a(0.11))",
+        "text-line-control-bg-border-panel-light":         "color(var(black1) a(0.11))",
+        "text-line-control-overlay-control-icon-dark":     "var(gray2)",
+        "text-line-control-overlay-control-icon-light":    "var(gray4)",
+        "text-line-control-panel-control-icon-dark":       "var(gray2)",
+        "text-line-control-panel-control-icon-light":      "var(gray4)",
+        "dropdown-button-control":                         "var(gray4)",
+        "dropdown-button-control-hover":                   "color(var(gray4) l(+ 22%))",
 
         // Inputs opactity
         // Overlay, Go to, Color Scheme, Theme and Quick Switch Project selected accent...
         "text-line-control-bg-border-panel-opacity":        1,
         "text-line-control-border-selected-accent-opacity": { "target": 0.6, "speed": 1.0, "interpolation": "smoothstep" },
+        "text-line-control-overlay-control-icon-opacity":   0.8,
+        "text-line-control-panel-control-icon-opacity":     0.8,
 
         // Inputs Theme opacity setting Medium/Low
         "text-line-control-bg-border-panel-opacity-medium":    0.7,
         "text-line-control-bg-border-panel-opacity-low":       0.4,
 
         // Inputs Adaptive contrast setting
-        "text-line-control-bg-panel-adaptive-contrast-dark":            "color(var(bg-color) l(+ 4.7%))", //""color(var(bg-color) blend(var(white1) 96%))",
-        "text-line-control-bg-panel-adaptive-contrast-light":           "color(var(bg-color) l(- 4.7%))", //""color(var(bg-color) blend(var(black1) 95%))",
-        "text-line-control-bg-border-panel-adaptive-contrast-dark":     "color(var(white1) a(0.11))",
+        "text-line-control-bg-panel-adaptive-contrast-dark":                   "color(var(bg-color) l(+ 4.7%))", //""color(var(bg-color) blend(var(white1) 96%))",
+        "text-line-control-bg-panel-adaptive-contrast-light":                  "color(var(bg-color) l(- 4.7%))", //""color(var(bg-color) blend(var(black1) 95%))",
+        "text-line-control-bg-border-panel-adaptive-contrast-dark":            "color(var(white1) a(0.11))",
         "text-line-control-bg-border-panel-adaptive-contrast-medium-dark":     "color(var(bg-color) blend(var(white1) 86%))",
         "text-line-control-bg-border-panel-adaptive-contrast-medium-light":    "color(var(bg-color) blend(var(black1) 95%))",
-        "text-line-control-bg-border-panel-adaptive-contrast-light":    "color(var(black1) a(0.11))",
-        "text-line-control-bg-switch-proj-window-adaptive-contrast":    "var(bg-color)",
+        "text-line-control-bg-border-panel-adaptive-contrast-light":           "color(var(black1) a(0.11))",
+        "text-line-control-bg-switch-proj-window-adaptive-contrast":           "var(bg-color)",
 
         // Buttons
         "button-control-bg-dark":                   "color(var(bg-color) l(+ 5%))",

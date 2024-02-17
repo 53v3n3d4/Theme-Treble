@@ -13667,8 +13667,23 @@
                 9
             ],
             "layer0.opacity": 0,
-            "layer1.tint": "#5D6C79",
+            "layer1.tint": "#B4B4B4",
             "layer1.texture": "Theme - Treble/textures/panels/panel-x.png"
+        },
+        {
+            "class": "panel_close_button",
+            "settings": [
+                "show_panel_close_button"
+            ],
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer1.tint": "#5D6C79"
         },
         {
             "class": "panel_close_button",
@@ -13676,7 +13691,7 @@
                 "show_panel_close_button": true,
                 "theme_opacity": "high"
             },
-            "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+            "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
         },
         {
             "class": "panel_close_button",
@@ -13684,7 +13699,7 @@
                 "show_panel_close_button": true,
                 "theme_opacity": "medium"
             },
-            "layer1.opacity": {"target":0.7,"speed":4,"interpolation":"smoothstep"}
+            "layer1.opacity": {"target":0.5,"speed":4,"interpolation":"smoothstep"}
         },
         {
             "class": "panel_close_button",
@@ -13692,7 +13707,7 @@
                 "show_panel_close_button": true,
                 "theme_opacity": "low"
             },
-            "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+            "layer1.opacity": {"target":0.3,"speed":4,"interpolation":"smoothstep"}
         },
         {
             "class": "panel_close_button",
@@ -15037,8 +15052,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "color(#5D6C79 a(0.5)",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-find-replace.png",
             "layer2.inner_margin": [
                 28,
@@ -15046,6 +15061,24 @@
                 0,
                 0
             ]
+        },
+        {
+            "class": "text_line_control",
+            "settings": [
+                "show_input_icon"
+            ],
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                },
+                {
+                    "class": "panel_control find_panel"
+                }
+            ],
+            "layer2.tint": "#5D6C79"
         },
         {
             "class": "text_line_control",
@@ -15063,8 +15096,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "color(#5D6C79 a(0.5)",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-find-replace.png",
             "layer2.inner_margin": [
                 28,
@@ -15072,6 +15105,24 @@
                 0,
                 0
             ]
+        },
+        {
+            "class": "text_line_control",
+            "settings": [
+                "show_input_icon"
+            ],
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                },
+                {
+                    "class": "panel_control replace_panel"
+                }
+            ],
+            "layer2.tint": "#5D6C79"
         },
         {
             "class": "text_line_control",
@@ -15089,8 +15140,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "color(#5D6C79 a(0.5)",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-find-replace.png",
             "layer2.inner_margin": [
                 28,
@@ -15098,6 +15149,24 @@
                 0,
                 0
             ]
+        },
+        {
+            "class": "text_line_control",
+            "settings": [
+                "show_input_icon"
+            ],
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                },
+                {
+                    "class": "panel_control find_in_files_panel"
+                }
+            ],
+            "layer2.tint": "#5D6C79"
         },
         {
             "class": "text_line_control",
@@ -15115,8 +15184,8 @@
                 6,
                 10
             ],
-            "layer2.tint": "color(#5D6C79 a(0.5)",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-console.png",
             "layer2.inner_margin": [
                 33,
@@ -15124,6 +15193,24 @@
                 0,
                 0
             ]
+        },
+        {
+            "class": "text_line_control",
+            "settings": [
+                "show_input_icon"
+            ],
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                },
+                {
+                    "class": "panel_control console_panel"
+                }
+            ],
+            "layer2.tint": "#5D6C79"
         },
         {
             "class": "text_line_control",
@@ -15165,8 +15252,8 @@
                 20,
                 6
             ],
-            "layer2.tint": "#5D6C79",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-goto-file.png",
             "layer2.inner_margin": [
                 40,
@@ -15174,6 +15261,24 @@
                 0,
                 0
             ]
+        },
+        {
+            "class": "text_line_control",
+            "settings": [
+                "show_input_icon"
+            ],
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                },
+                {
+                    "class": "overlay_control goto_file"
+                }
+            ],
+            "layer2.tint": "#5D6C79"
         },
         {
             "class": "text_line_control",
@@ -15191,8 +15296,8 @@
                 20,
                 6
             ],
-            "layer2.tint": "#5D6C79",
-            "layer2.opacity": 1,
+            "layer2.tint": "#B4B4B4",
+            "layer2.opacity": 0.8,
             "layer2.texture": "Theme - Treble/textures/inputs/input-command-palette.png",
             "layer2.inner_margin": [
                 36,
@@ -15200,6 +15305,24 @@
                 0,
                 0
             ]
+        },
+        {
+            "class": "text_line_control",
+            "settings": [
+                "show_input_icon"
+            ],
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                },
+                {
+                    "class": "overlay_control command_palette"
+                }
+            ],
+            "layer2.tint": "#5D6C79"
         },
         {
             "class": "text_line_control",
