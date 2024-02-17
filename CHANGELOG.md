@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2.6] - 2024
+## [0.2.6] - 2024-02-16
 - Fix border icon button group and text line control, settings button background transparent and show grouping true
 - Change button control hover, setting button background transparent setting
 - Add border text line control, setting theme opacity
