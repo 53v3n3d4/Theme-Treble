@@ -12852,6 +12852,27 @@
             ],
             "layer0.tint": "var(button-control-bg-low-light)"
         },
+        // Button control Quick switch project
+        {
+            "class": "button_control",
+            "parents": [
+                {"class": "switch_project_window"}
+            ],
+            "layer0.tint": "var(button-control-bg-dark)",
+            "layer1.opacity": 0
+        },
+        {
+            "class": "button_control",
+            "parents": [
+                {
+                    "class": "switch_project_window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(button-control-bg-light)"
+        },
         // Button control Icon button size setting
         {
             "class": "button_control",
@@ -13104,8 +13125,7 @@
                 64,
                 22
             ],
-            "layer0.tint": "var(button-control-dialog-bg-light)",
-            "layer1.opacity": 0
+            "layer0.tint": "var(button-control-dialog-bg-light)"
         },
         // Button control hover Dialog
         // not working

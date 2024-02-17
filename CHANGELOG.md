@@ -1,14 +1,17 @@
 # Changelog
 
 ## [0.2.6] - 2024
-- Fix border icon button group and text line control, settings show button transparent and show grouping true
-- Change button control hover, setting button background setting
+- Fix border icon button group and text line control, settings button background transparent and show grouping true
+- Change button control hover, setting button background transparent setting
 - Add border text line control, setting theme opacity
+- Change tab style setting default, re -> mi
 
 ### Adaptive
 - Change puck control, scroll bar control and scroll track control color, white/black -> background
 - Change button control dialog color, gray -> background
 - Change button control bg color, white/black -> background
+- Add rules for button control quick switch color
+- Change panel close button color, white/black -> background
 
 ## [0.2.5] - 2024-02-11
 - Change puck control !dark color to lighter tone

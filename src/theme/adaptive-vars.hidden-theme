@@ -412,8 +412,8 @@
         "panel-x-button-normal":                     "var(gray4)",
         "panel-x-button-hover-dark":                 "var(white2)",
         "panel-x-button-hover-light":                "var(black2)",
-        "panel-square-circle-button-hover-dark":     "color(var(white1) a(15%))",
-        "panel-square-circle-button-hover-light":    "color(var(black1) a(10%))",
+        "panel-square-circle-button-hover-dark":     "color(var(bg-color) l(+ 5%))",
+        "panel-square-circle-button-hover-light":    "color(var(bg-color) l(- 9%))",
 
         // Panel close button opacity
         "panel-x-button-opacity":          { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
