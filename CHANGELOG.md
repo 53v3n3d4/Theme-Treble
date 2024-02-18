@@ -9,9 +9,11 @@
 
 ### Dark
 - Change text line control panel control color to dark tone
+- Change button control color tone
 
 ### Light
 - Change text line control panel control color to dark tone
+- Change button control color tone
 
 ## [0.2.6] - 2024-02-16
 - Fix border icon button group and text line control, settings button background transparent and show grouping true

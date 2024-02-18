@@ -368,7 +368,7 @@
         // Panel close button
         "panel-x-button-normal":               "var(gray2)",
         "panel-x-button-hover":                "var(white2)",
-        "panel-square-circle-button-hover":    "color(var(white1) a(15%))",
+        "panel-square-circle-button-hover":    "color(var(white1) a(0.12))",
 
         // Panel close button opacity
         "panel-x-button-opacity":          { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
@@ -456,7 +456,7 @@
         "button-control-bg":                  "color(var(white1) a(0.05))",
         "button-control-bg-hover":            "color(var(white1) a(0.12))",
         "button-control-bg-pressed":          "color(var(white1) a(0.15))",
-        "button-control-dialog-bg":           "color(var(gray4) a(0.3))",
+        "button-control-dialog-bg":           "color(var(white1) a(0.06))",
         "icon-button-control-bg":             "color(var(white1) a(0.05))",
         // Button group and transparent setting true using button-control-bg-border-button-bg-transparent
         "icon-button-control-bg-border":      "color(var(white1) a(0.02))",
