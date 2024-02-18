@@ -4214,8 +4214,23 @@
     9
    ],
    "layer0.opacity": 0,
-   "layer1.tint": "#5D6C79",
+   "layer1.tint": "#B4B4B4",
    "layer1.texture": "Theme - Treble/textures/tabs/tab-x.png"
+  },
+  {
+   "class": "tab_close_button",
+   "settings": [
+    "show_tab_close_buttons"
+   ],
+   "parents": [
+    {
+     "class": "tab_control",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#5D6C79"
   },
   {
    "class": "tab_close_button",
@@ -5165,6 +5180,25 @@
      "digital"
     ]
    },
+   "layer2.tint": "#B4B4B4"
+  },
+  {
+   "class": "scroll_tabs_left_button",
+   "settings": {
+    "adaptive_theme_style": [
+     "mix",
+     "analog",
+     "digital"
+    ]
+   },
+   "parents": [
+    {
+     "class": "edit_window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
    "layer2.tint": "#5D6C79"
   },
   {
@@ -5302,6 +5336,25 @@
      "digital"
     ]
    },
+   "layer2.tint": "#B4B4B4"
+  },
+  {
+   "class": "scroll_tabs_right_button",
+   "settings": {
+    "adaptive_theme_style": [
+     "mix",
+     "analog",
+     "digital"
+    ]
+   },
+   "parents": [
+    {
+     "class": "edit_window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
    "layer2.tint": "#5D6C79"
   },
   {
@@ -5443,6 +5496,25 @@
      "digital"
     ]
    },
+   "layer2.tint": "#B4B4B4"
+  },
+  {
+   "class": "new_tab_button",
+   "settings": {
+    "adaptive_theme_style": [
+     "mix",
+     "analog",
+     "digital"
+    ]
+   },
+   "parents": [
+    {
+     "class": "edit_window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
    "layer2.tint": "#5D6C79"
   },
   {
@@ -5579,6 +5651,25 @@
      "digital"
     ]
    },
+   "layer2.tint": "#B4B4B4"
+  },
+  {
+   "class": "show_tabs_dropdown_button",
+   "settings": {
+    "adaptive_theme_style": [
+     "mix",
+     "analog",
+     "digital"
+    ]
+   },
+   "parents": [
+    {
+     "class": "edit_window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
    "layer2.tint": "#5D6C79"
   },
   {

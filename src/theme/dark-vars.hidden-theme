@@ -174,7 +174,8 @@
         "tab-icon-normal-opacity-low":       0.40,
 
         // Tab close button
-        "tab-x-button-normal":                     "var(gray4)",
+        "tab-x-button-normal-dark":                "var(gray2)",
+        "tab-x-button-normal-light":               "var(gray4)",
         "tab-x-button-hover-dark":                 "var(white2)",
         "tab-x-button-hover-light":                "var(black2)",
         "tab-square-circle-button-hover-dark":     "color(var(white1) a(15%))",
@@ -193,10 +194,12 @@
         "tab-dirty-button-opacity-low":       { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
 
         // Tab chevron, plus and dropdown icon
-        "tab-chevron-icon":                "var(gray4)",
+        "tab-chevron-icon-dark":           "var(gray2)",
+        "tab-chevron-icon-light":          "var(gray4)",
         "tab-chevron-icon-hover-dark":     "var(white2)",
         "tab-chevron-icon-hover-light":    "var(black2)",
-        "tab-plus-icon":                   "var(gray4)",
+        "tab-plus-icon-dark":              "var(gray2)",
+        "tab-plus-icon-light":             "var(gray4)",
         "tab-plus-icon-hover-dark":        "var(white2)",
         "tab-plus-icon-hover-light":       "var(black2)",
 
