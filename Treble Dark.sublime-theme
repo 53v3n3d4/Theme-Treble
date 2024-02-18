@@ -11445,21 +11445,21 @@
    "settings": {
     "theme_opacity": "high"
    },
-   "fg": "color(#5D6C79 a(0.7))"
+   "fg": "color(#B4B4B4 a(0.5))"
   },
   {
    "class": "quick_panel_path_label",
    "settings": {
     "theme_opacity": "medium"
    },
-   "fg": "color(#5D6C79 a(0.4))"
+   "fg": "color(#B4B4B4 a(0.3))"
   },
   {
    "class": "quick_panel_path_label",
    "settings": {
     "theme_opacity": "low"
    },
-   "fg": "color(#5D6C79 a(0.33))"
+   "fg": "color(#B4B4B4 a(0.2))"
   },
   {
    "class": "quick_panel_path_label",
@@ -11495,21 +11495,21 @@
    "settings": {
     "theme_opacity": "high"
    },
-   "fg": "color(#5D6C79 a(0.7))"
+   "fg": "color(#B4B4B4 a(0.5))"
   },
   {
    "class": "quick_panel_label key_binding",
    "settings": {
     "theme_opacity": "medium"
    },
-   "fg": "color(#5D6C79 a(0.4))"
+   "fg": "color(#B4B4B4 a(0.3))"
   },
   {
    "class": "quick_panel_label key_binding",
    "settings": {
     "theme_opacity": "low"
    },
-   "fg": "color(#5D6C79 a(0.33))"
+   "fg": "color(#B4B4B4 a(0.2))"
   },
   {
    "class": "quick_panel_label key_binding",
@@ -11542,21 +11542,21 @@
    "settings": {
     "theme_opacity": "high"
    },
-   "fg": "color(#5D6C79 a(0.7))"
+   "fg": "color(#B4B4B4 a(0.5))"
   },
   {
    "class": "quick_panel_label hint",
    "settings": {
     "theme_opacity": "medium"
    },
-   "fg": "color(#5D6C79 a(0.4))"
+   "fg": "color(#B4B4B4 a(0.3))"
   },
   {
    "class": "quick_panel_label hint",
    "settings": {
     "theme_opacity": "low"
    },
-   "fg": "color(#5D6C79 a(0.33))"
+   "fg": "color(#B4B4B4 a(0.2))"
   },
   {
    "class": "quick_panel_label hint",
@@ -12234,7 +12234,7 @@
    "class": "auto_complete_hint",
    "font.italic": false,
    "font.size": "1.0rem",
-   "color": "color(#5D6C79 a(0.7))"
+   "color": "color(#B4B4B4 a(0.5))"
   },
   {
    "class": "auto_complete_hint",
@@ -12246,7 +12246,7 @@
      ]
     }
    ],
-   "color": "color(#5D6C79 a(0.5))"
+   "color": "color(#5D6C79 a(0.6))"
   },
   {
    "class": "auto_complete_hint",
