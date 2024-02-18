@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2.7] - 2024
+## [0.2.7] - 2024-02-18
 - Change opacity panel close button
 - Change tab close button, new tab button, scroll tabs left button, scroll tabs right button and scroll tabs dropdown button color, gray -> white/black 
 - Change quick panel label color tone: path label, key binding and hint
