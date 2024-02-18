@@ -5,6 +5,8 @@
 - Change tab close button, new tab button, scroll tabs left button, scroll tabs right button and scroll tabs dropdown button color, gray -> white/black 
 - Change quick panel label color tone: path label, key binding and hint
 - Change auto complete hint color tone
+- Change title bar fg to lighter tone
+- Fix color label control dialog not using var
 
 ### Adaptive
 - Add panel close button file light

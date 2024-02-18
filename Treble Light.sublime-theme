@@ -17,7 +17,7 @@
     "themed_title_bar": true,
     "theme_opacity": "high"
    },
-   "fg": "color(var(--background) blend(black 44%))",
+   "fg": "#5D6C79",
    "style": "system"
   },
   {
@@ -26,7 +26,7 @@
     "themed_title_bar": true,
     "theme_opacity": "medium"
    },
-   "fg": "color(var(--background) blend(#000000 60%))",
+   "fg": "color(#5D6C79 l(+ 16%))",
    "style": "system"
   },
   {
@@ -35,7 +35,7 @@
     "themed_title_bar": true,
     "theme_opacity": "low"
    },
-   "fg": "color(var(--background) blend(#000000 77%))",
+   "fg": "color(#5D6C79 l(+ 22%))",
    "style": "system"
   },
   {
@@ -17891,7 +17891,7 @@
      "class": "dialog"
     }
    ],
-   "color": "#5D6C79"
+   "color": "color(#000000 a(0.6))"
   },
   {
    "class": "label_control",

@@ -14604,7 +14604,7 @@
         {
             "class": "label_control",
             "parents": [{"class": "dialog"}],
-            "color": "var(gray4)"
+            "color": "var(label-control-fg)"
         },
         // Label control Theme opacity setting
         {

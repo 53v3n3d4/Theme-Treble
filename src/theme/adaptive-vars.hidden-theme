@@ -28,16 +28,16 @@
         // Title bar
         "title-bar-bg":         "var(bg-color)",
         // "title-bar-fg-dark":    "color(var(bg-color) blend(white 44%))",
-        "title-bar-fg-dark":    "color(var(gray3) a(0.9))", // fix Update windows not work file_light
-        "title-bar-fg-light":   "color(var(bg-color) blend(black 44%))",
+        "title-bar-fg-dark":     "var(gray2)", // fix Update windows not work file_light
+        "title-bar-fg-light":    "var(gray4)",
 
         // Title bar Theme opacity setting
         // "title-bar-fg-medium-dark":     "color(var(bg-color) blend(var(white1) 67%))",
-        "title-bar-fg-medium-dark":     "color(var(gray4) a(0.5))", // fix Update windows not work file_light
-        "title-bar-fg-medium-light":    "color(var(bg-color) blend(var(black1) 60%))",
+        "title-bar-fg-medium-dark":     "color(var(gray2) l(- 22%))", // fix Update windows not work file_light
+        "title-bar-fg-medium-light":    "color(var(gray4) l(+ 16%))",
         // "title-bar-fg-low-dark":        "color(var(bg-color) blend(var(white1) 87%))",
-        "title-bar-fg-low-dark":        "color(var(black4) a(0.5))", // fix Update windows not work file_light
-        "title-bar-fg-low-light":       "color(var(bg-color) blend(var(black1) 77%))",
+        "title-bar-fg-low-dark":        "color(var(gray2) l(- 33%))", // fix Update windows not work file_light
+        "title-bar-fg-low-light":       "color(var(gray4) l(+ 22%))",
 
         // Title bar Adaptive contrast setting
         "title-bar-bg-adaptive-contrast-dark":     "color(var(bg-color) l(+ 6.7%))", //"color(var(bg-color) blend(var(white1) 96%))",

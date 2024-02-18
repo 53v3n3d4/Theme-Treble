@@ -16713,7 +16713,7 @@
         {
             "class": "label_control",
             "parents": [{"class": "dialog"}],
-            "color": "var(gray4)"
+            "color": "var(label-control-fg-dark)"
         },
         {
             "class": "label_control",

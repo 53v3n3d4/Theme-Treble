@@ -42,7 +42,7 @@
     "themed_title_bar": true,
     "theme_opacity": "high"
    },
-   "fg": "color(#9B9B9B a(0.9))",
+   "fg": "#B4B4B4",
    "style": "system"
   },
   {
@@ -51,7 +51,7 @@
     "themed_title_bar": true,
     "theme_opacity": "medium"
    },
-   "fg": "color(#5D6C79 a(0.5))",
+   "fg": "color(#B4B4B4 l(- 22%))",
    "style": "system"
   },
   {
@@ -60,7 +60,7 @@
     "themed_title_bar": true,
     "theme_opacity": "low"
    },
-   "fg": "color(#404040 a(0.5))",
+   "fg": "color(#B4B4B4 l(- 33%))",
    "style": "system"
   },
   {
@@ -72,7 +72,7 @@
    "attributes": [
     "file_dark"
    ],
-   "fg": "color(#9B9B9B a(0.9))",
+   "fg": "#B4B4B4",
    "style": "dark"
   },
   {
@@ -84,7 +84,7 @@
    "attributes": [
     "file_dark"
    ],
-   "fg": "color(#5D6C79 a(0.5))",
+   "fg": "color(#B4B4B4 l(- 22%))",
    "style": "dark"
   },
   {
@@ -96,7 +96,7 @@
    "attributes": [
     "file_dark"
    ],
-   "fg": "color(#404040 a(0.5))",
+   "fg": "color(#B4B4B4 l(- 33%))",
    "style": "dark"
   },
   {
@@ -108,7 +108,7 @@
    "attributes": [
     "file_light"
    ],
-   "fg": "color(var(--background) blend(black 44%))",
+   "fg": "#5D6C79",
    "style": "light"
   },
   {
@@ -120,7 +120,7 @@
    "attributes": [
     "file_light"
    ],
-   "fg": "color(var(--background) blend(#000000 60%))",
+   "fg": "color(#5D6C79 l(+ 16%))",
    "style": "light"
   },
   {
@@ -132,7 +132,7 @@
    "attributes": [
     "file_light"
    ],
-   "fg": "color(var(--background) blend(#000000 77%))",
+   "fg": "color(#5D6C79 l(+ 22%))",
    "style": "light"
   },
   {
@@ -20682,7 +20682,7 @@
      "class": "dialog"
     }
    ],
-   "color": "#5D6C79"
+   "color": "color(#FFFFFF a(0.6))"
   },
   {
    "class": "label_control",
