@@ -4033,8 +4033,22 @@
             ],
             "content_margin": [ 8, 9],
             "layer0.opacity": 0,
-            "layer1.tint": "var(tab-x-button-normal)",
+            "layer1.tint": "var(tab-x-button-normal-dark)",
             "layer1.texture": "Theme - Treble/textures/tabs/tab-x.png"
+        },
+        // Tab close button color file_light
+        {
+            "class": "tab_close_button",
+            "settings": [
+                "show_tab_close_buttons"
+            ],
+            "parents": [
+                {
+                    "class": "tab_control",
+                    "attributes": ["file_light"]
+                }
+            ],
+            "layer1.tint": "var(tab-x-button-normal-light)"
         },
         // Tab close button tab selected Tab style Mi and Fa Accent color Blue
         {
@@ -4654,7 +4668,22 @@
             "settings": {
                 "adaptive_theme_style": ["mix", "analog", "digital"]
             },
-            "layer2.tint": "var(tab-chevron-icon)"
+            "layer2.tint": "var(tab-chevron-icon-dark)"
+        },
+        {
+            "class": "scroll_tabs_left_button",
+            "settings": {
+                "adaptive_theme_style": ["mix", "analog", "digital"]
+            },
+            "parents": [
+                {
+                    "class": "edit_window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer2.tint": "var(tab-chevron-icon-light)"
         },
         // Scroll tabs left button hover and hover/file_light - Mix, Analog and Digital
         {
@@ -4806,7 +4835,22 @@
             "settings": {
                 "adaptive_theme_style": ["mix", "analog", "digital"]
             },
-            "layer2.tint": "var(tab-chevron-icon)"
+            "layer2.tint": "var(tab-chevron-icon-dark)"
+        },
+        {
+            "class": "scroll_tabs_right_button",
+            "settings": {
+                "adaptive_theme_style": ["mix", "analog", "digital"]
+            },
+            "parents": [
+                {
+                    "class": "edit_window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer2.tint": "var(tab-chevron-icon-light)"
         },
         // Show tabs right button hover and hover/file_light - Mix, Analog and Digital
         {
@@ -4957,7 +5001,22 @@
             "settings": {
                 "adaptive_theme_style": ["mix", "analog", "digital"]
             },
-            "layer2.tint": "var(tab-plus-icon)"
+            "layer2.tint": "var(tab-plus-icon-dark)"
+        },
+        {
+            "class": "new_tab_button",
+            "settings": {
+                "adaptive_theme_style": ["mix", "analog", "digital"]
+            },
+            "parents": [
+                {
+                    "class": "edit_window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer2.tint": "var(tab-plus-icon-light)"
         },
         // New tab button hover and hover/file_light - Mix, Analog and Digital
         {
@@ -5108,7 +5167,22 @@
             "settings": {
                 "adaptive_theme_style": ["mix", "analog", "digital"]
             },
-            "layer2.tint": "var(tab-chevron-icon)"
+            "layer2.tint": "var(tab-chevron-icon-dark)"
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": {
+                "adaptive_theme_style": ["mix", "analog", "digital"]
+            },
+            "parents": [
+                {
+                    "class": "edit_window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer2.tint": "var(tab-chevron-icon-light)"
         },
         // Show tabs dropdown button hover and hover/file_light - Mix, Analog and Digital
         {

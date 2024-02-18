@@ -6,6 +6,7 @@
 ### Adaptive
 - Add panel close button file light
 - Change text line control panel control and overlay control color tone
+- Change tab close button, new tab button, scroll tabs left button, scroll tabs right button and scroll tabs dropdown button color, gray -> white/black 
 
 ### Dark
 - Change text line control panel control color to dark tone
