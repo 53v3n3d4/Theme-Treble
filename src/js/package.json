@@ -27,12 +27,12 @@
     "url": "https://github.com/53v3n3d4/Treble-Theme/issues"
   },
   "homepage": "https://github.com/53v3n3d4/Treble-Theme/",
-  "dependencies": {
-    "sublime-builder": "https://github.com/53v3n3d4/sublime-builder.git#commit=25fef4770639b83b9eb59639933bb98ab70987d9"
-  },
   "packageManager": "yarn@4.1.0",
+  "dependencies": {
+    "sublime-builder": "https://github.com/53v3n3d4/sublime-builder.git#commit=14891590919d41ec717dc97b550d2614f152b60d"
+  },
   "devDependencies": {
-    "@swc/core": "^1.4.0",
+    "@swc/core": "^1.4.1",
     "@swc/jest": "^0.2.36",
     "eslint": "^8.56.0",
     "eslint-config-standard": "^17.1.0",
