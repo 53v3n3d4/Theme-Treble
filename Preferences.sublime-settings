@@ -122,7 +122,7 @@
     // painted with accent_color. And tabset bar will be 
     // transparent. But unselected tab buttons will have a 
     // background color.
-    "tab_style": "re",
+    "tab_style": "mi",
 
     // Show highlight color for added and deleted file.
     "show_add_delete_color": true,
