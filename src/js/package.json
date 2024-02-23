@@ -29,10 +29,10 @@
   "homepage": "https://github.com/53v3n3d4/Treble-Theme/",
   "packageManager": "yarn@4.1.0",
   "dependencies": {
-    "sublime-builder": "https://github.com/53v3n3d4/sublime-builder.git#commit=14891590919d41ec717dc97b550d2614f152b60d"
+    "sublime-builder": "https://github.com/53v3n3d4/sublime-builder.git#commit=2e18bd256574740c7c54c703241a17ee4143eaea"
   },
   "devDependencies": {
-    "@swc/core": "^1.4.1",
+    "@swc/core": "^1.4.2",
     "@swc/jest": "^0.2.36",
     "eslint": "^8.56.0",
     "eslint-config-standard": "^17.1.0",

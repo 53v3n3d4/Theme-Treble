@@ -21,7 +21,7 @@ export function sublimeFile (name) {
         adaptiveData.filename
         // null,
         // null,
-        // adaptiveData.tabSpaces
+        // adaptiveData.tabSpace
       )
       break
     case 'adaptive-replace':
@@ -34,7 +34,7 @@ export function sublimeFile (name) {
         adaptiveData.filename,
         null,
         adaptiveData.rules,
-        adaptiveData.tabSpaces
+        adaptiveData.tabSpace
       )
       break
     case 'dark-merge':
@@ -47,7 +47,7 @@ export function sublimeFile (name) {
         darkData.filename
         // null,
         // null,
-        // darkData.tabSpaces
+        // darkData.tabSpace
       )
       break
     case 'dark-replace':
@@ -60,7 +60,7 @@ export function sublimeFile (name) {
         darkData.filename,
         null,
         darkData.rules,
-        darkData.tabSpaces
+        darkData.tabSpace
       )
       break
     case 'light-merge':
@@ -73,7 +73,7 @@ export function sublimeFile (name) {
         lightData.filename
         // null,
         // null,
-        // lightData.tabSpaces
+        // lightData.tabSpace
       )
       break
     case 'light-replace':
@@ -86,7 +86,7 @@ export function sublimeFile (name) {
         lightData.filename,
         null,
         lightData.rules,
-        lightData.tabSpaces
+        lightData.tabSpace
       )
       break
     default:

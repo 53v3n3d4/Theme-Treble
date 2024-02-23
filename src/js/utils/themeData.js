@@ -53,7 +53,7 @@ export const adaptiveData = {
     pathFile(adaptiveVars, themeDir),
     pathFile(colorsTheme, themeDir)
   ],
-  tabSpaces: 1
+  tabSpace: 1
 }
 
 export const darkData = {
@@ -72,7 +72,7 @@ export const darkData = {
     pathFile(darkVars, themeDir),
     pathFile(colorsTheme, themeDir)
   ],
-  tabSpaces: 1
+  tabSpace: 1
 }
 
 export const lightData = {
@@ -91,5 +91,5 @@ export const lightData = {
     pathFile(lightVars, themeDir),
     pathFile(colorsTheme, themeDir)
   ],
-  tabSpaces: 1
+  tabSpace: 1
 }
