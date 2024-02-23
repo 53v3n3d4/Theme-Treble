@@ -19,48 +19,48 @@ $ node -e 'import("./index.js").then(b => b.sublimeFile("adaptive-replace"));'
 
 Option to build files using merge files or replace variables.  
 For releases, using replace variables.
-<table class="tg">
+<table>
 <thead>
   <tr>
-    <th class="tg-0lax">Name</th>
-    <th class="tg-0lax">Kind</th>
-    <th class="tg-0lax">sublimeFile name</th>
-    <th class="tg-0lax">Script</th>
+    <th>Name</th>
+    <th>Kind</th>
+    <th>sublimeFile name</th>
+    <th>Script</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax" rowspan="2">Adaptive</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">adaptive-merge</td>
-    <td class="tg-0lax">build-adaptive-merge</td>
+    <td rowspan="2">Adaptive</td>
+    <td>merge</td>
+    <td>adaptive-merge</td>
+    <td>build-adaptive-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">adaptive-replace</td>
-    <td class="tg-0lax">build-adaptive-replace</td>
+    <td>replace</td>
+    <td>adaptive-replace</td>
+    <td>build-adaptive-replace</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2">Dark</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">dark-merge</td>
-    <td class="tg-0lax">build-dark-merge</td>
+    <td rowspan="2">Dark</td>
+    <td>merge</td>
+    <td>dark-merge</td>
+    <td>build-dark-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">dark-replace</td>
-    <td class="tg-0lax">build-dark-replace</td>
+    <td>replace</td>
+    <td>dark-replace</td>
+    <td>build-dark-replace</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2">Light</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">light-merge</td>
-    <td class="tg-0lax">build-light-merge</td>
+    <td rowspan="2">Light</td>
+    <td>merge</td>
+    <td>light-merge</td>
+    <td>build-light-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">light-replace</td>
-    <td class="tg-0lax">build-light-replace</td>
+    <td>replace</td>
+    <td>light-replace</td>
+    <td>build-light-replace</td>
   </tr>
 </tbody>
 </table>
