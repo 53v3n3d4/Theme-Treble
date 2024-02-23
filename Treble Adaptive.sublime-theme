@@ -3719,7 +3719,7 @@
      "mi"
     ]
    },
-   "layer3.tint": "#5D6C79"
+   "layer3.tint": "#B4B4B4"
   },
   {
    "class": "tab_control",
@@ -3737,7 +3737,7 @@
      ]
     }
    ],
-   "layer3.tint": "#B4B4B4"
+   "layer3.tint": "#5D6C79"
   },
   {
    "class": "tab_control",
@@ -4181,7 +4181,7 @@
    "attributes": [
     "dirty"
    ],
-   "layer2.tint": "#5D6C79"
+   "layer2.tint": "#B4B4B4"
   },
   {
    "class": "tab_control",
@@ -4192,7 +4192,7 @@
     "file_light",
     "dirty"
    ],
-   "layer2.tint": "#B4B4B4"
+   "layer2.tint": "#9B9B9B"
   },
   {
    "class": "tab_control",

@@ -145,10 +145,10 @@
         "tab-selected-dark":                    "color(var(bg-color) blend(white 90%))", //"color(var(white1) a(0.1))",
         "tab-selected-light":                   "color(var(bg-color) blend(black 90%))", //"color(var(black1) a(0.07))",
         "tab-selected-transparent":             "transparent",
-        "tab-modified-dirty-dark":              "var(gray4)",
-        "tab-modified-dirty-light":             "var(gray2)",
-        "tab-divider-dark":                     "var(gray4)",
-        "tab-divider-light":                    "var(gray2)",
+        "tab-modified-dirty-dark":              "var(gray2)",
+        "tab-modified-dirty-light":             "var(gray3)",
+        "tab-divider-dark":                     "var(gray2)",
+        "tab-divider-light":                    "var(gray4)",
         "tab-modified-added":                   "var(green2)", // green2 to diff from accent color green
         "tab-modified-deleted":                 "var(vcs-deleted)",
 
