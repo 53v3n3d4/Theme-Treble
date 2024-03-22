@@ -642,17 +642,20 @@
         "tool-tip-label-control-fg":     "var(gray3)",
 
         // Checkbox
-        "checkbox-box-control-bg-border":    "var(gray4)",
-        "checkbox-box-control-check":        "var(bg-color)", //"var(white1)",
+        "checkbox-box-control-bg-border-dark":     "var(gray2)",
+        "checkbox-box-control-bg-border-light":    "var(gray4)",
+        "checkbox-box-control-check":              "var(bg-color)", //"var(white1)",
 
         // Checkbox opacity
         "checkbox-bg-opacity-disabled":      0.2,
         "checkbox-icon-opacity-disabled":    0.4,
 
         // Radio button
-        "radio-button-list-control-bg":           "var(gray4)",
-        "radio-button-list-control-bg-border":    "var(gray4)",
-        "radio-button-list-control-on":           "var(bg-color)", //"var(white1)",
+        "radio-button-list-control-bg-dark":            "var(gray2)",
+        "radio-button-list-control-bg-light":           "var(gray4)",
+        "radio-button-list-control-bg-border-dark":     "var(gray2)",
+        "radio-button-list-control-bg-border-light":    "var(gray4)",
+        "radio-button-list-control-on":                 "var(bg-color)", //"var(white1)",
 
         // Radio button opacity
         "radio-button-opacity-hover":    0.7

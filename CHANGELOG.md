@@ -4,6 +4,12 @@
 - Change tab control st setting highlight modified tabs colors tones
 - Change tab control dividers colors tones
 
+### 🔆🌙 Adaptive
+- Change checkbox and radio button background/border color
+
+### 🌙 Dark
+- Change checkbox and radio button background/border color
+
 ## [0.2.7] - 2024-02-18
 - Change opacity panel close button
 - Change tab close button, new tab button, scroll tabs left button, scroll tabs right button and scroll tabs dropdown button color, gray -> white/black 
@@ -12,15 +18,15 @@
 - Change title bar fg to lighter tone
 - Fix color label control dialog not using var
 
-### Adaptive
+### 🔆🌙 Adaptive
 - Add panel close button file light
 - Change text line control panel control and overlay control color tone
 
-### Dark
+### 🌙 Dark
 - Change text line control panel control color to dark tone
 - Change button control color tone
 
-### Light
+### 🔆 Light
 - Change text line control panel control color to dark tone
 - Change button control color tone
 
@@ -30,7 +36,7 @@
 - Add border text line control, setting theme opacity
 - Change tab style setting default, re -> mi
 
-### Adaptive
+### 🔆🌙 Adaptive
 - Change puck control, scroll bar control and scroll track control color, white/black -> background
 - Change button control dialog color, gray -> background
 - Change button control bg color, white/black -> background
@@ -43,7 +49,7 @@
 - Change kind container colors orange and yellow to different tones
 - Change minimap viewport color
 
-### Light
+### 🔆 Light
 - Change background text area control to lighter tone
 
 ## [0.2.4] - 2023-02-17

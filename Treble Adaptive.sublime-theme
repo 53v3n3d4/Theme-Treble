@@ -21004,10 +21004,25 @@
     0
    ],
    "layer0.opacity": 0,
-   "layer1.tint": "#5D6C79",
    "layer1.opacity": 1,
    "layer2.tint": "var(--background)",
    "layer2.opacity": 0
+  },
+  {
+   "class": "checkbox_box_control",
+   "layer1.tint": "#B4B4B4"
+  },
+  {
+   "class": "checkbox_box_control",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#5D6C79"
   },
   {
    "class": "checkbox_box_control",
@@ -21214,15 +21229,45 @@
     0,
     0
    ],
-   "layer0.tint": "#5D6C79",
    "layer0.opacity": 0,
    "layer0.texture": "Theme - Treble/textures/checkbox/radio-button-bg.png",
-   "layer1.tint": "#5D6C79",
    "layer1.opacity": 1,
    "layer1.texture": "Theme - Treble/textures/checkbox/radio-button-bg-border.png",
    "layer2.tint": "var(--background)",
    "layer2.opacity": 0,
    "layer2.texture": "Theme - Treble/textures/checkbox/radio-button-on.png"
+  },
+  {
+   "class": "checkbox_box_control",
+   "parents": [
+    {
+     "class": "radio_button_list_control"
+    },
+    {
+     "class": "checkbox_control"
+    }
+   ],
+   "layer0.tint": "#B4B4B4",
+   "layer1.tint": "#B4B4B4"
+  },
+  {
+   "class": "checkbox_box_control",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    },
+    {
+     "class": "radio_button_list_control"
+    },
+    {
+     "class": "checkbox_control"
+    }
+   ],
+   "layer0.tint": "#5D6C79",
+   "layer1.tint": "#5D6C79"
   },
   {
    "class": "checkbox_box_control",
