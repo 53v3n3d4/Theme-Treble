@@ -11673,6 +11673,10 @@
    "background_modifier": "l(- 4%)"
   },
   {
+   "class": "text_area_control",
+   "deleted_line_texture": "Theme - Treble/textures/views/deleted-line-indicator.png"
+  },
+  {
    "class": "grid_layout_control",
    "border_color": "color(var(--background) l(+ 11%))",
    "border_size": 1

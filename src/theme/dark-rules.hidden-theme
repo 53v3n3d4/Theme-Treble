@@ -9229,7 +9229,12 @@
             "parents": [{"class": "dialog"}],
             "background_modifier": "var(text-area-dialog-modifier)"
         },
-         /** Grid layout control */
+        /** Delete line indicator */
+        {
+            "class": "text_area_control",
+            "deleted_line_texture": "Theme - Treble/textures/views/deleted-line-indicator.png"
+        },
+        /** Grid layout control */
         {
             "class": "grid_layout_control",
             "border_color": "var(grid-border-color-dark)",
