@@ -4,6 +4,7 @@
 - Change tab control st setting highlight modified tabs colors tones
 - Change tab control dividers colors tones
 - Add deleted line indicator texture, text area control (Views)
+- Change icon buffer
 
 ### 🔆🌙 Adaptive
 - Change checkbox and radio button background/border color
