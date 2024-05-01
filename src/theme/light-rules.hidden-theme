@@ -4699,7 +4699,7 @@
                 26, 
                 29
             ],
-            "layer0.tint": "var(overlay-shadow-dark)",
+            "layer0.tint": "var(overlay-shadow-light)",
             "layer0.opacity": 1,
             "layer1.inner_margin": [
                 28,
@@ -4752,14 +4752,14 @@
                     ]
                 }
             ],
-            "layer0.tint": "var(overlay-shadow-light)"
+            "layer0.tint": "var(overlay-shadow-dark)"
         },
         // Overlay control overlay shadows false (no shadow) setting
         {
             "class": "overlay_control",
             "settings": ["!overlay_shadows"],
             "layer0.opacity": 0,
-            "layer2.tint": "var(overlay-border-no-shadow-dark)"
+            "layer2.tint": "var(overlay-border-no-shadow-light)"
         },
         {
             "class": "overlay_control",
@@ -4773,7 +4773,7 @@
                 }
             ],
             "layer0.opacity": 0,
-            "layer2.tint": "var(overlay-border-no-shadow-light)"
+            "layer2.tint": "var(overlay-border-no-shadow-dark)"
         },
         /** Quick panel */ 
         // Example, command palette, go to, select color scheme/theme, quick switch project background
@@ -9413,7 +9413,6 @@
                 26, 
                 29
             ],
-            "layer2.tint": "var(popup-html-border)",
             "layer2.opacity": 1.0,
             "layer2.inner_margin": [
                 28, 
@@ -9422,6 +9421,34 @@
                 29
             ]
         },
+        // Pop control colors
+        {
+            "class": "popup_control",
+            "settings": {
+                "adaptive_theme_style": ["analog" ,"mix", "digital"]
+            },
+            "layer2.tint": "var(popup-html-border-light)"
+        },
+        // Do not have file_light attributes, neither dark_content
+        // {
+        //     "class": "popup_control",
+        //     "settings": {
+        //         "adaptive_theme_style": ["analog" ,"mix", "digital"]
+        //     },
+        //     "parents": [
+        //         {
+        //             "class": "popup_control", 
+        //             "attributes": [
+        //                 "file_light"
+        //             ]
+        //         }
+        //     ],
+        //     // "attributes": [
+        //     //     "file_light"
+        //     // ],
+        //     "layer2.tint": "var(popup-html-border-dark)"
+        // },
+        // Pop control Mix Digital Analog
         {
             "class": "popup_control",
             "settings": {

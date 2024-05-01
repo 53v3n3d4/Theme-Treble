@@ -5764,7 +5764,7 @@
    ],
    "layer1.tint": "#F3EFF2",
    "layer1.opacity": 1,
-   "layer2.tint": "color(#5D6C79 a(0.4))",
+   "layer2.tint": "color(#404040 a(0.17))",
    "layer2.inner_margin": [
     28,
     20,
@@ -11926,7 +11926,6 @@
     26,
     29
    ],
-   "layer2.tint": "color(#5D6C79 a(0.4))",
    "layer2.opacity": 1,
    "layer2.inner_margin": [
     28,
@@ -11934,6 +11933,17 @@
     26,
     29
    ]
+  },
+  {
+   "class": "popup_control",
+   "settings": {
+    "adaptive_theme_style": [
+     "analog",
+     "mix",
+     "digital"
+    ]
+   },
+   "layer2.tint": "color(#9B9B9B a(0.3))"
   },
   {
    "class": "popup_control",

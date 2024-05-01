@@ -6400,7 +6400,6 @@
    ],
    "layer1.tint": "var(--background)",
    "layer1.opacity": 1,
-   "layer2.tint": "color(#5D6C79 a(0.4))",
    "layer2.inner_margin": [
     28,
     20,
@@ -6408,6 +6407,36 @@
     29
    ],
    "layer2.opacity": 1
+  },
+  {
+   "class": "overlay_control",
+   "settings": {
+    "adaptive_theme_style": [
+     "mix",
+     "analog",
+     "digital"
+    ]
+   },
+   "layer2.tint": "color(#B4B4B4 a(0.27)"
+  },
+  {
+   "class": "overlay_control",
+   "settings": {
+    "adaptive_theme_style": [
+     "mix",
+     "analog",
+     "digital"
+    ]
+   },
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer2.tint": "color(#404040 a(0.17))"
   },
   {
    "class": "overlay_control",
@@ -12990,7 +13019,6 @@
     26,
     29
    ],
-   "layer2.tint": "color(#5D6C79 a(0.4))",
    "layer2.opacity": 1,
    "layer2.inner_margin": [
     28,
@@ -13009,6 +13037,17 @@
      ]
     }
    ]
+  },
+  {
+   "class": "popup_control",
+   "settings": {
+    "adaptive_theme_style": [
+     "analog",
+     "mix",
+     "digital"
+    ]
+   },
+   "layer2.tint": "color(#9B9B9B a(0.3))"
   },
   {
    "class": "popup_control",

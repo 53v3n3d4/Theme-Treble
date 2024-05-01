@@ -5,6 +5,7 @@
 - Change tab control dividers colors tones
 - Add deleted line indicator texture, text area control (Views)
 - Change icon buffer
+- Change overlay control and popup control border colors
 
 ### 🔆🌙 Adaptive
 - Change checkbox and radio button background/border color

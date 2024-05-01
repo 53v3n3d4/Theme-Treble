@@ -5295,7 +5295,7 @@
                 26, 
                 29
             ],
-            "layer0.tint": "var(overlay-shadow-dark)",
+            "layer0.tint": "var(overlay-shadow-light)",
             "layer0.opacity": 1,
             "layer1.inner_margin": [
                 28,
@@ -5305,7 +5305,6 @@
             ],
             "layer1.tint": "var(overlay-background)",
             "layer1.opacity": 1,
-            "layer2.tint": "var(overlay-border)",
             "layer2.inner_margin": [
                 28, 
                 20, 
@@ -5314,7 +5313,30 @@
             ],
             "layer2.opacity": 1
         },
-         // Overlay control Mix and Digital
+        // Overlay control colors
+        {
+            "class": "overlay_control",
+            "settings": {
+                "adaptive_theme_style": ["mix", "analog", "digital"]
+            },
+            "layer2.tint": "var(overlay-border-light)"
+        },
+        {
+            "class": "overlay_control",
+            "settings": {
+                "adaptive_theme_style": ["mix", "analog", "digital"]
+            },
+            "parents": [
+                {
+                    "class": "window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer2.tint": "var(overlay-border-dark)"
+        },
+        // Overlay control Mix and Digital
         {
             "class": "overlay_control",
             "settings": {
@@ -5348,14 +5370,14 @@
                     ]
                 }
             ],
-            "layer0.tint": "var(overlay-shadow-light)"
+            "layer0.tint": "var(overlay-shadow-dark)"
         },
         // Overlay control overlay shadows false (no shadow) setting
         {
             "class": "overlay_control",
             "settings": ["!overlay_shadows"],
             "layer0.opacity": 0,
-            "layer2.tint": "var(overlay-border-no-shadow-dark)"
+            "layer2.tint": "var(overlay-border-no-shadow-light)"
         },
         {
             "class": "overlay_control",
@@ -5369,7 +5391,7 @@
                 }
             ],
             "layer0.opacity": 0,
-            "layer2.tint": "var(overlay-border-no-shadow-light)"
+            "layer2.tint": "var(overlay-border-no-shadow-dark)"
         },
         /** Quick panel */ 
         // Example, command palette, go to, select color scheme/theme, quick switch project background
@@ -10365,7 +10387,6 @@
                 26, 
                 29
             ],
-            "layer2.tint": "var(popup-html-border)",
             "layer2.opacity": 1.0,
             "layer2.inner_margin": [
                 28, 
@@ -10379,6 +10400,34 @@
             "parents": [{"class": "auto_complete", "attributes": ["file_light"]}]
             // "dark_content": false,
         },
+        // Pop control colors
+        {
+            "class": "popup_control",
+            "settings": {
+                "adaptive_theme_style": ["analog" ,"mix", "digital"]
+            },
+            "layer2.tint": "var(popup-html-border-light)"
+        },
+        // Do not have file_light attributes, neither dark_content
+        // {
+        //     "class": "popup_control",
+        //     "settings": {
+        //         "adaptive_theme_style": ["analog" ,"mix", "digital"]
+        //     },
+        //     "parents": [
+        //         {
+        //             "class": "popup_control", 
+        //             "attributes": [
+        //                 "file_light"
+        //             ]
+        //         }
+        //     ],
+        //     // "attributes": [
+        //     //     "file_light"
+        //     // ],
+        //     "layer2.tint": "var(popup-html-border-dark)"
+        // },
+        // Pop control Mix Digital Analog
         {
             "class": "popup_control",
             "settings": {
