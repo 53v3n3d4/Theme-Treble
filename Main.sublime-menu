@@ -19,6 +19,14 @@
                     "base_file": "${packages}/Theme - Treble/Preferences.sublime-settings",
                     "default": "{\n\t$0\n}\n"
                 }
+              },
+              { "caption": "-" },
+              {
+                "caption": "CHANGELOG",
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/Theme - Treble/CHANGELOG.md"
+                }
               }
             ]
           }
