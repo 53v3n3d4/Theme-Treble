@@ -172,6 +172,6 @@
 
     // Panel content width of Find, Replace, Find in files,
     // Console and Output. Valid values are: "full" and "center".
-    "panel_content_width": "center"
+    "panel_content_width": "full"
 
 }
