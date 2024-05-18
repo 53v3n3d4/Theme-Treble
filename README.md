@@ -35,7 +35,7 @@ You can also choose from 3 theme style options, you do it in your user settings 
 
 > In screenshots, we are using Color Scheme Bass and file-type-icons  
 [Color Scheme - Bass](https://github.com/53v3n3d4/Color-Scheme-Bass)  
-[file-type-icons](https://github.com/53v3n3d4/file-type-icons)
+[Zukan Icon Theme](https://github.com/53v3n3d4/Zukan-Icon-Theme)
 
 ## Memory/Cpu/Energy
 
@@ -98,6 +98,7 @@ The file icons packages bellow was tested and work with this theme:
 ## Other themes and color schemes :dizzy:
 
 - [D'Aneo](https://github.com/SublimeText/Theme-DAneo/)  
+- [Brackets](https://github.com/jwortmann/brackets-theme)  
 - [Ayu](https://github.com/dempfi/ayu)  
 - [Github sublime theme](https://github.com/mauroreisvieira/github-sublime-theme)  
 - [Two Dark](https://github.com/erremauro/TwoDark)  

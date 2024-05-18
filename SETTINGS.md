@@ -150,7 +150,7 @@ Below are theme options available and can be customize at your option.
     // painted with accent_color. And tabset bar will be 
     // transparent. But unselected tab buttons will have a 
     // background color.
-    "tab_style": "re",
+    "tab_style": "mi",
 
     // Show highlight color for added and deleted file.
     "show_add_delete_color": true,
@@ -200,7 +200,7 @@ Below are theme options available and can be customize at your option.
 
     // Panel content width of Find, Replace, Find in files,
     // Console and Output. Valid values are: "full" and "center".
-    "panel_content_width": "center"
+    "panel_content_width": "full"
 ```
 
 ## Sublime Text settings
@@ -209,6 +209,8 @@ The sublime settings below are some that are tested and work with this theme:
 * [x] adaptive_dividers, only on Adaptive Theme  
 * [x] [always_show_minimap_viewport](https://www.sublimetext.com/docs/themes.html#always_show_minimap_viewport)  
 * [x] [bold_folder_labels](https://www.sublimetext.com/docs/themes.html#bold_folder_labels)  
+* [x] find_in_files_context_lines  
+* [x] fold_style  
 * [x] hide_new_tab_button  
 * [x] hide_tab_scrolling_buttons  
 * [x] [highlight_modified_tabs](https://www.sublimetext.com/docs/themes.html#highlight_modified_tabs)  
