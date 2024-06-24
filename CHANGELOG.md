@@ -6,6 +6,8 @@
 - Add deleted line indicator texture, text area control (Views)
 - Change icon buffer
 - Change overlay control and popup control border colors
+- Add Changelog to sublime-menu
+- Change panel content width setting default, center -> full
 
 ### 🔆🌙 Adaptive
 - Change checkbox and radio button background/border color
