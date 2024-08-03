@@ -8,12 +8,19 @@
 - Change overlay control and popup control border colors
 - Add Changelog to sublime-menu
 - Change panel content width setting default, center -> full
+- Change Tab style Re and Fa, selected and unselected bg color, black/white -> background color
+- Change opacity tab selected accent, tab style Mi and Fa.
 
 ### 🔆🌙 Adaptive
 - Change checkbox and radio button background/border color
+- Change tab close button, new tab button, scroll tabs left button, scroll tabs right button and scroll tabs dropdown button bg color, black/white -> background color
 
 ### 🌙 Dark
 - Change checkbox and radio button background/border color
+- Tabset (false) and Tab style Mi Fa: change tab close button, new tab button, scroll tabs left button, scroll tabs right button and scroll tabs dropdown button bg color, black/white -> background color
+
+### 🔆 Light
+- Tabset (false) and Tab style Mi Fa: change tab close button, new tab button, scroll tabs left button, scroll tabs right button and scroll tabs dropdown button bg color, black/white -> backgroundcolor
 
 ## [0.2.7] - 2024-02-18
 - Change opacity panel close button

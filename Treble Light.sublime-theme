@@ -3160,7 +3160,7 @@
    },
    "layer0.tint": "color(var(--background) blend(white 60%))",
    "layer0.opacity": 1,
-   "layer1.tint": "color(var(--background) blend(white 95%))"
+   "layer1.tint": "color(var(--background) l(+ 5%))"
   },
   {
    "class": "tab_control",
@@ -3174,7 +3174,7 @@
     "file_light"
    ],
    "layer0.tint": "color(var(--background) blend(black 60%))",
-   "layer1.tint": "color(var(--background) blend(black 95%))"
+   "layer1.tint": "color(var(--background) l(- 5%))"
   },
   {
    "class": "tab_control",
@@ -3243,7 +3243,7 @@
    "attributes": [
     "hover"
    ],
-   "layer1.tint": "color(var(--background) blend(white 90%))"
+   "layer1.tint": "color(var(--background) l(+ 5%))"
   },
   {
    "class": "tab_control",
@@ -3257,7 +3257,7 @@
     "file_light",
     "hover"
    ],
-   "layer1.tint": "color(var(--background) blend(black 90%))"
+   "layer1.tint": "color(var(--background) l(- 5%))"
   },
   {
    "class": "tab_control",
@@ -3349,7 +3349,7 @@
     "file_light",
     "selected"
    ],
-   "layer1.tint": "color(var(--background) blend(black 90%))"
+   "layer1.tint": "color(var(--background) blend(black 94%))"
   },
   {
    "class": "tab_control",
@@ -3380,7 +3380,7 @@
     "selected"
    ],
    "layer0.tint": "var(--background)",
-   "layer1.opacity": 0.14
+   "layer1.opacity": 0.22
   },
   {
    "class": "tab_control",
@@ -4469,7 +4469,7 @@
     8,
     9
    ],
-   "layer0.tint": "color(#FFFFFF a(15%))",
+   "layer0.tint": "color(var(--background) l(+ 10%))",
    "layer0.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
    "layer1.tint": "#F0F0F7",
    "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
@@ -4488,7 +4488,7 @@
      ]
     }
    ],
-   "layer0.tint": "color(#000000 a(10%))",
+   "layer0.tint": "color(var(--background) l(- 13%))",
    "layer1.tint": "#161818"
   },
   {
@@ -4503,6 +4503,76 @@
    ],
    "layer0.tint": "color(#000000 a(10%))",
    "layer1.tint": "#161818"
+  },
+  {
+   "class": "tab_close_button",
+   "attributes": [
+    "hover"
+   ],
+   "settings": {
+    "show_tab_close_buttons": true,
+    "tab_style": [
+     "do"
+    ],
+    "tabset_background": false
+   },
+   "layer0.tint": "color(var(--background) l(+ 5%))"
+  },
+  {
+   "class": "tab_close_button",
+   "attributes": [
+    "hover"
+   ],
+   "settings": {
+    "show_tab_close_buttons": true,
+    "tab_style": [
+     "mi"
+    ]
+   },
+   "layer0.tint": "color(var(--background) l(+ 5%))"
+  },
+  {
+   "class": "tab_close_button",
+   "attributes": [
+    "hover"
+   ],
+   "settings": {
+    "show_tab_close_buttons": true,
+    "tab_style": [
+     "do"
+    ],
+    "tabset_background": false
+   },
+   "parents": [
+    {
+     "class": "tab_control",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer0.tint": "color(var(--background) l(- 6%))"
+  },
+  {
+   "class": "tab_close_button",
+   "attributes": [
+    "hover"
+   ],
+   "settings": {
+    "show_tab_close_buttons": true,
+    "tab_style": [
+     "mi"
+    ]
+   },
+   "parents": [
+    {
+     "class": "tab_control",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer0.tint": "color(var(--background) l(- 6%))"
   },
   {
    "class": "tab_close_button",
@@ -5213,7 +5283,7 @@
    "attributes": [
     "hover"
    ],
-   "layer0.tint": "color(var(--background) blend(white 90%))",
+   "layer0.tint": "color(var(--background) l(+ 5%))",
    "layer0.opacity": 1,
    "layer2.tint": "#F0F0F7",
    "layer2.opacity": 1
@@ -5238,7 +5308,7 @@
      ]
     }
    ],
-   "layer0.tint": "color(var(--background) blend(black 90%))",
+   "layer0.tint": "color(var(--background) l(- 5%))",
    "layer2.tint": "#161818"
   },
   {
@@ -5369,7 +5439,7 @@
    "attributes": [
     "hover"
    ],
-   "layer0.tint": "color(var(--background) blend(white 90%))",
+   "layer0.tint": "color(var(--background) l(+ 5%))",
    "layer0.opacity": 1,
    "layer0.inner_margin": [
     1,
@@ -5400,7 +5470,7 @@
      ]
     }
    ],
-   "layer0.tint": "color(var(--background) blend(black 90%))",
+   "layer0.tint": "color(var(--background) l(- 5%))",
    "layer2.tint": "#161818"
   },
   {
@@ -5529,7 +5599,7 @@
    "attributes": [
     "hover"
    ],
-   "layer0.tint": "color(var(--background) blend(white 90%))",
+   "layer0.tint": "color(var(--background) l(+ 5%))",
    "layer0.opacity": 1,
    "layer0.inner_margin": 2,
    "layer2.tint": "#F0F0F7",
@@ -5555,7 +5625,7 @@
      ]
     }
    ],
-   "layer0.tint": "color(var(--background) blend(black 90%))",
+   "layer0.tint": "color(var(--background) l(- 5%))",
    "layer2.tint": "#161818"
   },
   {
@@ -5684,7 +5754,7 @@
    "attributes": [
     "hover"
    ],
-   "layer0.tint": "color(var(--background) blend(white 90%))",
+   "layer0.tint": "color(var(--background) l(+ 5%))",
    "layer0.opacity": 1,
    "layer0.inner_margin": 2,
    "layer2.tint": "#F0F0F7",
@@ -5710,7 +5780,7 @@
      ]
     }
    ],
-   "layer0.tint": "color(var(--background) blend(black 90%))",
+   "layer0.tint": "color(var(--background) l(- 5%))",
    "layer2.tint": "#161818"
   },
   {

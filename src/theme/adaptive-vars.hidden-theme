@@ -150,20 +150,20 @@
         "tab-control-bg-adaptive-contrast-light":              "color(var(bg-color) l(- 3.7%))", //"color(var(bg-color) blend(var(black1) 97%))",
 
         // Tabs opacity Tabset accent setting
-        "tab-selected-accent":    0.14,
+        "tab-selected-accent":    0.22,
 
         // Tab, scroll tabs, new tab and dropdown
         "tab-unselected-shadow-dark":           "color(var(bg-color) blend(white 60%))",
         "tab-unselected-shadow-light":          "color(var(bg-color) blend(black 60%))",
-        "tab-unselected-dark":                  "color(var(bg-color) blend(white 95%))", //"color(var(white1) a(0.05))",
-        "tab-unselected-light":                 "color(var(bg-color) blend(black 95%))", //"color(var(black1) a(0.06))",
+        "tab-unselected-dark":                  "color(var(bg-color) l(+ 5%))", // "color(var(bg-color) blend(white 95%))", //"color(var(white1) a(0.05))",
+        "tab-unselected-light":                 "color(var(bg-color) l(- 5%))", // "color(var(bg-color) blend(black 95%))", //"color(var(black1) a(0.06))",
         "tab-unselected-transparent":           "transparent",
         "tab-unselected-bg":                    "var(bg-color)",
-        "tab-hover-dark":                       "color(var(bg-color) blend(white 90%))", //"color(var(white1) a(0.1))",
-        "tab-hover-light":                      "color(var(bg-color) blend(black 90%))", //"color(var(black1) a(0.1))",
+        "tab-hover-dark":                       "color(var(bg-color) l(+ 5%))", // "color(var(bg-color) blend(white 90%))", //"color(var(white1) a(0.1))",
+        "tab-hover-light":                      "color(var(bg-color) l(- 5%))", // "color(var(bg-color) blend(black 90%))", //"color(var(black1) a(0.1))",
         "tab-hover-transparent":                "transparent",
         "tab-selected-dark":                    "color(var(bg-color) blend(white 90%))", //"color(var(white1) a(0.1))",
-        "tab-selected-light":                   "color(var(bg-color) blend(black 90%))", //"color(var(black1) a(0.1))",
+        "tab-selected-light":                   "color(var(bg-color) blend(black 94%))", //"color(var(black1) a(0.1))",
         "tab-selected-transparent":             "transparent",
         "tab-modified-dirty-dark":              "var(gray2)",
         "tab-modified-dirty-light":             "var(gray3)",
@@ -173,9 +173,12 @@
         "tab-modified-deleted":                 "var(vcs-deleted)",
 
         // Tab, scroll tabs, new tab and dropdown Adaptive contrast setting
-        "tab-hover-tab-style-do-adaptive-contrast-medium-dark":    "color(var(bg-color) l(- 1.7%))", //"color(var(white1) a(0.07))",
-        "tab-hover-tab-style-do-adaptive-contrast-dark":           "color(var(bg-color) l(- 6.3%))",
-        "tab-hover-tab-style-do-adaptive-contrast-light":          "color(var(bg-color) l(+ 2.7%))", //"color(var(black1) a(0.07))",
+        "tab-hover-adaptive-contrast-medium-dark":              "color(var(bg-color) l(- 1.7%))", //"color(var(white1) a(0.07))",
+        "tab-hover-adaptive-contrast-dark":                     "color(var(bg-color) l(- 6.3%))",
+        "tab-hover-adaptive-contrast-light":                    "color(var(bg-color) l(+ 2.7%))", //"color(var(black1) a(0.07))",
+        "tab-selected-tab-style-re-adaptive-contrast-dark":     "color(var(bg-color) l(+ 6.7%))",
+        "tab-selected-tab-style-re-adaptive-contrast-light":    "color(var(bg-color) l(- 6.7%))",
+        "tab-unselected-tab-style-re-adaptive-contrast":        "var(bg-color)",
 
         // Tab, scroll tabs, new tab and dropdown opacity
         "tab-icon-normal-opacity":                1,
@@ -189,13 +192,15 @@
         "tab-icon-normal-opacity-low":       0.40,
 
         // Tab close button
-        "tab-x-button-normal-dark":                "var(gray2)",
-        "tab-x-button-normal-light":               "var(gray4)",
-        "tab-x-button-hover-dark":                 "var(white2)",
-        "tab-x-button-hover-light":                "var(black2)",
-        "tab-square-circle-button-hover-dark":     "color(var(white1) a(15%))",
-        "tab-square-circle-button-hover-light":    "color(var(black1) a(10%))",
-        "tab-dirty-button":                        "var(gray3)",
+        "tab-x-button-normal-dark":                       "var(gray2)",
+        "tab-x-button-normal-light":                      "var(gray4)",
+        "tab-x-button-hover-dark":                        "var(white2)",
+        "tab-x-button-hover-light":                       "var(black2)",
+        "tab-square-circle-button-hover-dark":            "color(var(bg-color) l(+ 10%))", // "color(var(white1) a(15%))",
+        "tab-square-circle-button-hover-medium-dark":     "color(var(bg-color) l(+ 5%))",
+        "tab-square-circle-button-hover-medium-light":    "color(var(bg-color) l(- 6%))",
+        "tab-square-circle-button-hover-light":           "color(var(bg-color) l(- 13%))", // "color(var(black1) a(10%))",
+        "tab-dirty-button":                               "var(gray3)",
 
         // Tab close button opacity
         "tab-x-button-opacity":          { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },

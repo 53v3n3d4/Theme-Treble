@@ -130,20 +130,20 @@
         "tab-control-bg-tabset-bg":              "var(white4)",
 
         // Tabs opacity Tabset accent setting
-        "tab-selected-accent":    0.14,
+        "tab-selected-accent":    0.22,
 
         // Tab, scroll tabs, new tab and dropdown
         "tab-unselected-shadow-dark":           "color(var(bg-color) blend(white 60%))",
         "tab-unselected-shadow-light":          "color(var(bg-color) blend(black 60%))",
-        "tab-unselected-dark":                  "color(var(bg-color) blend(white 95%))", //"color(var(white1) a(0.03))",
-        "tab-unselected-light":                 "color(var(bg-color) blend(black 95%))", //"color(var(black1) a(0.03))",
+        "tab-unselected-dark":                  "color(var(bg-color) l(+ 5%))", //"color(var(white1) a(0.03))",
+        "tab-unselected-light":                 "color(var(bg-color) l(- 5%))", //"color(var(black1) a(0.03))",
         "tab-unselected-transparent":           "transparent",
         "tab-unselected-bg":                    "var(bg-color)",
-        "tab-hover-dark":                       "color(var(bg-color) blend(white 90%))", //"color(var(white1) a(0.1))",
-        "tab-hover-light":                      "color(var(bg-color) blend(black 90%))", //"color(var(black1) a(0.07))",
+        "tab-hover-dark":                       "color(var(bg-color) l(+ 5%))", //"color(var(white1) a(0.1))",
+        "tab-hover-light":                      "color(var(bg-color) l(- 5%))", //"color(var(black1) a(0.07))",
         "tab-hover-transparent":                "transparent",
         "tab-selected-dark":                    "color(var(bg-color) blend(white 90%))", //"color(var(white1) a(0.1))",
-        "tab-selected-light":                   "color(var(bg-color) blend(black 90%))", //"color(var(black1) a(0.07))",
+        "tab-selected-light":                   "color(var(bg-color) blend(black 94%))", //"color(var(black1) a(0.07))",
         "tab-selected-transparent":             "transparent",
         "tab-modified-dirty-dark":              "var(gray2)",
         "tab-modified-dirty-light":             "var(gray3)",
@@ -174,13 +174,18 @@
         "tab-icon-normal-opacity-low":       0.40,
 
         // Tab close button
-        "tab-x-button-normal-dark":                "var(gray2)",
-        "tab-x-button-normal-light":               "var(gray4)",
-        "tab-x-button-hover-dark":                 "var(white2)",
-        "tab-x-button-hover-light":                "var(black2)",
-        "tab-square-circle-button-hover-dark":     "color(var(white1) a(15%))",
-        "tab-square-circle-button-hover-light":    "color(var(black1) a(10%))",
-        "tab-dirty-button":                        "var(gray3)",
+        "tab-x-button-normal-dark":                       "var(gray2)",
+        "tab-x-button-normal-light":                      "var(gray4)",
+        "tab-x-button-hover-dark":                        "var(white2)",
+        "tab-x-button-hover-light":                       "var(black2)",
+        "tab-square-circle-button-hover-dark":            "color(var(bg-color) l(+ 10%))",
+        "tab-square-circle-button-hover-medium-dark":     "color(var(bg-color) l(+ 5%))",
+        "tab-square-circle-button-hover-medium-light":    "color(var(bg-color) l(- 6%))",
+        "tab-square-circle-button-hover-light":           "color(var(bg-color) l(- 13%))",
+        "tab-dirty-button":                               "var(gray3)",
+
+        // Tab close button Tabset background setting
+        "tab-square-circle-button-hover-tabset-light":    "color(var(black1) a(10%))",
 
         // Tab close button opacity
         "tab-x-button-opacity":          { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },

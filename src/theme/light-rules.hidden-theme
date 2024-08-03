@@ -3759,8 +3759,76 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "var(tab-square-circle-button-hover-light)",
+            "layer0.tint": "var(tab-square-circle-button-hover-tabset-light)",
             "layer1.tint": "var(tab-x-button-hover-light)"
+        },
+        // Tab close button hover tab unselected Tab style Mi and Do Tabset background
+        // setting false
+        // Circle/Square tab close button background color need to be lighter in
+        // these tab styles
+        // Do not merge style Do and Mi because Tabset background setting will have
+        // effect on Mi
+        {
+            "class": "tab_close_button",
+            "attributes": [
+                "hover"
+            ],
+            "settings": {
+                "show_tab_close_buttons": true,
+                "tab_style": ["do"],
+                "tabset_background": false
+            },
+            "layer0.tint": "var(tab-square-circle-button-hover-medium-dark)"
+        },
+        {
+            "class": "tab_close_button",
+            "attributes": [
+                "hover"
+            ],
+            "settings": {
+                "show_tab_close_buttons": true,
+                "tab_style": ["mi"]
+            },
+            "layer0.tint": "var(tab-square-circle-button-hover-medium-dark)"
+        },
+        {
+            "class": "tab_close_button",
+            "attributes": [
+                "hover"
+            ],
+            "settings": {
+                "show_tab_close_buttons": true,
+                "tab_style": ["do"],
+                "tabset_background": false
+            },
+            "parents": [
+                {
+                    "class": "tab_control", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(tab-square-circle-button-hover-medium-light)"
+        },
+        {
+            "class": "tab_close_button",
+            "attributes": [
+                "hover"
+            ],
+            "settings": {
+                "show_tab_close_buttons": true,
+                "tab_style": ["mi"]
+            },
+            "parents": [
+                {
+                    "class": "tab_control", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(tab-square-circle-button-hover-medium-light)"
         },
         // Tab close button hover tab selected
         {
