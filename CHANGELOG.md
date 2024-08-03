@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2.8] - 2024
+## [0.2.8] - 2024-08-03
 - Change tab control st setting highlight modified tabs colors tones
 - Change tab control dividers colors tones
 - Add deleted line indicator texture, text area control (Views)
