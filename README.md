@@ -33,7 +33,9 @@ You can also choose from 3 theme style options, you do it in your user settings 
 "light_theme_style: "mix"
 ```
 
-> In screenshots, we are using Color Scheme Bass and file-type-icons  
+> Screenshots from v0.2.0  
+
+> In screenshots, we are using Color Scheme Bass and Zukan Icon Theme  
 [Color Scheme - Bass](https://github.com/53v3n3d4/Color-Scheme-Bass)  
 [Zukan Icon Theme](https://github.com/53v3n3d4/Zukan-Icon-Theme)
 
