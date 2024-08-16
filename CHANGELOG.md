@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.2.9] - 2024
+
+### 🔆🌙 Adaptive
+- Tab style re and fa: change color tone border tab unselected
+
 ## [0.2.8] - 2024-08-03
 - Change tab control st setting highlight modified tabs colors tones
 - Change tab control dividers colors tones
@@ -17,10 +22,10 @@
 
 ### 🌙 Dark
 - Change checkbox and radio button background/border color
-- Tabset (false) and Tab style Mi Fa: change tab close button, new tab button, scroll tabs left button, scroll tabs right button and scroll tabs dropdown button bg color, black/white -> background color
+- Tabset (false) and Tab style Mi / Fa: change tab close button, new tab button, scroll tabs left button, scroll tabs right button and scroll tabs dropdown button bg color, black/white -> background color
 
 ### 🔆 Light
-- Tabset (false) and Tab style Mi Fa: change tab close button, new tab button, scroll tabs left button, scroll tabs right button and scroll tabs dropdown button bg color, black/white -> backgroundcolor
+- Tabset (false) and Tab style Mi / Fa: change tab close button, new tab button, scroll tabs left button, scroll tabs right button and scroll tabs dropdown button bg color, black/white -> backgroundcolor
 
 ## [0.2.7] - 2024-02-18
 - Change opacity panel close button

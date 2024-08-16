@@ -153,8 +153,8 @@
         "tab-selected-accent":    0.22,
 
         // Tab, scroll tabs, new tab and dropdown
-        "tab-unselected-shadow-dark":           "color(var(bg-color) blend(white 60%))",
-        "tab-unselected-shadow-light":          "color(var(bg-color) blend(black 60%))",
+        "tab-unselected-shadow-dark":           "color(var(bg-color) l(+ 44%))", // "color(var(bg-color) blend(white 60%))",
+        "tab-unselected-shadow-light":          "color(var(bg-color) l(- 44%))", // "color(var(bg-color) blend(black 60%))",
         "tab-unselected-dark":                  "color(var(bg-color) l(+ 5%))", // "color(var(bg-color) blend(white 95%))", //"color(var(white1) a(0.05))",
         "tab-unselected-light":                 "color(var(bg-color) l(- 5%))", // "color(var(bg-color) blend(black 95%))", //"color(var(black1) a(0.06))",
         "tab-unselected-transparent":           "transparent",

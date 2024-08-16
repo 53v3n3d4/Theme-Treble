@@ -3778,7 +3778,7 @@
      "fa"
     ]
    },
-   "layer0.tint": "color(var(--background) blend(white 60%))",
+   "layer0.tint": "color(var(--background) l(+ 44%))",
    "layer0.opacity": 1,
    "layer1.tint": "color(var(--background) l(+ 5%))"
   },
@@ -3793,7 +3793,7 @@
    "attributes": [
     "file_light"
    ],
-   "layer0.tint": "color(var(--background) blend(black 60%))",
+   "layer0.tint": "color(var(--background) l(- 44%))",
    "layer1.tint": "color(var(--background) l(- 5%))"
   },
   {
