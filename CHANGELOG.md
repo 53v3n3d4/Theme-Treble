@@ -2,6 +2,7 @@
 
 ## [0.2.9] - 2024
 - Add `semiopaque` option to `folder_icon_style` setting
+- Change icon `folder_icon_dup`, option `outline`
 
 ### 🔆🌙 Adaptive
 - Tab style re and fa: change color tone border tab unselected
