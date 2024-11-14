@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2.9] - 2024
+## [0.2.9] - 2024-11-14
 - Add `semiopaque` option to `folder_icon_style` setting
 - Change icon `folder_icon_dup`, option `outline`
 
