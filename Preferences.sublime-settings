@@ -66,10 +66,10 @@
 
     // Folder icon colors accepted: "blue", "yellow" or 
     // "graphite".
-    "folder_icon_color": "blue",
+    "folder_icon_color": "graphite",
 
-    // Folder icon style can be "solid" or "outline".
-    "folder_icon_style": "solid",
+    // Folder icon style can be "semiopaque", "solid" or "outline".
+    "folder_icon_style": "semiopaque",
 
     // Controls whether to show vcs status of untracked files 
     // and folders by the color of their labels in the sidebar.

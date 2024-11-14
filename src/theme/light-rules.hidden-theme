@@ -885,6 +885,16 @@
             "layer0.opacity": 0,
             "layer0.texture": ""
         },
+        // Icon folder Mix and Digital - Semiopaque setting
+        {
+            "class": "icon_folder",
+            "settings": {
+                "light_theme_style": ["mix", "digital"],
+                "show_sidebar_icons": true,
+                "folder_icon_style": "semiopaque"
+            },
+            "layer0.texture": "Theme - Treble/textures/sidebar/folder-closed-semiopaque.png"
+        },
         // Icon folder Mix and Digital - Solid setting
         {
             "class": "icon_folder",
@@ -905,6 +915,16 @@
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-closed.png"
         },
+        // Icon folder Analog - Semiopaque setting
+        {
+            "class": "icon_folder",
+            "settings": {
+                "light_theme_style": "analog",
+                "show_sidebar_icons": true,
+                "folder_icon_style": "semiopaque"
+            },
+            "layer0.texture": "Theme - Treble/textures/sidebar/folder-closed-semiopaque-square.png"
+        },
         // Icon folder Analog - Solid setting
         {
             "class": "icon_folder",
@@ -924,6 +944,24 @@
                 "folder_icon_style": "outline"
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-closed-square.png"
+        },
+        // Icon folder open Mix and Digital - Semiopaque setting
+        {
+            "class": "icon_folder",
+            "settings": {
+                "light_theme_style": ["mix", "digital"],
+                "show_sidebar_icons": true,
+                "folder_icon_style": "semiopaque"
+            },
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expanded"
+                    ]
+                }
+            ],
+            "layer0.texture": "Theme - Treble/textures/sidebar/folder-opened-semiopaque.png"
         },
         // Icon folder open Mix and Digital - Solid setting
         {
@@ -960,6 +998,24 @@
                 }
             ],
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-opened.png"
+        },
+        // Icon folder open Analog - Semiopaque setting
+        {
+            "class": "icon_folder",
+            "settings": {
+                "light_theme_style": "analog",
+                "show_sidebar_icons": true,
+                "folder_icon_style": "semiopaque"
+            },
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expanded"
+                    ]
+                }
+            ],
+            "layer0.texture": "Theme - Treble/textures/sidebar/folder-opened-semiopaque-square.png"
         },
         // Icon folder open Analog - Solid setting
         {
@@ -1110,6 +1166,16 @@
             "layer1.opacity": 0,
             "layer1.texture": ""
         },
+        // Icon folder loading Mix and Digital - Semiopaque setting
+        {
+            "class": "icon_folder_loading",
+            "settings": {
+                "light_theme_style": ["mix", "digital"],
+                "show_sidebar_icons": true,
+                "folder_icon_style": "semiopaque"
+            },
+            "layer0.texture": "Theme - Treble/textures/sidebar/folder-opened-semiopaque.png"
+        },
         // Icon folder loading Mix and Digital - Solid setting
         {
             "class": "icon_folder_loading",
@@ -1129,6 +1195,16 @@
                 "folder_icon_style": "outline"
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-closed.png"
+        },
+        // Icon folder loading Analog - Semiopaque setting
+        {
+            "class": "icon_folder_loading",
+            "settings": {
+                "light_theme_style": "analog",
+                "show_sidebar_icons": true,
+                "folder_icon_style": "semiopaque"
+            },
+            "layer0.texture": "Theme - Treble/textures/sidebar/folder-opened-semiopaque-square.png"
         },
         // Icon folder loading Analog - Solid setting
         {
@@ -1181,6 +1257,26 @@
                     "Theme - Treble/textures/sidebar/folder-loading-22.png",
                     "Theme - Treble/textures/sidebar/folder-loading-23.png",
                     "Theme - Treble/textures/sidebar/folder-loading-24.png"
+                ],
+                "loop": true,
+                "frame_time": 0.22
+            }
+        },
+        // Icon folder loading - Semiopaque setting
+        {
+            "class": "icon_folder_loading",
+            "settings": {
+                "show_sidebar_icons": true,
+                "folder_icon_style": "semiopaque"
+            },
+            "content_margin": 8,
+            "layer1.texture": {
+                "keyframes": [
+                    "Theme - Treble/textures/sidebar/folder-loading-circle-01.png",
+                    "Theme - Treble/textures/sidebar/folder-loading-circle-02.png",
+                    "Theme - Treble/textures/sidebar/folder-loading-circle-03.png",
+                    "Theme - Treble/textures/sidebar/folder-loading-circle-04.png",
+                    "Theme - Treble/textures/sidebar/folder-loading-circle-05.png"
                 ],
                 "loop": true,
                 "frame_time": 0.22
@@ -1297,12 +1393,12 @@
             },
             "layer1.tint": "var(folder-loading-dark)"
         },
-        // Icon folder loading colors - Outline setting
+        // Icon folder loading colors - Semiopaque and Outline setting
         {
             "class": "icon_folder_loading",
             "settings": {
                 "show_sidebar_icons": true,
-                "folder_icon_style": "outline"
+                "folder_icon_style": [ "semiopaque", "outline"]
             },
             "layer1.tint": "var(folder-loading-light)"
         },
@@ -1312,6 +1408,16 @@
             "content_margin": 0,
             "layer0.opacity": 0,
             "layer0.texture": ""
+        },
+        // Icon folder dup Mix and Digital - Semiopaque setting
+        {
+            "class": "icon_folder_dup",
+            "settings": {
+                "light_theme_style": ["mix", "digital"],
+                "show_sidebar_icons": true,
+                "folder_icon_style": "semiopaque"
+            },
+            "layer0.texture": "Theme - Treble/textures/sidebar/folder-dup-semiopaque.png"
         },
         // Icon folder dup Mix and Digital - Solid setting
         {
@@ -1332,6 +1438,16 @@
                 "folder_icon_style": "outline"
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-dup.png"
+        },
+        // Icon folder dup Analog - Semiopaque setting
+        {
+            "class": "icon_folder_dup",
+            "settings": {
+                "light_theme_style": "analog",
+                "show_sidebar_icons": true,
+                "folder_icon_style": "semiopaque"
+            },
+            "layer0.texture": "Theme - Treble/textures/sidebar/folder-dup-semiopaque-square.png"
         },
         // Icon folder dup Analog - Solid setting
         {
@@ -2025,7 +2141,7 @@
             "class": "tabset_control",
             "settings": {
                 "tab_style": "re",
-                // "dark_theme_style": "analog",
+                // "light_theme_style": "analog",
                 "tabset_background": false
             },
             "tab_overlap": -2
@@ -2035,7 +2151,7 @@
             "class": "tabset_control",
             "settings": {
                 "tab_style": "fa"
-                // "dark_theme_style": "analog"
+                // "light_theme_style": "analog"
             },
             "tab_overlap": -2
         },
@@ -4281,7 +4397,7 @@
         {
             "class": "scroll_tabs_left_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "light_theme_style": ["mix", "analog", "digital"]
             },
             "parents": [
                 {
@@ -4414,7 +4530,7 @@
         {
             "class": "scroll_tabs_right_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "light_theme_style": ["mix", "analog", "digital"]
             },
             "parents": [
                 {
@@ -4546,7 +4662,7 @@
         {
             "class": "new_tab_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "light_theme_style": ["mix", "analog", "digital"]
             },
             "parents": [
                 {
@@ -4678,7 +4794,7 @@
         {
             "class": "show_tabs_dropdown_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "light_theme_style": ["mix", "analog", "digital"]
             },
             "parents": [
                 {
@@ -9493,7 +9609,7 @@
         {
             "class": "popup_control",
             "settings": {
-                "adaptive_theme_style": ["analog" ,"mix", "digital"]
+                "light_theme_style": ["analog" ,"mix", "digital"]
             },
             "layer2.tint": "var(popup-html-border-light)"
         },
@@ -9501,7 +9617,7 @@
         // {
         //     "class": "popup_control",
         //     "settings": {
-        //         "adaptive_theme_style": ["analog" ,"mix", "digital"]
+        //         "light_theme_style": ["analog" ,"mix", "digital"]
         //     },
         //     "parents": [
         //         {

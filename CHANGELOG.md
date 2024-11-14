@@ -1,9 +1,16 @@
 # Changelog
 
 ## [0.2.9] - 2024
+- Add `semiopaque` option to `folder_icon_style` setting
 
 ### 🔆🌙 Adaptive
 - Tab style re and fa: change color tone border tab unselected
+
+### 🌙 Dark
+- Fix `scroll_tabs_left_button`, `scroll_tabs_right_button`, `new_tab_button`, `show_tabs_dropdown_button` and `popup_control` using adaptive setting
+
+### 🔆 Light
+- Fix `scroll_tabs_left_button`, `scroll_tabs_right_button`, `new_tab_button`, `show_tabs_dropdown_button` and `popup_control` using adaptive setting
 
 ## [0.2.8] - 2024-08-03
 - Change tab control st setting highlight modified tabs colors tones
