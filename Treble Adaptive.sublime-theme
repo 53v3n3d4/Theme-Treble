@@ -13806,7 +13806,7 @@
     4
    ],
    "tint_index": 0,
-   "tint_modifier": "color(#FFFFFF a(0.03))",
+   "tint_modifier": "color(var(--background) l(+ 6%))",
    "layer0.opacity": 1
   },
   {
@@ -13814,7 +13814,7 @@
    "attributes": [
     "file_light"
    ],
-   "tint_modifier": "color(#000000 a(0.03))"
+   "tint_modifier": "color(var(--background) l(- 6%))"
   },
   {
    "class": "auto_complete_info",

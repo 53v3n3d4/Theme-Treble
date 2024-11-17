@@ -3,7 +3,8 @@
 ## [0.2.10] - 2025
 
 ### 🔆🌙 Adaptive
-- Change tree row hover color, black/white -> background color 
+- Change tree row hover color, black/white -> background color
+- Change auto-complete detail pane bg color, black/white -> background color
 
 ## [0.2.9] - 2024-11-14
 - Add `semiopaque` option to `folder_icon_style` setting

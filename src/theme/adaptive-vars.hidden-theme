@@ -379,8 +379,8 @@
         "auto-complete-hint-dark":                       "color(var(gray2) a(0.5))",
         "auto-complete-hint-light":                      "color(var(gray4) a(0.6))",
         "auto-complete-kind-name-label-border":          "var(gray4)",
-        "auto-complete-detail-pane-bg-color-dark":       "color(var(white1) a(0.03))",
-        "auto-complete-detail-pane-bg-color-light":      "color(var(black1) a(0.03))",
+        "auto-complete-detail-pane-bg-color-dark":       "color(var(bg-color) l(+ 6%))", // "color(var(white1) a(0.03))",
+        "auto-complete-detail-pane-bg-color-light":      "color(var(bg-color) l(- 6%))", // "color(var(black1) a(0.03))",
         "auto-complete-detail-pane-link-color-dark":     "var(blue5)",
         "auto-complete-detail-pane-link-color-light":    "var(blue3)",
 
