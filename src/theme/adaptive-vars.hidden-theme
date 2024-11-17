@@ -46,8 +46,10 @@
         // Sidebar
         "sidebar-container-bg":           "var(bg-color)",
         "sidebar-container-bg-border":    "var(bg-color)",
-        "tree-row-hover-dark":            "color(var(white1) a(0.03))",
-        "tree-row-hover-light":           "color(var(black1) a(0.04))",
+        "tree-row-hover-dark":            "color(var(bg-color) l(+ 8%))",// "color(var(white1) a(0.03))",
+        "tree-row-hover-medium-dark":     "color(var(bg-color) l(+ 5%))",
+        "tree-row-hover-medium-light":    "color(var(bg-color) l(- 5%))",
+        "tree-row-hover-light":           "color(var(bg-color) l(- 8%))",// "color(var(black1) a(0.04))",
 
         // Sidebar Adaptive contrast setting
         "sidebar-container-bg-adaptive-contrast-dark":            "color(var(bg-color) l(+ 3.7%))", //"color(var(bg-color) blend(var(white1) 98%))",

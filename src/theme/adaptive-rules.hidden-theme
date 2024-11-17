@@ -340,6 +340,19 @@
                 "hover"
             ],
             "layer0.opacity": 1,
+            "layer0.tint": "var(tree-row-hover-medium-dark)"
+        },
+        {
+            "class": "tree_row",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "light"
+            },
+            "attributes": [
+                "selectable",
+                "hover"
+            ],
+            "layer0.opacity": 1,
             "layer0.tint": "var(tree-row-hover-dark)"
         },
         {
@@ -356,6 +369,27 @@
                     ]
                 }
             ],
+            "layer0.tint": "var(tree-row-hover-medium-light)"
+        },
+        {
+            "class": "tree_row",
+            "settings": {
+                "adaptive_contrast": true,
+                "adaptive_contrast_tone": "dark"
+            },
+            "attributes": [
+                "selectable",
+                "hover"
+            ],
+            "parents": [
+                {
+                    "class": "window", 
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.opacity": 1,
             "layer0.tint": "var(tree-row-hover-light)"
         },
         // Tree row selected
