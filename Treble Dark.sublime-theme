@@ -4278,10 +4278,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "blue"
    },
    "parents": [
@@ -4298,10 +4294,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "purple"
    },
    "parents": [
@@ -4318,10 +4310,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "pink"
    },
    "parents": [
@@ -4338,10 +4326,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "red"
    },
    "parents": [
@@ -4358,10 +4342,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "orange"
    },
    "parents": [
@@ -4378,10 +4358,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "yellow"
    },
    "parents": [
@@ -4398,10 +4374,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "green"
    },
    "parents": [
@@ -4418,10 +4390,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "grayscale"
    },
    "parents": [
@@ -4438,10 +4406,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "grayscale"
    },
    "parents": [
@@ -4459,10 +4423,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "color-scheme"
    },
    "parents": [
@@ -4639,10 +4599,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "blue"
    },
    "attributes": [
@@ -4663,10 +4619,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "purple"
    },
    "attributes": [
@@ -4687,10 +4639,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "pink"
    },
    "attributes": [
@@ -4711,10 +4659,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "red"
    },
    "attributes": [
@@ -4735,10 +4679,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "orange"
    },
    "attributes": [
@@ -4759,10 +4699,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "yellow"
    },
    "attributes": [
@@ -4783,10 +4719,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "green"
    },
    "attributes": [
@@ -4807,10 +4739,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "grayscale"
    },
    "attributes": [
@@ -4831,10 +4759,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "grayscale"
    },
    "attributes": [
@@ -4856,10 +4780,6 @@
    "class": "tab_close_button",
    "settings": {
     "show_tab_close_buttons": true,
-    "tab_style": [
-     "mi",
-     "fa"
-    ],
     "accent_color": "color-scheme"
    },
    "attributes": [

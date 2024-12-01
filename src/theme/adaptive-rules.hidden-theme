@@ -4236,89 +4236,89 @@
             ],
             "layer1.tint": "var(tab-x-button-normal-light)"
         },
-        // Tab close button tab selected Tab style Mi and Fa Accent color Blue
+        // Tab close button tab selected Accent color Blue
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "blue"
             },
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
             "layer1.tint": "var(accent-blue)"
         },
-        // Tab close button tab selected Tab style Mi and Fa Accent color Purple
+        // Tab close button tab selected Accent color Purple
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "purple"
             },
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
             "layer1.tint": "var(accent-purple)"
         },
-        // Tab close button tab selected Tab style Mi and Fa Accent color Pink
+        // Tab close button tab selected Accent color Pink
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "pink"
             },
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
             "layer1.tint": "var(accent-pink)"
         },
-        // Tab close button tab selected Tab style Mi and Fa Accent color Red
+        // Tab close button tab selected Accent color Red
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "red"
             },
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
             "layer1.tint": "var(accent-red)"
         },
-        // Tab close button tab selected Tab style Mi and Fa Accent color Orange
+        // Tab close button tab selected Accent color Orange
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "orange"
             },
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
             "layer1.tint": "var(accent-orange)"
         },
-        // Tab close button tab selected Tab style Mi and Fa Accent color Yellow
+        // Tab close button tab selected Accent color Yellow
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "yellow"
             },
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
             "layer1.tint": "var(accent-yellow)"
         },
-        // Tab close button tab selected Tab style Mi and Fa Accent color Green
+        // Tab close button tab selected Accent color Green
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "green"
             },
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
             "layer1.tint": "var(accent-green)"
         },
-        // Tab close button tab selected Tab style Mi and Fa Accent color Grayscale
+        // Tab close button tab selected Accent color Grayscale
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "grayscale"
             },
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
@@ -4328,7 +4328,7 @@
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "grayscale"
             },
             "parents": [
@@ -4339,12 +4339,12 @@
             ],
             "layer1.tint": "var(accent-black)"
         },
-        // Tab close button tab selected Tab style Mi and Fa Accent color Color scheme
+        // Tab close button tab selected Accent color Color scheme
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "color-scheme"
             },
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
@@ -4489,12 +4489,12 @@
             "layer0.opacity": "var(tab-x-button-opacity)",
             "layer1.opacity": "var(tab-x-button-opacity)"
         },
-        // Tab close button hover tab selected Tab style Mi and Fa Accent color Blue
+        // Tab close button hover tab selected Accent color Blue
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "blue"
             },
             "attributes": [
@@ -4504,12 +4504,12 @@
             "layer0.tint": "color(var(accent-blue) a(0.3)",
             "layer1.tint": "var(accent-blue)"
         },
-        // Tab close button hover tab selected Tab style Mi and Fa Accent color Purple
+        // Tab close button hover tab selected Accent color Purple
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "purple"
             },
             "attributes": [
@@ -4519,12 +4519,12 @@
             "layer0.tint": "color(var(accent-purple) a(0.3)",
             "layer1.tint": "var(accent-purple)"
         },
-        // Tab close button hover tab selected Tab style Mi and Fa Accent color Pink
+        // Tab close button hover tab selected Accent color Pink
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "pink"
             },
             "attributes": [
@@ -4534,12 +4534,12 @@
             "layer0.tint": "color(var(accent-pink) a(0.3)",
             "layer1.tint": "var(accent-pink)"
         },
-        // Tab close button hover tab selected Tab style Mi and Fa Accent color Red
+        // Tab close button hover tab selected Accent color Red
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "red"
             },
             "attributes": [
@@ -4549,12 +4549,12 @@
             "layer0.tint": "color(var(accent-red) a(0.3)",
             "layer1.tint": "var(accent-red)"
         },
-        // Tab close button hover tab selected Tab style Mi and Fa Accent color Orange
+        // Tab close button hover tab selected Accent color Orange
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "orange"
             },
             "attributes": [
@@ -4564,12 +4564,12 @@
             "layer0.tint": "color(var(accent-orange) a(0.3)",
             "layer1.tint": "var(accent-orange)"
         },
-        // Tab close button hover tab selected Tab style Mi and Fa Accent color Yellow
+        // Tab close button hover tab selected Accent color Yellow
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "yellow"
             },
             "attributes": [
@@ -4579,12 +4579,12 @@
             "layer0.tint": "color(var(accent-yellow) a(0.3)",
             "layer1.tint": "var(accent-yellow)"
         },
-        // Tab close button hover tab selected Tab style Mi and Fa Accent color Green
+        // Tab close button hover tab selected Accent color Green
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "green"
             },
             "attributes": [
@@ -4594,12 +4594,12 @@
             "layer0.tint": "color(var(accent-green) a(0.3)",
             "layer1.tint": "var(accent-green)"
         },
-        // Tab close button hover tab selected Tab style Mi and Fa Accent color Grayscale
+        // Tab close button hover tab selected Accent color Grayscale
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "grayscale"
             },
             "attributes": [
@@ -4613,7 +4613,7 @@
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "grayscale"
             },
             "attributes": [
@@ -4623,12 +4623,12 @@
             "layer0.tint": "color(var(accent-black) a(0.3)",
             "layer1.tint": "var(accent-black)"
         },
-        // Tab close button hover tab selected Tab style Mi and Fa Accent color Color scheme
+        // Tab close button hover tab selected Accent color Color scheme
         {
             "class": "tab_close_button",
             "settings": {
                 "show_tab_close_buttons": true,
-                "tab_style": ["mi", "fa"],
+                // "tab_style": ["mi", "fa"],
                 "accent_color": "color-scheme"
             },
             "attributes": [
