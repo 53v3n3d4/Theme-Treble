@@ -315,6 +315,7 @@
         "text-area-modifier-light":            "blend(var(black1) 96%)",
         "text-area-console-panel-modifier":    "blend(var(black1) 96%)",
         "text-area-output-panel-modifier":     "blend(var(black1) 96%)",
+        "text-area-panel-control-modifier":    "blend(var(black1) 90%)",
         "text-area-dialog-modifier":           "blend(var(black1) 96%)",
         "grid-border-color-dark":              "color(var(bg-color) l(+ 11%))",
         "grid-border-color-light":             "color(var(bg-color) l(- 11%))",

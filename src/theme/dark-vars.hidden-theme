@@ -315,6 +315,7 @@
         "text-area-modifier-light":            "l(- 5%)",
         "text-area-console-panel-modifier":    "l(- 5%)",
         "text-area-output-panel-modifier":     "l(- 5%)",
+        "text-area-panel-control-modifier":    "l(+ 8%)",
         "text-area-dialog-modifier":           "l(- 4%)",
         "grid-border-color-dark":              "color(var(bg-color) l(+ 11%))",
         "grid-border-color-light":             "color(var(bg-color) l(- 11%))",

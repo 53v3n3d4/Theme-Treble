@@ -9962,6 +9962,17 @@
             "parents": [{"class": "text_line_control"}],
             "background_modifier": "var(text-area-modifier-light)"
         },
+        // Text area control Panel control Active sheet dimming
+        // Show input panel textures setting
+        {
+            "class": "text_area_control",
+            "settings": {
+                "show_input_panel_textures": false
+            },
+            "attributes": ["highlighted"],
+            "parents": [{"class": "panel_control"}],
+            "background_modifier": "var(text-area-panel-control-modifier)"
+        },
         // Text area control Console panel Inactive sheet dimming
         {
             "class": "text_area_control",
@@ -12018,6 +12029,20 @@
             ],
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-console-square.png",
             "layer1.texture": "Theme - Treble/textures/inputs/input-bg-console-square-border.png"
+        },
+        // Text line control Show input panel textures setting
+        {
+            "class": "text_line_control",
+            "settings": {
+                "show_input_panel_textures": false
+            },
+            "parents": [
+                {"class": "panel_control"}
+            ],
+            "layer0.opacity": 1,
+            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-console-square.png",
+            "layer1.opacity": 0,
+            "layer1.texture": ""
         },
         // Text line control Panel control
         // This rule more general panel control mess with rule not defined
