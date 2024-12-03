@@ -1,16 +1,16 @@
 ## Settings options
 
-> Adaptive contrast
+> Adaptive contrast light
 
-![Adaptive contrast](assets/screenshot-adaptive-contrast-on.png)
+![Adaptive contrast](assets/screenshot-adaptive-contrast-light.png)
+
+> Adaptive contrast dark
+
+![Adaptive contrast](assets/screenshot-adaptive-contrast-dark.png)
 
 > Wide scroll bars
 
 ![Wide scroll bar](assets/screenshot-wide-scroll-bar.png)
-
-> Theme opacity
-
-![Theme opacity](assets/screenshot-theme-opacity.png)
 
 ## Menu
 
@@ -76,9 +76,9 @@ Below are theme options available and can be customize at your option.
     // icons.
     "show_input_icon": true,
 
-    // Option to show panel input textures. Round corner
-    // and border images do not adapt well when resize
-    // panel control.
+    // Option to show panel input textures. Round corner,
+    // and border images, with margin, do not adapt well
+    // when resize panel control.
     //
     // Default is false. Turn to true if you want them
     // to show.

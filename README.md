@@ -33,15 +33,11 @@ You can also choose from 3 theme style options, you do it in your user settings 
 "light_theme_style: "mix"
 ```
 
-> Screenshots from v0.2.0  
+> Screenshots from v0.2.10  
 
 > In screenshots, we are using Color Scheme Bass and Zukan Icon Theme  
 [Color Scheme - Bass](https://github.com/53v3n3d4/Color-Scheme-Bass)  
-[Zukan Icon Theme](https://github.com/53v3n3d4/Zukan-Icon-Theme)
-
-## Memory/Cpu/Energy
-
-You can check [Memory/Cpu/Energy tests page](https://github.com/53v3n3d4/Theme-Treble/blob/main/pkgtest/PKGTEST.md)  
+[Zukan Icon Theme](https://github.com/53v3n3d4/Zukan-Icon-Theme)  
 
 ## Settings
 
@@ -88,6 +84,10 @@ To remove package using Package Control.
 To uninstall manually, go to your Sublime Text folder.  
 - Menu `Sublime Text > Preferences > Browse packages...`  
 - Then delete `Theme - Treble` inside `Packages` folder  
+
+## Memory/Cpu/Energy
+
+You can check [Memory/Cpu/Energy tests page](https://github.com/53v3n3d4/Theme-Treble/blob/main/pkgtest/PKGTEST.md)  
 
 ## File icon :alien:
 
