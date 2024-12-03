@@ -1,7 +1,8 @@
 # Changelog
 
 ## [0.2.10] - 2025
-- Tab style Do and Re: change tab close button to use Accent colors.
+- Tab style Do and Re: change tab close button selected to use Accent colors.
+- Change kind container and kind label colors.
 
 ### 🔆🌙 Adaptive
 - Change tree row hover color, black/white -> background color

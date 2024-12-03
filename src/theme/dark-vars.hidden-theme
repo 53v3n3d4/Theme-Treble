@@ -234,16 +234,18 @@
         "overlay-border-no-shadow-light":    "var(black4)",
 
         // Kind color
-        "kind-color-red":       "var(red3)",
-        "kind-color-orange":    "color(var(orange4) l(- 7%))",
-        "kind-color-yellow":    "color(var(gold1) l(- 17%))",
-        "kind-color-green":     "var(green5)",
-        "kind-color-cyan":      "var(green5)",
-        "kind-color-blue":      "var(blue4)",
-        "kind-color-purple":    "var(purple4)",
-        "kind-color-pink":      "var(pink1)",
-        "kind-color-dark":      "var(gray1)",
-        "kind-color-light":     "var(black4)",
+        "kind-color-red":       "var(red4)",  // "var(red3)",
+        "kind-color-orange":    "color(var(orange1) l(+ 11%))",  // "color(var(orange4) l(- 7%))",
+        "kind-color-yellow":    "color(var(yellow-light1) l(- 17%))",  // "color(var(gold1) l(- 17%))",
+        "kind-color-green":     "var(green-light4)",  // "var(green5)",
+        "kind-color-cyan":      "var(cyan1)",  // "var(green5)",
+        "kind-color-blue":      "var(blue-light4)",  // "var(blue4)",
+        "kind-color-purple":    "var(purple1)",  // "var(purple4)",
+        "kind-color-pink":      "var(pink-light2)",  // "var(pink1)",
+        "kind-color-dark":      "var(gray5)",  // "var(gray1)",
+        "kind-color-gray":      "color(var(gray4) a(0.6))",
+        "kind-color-light":     "var(gray4)",  // "var(black4)",
+        "kind-color-white":     "var(white2)",
 
         // Kind label
         "kind-function-color":      "var(kind-color-red)",
@@ -264,13 +266,14 @@
         "kind-container-green":     "var(green-light4)",
         "kind-container-purple":    "var(purple1)",
         "kind-container-cyan":      "var(cyan1)",
-        "kind-container-dark":      "var(black4)",
-        "kind-container-light":     "var(gray2)",
+        "kind-container-dark":      "var(gray6)",  // "var(black4)",
+        "kind-container-gray":      "color(var(gray4) a(0.6))",
+        "kind-container-light":     "var(gray5)",  // "var(gray2)",
 
         // Kind container opacity
-        "kind-container-opacity-normal":      { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+        "kind-container-opacity-normal":      { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
         "kind-container-opacity-selected":    { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
-        "kind-label-opacity-normal":          { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+        "kind-label-opacity-normal":          { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
         "kind-label-opacity-selected":        { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
 
         // Kind container opacity Theme opacity setting

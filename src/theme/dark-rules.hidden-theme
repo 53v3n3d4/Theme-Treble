@@ -5289,6 +5289,7 @@
         // The letter inside kind container
         {
             "class": "kind_label",
+            "color": "var(kind-color-white)",
             "font.size": "var(font-size-kind-label)",
             "font.italic": false
         },
@@ -5305,14 +5306,21 @@
         // Container
         {
             "class": "kind_container kind_function",
-            "layer1.tint": "var(kind-container-red)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-function-color)"
+        },
+        {
+            "class": "kind_container kind_function",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-red)"
         },
         // Letter
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_function"}],
-            "color": "var(kind-function-color)",
+            // "color": "var(kind-function-color)",
             "font.italic": true
         },
         // Kind function Theme opacity setting
@@ -5403,14 +5411,21 @@
         // Kind keyword
         {
             "class": "kind_container kind_keyword",
-            "layer1.tint": "var(kind-container-pink)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-keyword-color)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_keyword"}],
-            "color": "var(kind-keyword-color)"
+            "class": "kind_container kind_keyword",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-pink)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_keyword"}],
+        //     "color": "var(kind-keyword-color)"
+        // },
         // Kind keyword Theme opacity setting
         {
             "class": "kind_container kind_keyword",
@@ -5500,14 +5515,21 @@
         // Example, html or css
         {
             "class": "kind_container kind_markup",
-            "layer1.tint": "var(kind-container-orange)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-markup-color)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_markup"}],
-            "color": "var(kind-markup-color)"
+            "class": "kind_container kind_markup",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-orange)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_markup"}],
+        //     "color": "var(kind-markup-color)"
+        // },
         // Kind markup Theme opacity setting
         {
             "class": "kind_container kind_markup",
@@ -5596,14 +5618,21 @@
         // Kind namespace
         {
             "class": "kind_container kind_namespace",
-            "layer1.tint": "var(kind-container-blue)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-namespace-color)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_namespace"}],
-            "color": "var(kind-namespace-color)"
+            "class": "kind_container kind_namespace",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-blue)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_namespace"}],
+        //     "color": "var(kind-namespace-color)"
+        // },
         // Kind namespace Theme opacity setting
         {
             "class": "kind_container kind_namespace",
@@ -5693,14 +5722,21 @@
         // Example, md file
         {
             "class": "kind_container kind_navigation",
-            "layer1.tint": "var(kind-container-yellow)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-navigation-color)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_navigation"}],
-            "color": "var(kind-navigation-color)"
+            "class": "kind_container kind_navigation",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-yellow)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_navigation"}],
+        //     "color": "var(kind-navigation-color)"
+        // },
         // Kind navigation Theme opacity setting
         {
             "class": "kind_container kind_navigation",
@@ -5790,14 +5826,21 @@
         // Example, auto complete struct
         {
             "class": "kind_container kind_snippet",
-            "layer1.tint": "var(kind-container-green)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-snippet-color)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_snippet"}],
-            "color": "var(kind-snippet-color)"
+            "class": "kind_container kind_snippet",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-green)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_snippet"}],
+        //     "color": "var(kind-snippet-color)"
+        // },
         // Kind snippet Theme opacity setting
         {
             "class": "kind_container kind_snippet",
@@ -5886,14 +5929,21 @@
         // Kind type
         {
             "class": "kind_container kind_type",
-            "layer1.tint": "var(kind-container-purple)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-type-color)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_type"}],
-            "color": "var(kind-type-color)"
+            "class": "kind_container kind_type",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-purple)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_type"}],
+        //     "color": "var(kind-type-color)"
+        // },
         // Kind type Theme opacity setting
         {
             "class": "kind_container kind_type",
@@ -5982,14 +6032,21 @@
         // Kind variable
         {
             "class": "kind_container kind_variable",
-            "layer1.tint": "var(kind-container-cyan)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-variable-color)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_variable"}],
-            "color": "var(kind-variable-color)"
+            "class": "kind_container kind_variable",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-cyan)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_variable"}],
+        //     "color": "var(kind-variable-color)"
+        // },
         // Kind variable Theme opacity setting
         {
             "class": "kind_container kind_variable",
@@ -6079,16 +6136,23 @@
         // Kind color redish
         {
             "class": "kind_container kind_color_redish",
-            "layer1.tint": "var(kind-container-red)",
+            "layer1.tint": "transparent",
             "layer1.opacity": "var(kind-container-opacity-normal)",
             "layer2.tint": "var(kind-color-red)",
             "layer2.opacity": "var(kind-container-opacity-normal)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_color_redish"}],
-            "color": "var(kind-color-red)"
+            "class": "kind_container kind_color_redish",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-red)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_color_redish"}],
+        //     "color": "var(kind-color-red)"
+        // },
         // Kind color redish Theme opacity setting
         {
             "class": "kind_container kind_color_redish",
@@ -6177,16 +6241,23 @@
         // Kind color orangish
         {
             "class": "kind_container kind_color_orangish",
-            "layer1.tint": "var(kind-container-orange)",
+            "layer1.tint": "transparent",
             "layer1.opacity": "var(kind-container-opacity-normal)",
             "layer2.tint": "var(kind-color-orange)",
             "layer2.opacity": "var(kind-container-opacity-normal)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_color_orangish"}],
-            "color": "var(kind-color-orange)"
+            "class": "kind_container kind_color_orangish",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-orange)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_color_orangish"}],
+        //     "color": "var(kind-color-orange)"
+        // },
         // Kind color orangish Theme opacity setting
         {
             "class": "kind_container kind_color_orangish",
@@ -6275,16 +6346,23 @@
         // Kind color yellowish
         {
             "class": "kind_container kind_color_yellowish",
-            "layer1.tint": "var(kind-container-yellow)",
+            "layer1.tint": "transparent",
             "layer1.opacity": "var(kind-container-opacity-normal)",
             "layer2.tint": "var(kind-color-yellow)",
             "layer2.opacity": "var(kind-container-opacity-normal)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_color_yellowish"}],
-            "color": "var(kind-color-yellow)"
+            "class": "kind_container kind_color_yellowish",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-yellow)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_color_yellowish"}],
+        //     "color": "var(kind-color-yellow)"
+        // },
         // Kind color yellowish Theme opacity setting
         {
             "class": "kind_container kind_color_yellowish",
@@ -6374,16 +6452,23 @@
         // Example, Select Theme/Color Scheme
         {
             "class": "kind_container kind_color_greenish",
-            "layer1.tint": "var(kind-container-green)",
+            "layer1.tint": "transparent",
             "layer1.opacity": "var(kind-container-opacity-normal)",
             "layer2.tint": "var(kind-color-green)",
             "layer2.opacity": "var(kind-container-opacity-normal)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_color_greenish"}],
-            "color": "var(kind-color-green)"
+            "class": "kind_container kind_color_greenish",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-green)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_color_greenish"}],
+        //     "color": "var(kind-color-green)"
+        // },
         // Kind color greenish Theme opacity setting
         {
             "class": "kind_container kind_color_greenish",
@@ -6472,16 +6557,23 @@
         // Kind color cyanish
         {
             "class": "kind_container kind_color_cyanish",
-            "layer1.tint": "var(kind-container-cyan)",
+            "layer1.tint": "transparent",
             "layer1.opacity": "var(kind-container-opacity-normal)",
             "layer2.tint": "var(kind-color-cyan)",
             "layer2.opacity": "var(kind-container-opacity-normal)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_color_cyanish"}],
-            "color": "var(kind-color-cyan)"
+            "class": "kind_container kind_color_cyanish",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-cyan)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_color_cyanish"}],
+        //     "color": "var(kind-color-cyan)"
+        // },
         // Kind color cyanish Theme opacity setting
         {
             "class": "kind_container kind_color_cyanish",
@@ -6570,16 +6662,23 @@
         // Kind color bluish
         {
             "class": "kind_container kind_color_bluish",
-            "layer1.tint": "var(kind-container-blue)",
+            "layer1.tint": "transparent",
             "layer1.opacity": "var(kind-container-opacity-normal)",
             "layer2.tint": "var(kind-color-blue)",
             "layer2.opacity": "var(kind-container-opacity-normal)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_color_bluish"}],
-            "color": "var(kind-color-blue)"
+            "class": "kind_container kind_color_bluish",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-blue)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_color_bluish"}],
+        //     "color": "var(kind-color-blue)"
+        // },
         // Kind color bluish Theme opacity setting
         {
             "class": "kind_container kind_color_bluish",
@@ -6668,16 +6767,23 @@
         // Kind color purplish
         {
             "class": "kind_container kind_color_purplish",
-            "layer1.tint": "var(kind-container-purple)",
+            "layer1.tint": "transparent",
             "layer1.opacity": "var(kind-container-opacity-normal)",
             "layer2.tint": "var(kind-color-purple)",
             "layer2.opacity": "var(kind-container-opacity-normal)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_color_purplish"}],
-            "color": "var(kind-color-purple)"
+            "class": "kind_container kind_color_purplish",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-purple)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_color_purplish"}],
+        //     "color": "var(kind-color-purple)"
+        // },
         // Kind color purplish Theme opacity setting
         {
             "class": "kind_container kind_color_purplish",
@@ -6766,16 +6872,23 @@
         // Kind color pinkish
         {
             "class": "kind_container kind_color_pinkish",
-            "layer1.tint": "var(kind-container-pink)",
+            "layer1.tint": "transparent",
             "layer1.opacity": "var(kind-container-opacity-normal)",
             "layer2.tint": "var(kind-color-pink)",
             "layer2.opacity": "var(kind-container-opacity-normal)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_color_pinkish"}],
-            "color": "var(kind-color-pink)"
+            "class": "kind_container kind_color_pinkish",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-pink)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_color_pinkish"}],
+        //     "color": "var(kind-color-pink)"
+        // },
         // Kind color pinkish Theme opacity setting
         {
             "class": "kind_container kind_color_pinkish",
@@ -6864,16 +6977,23 @@
         // Kind color dark
         {
             "class": "kind_container kind_color_dark",
-            "layer1.tint": "var(kind-container-dark)",
+            "layer1.tint": "transparent",
             "layer1.opacity": "var(kind-container-opacity-normal)",
-            "layer2.tint": "var(kind-color-dark)",
+            "layer2.tint": "var(kind-color-light)",
             "layer2.opacity": "var(kind-container-opacity-normal)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_color_dark"}],
-            "color": "var(kind-color-dark)"
+            "class": "kind_container kind_color_dark",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-dark)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_color_dark"}],
+        //     "color": "var(kind-color-dark)"
+        // },
         // Kind color dark Theme opacity setting
         {
             "class": "kind_container kind_color_dark",
@@ -6962,16 +7082,23 @@
         // Kind color light
         {
             "class": "kind_container kind_color_light",
-            "layer1.tint": "var(kind-container-light)",
+            "layer1.tint": "transparent",
             "layer1.opacity": "var(kind-container-opacity-normal)",
-            "layer2.tint": "var(kind-color-light)",
+            "layer2.tint": "var(kind-color-dark)",
             "layer2.opacity": "var(kind-container-opacity-normal)"
         },
         {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_color_light"}],
-            "color": "var(kind-color-light)"
+            "class": "kind_container kind_color_light",
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-light)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "parents": [{"class": "kind_container kind_color_light"}],
+        //     "color": "var(kind-color-light)"
+        // },
         // Kind color light Theme opacity setting
         {
             "class": "kind_container kind_color_light",
@@ -7061,15 +7188,24 @@
         {
             "class": "kind_container kind_function",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-dark)",
-            "layer2.tint": "var(kind-color-dark)"
+            "layer1.tint": "transparent",
+            "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_function",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_function"}],
-            "color": "var(kind-color-dark)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_function"}],
+        //     "color": "var(kind-color-dark)"
+        // },
         // Kind function Kind container grayscale setting
         // Theme opacity setting
         {
@@ -7170,15 +7306,24 @@
         {
             "class": "kind_container kind_keyword",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-dark)",
-            "layer2.tint": "var(kind-color-dark)"
+            "layer1.tint": "transparent",
+            "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_keyword",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_keyword"}],
-            "color": "var(kind-color-dark)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_keyword"}],
+        //     "color": "var(kind-color-dark)"
+        // },
         // Kind keyword Kind container grayscale setting
         // Theme opacity setting
         {
@@ -7279,15 +7424,24 @@
         {
             "class": "kind_container kind_markup",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-dark)",
-            "layer2.tint": "var(kind-color-dark)"
+            "layer1.tint": "transparent",
+            "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_markup",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_markup"}],
-            "color": "var(kind-color-dark)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_markup"}],
+        //     "color": "var(kind-color-dark)"
+        // },
         // Kind markup Kind container grayscale setting
         // Theme opacity setting
         {
@@ -7388,15 +7542,24 @@
         {
             "class": "kind_container kind_namespace",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-dark)",
-            "layer2.tint": "var(kind-color-dark)"
+            "layer1.tint": "transparent",
+            "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_namespace",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_namespace"}],
-            "color": "var(kind-color-dark)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_namespace"}],
+        //     "color": "var(kind-color-dark)"
+        // },
         // Kind namespace Kind container grayscale setting
         // Theme opacity setting
         {
@@ -7497,15 +7660,24 @@
         {
             "class": "kind_container kind_navigation",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-dark)",
-            "layer2.tint": "var(kind-color-dark)"
+            "layer1.tint": "transparent",
+            "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_navigation",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_navigation"}],
-            "color": "var(kind-color-dark)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_navigation"}],
+        //     "color": "var(kind-color-dark)"
+        // },
         // Kind navigation Kind container grayscale setting
         // Theme opacity setting
         {
@@ -7606,15 +7778,24 @@
         {
             "class": "kind_container kind_snippet",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-dark)",
-            "layer2.tint": "var(kind-color-dark)"
+            "layer1.tint": "transparent",
+            "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_snippet",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_snippet"}],
-            "color": "var(kind-color-dark)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_snippet"}],
+        //     "color": "var(kind-color-dark)"
+        // },
         // Kind snippet Kind container grayscale setting
         // Theme opacity setting
         {
@@ -7715,15 +7896,24 @@
         {
             "class": "kind_container kind_type",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-dark)",
-            "layer2.tint": "var(kind-color-dark)"
+            "layer1.tint": "transparent",
+            "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_type",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_type"}],
-            "color": "var(kind-color-dark)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_type"}],
+        //     "color": "var(kind-color-dark)"
+        // },
         // Kind type Kind container grayscale setting
         // Theme opacity setting
         {
@@ -7824,15 +8014,24 @@
         {
             "class": "kind_container kind_variable",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-dark)",
-            "layer2.tint": "var(kind-color-dark)"
+            "layer1.tint": "transparent",
+            "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_variable",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_variable"}],
-            "color": "var(kind-color-dark)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_variable"}],
+        //     "color": "var(kind-color-dark)"
+        // },
         // Kind variable Kind container grayscale setting
         // Theme opacity setting
         {
@@ -7934,15 +8133,24 @@
         {
             "class": "kind_container kind_color_redish",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-light)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_color_redish",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_color_redish"}],
-            "color": "var(kind-color-light)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_color_redish"}],
+        //     "color": "var(kind-color-light)"
+        // },
         // Kind color redish Grayscale Kind container grayscale setting
         // Theme opacity setting
         {
@@ -8043,15 +8251,24 @@
         {
             "class": "kind_container kind_color_orangish",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-light)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_color_orangish",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_color_orangish"}],
-            "color": "var(kind-color-light)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_color_orangish"}],
+        //     "color": "var(kind-color-light)"
+        // },
         // Kind color orangish Kind container grayscale setting
         // Theme opacity setting
         {
@@ -8152,15 +8369,24 @@
         {
             "class": "kind_container kind_color_yellowish",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-light)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_color_yellowish",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_color_yellowish"}],
-            "color": "var(kind-color-light)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_color_yellowish"}],
+        //     "color": "var(kind-color-light)"
+        // },
         // Kind color yellowish Kind container grayscale setting
         // Theme opacity setting
         {
@@ -8262,15 +8488,24 @@
         {
             "class": "kind_container kind_color_greenish",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-light)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_color_greenish",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_color_greenish"}],
-            "color": "var(kind-color-light)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_color_greenish"}],
+        //     "color": "var(kind-color-light)"
+        // },
         // Kind color greenish Kind container grayscale setting
         // Theme opacity setting
         {
@@ -8371,15 +8606,24 @@
         {
             "class": "kind_container kind_color_cyanish",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-light)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_color_cyanish",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_color_cyanish"}],
-            "color": "var(kind-color-light)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_color_cyanish"}],
+        //     "color": "var(kind-color-light)"
+        // },
         // Kind color cyanish Kind container grayscale setting
         // Theme opacity setting
         {
@@ -8480,15 +8724,24 @@
         {
             "class": "kind_container kind_color_bluish",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-light)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_color_bluish",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_color_bluish"}],
-            "color": "var(kind-color-light)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_color_bluish"}],
+        //     "color": "var(kind-color-light)"
+        // },
         // Kind color bluish Kind container grayscale setting
         // Theme opacity setting
         {
@@ -8589,15 +8842,24 @@
         {
             "class": "kind_container kind_color_purplish",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-light)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_color_purplish",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_color_purplish"}],
-            "color": "var(kind-color-light)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_color_purplish"}],
+        //     "color": "var(kind-color-light)"
+        // },
         // Kind color purplish Kind container grayscale setting
         // Theme opacity setting
         {
@@ -8698,15 +8960,24 @@
         {
             "class": "kind_container kind_color_pinkish",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-light)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_color_pinkish",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_color_pinkish"}],
-            "color": "var(kind-color-light)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_color_pinkish"}],
+        //     "color": "var(kind-color-light)"
+        // },
         // Kind color pinkish Kind container grayscale setting
         // Theme opacity setting
         {
@@ -8807,15 +9078,24 @@
         {
             "class": "kind_container kind_color_dark",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-light)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_color_dark",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_color_dark"}],
-            "color": "var(kind-color-light)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_color_dark"}],
+        //     "color": "var(kind-color-light)"
+        // },
         // Kind color dark Kind container grayscale setting
         // Theme opacity setting
         {
@@ -8916,15 +9196,24 @@
         {
             "class": "kind_container kind_color_light",
             "settings": ["kind_container_grayscale"],
-            "layer1.tint": "var(kind-container-light)",
+            "layer1.tint": "transparent",
             "layer2.tint": "var(kind-color-light)"
         },
         {
-            "class": "kind_label",
+            "class": "kind_container kind_color_light",
             "settings": ["kind_container_grayscale"],
-            "parents": [{"class": "kind_container kind_color_light"}],
-            "color": "var(kind-color-light)"
+            "parents": [
+                {"class": "auto_complete", "attributes": ["file_light"]}
+            ],
+            "layer1.tint": "var(kind-container-gray)",
+            "layer2.tint": "var(kind-color-gray)"
         },
+        // {
+        //     "class": "kind_label",
+        //     "settings": ["kind_container_grayscale"],
+        //     "parents": [{"class": "kind_container kind_color_light"}],
+        //     "color": "var(kind-color-light)"
+        // },
         // Kind color light Kind container grayscale setting
         // Theme opacity setting
         {

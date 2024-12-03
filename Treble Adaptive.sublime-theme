@@ -7102,6 +7102,7 @@
   },
   {
    "class": "kind_label",
+   "color": "#F0F0F7",
    "font.size": "1.3rem",
    "font.italic": false
   },
@@ -7117,8 +7118,32 @@
   },
   {
    "class": "kind_container kind_function",
-   "layer1.tint": "#FC7467",
-   "layer2.tint": "#9B0509"
+   "layer1.tint": "transparent",
+   "layer2.tint": "#FC7467"
+  },
+  {
+   "class": "kind_container kind_function",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#FC7467"
+  },
+  {
+   "class": "kind_container kind_function",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#FC7467"
   },
   {
    "class": "kind_label",
@@ -7127,7 +7152,6 @@
      "class": "kind_container kind_function"
     }
    ],
-   "color": "#9B0509",
    "font.italic": true
   },
   {
@@ -7135,8 +7159,8 @@
    "settings": {
     "theme_opacity": "high"
    },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_container kind_function",
@@ -7164,7 +7188,7 @@
      "class": "kind_container kind_function"
     }
    ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -7251,25 +7275,40 @@
   },
   {
    "class": "kind_container kind_keyword",
-   "layer1.tint": "#F3B5C5",
-   "layer2.tint": "#C01553"
+   "layer1.tint": "transparent",
+   "layer2.tint": "#F3B5C5"
   },
   {
-   "class": "kind_label",
+   "class": "kind_container kind_keyword",
    "parents": [
     {
-     "class": "kind_container kind_keyword"
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
     }
    ],
-   "color": "#C01553"
+   "layer1.tint": "#F3B5C5"
+  },
+  {
+   "class": "kind_container kind_keyword",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#F3B5C5"
   },
   {
    "class": "kind_container kind_keyword",
    "settings": {
     "theme_opacity": "high"
    },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_container kind_keyword",
@@ -7297,7 +7336,7 @@
      "class": "kind_container kind_keyword"
     }
    ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -7384,25 +7423,40 @@
   },
   {
    "class": "kind_container kind_markup",
-   "layer1.tint": "color(#FD8F3F l(+ 11%))",
-   "layer2.tint": "color(#FF5A00 l(- 7%))"
+   "layer1.tint": "transparent",
+   "layer2.tint": "color(#FD8F3F l(+ 11%))"
   },
   {
-   "class": "kind_label",
+   "class": "kind_container kind_markup",
    "parents": [
     {
-     "class": "kind_container kind_markup"
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
     }
    ],
-   "color": "color(#FF5A00 l(- 7%))"
+   "layer1.tint": "color(#FD8F3F l(+ 11%))"
+  },
+  {
+   "class": "kind_container kind_markup",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#FD8F3F l(+ 11%))"
   },
   {
    "class": "kind_container kind_markup",
    "settings": {
     "theme_opacity": "high"
    },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_container kind_markup",
@@ -7430,7 +7484,7 @@
      "class": "kind_container kind_markup"
     }
    ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -7517,53 +7571,68 @@
   },
   {
    "class": "kind_container kind_namespace",
-   "layer1.tint": "#A4CDFF",
-   "layer2.tint": "#1C02CF"
+   "layer1.tint": "transparent",
+   "layer2.tint": "#A4CDFF"
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#A4CDFF"
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#A4CDFF"
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_namespace"
     }
    ],
-   "color": "#1C02CF"
-  },
-  {
-   "class": "kind_container kind_namespace",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_namespace",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_namespace",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_namespace"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -7650,53 +7719,68 @@
   },
   {
    "class": "kind_container kind_navigation",
-   "layer1.tint": "color(#F9EFDA l(- 17%))",
-   "layer2.tint": "color(#FFB500 l(- 17%))"
+   "layer1.tint": "transparent",
+   "layer2.tint": "color(#F9EFDA l(- 17%))"
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#F9EFDA l(- 17%))"
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#F9EFDA l(- 17%))"
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_navigation"
     }
    ],
-   "color": "color(#FFB500 l(- 17%))"
-  },
-  {
-   "class": "kind_container kind_navigation",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_navigation",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_navigation",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_navigation"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -7783,53 +7867,68 @@
   },
   {
    "class": "kind_container kind_snippet",
-   "layer1.tint": "#00997B",
-   "layer2.tint": "#334D41"
+   "layer1.tint": "transparent",
+   "layer2.tint": "#00997B"
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#00997B"
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#00997B"
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_snippet"
     }
    ],
-   "color": "#334D41"
-  },
-  {
-   "class": "kind_container kind_snippet",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_snippet",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_snippet",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_snippet"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -7916,53 +8015,68 @@
   },
   {
    "class": "kind_container kind_type",
-   "layer1.tint": "#8D52D1",
-   "layer2.tint": "#47253C"
+   "layer1.tint": "transparent",
+   "layer2.tint": "#8D52D1"
+  },
+  {
+   "class": "kind_container kind_type",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#8D52D1"
+  },
+  {
+   "class": "kind_container kind_type",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#8D52D1"
+  },
+  {
+   "class": "kind_container kind_type",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_type",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_type",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_type"
     }
    ],
-   "color": "#47253C"
-  },
-  {
-   "class": "kind_container kind_type",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_type",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_type",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_type"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -8049,53 +8163,68 @@
   },
   {
    "class": "kind_container kind_variable",
-   "layer1.tint": "#40E0D0",
-   "layer2.tint": "#334D41"
+   "layer1.tint": "transparent",
+   "layer2.tint": "#40E0D0"
+  },
+  {
+   "class": "kind_container kind_variable",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#40E0D0"
+  },
+  {
+   "class": "kind_container kind_variable",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#40E0D0"
+  },
+  {
+   "class": "kind_container kind_variable",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_variable",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_variable",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_variable"
     }
    ],
-   "color": "#334D41"
-  },
-  {
-   "class": "kind_container kind_variable",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_variable",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_variable",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_variable"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -8182,55 +8311,70 @@
   },
   {
    "class": "kind_container kind_color_redish",
-   "layer1.tint": "#FC7467",
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.tint": "#9B0509",
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.tint": "transparent",
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.tint": "#FC7467",
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#FC7467"
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#FC7467"
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_color_redish"
     }
    ],
-   "color": "#9B0509"
-  },
-  {
-   "class": "kind_container kind_color_redish",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_redish",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_redish",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_redish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -8317,55 +8461,70 @@
   },
   {
    "class": "kind_container kind_color_orangish",
-   "layer1.tint": "color(#FD8F3F l(+ 11%))",
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.tint": "color(#FF5A00 l(- 7%))",
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.tint": "transparent",
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.tint": "color(#FD8F3F l(+ 11%))",
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#FD8F3F l(+ 11%))"
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#FD8F3F l(+ 11%))"
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_color_orangish"
     }
    ],
-   "color": "color(#FF5A00 l(- 7%))"
-  },
-  {
-   "class": "kind_container kind_color_orangish",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_orangish",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_orangish",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_orangish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -8452,55 +8611,70 @@
   },
   {
    "class": "kind_container kind_color_yellowish",
-   "layer1.tint": "color(#F9EFDA l(- 17%))",
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.tint": "color(#FFB500 l(- 17%))",
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.tint": "transparent",
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.tint": "color(#F9EFDA l(- 17%))",
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#F9EFDA l(- 17%))"
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#F9EFDA l(- 17%))"
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_color_yellowish"
     }
    ],
-   "color": "color(#FFB500 l(- 17%))"
-  },
-  {
-   "class": "kind_container kind_color_yellowish",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_yellowish",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_yellowish",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_yellowish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -8587,55 +8761,70 @@
   },
   {
    "class": "kind_container kind_color_greenish",
-   "layer1.tint": "#00997B",
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.tint": "#334D41",
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.tint": "transparent",
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.tint": "#00997B",
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#00997B"
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#00997B"
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_color_greenish"
     }
    ],
-   "color": "#334D41"
-  },
-  {
-   "class": "kind_container kind_color_greenish",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_greenish",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_greenish",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_greenish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -8722,55 +8911,70 @@
   },
   {
    "class": "kind_container kind_color_cyanish",
-   "layer1.tint": "#40E0D0",
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.tint": "#334D41",
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.tint": "transparent",
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.tint": "#40E0D0",
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#40E0D0"
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#40E0D0"
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_color_cyanish"
     }
    ],
-   "color": "#334D41"
-  },
-  {
-   "class": "kind_container kind_color_cyanish",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_cyanish",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_cyanish",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_cyanish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -8857,55 +9061,70 @@
   },
   {
    "class": "kind_container kind_color_bluish",
-   "layer1.tint": "#A4CDFF",
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.tint": "#1C02CF",
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.tint": "transparent",
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.tint": "#A4CDFF",
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#A4CDFF"
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#A4CDFF"
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_color_bluish"
     }
    ],
-   "color": "#1C02CF"
-  },
-  {
-   "class": "kind_container kind_color_bluish",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_bluish",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_bluish",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_bluish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -8992,55 +9211,70 @@
   },
   {
    "class": "kind_container kind_color_purplish",
-   "layer1.tint": "#8D52D1",
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.tint": "#47253C",
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.tint": "transparent",
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.tint": "#8D52D1",
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#8D52D1"
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#8D52D1"
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_color_purplish"
     }
    ],
-   "color": "#47253C"
-  },
-  {
-   "class": "kind_container kind_color_purplish",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_purplish",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_purplish",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_purplish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -9127,55 +9361,70 @@
   },
   {
    "class": "kind_container kind_color_pinkish",
-   "layer1.tint": "#F3B5C5",
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.tint": "#C01553",
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.tint": "transparent",
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.tint": "#F3B5C5",
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#F3B5C5"
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#F3B5C5"
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_color_pinkish"
     }
    ],
-   "color": "#C01553"
-  },
-  {
-   "class": "kind_container kind_color_pinkish",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_pinkish",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_pinkish",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_pinkish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -9262,55 +9511,70 @@
   },
   {
    "class": "kind_container kind_color_dark",
-   "layer1.tint": "#404040",
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.tint": "#ECECEC",
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.tint": "transparent",
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.tint": "#525055",
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "settings": {
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
+   "settings": {
+    "theme_opacity": "high"
+   },
    "parents": [
     {
      "class": "kind_container kind_color_dark"
     }
    ],
-   "color": "#ECECEC"
-  },
-  {
-   "class": "kind_container kind_color_dark",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_dark",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_dark",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_dark"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
@@ -9397,2841 +9661,46 @@
   },
   {
    "class": "kind_container kind_color_light",
-   "layer1.tint": "#B4B4B4",
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.tint": "#404040",
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "parents": [
-    {
-     "class": "kind_container kind_color_light"
-    }
-   ],
-   "color": "#404040"
-  },
-  {
-   "class": "kind_container kind_color_light",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_light",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_light",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_light"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_light"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_light"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_light",
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
+   "layer1.tint": "transparent",
    "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.tint": "#D8D8D8",
    "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_container kind_color_light",
    "parents": [
     {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
+     "class": "window",
      "attributes": [
-      "selected"
+      "file_light"
      ]
     }
    ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_light"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_light"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_function",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#404040",
-   "layer2.tint": "#ECECEC"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_function"
-    }
-   ],
-   "color": "#ECECEC"
-  },
-  {
-   "class": "kind_container kind_function",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_function",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_function",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_function"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_function"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_function"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_function",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_function",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_function"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_function"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_keyword",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#404040",
-   "layer2.tint": "#ECECEC"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_keyword"
-    }
-   ],
-   "color": "#ECECEC"
-  },
-  {
-   "class": "kind_container kind_keyword",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_keyword",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_keyword",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_keyword"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_keyword"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_keyword"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_keyword",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_keyword",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_keyword"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_keyword"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_markup",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#404040",
-   "layer2.tint": "#ECECEC"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_markup"
-    }
-   ],
-   "color": "#ECECEC"
-  },
-  {
-   "class": "kind_container kind_markup",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_markup",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_markup",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_markup"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_markup"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_markup"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_markup",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_markup",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_markup"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_markup"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_namespace",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#404040",
-   "layer2.tint": "#ECECEC"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_namespace"
-    }
-   ],
-   "color": "#ECECEC"
-  },
-  {
-   "class": "kind_container kind_namespace",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_namespace",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_namespace",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_namespace"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_namespace"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_namespace"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_namespace",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_namespace",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_namespace"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_namespace"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_navigation",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#404040",
-   "layer2.tint": "#ECECEC"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_navigation"
-    }
-   ],
-   "color": "#ECECEC"
-  },
-  {
-   "class": "kind_container kind_navigation",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_navigation",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_navigation",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_navigation"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_navigation"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_navigation"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_navigation",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_navigation",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_navigation"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_navigation"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_snippet",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#404040",
-   "layer2.tint": "#ECECEC"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_snippet"
-    }
-   ],
-   "color": "#ECECEC"
-  },
-  {
-   "class": "kind_container kind_snippet",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_snippet",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_snippet",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_snippet"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_snippet"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_snippet"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_snippet",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_snippet",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_snippet"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_snippet"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_type",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#404040",
-   "layer2.tint": "#ECECEC"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_type"
-    }
-   ],
-   "color": "#ECECEC"
-  },
-  {
-   "class": "kind_container kind_type",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_type",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_type",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_type"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_type"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_type"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_type",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_type",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_type"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_type"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_variable",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#404040",
-   "layer2.tint": "#ECECEC"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_variable"
-    }
-   ],
-   "color": "#ECECEC"
-  },
-  {
-   "class": "kind_container kind_variable",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_variable",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_variable",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_variable"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_variable"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_variable"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_variable",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_variable",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_variable"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_variable"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_redish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#B4B4B4",
-   "layer2.tint": "#404040"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_color_redish"
-    }
-   ],
-   "color": "#404040"
-  },
-  {
-   "class": "kind_container kind_color_redish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_redish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_redish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_redish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_redish"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_redish"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_redish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_redish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_redish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_redish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_orangish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#B4B4B4",
-   "layer2.tint": "#404040"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_color_orangish"
-    }
-   ],
-   "color": "#404040"
-  },
-  {
-   "class": "kind_container kind_color_orangish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_orangish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_orangish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_orangish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_orangish"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_orangish"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_orangish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_orangish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_orangish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_orangish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_yellowish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#B4B4B4",
-   "layer2.tint": "#404040"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_color_yellowish"
-    }
-   ],
-   "color": "#404040"
-  },
-  {
-   "class": "kind_container kind_color_yellowish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_yellowish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_yellowish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_yellowish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_yellowish"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_yellowish"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_yellowish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_yellowish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_yellowish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_yellowish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_greenish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#B4B4B4",
-   "layer2.tint": "#404040"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_color_greenish"
-    }
-   ],
-   "color": "#404040"
-  },
-  {
-   "class": "kind_container kind_color_greenish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_greenish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_greenish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_greenish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_greenish"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_greenish"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_greenish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_greenish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_greenish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_greenish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_cyanish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#B4B4B4",
-   "layer2.tint": "#404040"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_color_cyanish"
-    }
-   ],
-   "color": "#404040"
-  },
-  {
-   "class": "kind_container kind_color_cyanish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_cyanish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_cyanish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_cyanish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_cyanish"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_cyanish"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_cyanish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_cyanish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_cyanish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_cyanish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_bluish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#B4B4B4",
-   "layer2.tint": "#404040"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_color_bluish"
-    }
-   ],
-   "color": "#404040"
-  },
-  {
-   "class": "kind_container kind_color_bluish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_bluish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_bluish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_bluish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_bluish"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_bluish"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_bluish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_bluish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_bluish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_bluish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_purplish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#B4B4B4",
-   "layer2.tint": "#404040"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_color_purplish"
-    }
-   ],
-   "color": "#404040"
-  },
-  {
-   "class": "kind_container kind_color_purplish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_purplish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_purplish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_purplish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_purplish"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_purplish"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_purplish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_purplish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_purplish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_purplish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_pinkish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#B4B4B4",
-   "layer2.tint": "#404040"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_color_pinkish"
-    }
-   ],
-   "color": "#404040"
-  },
-  {
-   "class": "kind_container kind_color_pinkish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_pinkish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_pinkish",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_pinkish"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_pinkish"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_pinkish"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_pinkish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_pinkish",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_pinkish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_pinkish"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_dark",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#B4B4B4",
-   "layer2.tint": "#404040"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "kind_container kind_color_dark"
-    }
-   ],
-   "color": "#404040"
-  },
-  {
-   "class": "kind_container kind_color_dark",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_dark",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_dark",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "high"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_dark"
-    }
-   ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "medium"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_dark"
-    }
-   ],
-   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": {
-    "kind_container_grayscale": true,
-    "theme_opacity": "low"
-   },
-   "parents": [
-    {
-     "class": "kind_container kind_color_dark"
-    }
-   ],
-   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_dark",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_container kind_color_dark",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "auto_complete"
-    },
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    }
-   ],
-   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "mini_quick_panel_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_dark"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "parents": [
-    {
-     "class": "table_row",
-     "attributes": [
-      "selected"
-     ]
-    },
-    {
-     "class": "kind_container kind_color_dark"
-    }
-   ],
-   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+   "layer1.tint": "#D8D8D8"
   },
   {
    "class": "kind_container kind_color_light",
-   "settings": [
-    "kind_container_grayscale"
-   ],
-   "layer1.tint": "#B4B4B4",
-   "layer2.tint": "#404040"
-  },
-  {
-   "class": "kind_label",
-   "settings": [
-    "kind_container_grayscale"
-   ],
    "parents": [
     {
-     "class": "kind_container kind_color_light"
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
     }
    ],
-   "color": "#404040"
+   "layer1.tint": "#D8D8D8"
   },
   {
    "class": "kind_container kind_color_light",
    "settings": {
-    "kind_container_grayscale": true,
     "theme_opacity": "high"
    },
-   "layer1.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"},
-   "layer2.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_container kind_color_light",
    "settings": {
-    "kind_container_grayscale": true,
     "theme_opacity": "medium"
    },
    "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
@@ -12240,7 +9709,6 @@
   {
    "class": "kind_container kind_color_light",
    "settings": {
-    "kind_container_grayscale": true,
     "theme_opacity": "low"
    },
    "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
@@ -12249,7 +9717,6 @@
   {
    "class": "kind_label",
    "settings": {
-    "kind_container_grayscale": true,
     "theme_opacity": "high"
    },
    "parents": [
@@ -12257,7 +9724,3179 @@
      "class": "kind_container kind_color_light"
     }
    ],
-   "opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_light"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_light"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_light",
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_light",
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_light"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_light"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_function",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_function",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_function",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_function",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_function",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_function",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_function"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_function"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_function"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_function",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_function",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_function"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_function"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_keyword",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_keyword",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_keyword",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_keyword",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_keyword",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_keyword",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_keyword"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_keyword"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_keyword"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_keyword",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_keyword",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_keyword"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_keyword"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_markup",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_markup",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_markup",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_markup",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_markup",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_markup",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_markup"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_markup"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_markup"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_markup",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_markup",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_markup"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_markup"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_namespace"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_namespace"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_namespace"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_namespace",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_namespace"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_namespace"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_navigation"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_navigation"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_navigation"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_navigation",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_navigation"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_navigation"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_snippet"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_snippet"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_snippet"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_snippet",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_snippet"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_snippet"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_type",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_type",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_type",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_type",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_type",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_type",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_type"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_type"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_type"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_type",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_type",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_type"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_type"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_variable",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_variable",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_variable",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_variable",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_variable",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_variable",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_variable"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_variable"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_variable"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_variable",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_variable",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_variable"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_variable"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_redish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_redish"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_redish"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_redish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_redish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_redish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_orangish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_orangish"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_orangish"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_orangish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_orangish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_orangish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_yellowish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_yellowish"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_yellowish"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_yellowish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_yellowish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_yellowish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_greenish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_greenish"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_greenish"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_greenish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_greenish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_greenish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_cyanish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_cyanish"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_cyanish"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_cyanish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_cyanish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_cyanish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_bluish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_bluish"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_bluish"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_bluish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_bluish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_bluish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_purplish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_purplish"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_purplish"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_purplish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_purplish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_purplish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_pinkish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_pinkish"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_pinkish"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_pinkish",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_pinkish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_pinkish"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_dark"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_dark"
+    }
+   ],
+   "opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_dark"
+    }
+   ],
+   "opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_dark",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete"
+    },
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    }
+   ],
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "mini_quick_panel_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_dark"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "table_row",
+     "attributes": [
+      "selected"
+     ]
+    },
+    {
+     "class": "kind_container kind_color_dark"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_light",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "layer1.tint": "transparent",
+   "layer2.tint": "#525055"
+  },
+  {
+   "class": "kind_container kind_color_light",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_light",
+   "settings": [
+    "kind_container_grayscale"
+   ],
+   "parents": [
+    {
+     "class": "auto_complete",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer1.tint": "color(#5D6C79 a(0.6))",
+   "layer2.tint": "color(#5D6C79 a(0.6))"
+  },
+  {
+   "class": "kind_container kind_color_light",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "layer1.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_light",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "medium"
+   },
+   "layer1.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.65,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_container kind_color_light",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "low"
+   },
+   "layer1.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"},
+   "layer2.opacity": {"target":0.4,"speed":4,"interpolation":"smoothstep"}
+  },
+  {
+   "class": "kind_label",
+   "settings": {
+    "kind_container_grayscale": true,
+    "theme_opacity": "high"
+   },
+   "parents": [
+    {
+     "class": "kind_container kind_color_light"
+    }
+   ],
+   "opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "kind_label",
