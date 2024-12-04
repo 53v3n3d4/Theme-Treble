@@ -13652,7 +13652,7 @@
      "class": "panel_control"
     }
    ],
-   "background_modifier": "l(+ 12%)"
+   "background_modifier": "l(+ 4%)"
   },
   {
    "class": "text_area_control",
@@ -13668,7 +13668,7 @@
      "class": "panel_control"
     }
    ],
-   "background_modifier": "l(- 12%)"
+   "background_modifier": "l(- 9%)"
   },
   {
    "class": "text_area_control",
