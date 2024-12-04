@@ -3,7 +3,12 @@
 
     // Theme style changes format of sidebar icons, tab buttons, 
     // scroll bars, quick panels, panel buttons.
-    // Options are: "mix", "analog" and "digital".
+    //
+    // Options are:
+    // - mix
+    // - analog
+    // - digital
+    //
     // Treble Dark Theme style options
     "dark_theme_style": "analog",
 
@@ -17,9 +22,19 @@
     // selected file/folder, tab buttons, selected or matched 
     // on quick panels and auto complete, panel buttons, 
     // indexing status progress bar, check for updates window.
-    // Colors options are: "blue", "purple", "pink", "red",
-    // "orange", "yellow", "green", "grayscale" and
-    // "color-scheme".
+    //
+    // Colors options are:
+    // - blue
+    // - purple
+    // - pink
+    // - red
+    // - orange
+    // - yellow
+    // - green
+    // - grayscale
+    // - color-scheme
+    //
+    // Dafault is color-scheme
     "accent_color": "color-scheme",
 
     // Display a wider scroll bar option.
@@ -34,13 +49,22 @@
     // Control the tone of title bar, sidebar, panels, status 
     // bar and maybe tabset. Only works when adaptive_contrast
     // is true.
-    // Options valid are:
-    // - "dark": darken the background color.
-    // - "light": lighten the background color.
+    //
+    // It will dark or light the background color of the
+    // components above.
+    //
+    // Valid options are:
+    // - dark
+    // - light
     "adaptive_contrast_tone": "dark",
 
     // Change opacity of theme text, icons and buttons.
-    // Valid options are: "low", "medium", and "high".
+    // Valid options are:
+    // - low
+    // - medium
+    // - high
+    //
+    // Default is high.
     "theme_opacity": "high",
 
     // Option to show icons on input panels and quick panels. 
@@ -57,7 +81,13 @@
     "show_input_panel_textures": false,
 
     // Row padding space in sidebar, quick panels and auto
-    // complete. Valid options are: "normal" and "large".
+    // complete.
+    //
+    // Valid options are
+    // - normal
+    // - large
+    //
+    // Default is normal.
     "row_padding_space": "normal",
 
     // Sidebar
@@ -72,11 +102,20 @@
     // https://github.com/SublimeText/Theme-DAneo/
     "show_sidebar_icons": true,
 
-    // Folder icon colors accepted: "blue", "yellow" or 
-    // "graphite".
+    // Folder icon colors accepted
+    // - blue
+    // - yellow
+    // - graphite
+    //
+    // Default is graphite.
     "folder_icon_color": "graphite",
 
-    // Folder icon style can be "semiopaque", "solid" or "outline".
+    // Folder icon style can be
+    // - semiopaque
+    // - solid
+    // - outline
+    //
+    // Default is semiopaque.
     "folder_icon_style": "semiopaque",
 
     // Controls whether to show vcs status of untracked files 
@@ -98,50 +137,69 @@
     "show_sidebar_ignored_label_colors": true,
 
     // Git status badge style on the right of sidebar 
-    // files/folder labels. Options: "letters" or "circle".
+    // files/folder labels.
+    //
+    // Options:
+    // - letters
+    // - circle
+    //
+    // Default is letters.
     "git_status_badge_style": "letters",
 
     // Git status badge color on the right of sidebar 
-    // files/folder labels. Options: "multicolor" or "grayscale"
+    // files/folder labels.
+    //
+    // Options:
+    // - multicolor
+    // - grayscale
+    //
+    // Default is multicolor.
     "git_status_badge_color": "multicolor",
 
     // Tabs
 
-    // Tabs style options: "do", "re", "mi" and "fa".
-    // - "do": Only "do" style has tab button glued to sheet 
+    // Tabs style options: do, re, mi and fa.
+    //
+    // Options descriptions:
+    // - do: Only do style has tab button glued to sheet 
     // view. This option has support for inactive sheet 
     // dimming feature if tabset_background set to true 
     // (Dark and Light theme) or adaptive_contrast set to 
     // true (Adaptive theme).
-    // A minimal layout can be achieved with option "do" and 
+    // A minimal layout can be achieved with option do and 
     // tabset_background/adaptive_constrast set to false. This
     // result in tab button showing only text separate by line
     // dividers.
-    // - "re": All buttons, selected or unselected, has a 
+    // - re: All buttons, selected or unselected, has a 
     // background color. Format of button will vary from theme 
-    // style choosen (analog, mix or digital). Like "do"
+    // style choosen (analog, mix or digital). Like do
     // option, tabset bar can have a background color or be 
     // transparent.
-    // - "mi": Selected tab button will be painted with 
+    // - mi: Selected tab button will be painted with 
     // accent_color. Tabset bar will always be transparent. 
-    // And, like option "do", unselected buttons are only text 
+    // And, like option do, unselected buttons are only text 
     // separated by line dividers.
-    // - "fa": Similar to "mi", seleted tab button will be 
+    // - fa: Similar to mi, seleted tab button will be 
     // painted with accent_color. And tabset bar will be 
     // transparent. But unselected tab buttons will have a 
     // background color.
+    //
+    // Default is mi.
     "tab_style": "mi",
 
     // Show highlight color for added and deleted file.
     "show_add_delete_color": true,
 
-    // Tab highlight modified style. Valid options are: "8vb" and 
-    // "8va".
-    // - "8vb": display a full width bar at bottom of tab 
-    // - "8va": display a center width bar inside tab
+    // Tab highlight modified style. Valid options are: 8vb and 
+    // 8va.
+    // - 8vb: display a full width bar at bottom of tab 
+    // - 8va: display a center width bar inside tab
     // button.
+    //
     // This feature works only if sublime setting 
     // highlight_modified_tabs set to true.
+    //
+    // Default is 8va.
     "tab_modified_style": "8va",
 
     // Dark and Light theme option to display background for 
@@ -173,13 +231,25 @@
     // Option that group panel icon buttons. Like in ST3.
     "show_buttons_grouping": false,
 
-    // Panel size buttons. Buttons on Find, Replace and 
-    // Find in files panels. Valid options are: "small",
-    // "medium" and "large".
+    // Panel size buttons. All buttons on Find, Replace and 
+    // Find in files panels.
+    //
+    // Valid options are:
+    // - small
+    // - medium
+    // - large
+    //
+    // Default is medium.
     "panel_button_size": "medium",
 
     // Panel content width of Find, Replace, Find in files,
-    // Console and Output. Valid values are: "full" and "center".
+    // Console and Output.
+    //
+    // Valid values are:
+    // - full
+    // - center
+    //
+    // Default is full.
     "panel_content_width": "full"
 
 }
