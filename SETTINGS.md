@@ -1,12 +1,12 @@
 ## Settings options
 
-> Adaptive contrast light
+> Accent color
 
-![Adaptive contrast](assets/screenshot-adaptive-contrast-light.png)
+![Accent colors](assets/accent-colors.png)
 
-> Adaptive contrast dark
+> Vcs status style - Letters or Circle
 
-![Adaptive contrast](assets/screenshot-adaptive-contrast-dark.png)
+![Letters or Circle](assets/screenshot-vcs-status.png)
 
 > Wide scroll bars
 
@@ -83,9 +83,12 @@ Below are theme options available and can be customize at your option.
     // Valid options are:
     // - dark
     // - light
+    //
+    // Default is dark.
     "adaptive_contrast_tone": "dark",
 
     // Change opacity of theme text, icons and buttons.
+    //
     // Valid options are:
     // - low
     // - medium
@@ -110,7 +113,7 @@ Below are theme options available and can be customize at your option.
     // Row padding space in sidebar, quick panels and auto
     // complete.
     //
-    // Valid options are
+    // Valid options are:
     // - normal
     // - large
     //
@@ -129,7 +132,7 @@ Below are theme options available and can be customize at your option.
     // https://github.com/SublimeText/Theme-DAneo/
     "show_sidebar_icons": true,
 
-    // Folder icon colors accepted
+    // Folder icon colors accepted:
     // - blue
     // - yellow
     // - graphite
@@ -137,7 +140,7 @@ Below are theme options available and can be customize at your option.
     // Default is graphite.
     "folder_icon_color": "blue",
 
-    // Folder icon style can be
+    // Folder icon style can be:
     // - semiopaque
     // - solid
     // - outline
@@ -219,6 +222,8 @@ Below are theme options available and can be customize at your option.
 
     // Tab highlight modified style. Valid options are: 8vb and 
     // 8va.
+    //
+    // Options descriptions:
     // - 8vb: display a full width bar at bottom of tab 
     // - 8va: display a center width bar inside tab
     // button.

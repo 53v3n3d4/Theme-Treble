@@ -56,9 +56,12 @@
     // Valid options are:
     // - dark
     // - light
+    //
+    // Default is dark.
     "adaptive_contrast_tone": "dark",
 
     // Change opacity of theme text, icons and buttons.
+    //
     // Valid options are:
     // - low
     // - medium
@@ -83,7 +86,7 @@
     // Row padding space in sidebar, quick panels and auto
     // complete.
     //
-    // Valid options are
+    // Valid options are:
     // - normal
     // - large
     //
@@ -102,7 +105,7 @@
     // https://github.com/SublimeText/Theme-DAneo/
     "show_sidebar_icons": true,
 
-    // Folder icon colors accepted
+    // Folder icon colors accepted:
     // - blue
     // - yellow
     // - graphite
@@ -110,7 +113,7 @@
     // Default is graphite.
     "folder_icon_color": "graphite",
 
-    // Folder icon style can be
+    // Folder icon style can be:
     // - semiopaque
     // - solid
     // - outline
@@ -192,6 +195,8 @@
 
     // Tab highlight modified style. Valid options are: 8vb and 
     // 8va.
+    //
+    // Options descriptions:
     // - 8vb: display a full width bar at bottom of tab 
     // - 8va: display a center width bar inside tab
     // button.

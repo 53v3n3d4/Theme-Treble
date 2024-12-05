@@ -41,18 +41,18 @@ You can also choose from 3 theme style options, you do it in your user settings 
 
 ## Settings
 
-> Accent color
-
-![Accent colors](assets/accent-colors.png)
-
-> Vcs status style - Letters or Circle
-
-![Letters or Circle](assets/screenshot-vcs-status.png)
-
 > Grayscale - Kind container, Git status badges, Folder icons and Accent color
 
 ![Screenshot grayscale](assets/screenshot-grayscale-white.png)
 ![Screenshot grayscale](assets/screenshot-grayscale-black.png)
+
+> Adaptive contrast light
+
+![Adaptive contrast](assets/screenshot-adaptive-contrast-light.png)
+
+> Adaptive contrast dark
+
+![Adaptive contrast](assets/screenshot-adaptive-contrast-dark.png)
 
 For full theme settings and sublime text settings compatible, please take a look at the [`SETTINGS.md`](https://github.com/53v3n3d4/Theme-Treble/blob/main/SETTINGS.md) page.  
 
