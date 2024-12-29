@@ -13555,7 +13555,7 @@
   },
   {
    "class": "progress_bar_control",
-   "layer0.tint": "#B4B4B4",
+   "layer0.tint": "color(#B4B4B4 l(+ 11%))",
    "layer0.inner_margin": 6,
    "layer0.opacity": 1
   },

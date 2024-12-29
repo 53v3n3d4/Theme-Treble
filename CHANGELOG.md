@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.11] - 2025
+
+### 🔆🌙 Adaptive
+- Change progress bar control bg, gray -> background color
+
+### 🌙 Dark
+- Change progress bar control bg to darker tone
+
+### 🔆 Light
+- Change progress bar control bg to lighter tone
+
 ## [0.2.10] - 2024-12-18
 - Tab style Do and Re: change tab close button selected to use Accent colors
 - Change kind container and kind label colors

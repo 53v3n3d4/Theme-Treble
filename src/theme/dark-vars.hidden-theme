@@ -414,7 +414,7 @@
 
         // Dialogs
         "dialog-bg":                  "var(black3)",
-        "progress-bar-control-bg":    "var(gray2)",
+        "progress-bar-control-bg":    "color(var(black4) l(+ 17%))",
 
         // Scroll bars
         "scroll-bar-control-bg-sidebar":              "var(black7)",

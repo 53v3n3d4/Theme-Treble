@@ -481,8 +481,9 @@
         "status-bar-adaptive-div-border-light":    "color(var(gray2) a(0.27))",
 
         // Dialogs
-        "dialog-bg":                  "var(bg-color)",
-        "progress-bar-control-bg":    "var(gray2)",
+        "dialog-bg":                        "var(bg-color)",
+        "progress-bar-control-bg-dark":     "color(var(bg-color) l(+ 8%))",
+        "progress-bar-control-bg-light":    "color(var(bg-color) l(- 6%))",
 
         // Scroll bars
         "scroll-track-control-dark":                  "transparent",
