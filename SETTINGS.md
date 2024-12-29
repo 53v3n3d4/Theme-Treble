@@ -138,7 +138,7 @@ Below are theme options available and can be customize at your option.
     // - graphite
     //
     // Default is graphite.
-    "folder_icon_color": "blue",
+    "folder_icon_color": "graphite",
 
     // Folder icon style can be:
     // - semiopaque
@@ -146,7 +146,7 @@ Below are theme options available and can be customize at your option.
     // - outline
     //
     // Default is semiopaque.
-    "folder_icon_style": "solid",
+    "folder_icon_style": "semiopaque",
 
     // Controls whether to show vcs status of untracked files 
     // and folders by the color of their labels in the sidebar.
