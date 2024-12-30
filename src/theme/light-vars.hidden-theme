@@ -545,7 +545,7 @@
         "tool-tip-label-control-fg":     "var(gray4)",
 
         // Checkbox
-        "checkbox-box-control-bg-border":    "var(gray4)",
+        "checkbox-box-control-bg-border":    "var(gray2)",
         "checkbox-box-control-check":        "var(white5)",
 
         // Checkbox opacity
@@ -553,8 +553,8 @@
         "checkbox-icon-opacity-disabled":    0.4,
 
         // Radio button
-        "radio-button-list-control-bg":           "var(gray4)",
-        "radio-button-list-control-bg-border":    "var(gray4)",
+        "radio-button-list-control-bg":           "var(gray2)",
+        "radio-button-list-control-bg-border":    "var(gray2)",
         "radio-button-list-control-on":           "var(white5)",
 
         // Radio button opacity

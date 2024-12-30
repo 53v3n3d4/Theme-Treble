@@ -4,12 +4,21 @@
 
 ### 🔆🌙 Adaptive
 - Change progress bar control bg, gray -> background color
+- Change checkbox box control bg border tone
+- Change radio button list control bg tone
+- Change radio button list control bg border tone
 
 ### 🌙 Dark
 - Change progress bar control bg to darker tone
+- Change checkbox box control bg border darker tone
+- Change radio button list control bg darker tone
+- Change radio button list control bg border darker tone
 
 ### 🔆 Light
 - Change progress bar control bg to lighter tone
+- Change checkbox box control bg border lighter tone
+- Change radio button list control bg lighter tone
+- Change radio button list control bg border lighter tone
 
 ## [0.2.10] - 2024-12-18
 - Tab style Do and Re: change tab close button selected to use Accent colors

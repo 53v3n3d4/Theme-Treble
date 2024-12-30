@@ -15158,7 +15158,7 @@
      ]
     }
    ],
-   "layer0.tint": "color(var(--background) l(- 6%))"
+   "layer0.tint": "color(var(--background) l(- 8%))"
   },
   {
    "class": "progress_bar_control",
@@ -21990,7 +21990,7 @@
   },
   {
    "class": "checkbox_box_control",
-   "layer1.tint": "#B4B4B4"
+   "layer1.tint": "color(#B4B4B4 a(0.7))"
   },
   {
    "class": "checkbox_box_control",
@@ -22002,7 +22002,7 @@
      ]
     }
    ],
-   "layer1.tint": "#5D6C79"
+   "layer1.tint": "#B4B4B4"
   },
   {
    "class": "checkbox_box_control",
@@ -22227,8 +22227,8 @@
      "class": "checkbox_control"
     }
    ],
-   "layer0.tint": "#B4B4B4",
-   "layer1.tint": "#B4B4B4"
+   "layer0.tint": "color(#B4B4B4 a(0.7))",
+   "layer1.tint": "color(#B4B4B4 a(0.7))"
   },
   {
    "class": "checkbox_box_control",
@@ -22246,8 +22246,8 @@
      "class": "checkbox_control"
     }
    ],
-   "layer0.tint": "#5D6C79",
-   "layer1.tint": "#5D6C79"
+   "layer0.tint": "#B4B4B4",
+   "layer1.tint": "#B4B4B4"
   },
   {
    "class": "checkbox_box_control",

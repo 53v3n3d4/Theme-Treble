@@ -483,7 +483,7 @@
         // Dialogs
         "dialog-bg":                        "var(bg-color)",
         "progress-bar-control-bg-dark":     "color(var(bg-color) l(+ 8%))",
-        "progress-bar-control-bg-light":    "color(var(bg-color) l(- 6%))",
+        "progress-bar-control-bg-light":    "color(var(bg-color) l(- 8%))",
 
         // Scroll bars
         "scroll-track-control-dark":                  "transparent",
@@ -657,8 +657,8 @@
         "tool-tip-label-control-fg":     "var(gray3)",
 
         // Checkbox
-        "checkbox-box-control-bg-border-dark":     "var(gray2)",
-        "checkbox-box-control-bg-border-light":    "var(gray4)",
+        "checkbox-box-control-bg-border-dark":     "color(var(gray2) a(0.7))",
+        "checkbox-box-control-bg-border-light":    "var(gray2)",
         "checkbox-box-control-check":              "var(bg-color)", //"var(white1)",
 
         // Checkbox opacity
@@ -666,10 +666,10 @@
         "checkbox-icon-opacity-disabled":    0.4,
 
         // Radio button
-        "radio-button-list-control-bg-dark":            "var(gray2)",
-        "radio-button-list-control-bg-light":           "var(gray4)",
-        "radio-button-list-control-bg-border-dark":     "var(gray2)",
-        "radio-button-list-control-bg-border-light":    "var(gray4)",
+        "radio-button-list-control-bg-dark":            "color(var(gray2) a(0.7))",
+        "radio-button-list-control-bg-light":           "var(gray2)",
+        "radio-button-list-control-bg-border-dark":     "color(var(gray2) a(0.7))",
+        "radio-button-list-control-bg-border-light":    "var(gray2)",
         "radio-button-list-control-on":                 "var(bg-color)", //"var(white1)",
 
         // Radio button opacity
