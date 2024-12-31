@@ -13833,7 +13833,7 @@
    "class": "fold_button_control",
    "content_margin": 8,
    "layer0.tint": "#B4B4B4",
-   "layer0.opacity": 1,
+   "layer0.opacity": {"target":0.7,"speed":4,"interpolation":"smoothstep"},
    "layer0.texture": "Theme - Treble/textures/views/fold-closed.png",
    "layer0.inner_margin": [
     0,
@@ -13859,7 +13859,7 @@
    "attributes": [
     "hover"
    ],
-   "layer0.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer0.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "fold_button_control",
@@ -13874,7 +13874,7 @@
     "expanded",
     "hover"
    ],
-   "layer0.opacity": {"target":0.8,"speed":4,"interpolation":"smoothstep"}
+   "layer0.opacity": {"target":1,"speed":4,"interpolation":"smoothstep"}
   },
   {
    "class": "popup_shadow",

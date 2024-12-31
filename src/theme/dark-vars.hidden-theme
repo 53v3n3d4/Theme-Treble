@@ -332,7 +332,8 @@
         // Views opacity
         "minimap-viewport-no-show":    { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
         "minimap-viewport-hover":      { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" },
-        "fold-button-hover":           { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+        "fold-button-normal":          { "target": 0.7, "speed": 4.0, "interpolation": "smoothstep" },
+        "fold-button-hover":           { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
 
         // Auto complete
         "auto-complete-label-fg-dark":                   "color(var(white1) a(0.6))",

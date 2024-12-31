@@ -1,6 +1,7 @@
 # Changelog
 
 ## [0.2.11] - 2025
+- Change opacity fold button, normal and hover
 
 ### 🔆🌙 Adaptive
 - Change progress bar control bg, gray -> background color
