@@ -13121,13 +13121,13 @@
             "tint_index": 0,
             "layer0.opacity": 1,
             "layer0.inner_margin": [
-                8,
-                0
+                10,
+                8
             ],
             "layer1.tint": "var(text-line-control-bg-border-panel-dark)",
             "layer1.inner_margin": [
-                8, 
-                0
+                10, 
+                8
             ]
         },
         {

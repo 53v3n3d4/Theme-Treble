@@ -2,6 +2,7 @@
 
 ## [0.2.11] - 2025
 - Change opacity fold button, normal and hover
+- Adjust `inner_margin` of input panel textures to prevent distortion when resizing
 
 ### 🔆🌙 Adaptive
 - Change progress bar control bg, gray -> background color

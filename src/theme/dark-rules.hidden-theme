@@ -11666,13 +11666,13 @@
             "color_scheme_tint": "var(text-line-control-color-scheme-tint)",
             "layer0.opacity": 1,
             "layer0.inner_margin": [
-                8,
-                0
+                10,
+                8
             ],
             "layer1.tint": "var(text-line-control-bg-border-panel)",
             "layer1.inner_margin": [
-                8, 
-                0
+                10, 
+                8
             ]
         },
         // Text line control Theme opacity setting

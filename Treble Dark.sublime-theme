@@ -13908,13 +13908,13 @@
    "color_scheme_tint": "#252727",
    "layer0.opacity": 1,
    "layer0.inner_margin": [
-    8,
-    0
+    10,
+    8
    ],
    "layer1.tint": "color(#FFFFFF a(0.1))",
    "layer1.inner_margin": [
-    8,
-    0
+    10,
+    8
    ]
   },
   {
