@@ -104,9 +104,9 @@ Below are theme options available and can be customize at your option.
 
     // Option to show panel input textures.
     //
-    // Default is false. Turn to true if you want them
-    // to show.
-    "show_input_panel_textures": false,
+    // Default is true. Turn to false if you want to hide
+    // them.
+    "show_input_panel_textures": true,
 
     // Row padding space in sidebar, quick panels and auto
     // complete.
