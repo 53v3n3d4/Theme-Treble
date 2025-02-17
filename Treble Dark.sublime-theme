@@ -14123,13 +14123,13 @@
    "color_scheme_tint": "#323234",
    "layer0.opacity": 1,
    "layer0.inner_margin": [
-    25,
-    2
+    24,
+    15
    ],
    "layer1.opacity": {"target":0.6,"speed":1,"interpolation":"smoothstep"},
    "layer1.inner_margin": [
-    25,
-    2
+    24,
+    15
    ]
   },
   {
@@ -14339,13 +14339,13 @@
    "color_scheme_tint": "#323234",
    "layer0.opacity": 1,
    "layer0.inner_margin": [
-    25,
-    2
+    24,
+    15
    ],
    "layer1.opacity": {"target":0.6,"speed":1,"interpolation":"smoothstep"},
    "layer1.inner_margin": [
-    25,
-    2
+    24,
+    15
    ]
   },
   {

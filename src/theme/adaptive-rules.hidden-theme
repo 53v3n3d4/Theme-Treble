@@ -13518,13 +13518,13 @@
             "tint_index": 0,
             "layer0.opacity": 1,
             "layer0.inner_margin": [
-                25,
-                2
+                24,
+                15
             ],
             "layer1.opacity": "var(text-line-control-border-selected-accent-opacity)",
             "layer1.inner_margin": [
-                25,
-                2
+                24,
+                15
             ]
         },
         // Text line control Overlay control colors
@@ -13786,13 +13786,13 @@
             "tint_index": 0,
             "layer0.opacity": 1,
             "layer0.inner_margin": [
-                25, 
-                2
+                24, 
+                15
             ],
             "layer1.opacity": "var(text-line-control-border-selected-accent-opacity)",
             "layer1.inner_margin": [
-                25,
-                2
+                24,
+                15
             ]
         },
         // Text line control Switch project window Mix and Digital

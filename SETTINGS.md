@@ -102,9 +102,7 @@ Below are theme options available and can be customize at your option.
     // icons.
     "show_input_icon": true,
 
-    // Option to show panel input textures. Round corner,
-    // and border images, with margin, do not adapt well
-    // when resize panel control.
+    // Option to show panel input textures.
     //
     // Default is false. Turn to true if you want them
     // to show.
