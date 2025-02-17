@@ -1,10 +1,9 @@
 # Changelog
 
-## [0.2.11] - 2025
+## [0.2.11] - 2025-02-17
 - Change opacity fold button, normal and hover
 - Adjust `inner_margin` of input panel textures to prevent distortion when resizing
 - Fix `inner_margin` of input quick switch project and overlay textures to ensure correct display on Linux and Windows
-
 
 ### 🔆🌙 Adaptive
 - Change progress bar control bg, gray -> background color
