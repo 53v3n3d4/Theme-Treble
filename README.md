@@ -2,11 +2,7 @@
 
 ## Theme Treble
 
-<p align="left">
-    <a href="https://www.sublimetext.com/download" title="ST releases">
-        <img src="https://img.shields.io/badge/Sublime_Text->= 4143-orange?style=flat&logo=sublime-text"/>
-    </a>
-</p>
+[![Sublime Text >= 4169](https://img.shields.io/badge/Sublime_Text-%3E%3D%204169-orange?style=flat&logo=sublime-text)](https://www.sublimetext.com/download)  
 
 Treble theme has an adaptative, dark and light option (Click name to view)  
 
