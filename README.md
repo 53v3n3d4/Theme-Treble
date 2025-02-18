@@ -2,7 +2,7 @@
 
 ## Theme Treble
 
-[![Sublime Text >= 4169](https://img.shields.io/badge/Sublime_Text-%3E%3D%204169-orange?style=flat&logo=sublime-text)](https://www.sublimetext.com/download)  
+[![Sublime Text >= 4143](https://img.shields.io/badge/Sublime_Text-%3E%3D%204143-orange?style=flat&logo=sublime-text)](https://www.sublimetext.com/download)  
 
 Treble theme has an adaptative, dark and light option (Click name to view)  
 
