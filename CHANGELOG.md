@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.2.12] - 2025
+- Add icon for `sidebar_on_right` setting
+
 ## [0.2.11] - 2025-02-17
 - Change opacity fold button, normal and hover
 - Adjust `inner_margin` of input panel textures to prevent distortion when resizing

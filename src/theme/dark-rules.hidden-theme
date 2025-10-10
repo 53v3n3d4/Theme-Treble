@@ -10776,6 +10776,12 @@
             "layer0.tint": "var(sidebar-button-control)",
             "layer0.texture": "Theme - Treble/textures/status-bar/sidebar-button.png"
         },
+        // Sidebar button control ST "sidebar_on_right" setting
+        {
+            "class": "sidebar_button_control",
+            "settings": ["sidebar_on_right"],
+            "layer0.texture": "Theme - Treble/textures/status-bar/sidebar-button-right.png"
+        },
         // Sidebar button Theme opacity setting
         {
             "class": "sidebar_button_control",

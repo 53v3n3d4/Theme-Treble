@@ -301,6 +301,7 @@ The sublime settings below are some that are tested and work with this theme:
 * [x] popup_shadows  
 * [x] ruler_style  
 * [x] ruler_witdh  
+* [x] sidebar_on_right  
 * [x] show_encoding  
 * [x] show_git_status  
 * [x] show_git_status_in_status_bar  

@@ -12213,6 +12213,12 @@
             "parents": [{"class": "window", "attributes": ["file_light"]}],
             "layer0.tint": "var(sidebar-button-control-light)"
         },
+        // Sidebar button control ST "sidebar_on_right" setting
+        {
+            "class": "sidebar_button_control",
+            "settings": ["sidebar_on_right"],
+            "layer0.texture": "Theme - Treble/textures/status-bar/sidebar-button-right.png"
+        },
         // Sidebar button Theme opacity setting
         {
             "class": "sidebar_button_control",

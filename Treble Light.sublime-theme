@@ -13402,6 +13402,13 @@
   },
   {
    "class": "sidebar_button_control",
+   "settings": [
+    "sidebar_on_right"
+   ],
+   "layer0.texture": "Theme - Treble/textures/status-bar/sidebar-button-right.png"
+  },
+  {
+   "class": "sidebar_button_control",
    "settings": {
     "theme_opacity": "high"
    },
