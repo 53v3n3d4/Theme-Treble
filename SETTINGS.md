@@ -301,7 +301,6 @@ The sublime settings below are some that are tested and work with this theme:
 * [x] popup_shadows  
 * [x] ruler_style  
 * [x] ruler_witdh  
-* [x] sidebar_on_right  
 * [x] show_encoding  
 * [x] show_git_status  
 * [x] show_git_status_in_status_bar  
@@ -312,4 +311,5 @@ The sublime settings below are some that are tested and work with this theme:
 * [x] show_syntax  
 * [x] [show_tab_close_buttons](https://www.sublimetext.com/docs/themes.html#show_tab_close_buttons)  
 * [x] show_tab_close_buttons_on_left  
+* [x] sidebar_on_right  
 * [x] ui_scale  

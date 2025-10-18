@@ -15913,7 +15913,7 @@
     10,
     8
    ],
-   "layer1.tint": "color(#FFFFFF a(0.11))",
+   "layer1.tint": "color(var(--background) l(+ 8.8%))",
    "layer1.inner_margin": [
     10,
     8
@@ -15924,7 +15924,7 @@
    "attributes": [
     "file_light"
    ],
-   "layer1.tint": "color(#000000 a(0.11))"
+   "layer1.tint": "color(var(--background) l(- 11.8%))"
   },
   {
    "class": "text_line_control",

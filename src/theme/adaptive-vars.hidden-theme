@@ -517,8 +517,8 @@
         "scroll-bar-control-bg-sidebar-adaptive-contrast-light":    "color(var(bg-color) l(+ 3.7%))",
 
         // Inputs
-        "text-line-control-bg-border-panel-dark":          "color(var(white1) a(0.11))",
-        "text-line-control-bg-border-panel-light":         "color(var(black1) a(0.11))",
+        "text-line-control-bg-border-panel-dark":          "color(var(bg-color) l(+ 8.8%))", // "color(var(white1) a(0.11))",
+        "text-line-control-bg-border-panel-light":         "color(var(bg-color) l(- 11.8%))", //"color(var(black1) a(0.11))",
         "text-line-control-overlay-control-icon-dark":     "var(gray2)",
         "text-line-control-overlay-control-icon-light":    "var(gray4)",
         "text-line-control-panel-control-icon-dark":       "var(gray2)",
