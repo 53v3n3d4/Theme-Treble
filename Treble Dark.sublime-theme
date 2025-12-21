@@ -54,7 +54,7 @@
     0
    ],
    "layer0.opacity": 1,
-   "layer0.tint": "#1A1A1A",
+   "layer0.tint": "color(#1A1A1A l(+ 1%))",
    "layer1.draw_center": false,
    "layer1.inner_margin": [
     0,

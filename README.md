@@ -95,8 +95,9 @@ The file icons packages bellow was tested and work with this theme:
 
 ## Other themes and color schemes :dizzy:
 
-- [D'Aneo](https://github.com/SublimeText/Theme-DAneo/)  
 - [Brackets](https://github.com/jwortmann/brackets-theme)  
+- [Nabla Theme](https://github.com/aelmoghit/Nabla-Theme)  
+- [D'Aneo](https://github.com/SublimeText/Theme-DAneo/)  
 - [Ayu](https://github.com/dempfi/ayu)  
 - [Github sublime theme](https://github.com/mauroreisvieira/github-sublime-theme)  
 - [Two Dark](https://github.com/erremauro/TwoDark)  

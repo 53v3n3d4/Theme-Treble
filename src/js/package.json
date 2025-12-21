@@ -27,7 +27,7 @@
     "url": "https://github.com/53v3n3d4/Treble-Theme/issues"
   },
   "homepage": "https://github.com/53v3n3d4/Treble-Theme/",
-  "packageManager": "yarn@4.10.3",
+  "packageManager": "yarn@4.12.0",
   "dependencies": {
     "sublime-builder": "https://github.com/53v3n3d4/sublime-builder.git"
   },

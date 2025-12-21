@@ -3,6 +3,15 @@
 ## [0.2.12] - 2025
 - Add icon for `sidebar_on_right` setting
 
+### 🔆🌙 Adaptive
+- Change text input control border color, black/white -> background
+
+### 🌙 Dark
+- Change sidebar container bg to lighter tone
+
+### 🔆 Light
+- Change sidebar container bg to lighter tone
+
 ## [0.2.11] - 2025-02-17
 - Change opacity fold button, normal and hover
 - Adjust `inner_margin` of input panel textures to prevent distortion when resizing
