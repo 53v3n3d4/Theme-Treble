@@ -6,9 +6,11 @@
 
 ### 🔆🌙 Adaptive
 - Change text input control border color, black/white -> background
+- Change folder loading light color to light darker tone
 
 ### 🌙 Dark
 - Change sidebar container bg to lighter tone
+- Change folder loading light color to light darker tone
 
 ### 🔆 Light
 - Change sidebar container bg to lighter tone

@@ -109,7 +109,7 @@
         "folder-graphite-dark":     "var(gray2)",
         "folder-graphite-light":    "var(gray4)",
         "folder-loading-dark":      "var(white2)",
-        "folder-loading-light":     "var(black4)",
+        "folder-loading-light":     "var(black2)",
 
         // Vcs status multicolor
         "vcs-modified":                 "color(var(gold1) min-contrast(var(bg-color) 1.5))",

@@ -91,7 +91,7 @@
         "folder-yellow":           "color(var(yellow3) l(- 18%))",
         "folder-graphite":         "var(gray2)",
         "folder-loading-dark":     "var(white2)",
-        "folder-loading-light":    "var(black4)",
+        "folder-loading-light":    "var(black1)",
 
         // Vcs status multicolor
         "vcs-modified":                 "color(var(gold1) min-contrast(var(bg-color) 1.5))",
