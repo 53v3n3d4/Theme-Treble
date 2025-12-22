@@ -2,6 +2,7 @@
 
 ## [0.2.12] - 2025
 - Add icon for `sidebar_on_right` setting
+- Change icons folders
 
 ### 🔆🌙 Adaptive
 - Change text input control border color, black/white -> background
