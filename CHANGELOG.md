@@ -1,16 +1,16 @@
 # Changelog
 
-## [0.2.12] - 2025
+## [0.2.12] - 2025-12-27
 - Add icon for `sidebar_on_right` setting
 - Change icons folders
 
 ### 🔆🌙 Adaptive
 - Change text input control border color, black/white -> background
-- Change folder loading light color to light darker tone
+- Change folder loading light color to darker tone
 
 ### 🌙 Dark
 - Change sidebar container bg to lighter tone
-- Change folder loading light color to light darker tone
+- Change folder loading light color to darker tone
 
 ### 🔆 Light
 - Change sidebar container bg to lighter tone
