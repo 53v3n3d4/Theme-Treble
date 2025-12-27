@@ -37,8 +37,8 @@
         "title-bar-fg-low-light":       "color(var(gray4) l(+ 22%))",
 
         // Sidebar
-        "sidebar-container-bg":           "color(var(white2) l(+ 2%))",
-        "sidebar-container-bg-border":    "color(var(white2) l(+ 2%))",
+        "sidebar-container-bg":           "color(var(white2) l(+ 1%))",
+        "sidebar-container-bg-border":    "color(var(white2) l(+ 1%))",
         "tree-row-hover":                 "color(var(black1) a(0.04))",
 
         // Sidebar and Tab label
