@@ -1109,6 +1109,14 @@
             },
             "layer0.tint": "var(folder-graphite)"
         },
+        // Icon folder - folder icon Adaptive setting
+        {
+            "class": "icon_folder",
+            "settings": {
+                "folder_icon_color": "adaptive"
+            },
+            "layer0.tint": "var(folder-adaptive)"
+        },
         // Icon folder Vcs status ignored
         {
             "class": "icon_folder",
@@ -1375,6 +1383,14 @@
             },
             "layer0.tint": "var(folder-graphite)"
         },
+        // Icon folder loading - folder icon Adaptive
+        {
+            "class": "icon_folder_loading",
+            "settings": {
+                "folder_icon_color": "adaptive"
+            },
+            "layer0.tint": "var(folder-adaptive)"
+        },
         // Icon folder loading colors - Solid setting
         {
             "class": "icon_folder_loading",
@@ -1564,6 +1580,14 @@
                 "folder_icon_color": "graphite"
             },
             "layer0.tint": "var(folder-graphite)"
+        },
+        // Icon folder dup - folder icon Adaptive
+        {
+            "class": "icon_folder_dup",
+            "settings": {
+                "folder_icon_color": "adaptive"
+            },
+            "layer0.tint": "var(folder-adaptive)"
         },
         /** Icon fyle type */
         // hidden sidebar file icons, code from D'Aneo Theme https://github.com/SublimeText/Theme-DAneo/

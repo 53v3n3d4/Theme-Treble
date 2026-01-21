@@ -108,6 +108,8 @@
         "folder-yellow":            "color(var(yellow3) l(- 18%))",
         "folder-graphite-dark":     "var(gray2)",
         "folder-graphite-light":    "var(gray4)",
+        "folder-adaptive-dark":     "color(var(bg-color) l(+ 28%)",
+        "folder-adaptive-light":    "color(var(bg-color) l(- 33%)",
         "folder-loading-dark":      "var(white2)",
         "folder-loading-light":     "var(black2)",
 

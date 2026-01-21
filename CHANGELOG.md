@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.2.13] - 2026
+- Add `folder_icon_color` option `adaptive`
+
 ## [0.2.12] - 2025-12-27
 - Add icon for `sidebar_on_right` setting
 - Change icons folders

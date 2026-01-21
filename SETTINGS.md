@@ -134,9 +134,10 @@ Below are theme options available and can be customize at your option.
     // - blue
     // - yellow
     // - graphite
+    // - adaptive
     //
-    // Default is graphite.
-    "folder_icon_color": "graphite",
+    // Default is adaptive.
+    "folder_icon_color": "adaptive",
 
     // Folder icon style can be:
     // - semiopaque

@@ -90,6 +90,7 @@
         "folder-blue":             "color(var(blue3) l(+ 5%))",
         "folder-yellow":           "color(var(yellow3) l(- 18%))",
         "folder-graphite":         "var(gray2)",
+        "folder-adaptive":         "color(var(black7) l(+ 28%))",
         "folder-loading-dark":     "var(white2)",
         "folder-loading-light":    "var(black1)",
 

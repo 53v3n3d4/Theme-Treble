@@ -1177,6 +1177,13 @@
   },
   {
    "class": "icon_folder",
+   "settings": {
+    "folder_icon_color": "adaptive"
+   },
+   "layer0.tint": "color(#1A1A1A l(+ 28%))"
+  },
+  {
+   "class": "icon_folder",
    "settings": [
     "show_sidebar_icons"
    ],
@@ -1451,6 +1458,13 @@
   {
    "class": "icon_folder_loading",
    "settings": {
+    "folder_icon_color": "adaptive"
+   },
+   "layer0.tint": "color(#1A1A1A l(+ 28%))"
+  },
+  {
+   "class": "icon_folder_loading",
+   "settings": {
     "show_sidebar_icons": true,
     "folder_icon_style": "solid",
     "folder_icon_color": [
@@ -1646,6 +1660,13 @@
     "folder_icon_color": "graphite"
    },
    "layer0.tint": "#B4B4B4"
+  },
+  {
+   "class": "icon_folder_dup",
+   "settings": {
+    "folder_icon_color": "adaptive"
+   },
+   "layer0.tint": "color(#1A1A1A l(+ 28%))"
   },
   {
    "class": "icon_file_type",

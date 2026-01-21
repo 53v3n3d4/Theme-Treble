@@ -1562,6 +1562,29 @@
             ],
             "layer0.tint": "var(folder-graphite-light)"
         },
+        // Icon folder - folder icon Adaptive setting
+        {
+            "class": "icon_folder",
+            "settings": {
+                "folder_icon_color": "adaptive"
+            },
+            "layer0.tint": "var(folder-adaptive-dark)"
+        },
+        {
+            "class": "icon_folder",
+            "settings": {
+                "folder_icon_color": "adaptive"
+            },
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(folder-adaptive-light)"
+        },
         // Icon folder Vcs status ignored
         {
             "class": "icon_folder",
@@ -1843,6 +1866,29 @@
             ],
             "layer0.tint": "var(folder-graphite-light)"
         },
+        // Icon folder loading - folder icon Adaptive
+        {
+            "class": "icon_folder_loading",
+            "settings": {
+                "folder_icon_color": "adaptive"
+            },
+            "layer0.tint": "var(folder-adaptive-dark)"
+        },
+        {
+            "class": "icon_folder_loading",
+            "settings": {
+                "folder_icon_color": "adaptive"
+            },
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(folder-adaptive-light)"
+        },
         // Icon folder loading colors - Solid setting
         {
             "class": "icon_folder_loading",
@@ -2080,6 +2126,29 @@
                 }
             ],
             "layer0.tint": "var(folder-graphite-light)"
+        },
+        // Icon folder dup - folder icon Adaptive
+        {
+            "class": "icon_folder_dup",
+            "settings": {
+                "folder_icon_color": "adaptive"
+            },
+            "layer0.tint": "var(folder-adaptive-dark)"
+        },
+        {
+            "class": "icon_folder_dup",
+            "settings": {
+                "folder_icon_color": "adaptive"
+            },
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(folder-adaptive-light)"
         },
         /** Icon fyle type */
         // hidden sidebar file icons, code from D'Aneo Theme https://github.com/SublimeText/Theme-DAneo/

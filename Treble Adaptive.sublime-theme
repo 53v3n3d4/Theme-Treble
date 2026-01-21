@@ -1682,6 +1682,28 @@
   },
   {
    "class": "icon_folder",
+   "settings": {
+    "folder_icon_color": "adaptive"
+   },
+   "layer0.tint": "color(var(--background) l(+ 28%)"
+  },
+  {
+   "class": "icon_folder",
+   "settings": {
+    "folder_icon_color": "adaptive"
+   },
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer0.tint": "color(var(--background) l(- 33%)"
+  },
+  {
+   "class": "icon_folder",
    "settings": [
     "show_sidebar_icons"
    ],
@@ -1971,6 +1993,28 @@
   {
    "class": "icon_folder_loading",
    "settings": {
+    "folder_icon_color": "adaptive"
+   },
+   "layer0.tint": "color(var(--background) l(+ 28%)"
+  },
+  {
+   "class": "icon_folder_loading",
+   "settings": {
+    "folder_icon_color": "adaptive"
+   },
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer0.tint": "color(var(--background) l(- 33%)"
+  },
+  {
+   "class": "icon_folder_loading",
+   "settings": {
     "show_sidebar_icons": true,
     "folder_icon_style": "solid",
     "folder_icon_color": [
@@ -2217,6 +2261,28 @@
     }
    ],
    "layer0.tint": "#5D6C79"
+  },
+  {
+   "class": "icon_folder_dup",
+   "settings": {
+    "folder_icon_color": "adaptive"
+   },
+   "layer0.tint": "color(var(--background) l(+ 28%)"
+  },
+  {
+   "class": "icon_folder_dup",
+   "settings": {
+    "folder_icon_color": "adaptive"
+   },
+   "parents": [
+    {
+     "class": "window",
+     "attributes": [
+      "file_light"
+     ]
+    }
+   ],
+   "layer0.tint": "color(var(--background) l(- 33%)"
   },
   {
    "class": "icon_file_type",
