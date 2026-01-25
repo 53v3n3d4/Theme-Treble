@@ -173,8 +173,8 @@
         "tab-modified-dirty-light":             "var(gray3)",
         "tab-divider-dark":                     "var(gray2)",
         "tab-divider-light":                    "var(gray4)",
-        "tab-modified-added":                   "var(green2)", // green2 to diff from accent color green
-        "tab-modified-deleted":                 "var(vcs-deleted)",
+        "tab-modified-added":                   "color(var(green2) l(+ 11%) a(0.4))", // green2 to diff from accent color green
+        "tab-modified-deleted":                 "color(var(red2) l(+ 11%) a(0.5))",
 
         // Tab, scroll tabs, new tab and dropdown Adaptive contrast setting
         "tab-hover-adaptive-contrast-medium-dark":              "color(var(bg-color) l(- 1.7%))", //"color(var(white1) a(0.07))",
@@ -660,8 +660,8 @@
         "tool-tip-label-control-fg":     "var(gray3)",
 
         // Checkbox
-        "checkbox-box-control-bg-border-dark":     "color(var(gray2) a(0.7))",
-        "checkbox-box-control-bg-border-light":    "var(gray2)",
+        "checkbox-box-control-bg-border-dark":     "color(var(bg-color) l(+ 26%))", //"color(var(gray2) a(0.7))",
+        "checkbox-box-control-bg-border-light":    "color(var(bg-color) l(- 29%))", //"var(gray2)",
         "checkbox-box-control-check":              "var(bg-color)", //"var(white1)",
 
         // Checkbox opacity
@@ -671,8 +671,8 @@
         // Radio button
         "radio-button-list-control-bg-dark":            "color(var(gray2) a(0.7))",
         "radio-button-list-control-bg-light":           "var(gray2)",
-        "radio-button-list-control-bg-border-dark":     "color(var(gray2) a(0.7))",
-        "radio-button-list-control-bg-border-light":    "var(gray2)",
+        "radio-button-list-control-bg-border-dark":     "color(var(bg-color) l(+ 26%))", //"color(var(gray2) a(0.7))",
+        "radio-button-list-control-bg-border-light":    "color(var(bg-color) l(- 29%))", //"var(gray2)",
         "radio-button-list-control-on":                 "var(bg-color)", //"var(white1)",
 
         // Radio button opacity

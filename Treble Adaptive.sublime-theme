@@ -4671,7 +4671,7 @@
    "attributes": [
     "added"
    ],
-   "layer2.tint": "#119912"
+   "layer2.tint": "color(#119912 l(+ 11%) a(0.4))"
   },
   {
    "class": "tab_control",
@@ -4681,7 +4681,7 @@
    "attributes": [
     "deleted"
    ],
-   "layer2.tint": "#9B0509"
+   "layer2.tint": "color(#C41A16 l(+ 11%) a(0.5))"
   },
   {
    "class": "tab_control",
@@ -22063,7 +22063,7 @@
   },
   {
    "class": "checkbox_box_control",
-   "layer1.tint": "color(#B4B4B4 a(0.7))"
+   "layer1.tint": "color(var(--background) l(+ 26%))"
   },
   {
    "class": "checkbox_box_control",
@@ -22075,7 +22075,7 @@
      ]
     }
    ],
-   "layer1.tint": "#B4B4B4"
+   "layer1.tint": "color(var(--background) l(- 29%))"
   },
   {
    "class": "checkbox_box_control",
@@ -22301,7 +22301,7 @@
     }
    ],
    "layer0.tint": "color(#B4B4B4 a(0.7))",
-   "layer1.tint": "color(#B4B4B4 a(0.7))"
+   "layer1.tint": "color(var(--background) l(+ 26%))"
   },
   {
    "class": "checkbox_box_control",
@@ -22320,7 +22320,7 @@
     }
    ],
    "layer0.tint": "#B4B4B4",
-   "layer1.tint": "#B4B4B4"
+   "layer1.tint": "color(var(--background) l(- 29%))"
   },
   {
    "class": "checkbox_box_control",

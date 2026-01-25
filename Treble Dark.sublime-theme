@@ -3871,7 +3871,7 @@
    "attributes": [
     "added"
    ],
-   "layer2.tint": "#119912"
+   "layer2.tint": "color(#119912 l(+ 11%) a(0.4))"
   },
   {
    "class": "tab_control",
@@ -3881,7 +3881,7 @@
    "attributes": [
     "deleted"
    ],
-   "layer2.tint": "#9B0509"
+   "layer2.tint": "color(#C41A16 l(+ 11%) a(0.5))"
   },
   {
    "class": "tab_control",

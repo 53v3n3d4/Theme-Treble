@@ -150,8 +150,8 @@
         "tab-modified-dirty-light":             "var(gray3)",
         "tab-divider-dark":                     "var(gray2)",
         "tab-divider-light":                    "var(gray4)",
-        "tab-modified-added":                   "var(green2)", // green2 to diff from accent color green
-        "tab-modified-deleted":                 "var(vcs-deleted)",
+        "tab-modified-added":                   "color(var(green2) l(+ 11%) a(0.4))", // green2 to diff from accent color green
+        "tab-modified-deleted":                 "color(var(red2) l(+ 11%) a(0.5))",
 
         // Tab, scroll tabs, new tab and dropdown Tabset background setting
         "tab-hover-tab-style-do-tabset-bg-dark":           "color(var(white1) a(0.067))",
