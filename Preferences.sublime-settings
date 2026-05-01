@@ -5,9 +5,10 @@
     // scroll bars, quick panels, panel buttons.
     //
     // Options are:
-    // - mix
     // - analog
     // - digital
+    // - mix
+    // - remix
     //
     // Treble Dark Theme style options
     "dark_theme_style": "analog",

@@ -42,9 +42,10 @@
    "class": "sidebar_container",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "content_margin": [
@@ -138,9 +139,16 @@
   {
    "class": "tree_row",
    "settings": {
+    "dark_theme_style": "analog"
+   },
+   "layer0.texture": "Theme - Treble/textures/sidebar/selected-row-square.png"
+  },
+  {
+   "class": "tree_row",
+   "settings": {
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ]
    },
    "layer0.texture": "Theme - Treble/textures/sidebar/selected-row-round.png"
@@ -148,9 +156,9 @@
   {
    "class": "tree_row",
    "settings": {
-    "dark_theme_style": "analog"
+    "dark_theme_style": "remix"
    },
-   "layer0.texture": "Theme - Treble/textures/sidebar/selected-row-square.png"
+   "layer0.texture": "Theme - Treble/textures/sidebar/selected-row-full-round.png"
   },
   {
    "class": "tree_row",
@@ -953,8 +961,9 @@
    "class": "icon_folder",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "semiopaque"
@@ -965,8 +974,9 @@
    "class": "icon_folder",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "solid"
@@ -977,8 +987,9 @@
    "class": "icon_folder",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "outline"
@@ -1016,8 +1027,9 @@
    "class": "icon_folder",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "semiopaque"
@@ -1036,8 +1048,9 @@
    "class": "icon_folder",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "solid"
@@ -1056,8 +1069,9 @@
    "class": "icon_folder",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "outline"
@@ -1246,8 +1260,9 @@
    "class": "icon_folder_loading",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "semiopaque"
@@ -1258,8 +1273,9 @@
    "class": "icon_folder_loading",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "solid"
@@ -1270,8 +1286,9 @@
    "class": "icon_folder_loading",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "outline"
@@ -1504,8 +1521,9 @@
    "class": "icon_folder_dup",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "semiopaque"
@@ -1516,8 +1534,9 @@
    "class": "icon_folder_dup",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "solid"
@@ -1528,8 +1547,9 @@
    "class": "icon_folder_dup",
    "settings": {
     "dark_theme_style": [
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ],
     "show_sidebar_icons": true,
     "folder_icon_style": "outline"
@@ -2503,27 +2523,19 @@
   {
    "class": "tab_control",
    "content_margin": [
-    12,
-    6
+    24,
+    14
    ],
    "layer0.opacity": 0,
    "layer0.inner_margin": [
-    10,
-    4
+    24,
+    14
    ],
    "layer1.opacity": 1,
    "layer1.inner_margin": [
-    10,
-    4
+    24,
+    15
    ]
-  },
-  {
-   "class": "tab_control",
-   "settings": {
-    "dark_theme_style": "mix"
-   },
-   "layer0.texture": "Theme - Treble/textures/tabs/tab-mix.png",
-   "layer1.texture": "Theme - Treble/textures/tabs/tab-mix.png"
   },
   {
    "class": "tab_control",
@@ -2540,6 +2552,22 @@
    },
    "layer0.texture": "Theme - Treble/textures/tabs/tab-digital.png",
    "layer1.texture": "Theme - Treble/textures/tabs/tab-digital.png"
+  },
+  {
+   "class": "tab_control",
+   "settings": {
+    "dark_theme_style": "mix"
+   },
+   "layer0.texture": "Theme - Treble/textures/tabs/tab-mix.png",
+   "layer1.texture": "Theme - Treble/textures/tabs/tab-mix.png"
+  },
+  {
+   "class": "tab_control",
+   "settings": {
+    "dark_theme_style": "remix"
+   },
+   "layer0.texture": "Theme - Treble/textures/tabs/tab-remix.png",
+   "layer1.texture": "Theme - Treble/textures/tabs/tab-remix.png"
   },
   {
    "class": "tab_control",
@@ -3386,9 +3414,10 @@
    "class": "tab_control",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ],
     "tab_style": "re"
    },
@@ -3402,9 +3431,10 @@
    "class": "tab_control",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ],
     "tab_style": "re"
    },
@@ -3418,9 +3448,10 @@
    "class": "tab_control",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ],
     "tab_style": "re",
     "tabset_background": true
@@ -3594,9 +3625,25 @@
    "layer2.opacity": 0,
    "layer2.draw_center": false,
    "layer2.inner_margin": [
-    10,
-    4
+    23,
+    15
    ]
+  },
+  {
+   "class": "tab_control",
+   "settings": {
+    "dark_theme_style": [
+     "analog",
+     "mix"
+    ],
+    "tab_modified_style": "8vb",
+    "highlight_modified_tabs": true
+   },
+   "attributes": [
+    "dirty"
+   ],
+   "layer2.opacity": 1,
+   "layer2.texture": "Theme - Treble/textures/tabs/tab-modified-square-bottom.png"
   },
   {
    "class": "tab_control",
@@ -3614,10 +3661,7 @@
   {
    "class": "tab_control",
    "settings": {
-    "dark_theme_style": [
-     "mix",
-     "analog"
-    ],
+    "dark_theme_style": "remix",
     "tab_modified_style": "8vb",
     "highlight_modified_tabs": true
    },
@@ -3625,7 +3669,7 @@
     "dirty"
    ],
    "layer2.opacity": 1,
-   "layer2.texture": "Theme - Treble/textures/tabs/tab-modified-square-bottom.png"
+   "layer2.texture": "Theme - Treble/textures/tabs/tab-modified-full-round-bottom.png"
   },
   {
    "class": "tab_control",
@@ -4821,8 +4865,8 @@
    "class": "tab_close_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
-     "analog"
+     "analog",
+     "mix"
     ]
    },
    "attributes": [
@@ -4833,7 +4877,10 @@
   {
    "class": "tab_close_button",
    "settings": {
-    "dark_theme_style": "digital"
+    "dark_theme_style": [
+     "digital",
+     "remix"
+    ]
    },
    "attributes": [
     "hover"
@@ -5174,9 +5221,10 @@
    "class": "scroll_tabs_left_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "content_margin": 13,
@@ -5217,8 +5265,8 @@
    "class": "scroll_tabs_left_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ]
    },
    "layer0.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-round-left.png",
@@ -5227,10 +5275,19 @@
   {
    "class": "scroll_tabs_left_button",
    "settings": {
+    "dark_theme_style": "remix"
+   },
+   "layer0.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-circle-left.png",
+   "layer2.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-chevron-left.png"
+  },
+  {
+   "class": "scroll_tabs_left_button",
+   "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "layer2.tint": "#B4B4B4"
@@ -5239,9 +5296,10 @@
    "class": "scroll_tabs_left_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "parents": [
@@ -5258,9 +5316,10 @@
    "class": "scroll_tabs_left_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "attributes": [
@@ -5275,9 +5334,10 @@
    "class": "scroll_tabs_left_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "attributes": [
@@ -5298,9 +5358,10 @@
    "class": "scroll_tabs_left_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ],
     "tab_style": [
      "do",
@@ -5330,9 +5391,10 @@
    "class": "scroll_tabs_right_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "content_margin": 13,
@@ -5373,8 +5435,8 @@
    "class": "scroll_tabs_right_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ]
    },
    "layer0.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-round-right.png",
@@ -5383,10 +5445,19 @@
   {
    "class": "scroll_tabs_right_button",
    "settings": {
+    "dark_theme_style": "remix"
+   },
+   "layer0.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-circle-right.png",
+   "layer2.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-chevron-right.png"
+  },
+  {
+   "class": "scroll_tabs_right_button",
+   "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "layer2.tint": "#B4B4B4"
@@ -5395,9 +5466,10 @@
    "class": "scroll_tabs_right_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "parents": [
@@ -5414,9 +5486,10 @@
    "class": "scroll_tabs_right_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "attributes": [
@@ -5437,9 +5510,10 @@
    "class": "scroll_tabs_right_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "attributes": [
@@ -5460,9 +5534,10 @@
    "class": "scroll_tabs_right_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ],
     "tab_style": [
      "do",
@@ -5487,9 +5562,10 @@
    "class": "new_tab_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "content_margin": [
@@ -5543,10 +5619,19 @@
   {
    "class": "new_tab_button",
    "settings": {
+    "dark_theme_style": "remix"
+   },
+   "layer0.texture": "Theme - Treble/textures/tabs/new-tab-dropdown-button-full-round.png",
+   "layer2.texture": "Theme - Treble/textures/tabs/new-tab-button.png"
+  },
+  {
+   "class": "new_tab_button",
+   "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "layer2.tint": "#B4B4B4"
@@ -5555,9 +5640,10 @@
    "class": "new_tab_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "parents": [
@@ -5574,9 +5660,10 @@
    "class": "new_tab_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "attributes": [
@@ -5592,9 +5679,10 @@
    "class": "new_tab_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "attributes": [
@@ -5615,9 +5703,10 @@
    "class": "new_tab_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ],
     "tab_style": [
      "do",
@@ -5642,9 +5731,10 @@
    "class": "show_tabs_dropdown_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "content_margin": [
@@ -5688,8 +5778,8 @@
    "class": "show_tabs_dropdown_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ]
    },
    "layer0.texture": "Theme - Treble/textures/tabs/new-tab-dropdown-button-round.png",
@@ -5698,10 +5788,19 @@
   {
    "class": "show_tabs_dropdown_button",
    "settings": {
+    "dark_theme_style": "remix"
+   },
+   "layer0.texture": "Theme - Treble/textures/tabs/new-tab-dropdown-button-full-round.png",
+   "layer2.texture": "Theme - Treble/textures/tabs/show-tabs-dropdown-button.png"
+  },
+  {
+   "class": "show_tabs_dropdown_button",
+   "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "layer2.tint": "#B4B4B4"
@@ -5710,9 +5809,10 @@
    "class": "show_tabs_dropdown_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "parents": [
@@ -5729,9 +5829,10 @@
    "class": "show_tabs_dropdown_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "attributes": [
@@ -5747,9 +5848,10 @@
    "class": "show_tabs_dropdown_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "attributes": [
@@ -5770,9 +5872,10 @@
    "class": "show_tabs_dropdown_button",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ],
     "tab_style": [
      "do",
@@ -5790,9 +5893,10 @@
    "class": "overlay_control",
    "settings": {
     "dark_theme_style": [
-     "mix",
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "content_margin": [
@@ -5829,18 +5933,6 @@
   {
    "class": "overlay_control",
    "settings": {
-    "dark_theme_style": [
-     "mix",
-     "digital"
-    ]
-   },
-   "layer0.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round-shadow.png",
-   "layer1.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round.png",
-   "layer2.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round-border.png"
-  },
-  {
-   "class": "overlay_control",
-   "settings": {
     "dark_theme_style": "analog"
    },
    "layer0.texture": "Theme - Treble/textures/quick-panel/overlay-bg-square-shadow.png",
@@ -5851,9 +5943,31 @@
    "class": "overlay_control",
    "settings": {
     "dark_theme_style": [
-     "mix",
+     "digital",
+     "mix"
+    ]
+   },
+   "layer0.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round-shadow.png",
+   "layer1.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round.png",
+   "layer2.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round-border.png"
+  },
+  {
+   "class": "overlay_control",
+   "settings": {
+    "dark_theme_style": "remix"
+   },
+   "layer0.texture": "Theme - Treble/textures/quick-panel/overlay-bg-full-round-shadow.png",
+   "layer1.texture": "Theme - Treble/textures/quick-panel/overlay-bg-full-round.png",
+   "layer2.texture": "Theme - Treble/textures/quick-panel/overlay-bg-full-round-border.png"
+  },
+  {
+   "class": "overlay_control",
+   "settings": {
+    "dark_theme_style": [
      "analog",
-     "digital"
+     "digital",
+     "mix",
+     "remix"
     ]
    },
    "parents": [
@@ -5928,9 +6042,19 @@
   {
    "class": "mini_quick_panel_row",
    "settings": {
+    "dark_theme_style": "analog"
+   },
+   "attributes": [
+    "selected"
+   ],
+   "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-square.png"
+  },
+  {
+   "class": "mini_quick_panel_row",
+   "settings": {
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ]
    },
    "attributes": [
@@ -5941,12 +6065,12 @@
   {
    "class": "mini_quick_panel_row",
    "settings": {
-    "dark_theme_style": "analog"
+    "dark_theme_style": "remix"
    },
    "attributes": [
     "selected"
    ],
-   "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-square.png"
+   "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-full-round.png"
   },
   {
    "class": "mini_quick_panel_row",
@@ -6050,9 +6174,19 @@
   {
    "class": "quick_panel_row",
    "settings": {
+    "dark_theme_style": "analog"
+   },
+   "attributes": [
+    "selected"
+   ],
+   "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-square.png"
+  },
+  {
+   "class": "quick_panel_row",
+   "settings": {
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ]
    },
    "attributes": [
@@ -6063,12 +6197,12 @@
   {
    "class": "quick_panel_row",
    "settings": {
-    "dark_theme_style": "analog"
+    "dark_theme_style": "remix"
    },
    "attributes": [
     "selected"
    ],
-   "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-square.png"
+   "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-full-round.png"
   },
   {
    "class": "quick_panel_row",
@@ -6186,21 +6320,22 @@
   {
    "class": "kind_container",
    "settings": {
-    "dark_theme_style": [
-     "mix",
-     "digital"
-    ]
-   },
-   "layer1.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-round.png",
-   "layer2.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-round-border.png"
-  },
-  {
-   "class": "kind_container",
-   "settings": {
     "dark_theme_style": "analog"
    },
    "layer1.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-square.png",
    "layer2.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-square-border.png"
+  },
+  {
+   "class": "kind_container",
+   "settings": {
+    "dark_theme_style": [
+     "digital",
+     "mix",
+     "remix"
+    ]
+   },
+   "layer1.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-round.png",
+   "layer2.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-round-border.png"
   },
   {
    "class": "kind_label",
@@ -12095,9 +12230,17 @@
   {
    "class": "popup_shadow",
    "settings": {
+    "dark_theme_style": "analog",
+    "popup_shadows": true
+   },
+   "layer0.texture": "Theme - Treble/textures/views/popup-shadow-square.png"
+  },
+  {
+   "class": "popup_shadow",
+   "settings": {
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ],
     "popup_shadows": true
    },
@@ -12106,10 +12249,10 @@
   {
    "class": "popup_shadow",
    "settings": {
-    "dark_theme_style": "analog",
+    "dark_theme_style": "remix",
     "popup_shadows": true
    },
-   "layer0.texture": "Theme - Treble/textures/views/popup-shadow-square.png"
+   "layer0.texture": "Theme - Treble/textures/views/popup-shadow-full-round.png"
   },
   {
    "class": "popup_control",
@@ -12140,23 +12283,12 @@
    "settings": {
     "dark_theme_style": [
      "analog",
+     "digital",
      "mix",
-     "digital"
+     "remix"
     ]
    },
    "layer2.tint": "color(#9B9B9B a(0.3))"
-  },
-  {
-   "class": "popup_control",
-   "settings": {
-    "dark_theme_style": [
-     "mix",
-     "digital"
-    ]
-   },
-   "layer0.texture": "Theme - Treble/textures/views/popup-shadow-round.png",
-   "layer1.texture": "Theme - Treble/textures/views/popup-bg-round.png",
-   "layer2.texture": "Theme - Treble/textures/views/popup-bg-round-border.png"
   },
   {
    "class": "popup_control",
@@ -12166,6 +12298,27 @@
    "layer0.texture": "Theme - Treble/textures/views/popup-shadow-square.png",
    "layer1.texture": "Theme - Treble/textures/views/popup-bg-square.png",
    "layer2.texture": "Theme - Treble/textures/views/popup-bg-square-border.png"
+  },
+  {
+   "class": "popup_control",
+   "settings": {
+    "dark_theme_style": [
+     "digital",
+     "mix"
+    ]
+   },
+   "layer0.texture": "Theme - Treble/textures/views/popup-shadow-round.png",
+   "layer1.texture": "Theme - Treble/textures/views/popup-bg-round.png",
+   "layer2.texture": "Theme - Treble/textures/views/popup-bg-round-border.png"
+  },
+  {
+   "class": "popup_control",
+   "settings": {
+    "dark_theme_style": "remix"
+   },
+   "layer0.texture": "Theme - Treble/textures/views/popup-shadow-full-round.png",
+   "layer1.texture": "Theme - Treble/textures/views/popup-bg-full-round.png",
+   "layer2.texture": "Theme - Treble/textures/views/popup-bg-full-round-border.png"
   },
   {
    "class": "annotation_close_button",
@@ -12222,9 +12375,16 @@
   {
    "class": "table_row",
    "settings": {
+    "dark_theme_style": "analog"
+   },
+   "layer0.texture": "Theme - Treble/textures/auto-complete/selected-row-square.png"
+  },
+  {
+   "class": "table_row",
+   "settings": {
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ]
    },
    "layer0.texture": "Theme - Treble/textures/auto-complete/selected-row-round.png"
@@ -12232,9 +12392,9 @@
   {
    "class": "table_row",
    "settings": {
-    "dark_theme_style": "analog"
+    "dark_theme_style": "remix"
    },
-   "layer0.texture": "Theme - Treble/textures/auto-complete/selected-row-square.png"
+   "layer0.texture": "Theme - Treble/textures/auto-complete/selected-row-full-round.png"
   },
   {
    "class": "table_row",
@@ -12905,8 +13065,8 @@
    "settings": {
     "show_panel_close_button": true,
     "dark_theme_style": [
-     "mix",
-     "analog"
+     "analog",
+     "mix"
     ]
    },
    "layer0.texture": "Theme - Treble/textures/panels/panel-x-square.png"
@@ -12915,7 +13075,10 @@
    "class": "panel_close_button",
    "settings": {
     "show_panel_close_button": true,
-    "dark_theme_style": "digital"
+    "dark_theme_style": [
+     "digital",
+     "remix"
+    ]
    },
    "layer0.texture": "Theme - Treble/textures/panels/panel-x-circle.png"
   },
@@ -13015,8 +13178,8 @@
    "class": "vcs_branch_icon",
    "settings": {
     "dark_theme_style": [
-     "mix",
-     "analog"
+     "analog",
+     "mix"
     ]
    },
    "layer0.texture": "Theme - Treble/textures/status-bar/vcs-branch-icon.png"
@@ -13024,7 +13187,10 @@
   {
    "class": "vcs_branch_icon",
    "settings": {
-    "dark_theme_style": "digital"
+    "dark_theme_style": [
+     "digital",
+     "remix"
+    ]
    },
    "layer0.texture": "Theme - Treble/textures/status-bar/vcs-branch-icon1.png"
   },
@@ -13113,8 +13279,8 @@
    "class": "progress_bar_control",
    "settings": {
     "dark_theme_style": [
-     "mix",
-     "analog"
+     "analog",
+     "mix"
     ]
    },
    "layer0.texture": "Theme - Treble/textures/dialogs/progress-control-square.png"
@@ -13122,7 +13288,10 @@
   {
    "class": "progress_bar_control",
    "settings": {
-    "dark_theme_style": "digital"
+    "dark_theme_style": [
+     "digital",
+     "remix"
+    ]
    },
    "layer0.texture": "Theme - Treble/textures/dialogs/progress-control-round.png"
   },
@@ -13135,8 +13304,8 @@
    "class": "progress_gauge_control",
    "settings": {
     "dark_theme_style": [
-     "mix",
-     "analog"
+     "analog",
+     "mix"
     ]
    },
    "layer0.texture": "Theme - Treble/textures/dialogs/progress-control-square.png"
@@ -13144,7 +13313,10 @@
   {
    "class": "progress_gauge_control",
    "settings": {
-    "dark_theme_style": "digital"
+    "dark_theme_style": [
+     "digital",
+     "remix"
+    ]
    },
    "layer0.texture": "Theme - Treble/textures/dialogs/progress-control-round.png"
   },
@@ -13505,26 +13677,6 @@
   {
    "class": "puck_control",
    "settings": {
-    "dark_theme_style": "mix"
-   },
-   "attributes": [
-    "!horizontal"
-   ],
-   "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-vert-mix.png"
-  },
-  {
-   "class": "puck_control",
-   "settings": {
-    "dark_theme_style": "mix"
-   },
-   "attributes": [
-    "horizontal"
-   ],
-   "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-mix.png"
-  },
-  {
-   "class": "puck_control",
-   "settings": {
     "dark_theme_style": "analog"
    },
    "attributes": [
@@ -13545,7 +13697,10 @@
   {
    "class": "puck_control",
    "settings": {
-    "dark_theme_style": "digital"
+    "dark_theme_style": [
+     "digital",
+     "remix"
+    ]
    },
    "attributes": [
     "!horizontal"
@@ -13555,12 +13710,35 @@
   {
    "class": "puck_control",
    "settings": {
-    "dark_theme_style": "digital"
+    "dark_theme_style": [
+     "digital",
+     "remix"
+    ]
    },
    "attributes": [
     "horizontal"
    ],
    "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-round.png"
+  },
+  {
+   "class": "puck_control",
+   "settings": {
+    "dark_theme_style": "mix"
+   },
+   "attributes": [
+    "!horizontal"
+   ],
+   "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-vert-mix.png"
+  },
+  {
+   "class": "puck_control",
+   "settings": {
+    "dark_theme_style": "mix"
+   },
+   "attributes": [
+    "horizontal"
+   ],
+   "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-mix.png"
   },
   {
    "class": "puck_control",
@@ -13631,48 +13809,6 @@
   {
    "class": "puck_control",
    "settings": {
-    "dark_theme_style": "mix"
-   },
-   "attributes": [
-    "!horizontal"
-   ],
-   "parents": [
-    {
-     "class": "scroll_bar_control",
-     "attributes": [
-      "hover"
-     ]
-    },
-    {
-     "class": "scroll_track_control"
-    }
-   ],
-   "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-vert-mix-hover.png"
-  },
-  {
-   "class": "puck_control",
-   "settings": {
-    "dark_theme_style": "mix"
-   },
-   "attributes": [
-    "horizontal"
-   ],
-   "parents": [
-    {
-     "class": "scroll_bar_control",
-     "attributes": [
-      "hover"
-     ]
-    },
-    {
-     "class": "scroll_track_control"
-    }
-   ],
-   "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-mix-hover.png"
-  },
-  {
-   "class": "puck_control",
-   "settings": {
     "dark_theme_style": "analog"
    },
    "attributes": [
@@ -13715,7 +13851,10 @@
   {
    "class": "puck_control",
    "settings": {
-    "dark_theme_style": "digital"
+    "dark_theme_style": [
+     "digital",
+     "remix"
+    ]
    },
    "attributes": [
     "!horizontal"
@@ -13736,7 +13875,10 @@
   {
    "class": "puck_control",
    "settings": {
-    "dark_theme_style": "digital"
+    "dark_theme_style": [
+     "digital",
+     "remix"
+    ]
    },
    "attributes": [
     "horizontal"
@@ -13753,6 +13895,48 @@
     }
    ],
    "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-round-hover.png"
+  },
+  {
+   "class": "puck_control",
+   "settings": {
+    "dark_theme_style": "mix"
+   },
+   "attributes": [
+    "!horizontal"
+   ],
+   "parents": [
+    {
+     "class": "scroll_bar_control",
+     "attributes": [
+      "hover"
+     ]
+    },
+    {
+     "class": "scroll_track_control"
+    }
+   ],
+   "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-vert-mix-hover.png"
+  },
+  {
+   "class": "puck_control",
+   "settings": {
+    "dark_theme_style": "mix"
+   },
+   "attributes": [
+    "horizontal"
+   ],
+   "parents": [
+    {
+     "class": "scroll_bar_control",
+     "attributes": [
+      "hover"
+     ]
+    },
+    {
+     "class": "scroll_track_control"
+    }
+   ],
+   "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-mix-hover.png"
   },
   {
    "class": "puck_control",
@@ -13936,13 +14120,13 @@
    "color_scheme_tint": "#252727",
    "layer0.opacity": 1,
    "layer0.inner_margin": [
-    10,
-    8
+    11,
+    18
    ],
    "layer1.tint": "color(#FFFFFF a(0.1))",
    "layer1.inner_margin": [
-    10,
-    8
+    11,
+    18
    ]
   },
   {
@@ -13969,17 +14153,6 @@
   {
    "class": "text_line_control",
    "settings": {
-    "dark_theme_style": [
-     "mix",
-     "digital"
-    ]
-   },
-   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-panel-round.png",
-   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-panel-round-border.png"
-  },
-  {
-   "class": "text_line_control",
-   "settings": {
     "dark_theme_style": "analog"
    },
    "layer0.texture": "Theme - Treble/textures/inputs/input-bg-panel-square.png",
@@ -13989,17 +14162,20 @@
    "class": "text_line_control",
    "settings": {
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ]
    },
-   "parents": [
-    {
-     "class": "panel_control console_panel"
-    }
-   ],
-   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-console-round.png",
-   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-console-round-border.png"
+   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-panel-round.png",
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-panel-round-border.png"
+  },
+  {
+   "class": "text_line_control",
+   "settings": {
+    "dark_theme_style": "remix"
+   },
+   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-panel-full-round.png",
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-panel-full-round-border.png"
   },
   {
    "class": "text_line_control",
@@ -14013,6 +14189,35 @@
    ],
    "layer0.texture": "Theme - Treble/textures/inputs/input-bg-console-square.png",
    "layer1.texture": "Theme - Treble/textures/inputs/input-bg-console-square-border.png"
+  },
+  {
+   "class": "text_line_control",
+   "settings": {
+    "dark_theme_style": [
+     "digital",
+     "mix"
+    ]
+   },
+   "parents": [
+    {
+     "class": "panel_control console_panel"
+    }
+   ],
+   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-console-round.png",
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-console-round-border.png"
+  },
+  {
+   "class": "text_line_control",
+   "settings": {
+    "dark_theme_style": "remix"
+   },
+   "parents": [
+    {
+     "class": "panel_control console_panel"
+    }
+   ],
+   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-console-full-round.png",
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-console-full-round-border.png"
   },
   {
    "class": "text_line_control",
@@ -14215,9 +14420,22 @@
   {
    "class": "text_line_control",
    "settings": {
+    "dark_theme_style": "analog"
+   },
+   "parents": [
+    {
+     "class": "overlay_control"
+    }
+   ],
+   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square.png",
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square-border-selected.png"
+  },
+  {
+   "class": "text_line_control",
+   "settings": {
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ]
    },
    "parents": [
@@ -14231,15 +14449,15 @@
   {
    "class": "text_line_control",
    "settings": {
-    "dark_theme_style": "analog"
+    "dark_theme_style": "remix"
    },
    "parents": [
     {
      "class": "overlay_control"
     }
    ],
-   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square.png",
-   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square-border-selected.png"
+   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round.png",
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round-border-selected.png"
   },
   {
    "class": "text_line_control",
@@ -14368,29 +14586,13 @@
    "layer0.opacity": 1,
    "layer0.inner_margin": [
     24,
-    15
+    6
    ],
    "layer1.opacity": {"target":0.6,"speed":1,"interpolation":"smoothstep"},
    "layer1.inner_margin": [
     24,
-    15
+    6
    ]
-  },
-  {
-   "class": "text_line_control",
-   "settings": {
-    "dark_theme_style": [
-     "mix",
-     "digital"
-    ]
-   },
-   "parents": [
-    {
-     "class": "switch_project_window"
-    }
-   ],
-   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round.png",
-   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round-border-selected.png"
   },
   {
    "class": "text_line_control",
@@ -14404,6 +14606,35 @@
    ],
    "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square.png",
    "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square-border-selected.png"
+  },
+  {
+   "class": "text_line_control",
+   "settings": {
+    "dark_theme_style": [
+     "digital",
+     "mix"
+    ]
+   },
+   "parents": [
+    {
+     "class": "switch_project_window"
+    }
+   ],
+   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round.png",
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round-border-selected.png"
+  },
+  {
+   "class": "text_line_control",
+   "settings": {
+    "dark_theme_style": "remix"
+   },
+   "parents": [
+    {
+     "class": "switch_project_window"
+    }
+   ],
+   "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round.png",
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round-border-selected.png"
   },
   {
    "class": "text_line_control",
@@ -14534,7 +14765,7 @@
     8
    ],
    "layer0.tint": "color(#FFFFFF a(0.05))",
-   "layer0.inner_margin": 8,
+   "layer0.inner_margin": 11,
    "layer1.opacity": 0
   },
   {
@@ -14624,9 +14855,17 @@
   {
    "class": "button_control",
    "settings": {
+    "dark_theme_style": "analog"
+   },
+   "layer0.texture": "Theme - Treble/textures/buttons/button-control-bg-square.png",
+   "layer1.texture": "Theme - Treble/textures/buttons/button-control-bg-square-border.png"
+  },
+  {
+   "class": "button_control",
+   "settings": {
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ]
    },
    "layer0.texture": "Theme - Treble/textures/buttons/button-control-bg-round.png",
@@ -14635,10 +14874,10 @@
   {
    "class": "button_control",
    "settings": {
-    "dark_theme_style": "analog"
+    "dark_theme_style": "remix"
    },
-   "layer0.texture": "Theme - Treble/textures/buttons/button-control-bg-square.png",
-   "layer1.texture": "Theme - Treble/textures/buttons/button-control-bg-square-border.png"
+   "layer0.texture": "Theme - Treble/textures/buttons/button-control-bg-full-round.png",
+   "layer1.texture": "Theme - Treble/textures/buttons/button-control-bg-full-round-border.png"
   },
   {
    "class": "button_control",
@@ -14820,9 +15059,18 @@
    "class": "icon_button_control",
    "settings": {
     "show_buttons_grouping": false,
+    "dark_theme_style": "analog"
+   },
+   "layer0.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-square-single.png",
+   "layer1.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-square-single-border.png"
+  },
+  {
+   "class": "icon_button_control",
+   "settings": {
+    "show_buttons_grouping": false,
     "dark_theme_style": [
-     "mix",
-     "digital"
+     "digital",
+     "mix"
     ]
    },
    "layer0.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-round-single.png",
@@ -14832,10 +15080,10 @@
    "class": "icon_button_control",
    "settings": {
     "show_buttons_grouping": false,
-    "dark_theme_style": "analog"
+    "dark_theme_style": "remix"
    },
-   "layer0.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-square-single.png",
-   "layer1.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-square-single-border.png"
+   "layer0.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-full-round-single.png",
+   "layer1.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-round-single-border.png"
   },
   {
    "class": "icon_button_control",
@@ -18199,22 +18447,23 @@
   {
    "class": "checkbox_box_control",
    "settings": {
-    "dark_theme_style": [
-     "mix",
-     "digital"
-    ]
+    "dark_theme_style": "analog"
    },
-   "layer0.texture": "Theme - Treble/textures/checkbox/checkbox-round-bg.png",
-   "layer1.texture": "Theme - Treble/textures/checkbox/checkbox-round-bg-border.png",
+   "layer0.texture": "Theme - Treble/textures/checkbox/checkbox-square-bg.png",
+   "layer1.texture": "Theme - Treble/textures/checkbox/checkbox-square-bg-border.png",
    "layer2.texture": "Theme - Treble/textures/checkbox/checkbox-check.png"
   },
   {
    "class": "checkbox_box_control",
    "settings": {
-    "dark_theme_style": "analog"
+    "dark_theme_style": [
+     "digital",
+     "mix",
+     "remix"
+    ]
    },
-   "layer0.texture": "Theme - Treble/textures/checkbox/checkbox-square-bg.png",
-   "layer1.texture": "Theme - Treble/textures/checkbox/checkbox-square-bg-border.png",
+   "layer0.texture": "Theme - Treble/textures/checkbox/checkbox-round-bg.png",
+   "layer1.texture": "Theme - Treble/textures/checkbox/checkbox-round-bg-border.png",
    "layer2.texture": "Theme - Treble/textures/checkbox/checkbox-check.png"
   },
   {

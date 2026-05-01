@@ -195,7 +195,7 @@
         {
             "class": "sidebar_container",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "content_margin": [
                 0,
@@ -316,14 +316,6 @@
                 4
             ]
         },
-        // Tree row Mix and Digital
-        {
-            "class": "tree_row",
-            "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
-            },
-            "layer0.texture": "Theme - Treble/textures/sidebar/selected-row-round.png"
-        },
         // Tree row Analog
         {
             "class": "tree_row",
@@ -331,6 +323,22 @@
                 "adaptive_theme_style": "analog"
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/selected-row-square.png"
+        },
+        // Tree row Digital and Mix
+        {
+            "class": "tree_row",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix"]
+            },
+            "layer0.texture": "Theme - Treble/textures/sidebar/selected-row-round.png"
+        },
+        // Tree row Remix
+        {
+            "class": "tree_row",
+            "settings": {
+                "adaptive_theme_style": "remix"
+            },
+            "layer0.texture": "Theme - Treble/textures/sidebar/selected-row-full-round.png"
         },
         // Tree row hover
         {
@@ -1324,31 +1332,31 @@
             "layer0.opacity": 0,
             "layer0.texture": ""
         },
-        // Icon folder Mix and Digital - Semiopaque setting
+        // Icon folder Digital, Mix and Remix - Semiopaque setting
         {
             "class": "icon_folder",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "semiopaque"
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-closed-semiopaque.png"
         },
-        // Icon folder Mix and Digital - Solid setting
+        // Icon folder Digital, Mix and Remix - Solid setting
         {
             "class": "icon_folder",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "solid"
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-closed-solid.png"
         },
-        // Icon folder Mix and Digital - Outline setting
+        // Icon folder Digital, Mix and Remix - Outline setting
         {
             "class": "icon_folder",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "outline"
             },
@@ -1384,11 +1392,11 @@
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-closed-square.png"
         },
-        // Icon folder open Mix and Digital - Semiopaque setting
+        // Icon folder open Digital, Mix and Remix - Semiopaque setting
         {
             "class": "icon_folder",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "semiopaque"
             },
@@ -1402,11 +1410,11 @@
             ],
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-opened-semiopaque.png"
         },
-        // Icon folder open Mix and Digital - Solid setting
+        // Icon folder open Digital, Mix and Remix - Solid setting
         {
             "class": "icon_folder",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "solid"
             },
@@ -1420,11 +1428,11 @@
             ],
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-opened-solid.png"
         },
-        // Icon folder open Mix and Digital - Outline setting
+        // Icon folder open Digital, Mix and Remix - Outline setting
         {
             "class": "icon_folder",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "outline"
             },
@@ -1643,31 +1651,31 @@
             "layer1.opacity": 0,
             "layer1.texture": ""
         },
-        // Icon folder loading Mix and Digital - Semiopaque setting
+        // Icon folder loading Digital, Mix and Remix - Semiopaque setting
         {
             "class": "icon_folder_loading",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "semiopaque"
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-opened-semiopaque.png"
         },
-        // Icon folder loading Mix and Digital - Solid setting
+        // Icon folder loading Digital, Mix and Remix - Solid setting
         {
             "class": "icon_folder_loading",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "solid"
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-closed-solid.png"
         },
-        // Icon folder loading Mix and Digital - Outline setting
+        // Icon folder loading Digital, Mix and Remix - Outline setting
         {
             "class": "icon_folder_loading",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "outline"
             },
@@ -1957,31 +1965,31 @@
             "layer0.opacity": 0,
             "layer0.texture": ""
         },
-        // Icon folder dup Mix and Digital - Semiopaque setting
+        // Icon folder dup Digital, Mix and Remix - Semiopaque setting
         {
             "class": "icon_folder_dup",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "semiopaque"
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-dup-semiopaque.png"
         },
-        // Icon folder dup Mix and Digital - Solid setting
+        // Icon folder dup Digital, Mix and Remix - Solid setting
         {
             "class": "icon_folder_dup",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "solid"
             },
             "layer0.texture": "Theme - Treble/textures/sidebar/folder-dup-solid.png"
         },
-        // Icon folder dup Mix and Digital - Outline setting
+        // Icon folder dup Digital, Mix and Remix - Outline setting
         {
             "class": "icon_folder_dup",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": ["digital", "mix", "remix"],
                 "show_sidebar_icons": true,
                 "folder_icon_style": "outline"
             },
@@ -2820,30 +2828,21 @@
         {
             "class": "tab_control",
             "content_margin": [
-                12,
-                6
+                24, // 12
+                14  // 6
             ],
             // "max_margin_trim": 11,
             "layer0.opacity": 0,
             "layer0.inner_margin": [
-                10, 
-                4
+                24, // 10
+                14  // 4
             ],
             "layer1.opacity": 1,
             "layer1.inner_margin": [
-                10, 
-                4
+                24, // 10
+                15  // 4
             ]
             // "hit_test_level": 0.3
-        },
-        // Tab control Mix
-        {
-            "class": "tab_control",
-            "settings": {
-                "adaptive_theme_style": "mix"
-            },
-            "layer0.texture": "Theme - Treble/textures/tabs/tab-mix.png",
-            "layer1.texture": "Theme - Treble/textures/tabs/tab-mix.png"
         },
         // Tab control Analog
         {
@@ -2862,6 +2861,24 @@
             },
             "layer0.texture": "Theme - Treble/textures/tabs/tab-digital.png",
             "layer1.texture": "Theme - Treble/textures/tabs/tab-digital.png"
+        },
+        // Tab control Mix
+        {
+            "class": "tab_control",
+            "settings": {
+                "adaptive_theme_style": "mix"
+            },
+            "layer0.texture": "Theme - Treble/textures/tabs/tab-mix.png",
+            "layer1.texture": "Theme - Treble/textures/tabs/tab-mix.png"
+        },
+        // Tab control Remix
+        {
+            "class": "tab_control",
+            "settings": {
+                "adaptive_theme_style": "remix"
+            },
+            "layer0.texture": "Theme - Treble/textures/tabs/tab-remix.png",
+            "layer1.texture": "Theme - Treble/textures/tabs/tab-remix.png"
         },
         // Tab control Digital Tab style Do Adaptive contrast setting
         // Tab button background change when dimming inactive sheet
@@ -3471,7 +3488,7 @@
         {
             "class": "tab_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"],
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"],
                 "tab_style": "re"
             },
             "attributes": [
@@ -3485,7 +3502,7 @@
         {
             "class": "tab_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"],
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"],
                 "tab_style": "re"
             },
             "attributes": [
@@ -3498,7 +3515,7 @@
         {
             "class": "tab_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"],
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"],
                 "tab_style": "re",
                 "adaptive_contrast": true,
                 "adaptive_contrast_tone": "light"
@@ -3511,7 +3528,7 @@
         {
             "class": "tab_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"],
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"],
                 "tab_style": "re",
                 "adaptive_contrast": true,
                 "adaptive_contrast_tone": "dark"
@@ -3663,9 +3680,22 @@
             "layer2.opacity": 0,
             "layer2.draw_center": false,
             "layer2.inner_margin": [
-                10, //23 
-                4 //15
+                23, //10
+                15 //4
             ]
+        },
+        // Tab control Highlight modified tabs setting Analog and Mix
+        // Tab modified style 8vb
+        {
+            "class": "tab_control",
+            "settings": {
+                "adaptive_theme_style": ["analog", "mix"],
+                "tab_modified_style": "8vb",
+                "highlight_modified_tabs": true
+            },
+            "attributes": ["dirty"],
+            "layer2.opacity": 1,
+            "layer2.texture": "Theme - Treble/textures/tabs/tab-modified-square-bottom.png"
         },
         // Tab control Highlight modified tabs setting Digital
         // Tab modified style 8vb
@@ -3680,18 +3710,18 @@
             "layer2.opacity": 1,
             "layer2.texture": "Theme - Treble/textures/tabs/tab-modified-round-bottom.png"
         },
-        // Tab control Highlight modified tabs setting Mix and Analog
+        // Tab control Highlight modified tabs setting Remix
         // Tab modified style 8vb
         {
             "class": "tab_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog"],
+                "adaptive_theme_style": "remix",
                 "tab_modified_style": "8vb",
                 "highlight_modified_tabs": true
             },
             "attributes": ["dirty"],
-            "layer2.opacity": 1,
-            "layer2.texture": "Theme - Treble/textures/tabs/tab-modified-square-bottom.png"
+            "layer2.opacity": 1, 
+            "layer2.texture": "Theme - Treble/textures/tabs/tab-modified-full-round-bottom.png"
         },
         // Tab control Highlight modified tabs setting
         // Tab modified style 8va
@@ -4707,22 +4737,22 @@
             "layer0.tint": "color(var(accent-color-scheme) a(0.3)",
             "layer1.tint": "var(accent-color-scheme)"
         },
-        // Tab close button Mix and Analog
+        // Tab close button Analog and Mix
         {
             "class": "tab_close_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog"]
+                "adaptive_theme_style": ["analog", "mix"]
             },
             "attributes": [
                 "hover"
             ],
             "layer0.texture": "Theme - Treble/textures/tabs/tab-x-square.png"
         },
-        // Tab close button Digital
+        // Tab close button Digital and Remix
         {
             "class": "tab_close_button",
             "settings": {
-                "adaptive_theme_style": "digital"
+                "adaptive_theme_style": ["digital", "remix"]
             },
             "attributes": [
                 "hover"
@@ -4938,7 +4968,7 @@
         {
             "class": "scroll_tabs_left_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "content_margin": 13,
             "layer0.opacity": 0,
@@ -4976,27 +5006,36 @@
             "layer0.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-square-left.png",
             "layer2.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-chevron-left.png"
         },
-        // Scroll tabs left button Mix and Digital
+        // Scroll tabs left button Digital and Mix
         {
             "class": "scroll_tabs_left_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
+                "adaptive_theme_style": ["digital", "mix"]
             },
             "layer0.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-round-left.png",
             "layer2.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-chevron-left.png"
         },
-        // Scroll tabs left button colors Mix, Analog and Digital
+        // Scroll tabs left button Remix
         {
             "class": "scroll_tabs_left_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": "remix"
+            },
+            "layer0.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-circle-left.png",
+            "layer2.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-chevron-left.png"
+        },
+        // Scroll tabs left button colors Analog, Digital, Mix and Remix
+        {
+            "class": "scroll_tabs_left_button",
+            "settings": {
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "layer2.tint": "var(tab-chevron-icon-dark)"
         },
         {
             "class": "scroll_tabs_left_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "parents": [
                 {
@@ -5008,11 +5047,11 @@
             ],
             "layer2.tint": "var(tab-chevron-icon-light)"
         },
-        // Scroll tabs left button hover and hover/file_light - Mix, Analog and Digital
+        // Scroll tabs left button hover and hover/file_light - Analog, Digital, Mix and Remix
         {
             "class": "scroll_tabs_left_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "attributes": [
                 "hover"
@@ -5025,7 +5064,7 @@
         {
             "class": "scroll_tabs_left_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "attributes": [
                 "hover"
@@ -5105,7 +5144,7 @@
         {
             "class": "scroll_tabs_right_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "content_margin": 13,
             "layer0.opacity": 0,
@@ -5143,27 +5182,36 @@
             "layer0.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-square-right.png",
             "layer2.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-chevron-right.png"
         },
-        // Scroll tabs right button Mix and Digital
+        // Scroll tabs right button Digital and Mix
         {
             "class": "scroll_tabs_right_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
+                "adaptive_theme_style": ["digital", "mix"]
             },
             "layer0.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-round-right.png",
             "layer2.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-chevron-right.png"
         },
-        // Scroll tabs right button colors Mix, Analog and Digital
+        // Scroll tabs right button Remix
         {
             "class": "scroll_tabs_right_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": "remix"
+            },
+            "layer0.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-circle-right.png",
+            "layer2.texture": "Theme - Treble/textures/tabs/scroll-tabs-button-chevron-right.png"
+        },
+        // Scroll tabs right button colors Analog, Digital, Mix and Remix
+        {
+            "class": "scroll_tabs_right_button",
+            "settings": {
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "layer2.tint": "var(tab-chevron-icon-dark)"
         },
         {
             "class": "scroll_tabs_right_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "parents": [
                 {
@@ -5175,11 +5223,11 @@
             ],
             "layer2.tint": "var(tab-chevron-icon-light)"
         },
-        // Show tabs right button hover and hover/file_light - Mix, Analog and Digital
+        // Show tabs right button hover and hover/file_light - Analog, Digital, Mix and Remix
         {
             "class": "scroll_tabs_right_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "attributes": [
                 "hover"
@@ -5193,7 +5241,7 @@
         {
             "class": "scroll_tabs_right_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "attributes": [
                 "hover"
@@ -5268,7 +5316,7 @@
         {
             "class": "new_tab_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "content_margin": [ 
                 12, 
@@ -5309,27 +5357,36 @@
             "layer0.texture": "Theme - Treble/textures/tabs/new-tab-dropdown-button-square.png",
             "layer2.texture": "Theme - Treble/textures/tabs/new-tab-button.png"
         },
-        // New tab button Digital
+        // New tab button Digital amd Mix
         {
             "class": "new_tab_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
+                "adaptive_theme_style": ["digital", "mix"]
             },
             "layer0.texture": "Theme - Treble/textures/tabs/new-tab-dropdown-button-round.png",
             "layer2.texture": "Theme - Treble/textures/tabs/new-tab-button.png"
         },
-        // New tab button colors Mix, Analog and Digital
+        // New tab button Remix
         {
             "class": "new_tab_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": "remix"
+            },
+            "layer0.texture": "Theme - Treble/textures/tabs/new-tab-dropdown-button-full-round.png",
+            "layer2.texture": "Theme - Treble/textures/tabs/new-tab-button.png"
+        },
+        // New tab button colors Analog, Digital, Mix and Remix
+        {
+            "class": "new_tab_button",
+            "settings": {
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "layer2.tint": "var(tab-plus-icon-dark)"
         },
         {
             "class": "new_tab_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "parents": [
                 {
@@ -5341,11 +5398,11 @@
             ],
             "layer2.tint": "var(tab-plus-icon-light)"
         },
-        // New tab button hover and hover/file_light - Mix, Analog and Digital
+        // New tab button hover and hover/file_light - Analog, Digital, Mix and Remix
         {
             "class": "new_tab_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "attributes": [
                 "hover"
@@ -5359,7 +5416,7 @@
         {
             "class": "new_tab_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "attributes": [
                 "hover"
@@ -5434,7 +5491,7 @@
         {
             "class": "show_tabs_dropdown_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "content_margin": [ 
                 12,
@@ -5475,27 +5532,36 @@
             "layer0.texture": "Theme - Treble/textures/tabs/new-tab-dropdown-button-square.png",
             "layer2.texture": "Theme - Treble/textures/tabs/show-tabs-dropdown-button.png"
         },
-        // Show tabs dropdown button Digital
+        // Show tabs dropdown button Digital and Mix
         {
             "class": "show_tabs_dropdown_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
+                "adaptive_theme_style": ["digital", "mix"]
             },
             "layer0.texture": "Theme - Treble/textures/tabs/new-tab-dropdown-button-round.png",
             "layer2.texture": "Theme - Treble/textures/tabs/show-tabs-dropdown-button.png"
         },
-        // Show tabs dropdown button colors Mix, Analog and Digital
+        // Show tabs dropdown button Remix
         {
             "class": "show_tabs_dropdown_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": "remix"
+            },
+            "layer0.texture": "Theme - Treble/textures/tabs/new-tab-dropdown-button-full-round.png",
+            "layer2.texture": "Theme - Treble/textures/tabs/show-tabs-dropdown-button.png"
+        },
+        // Show tabs dropdown button colors Analog, Digital, Mix and Remix
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": {
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "layer2.tint": "var(tab-chevron-icon-dark)"
         },
         {
             "class": "show_tabs_dropdown_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "parents": [
                 {
@@ -5507,11 +5573,11 @@
             ],
             "layer2.tint": "var(tab-chevron-icon-light)"
         },
-        // Show tabs dropdown button hover and hover/file_light - Mix, Analog and Digital
+        // Show tabs dropdown button hover and hover/file_light - Analog, Digital, Mix and Remix
         {
             "class": "show_tabs_dropdown_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "attributes": [
                 "hover"
@@ -5525,7 +5591,7 @@
         {
             "class": "show_tabs_dropdown_button",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "attributes": [
                 "hover"
@@ -5604,7 +5670,7 @@
         {
             "class": "overlay_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "content_margin": [
                 28,
@@ -5640,14 +5706,14 @@
         {
             "class": "overlay_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "layer2.tint": "var(overlay-border-light)"
         },
         {
             "class": "overlay_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "parents": [
                 {
@@ -5659,16 +5725,6 @@
             ],
             "layer2.tint": "var(overlay-border-dark)"
         },
-        // Overlay control Mix and Digital
-        {
-            "class": "overlay_control",
-            "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
-            },
-            "layer0.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round-shadow.png",
-            "layer1.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round.png",
-            "layer2.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round-border.png"
-        },
         // Overly control Analog
         {
             "class": "overlay_control",
@@ -5679,11 +5735,31 @@
             "layer1.texture": "Theme - Treble/textures/quick-panel/overlay-bg-square.png",
             "layer2.texture": "Theme - Treble/textures/quick-panel/overlay-bg-square-border.png"
         },
-        // Overlay shadow file light Mix, Analog and Digital
+        // Overlay control Digital and Mix
         {
             "class": "overlay_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog", "digital"]
+                "adaptive_theme_style": ["digital", "mix"]
+            },
+            "layer0.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round-shadow.png",
+            "layer1.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round.png",
+            "layer2.texture": "Theme - Treble/textures/quick-panel/overlay-bg-round-border.png"
+        },
+        // Overly control Remix
+        {
+            "class": "overlay_control",
+            "settings": {
+                "adaptive_theme_style": "remix"
+            },
+            "layer0.texture": "Theme - Treble/textures/quick-panel/overlay-bg-full-round-shadow.png",
+            "layer1.texture": "Theme - Treble/textures/quick-panel/overlay-bg-full-round.png",
+            "layer2.texture": "Theme - Treble/textures/quick-panel/overlay-bg-full-round-border.png"
+        },
+        // Overlay shadow file light Analog, Digital, Mix and Remix
+        {
+            "class": "overlay_control",
+            "settings": {
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "parents": [
                 {
@@ -5765,7 +5841,17 @@
         {
             "class": "mini_quick_panel_row",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
+                "adaptive_theme_style": "analog"
+            },
+            "attributes": [
+                "selected"
+            ],
+            "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-square.png"
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix"]
             },
             "attributes": [
                 "selected"
@@ -5775,12 +5861,12 @@
         {
             "class": "mini_quick_panel_row",
             "settings": {
-                "adaptive_theme_style": "analog"
+                "adaptive_theme_style": "remix"
             },
             "attributes": [
                 "selected"
             ],
-            "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-square.png"
+            "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-full-round.png"
         },
         // Mini quick panel row Selected Accent color Blue
         {
@@ -5909,7 +5995,17 @@
         {
             "class": "quick_panel_row",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
+                "adaptive_theme_style": "analog"
+            },
+            "attributes": [
+                "selected"
+            ],
+            "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-square.png"
+        },
+        {
+            "class": "quick_panel_row",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix"]
             },
             "attributes": [
                 "selected"
@@ -5919,12 +6015,12 @@
         {
             "class": "quick_panel_row",
             "settings": {
-                "adaptive_theme_style": "analog"
+                "adaptive_theme_style": "remix"
             },
             "attributes": [
                 "selected"
             ],
-            "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-square.png"
+            "layer0.texture": "Theme - Treble/textures/quick-panel/selected-row-full-round.png"
         },
         // Quick panel row selected Accent color Blue
         {
@@ -6072,18 +6168,18 @@
         {
             "class": "kind_container",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
-            },
-            "layer1.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-round.png",
-            "layer2.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-round-border.png"
-        },
-        {
-            "class": "kind_container",
-            "settings": {
                 "adaptive_theme_style": "analog"
             },
             "layer1.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-square.png",
             "layer2.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-square-border.png"
+        },
+        {
+            "class": "kind_container",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix", "remix"]
+            },
+            "layer1.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-round.png",
+            "layer2.texture": "Theme - Treble/textures/quick-panel/kind-container-bg-round-border.png"
         },
         /** Kind label */
         // The letter inside kind container
@@ -11241,7 +11337,15 @@
         {
             "class": "popup_shadow",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"],
+                "adaptive_theme_style": "analog",
+                "popup_shadows": true
+            },
+            "layer0.texture": "Theme - Treble/textures/views/popup-shadow-square.png"
+        },
+        {
+            "class": "popup_shadow",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix"],
                 "popup_shadows": true
             },
             "layer0.texture": "Theme - Treble/textures/views/popup-shadow-round.png"
@@ -11249,10 +11353,10 @@
         {
             "class": "popup_shadow",
             "settings": {
-                "adaptive_theme_style": "analog",
+                "adaptive_theme_style": "remix",
                 "popup_shadows": true
             },
-            "layer0.texture": "Theme - Treble/textures/views/popup-shadow-square.png"
+            "layer0.texture": "Theme - Treble/textures/views/popup-shadow-full-round.png"
         },
         // Test windows
         // {
@@ -11324,7 +11428,7 @@
         {
             "class": "popup_control",
             "settings": {
-                "adaptive_theme_style": ["analog" ,"mix", "digital"]
+                "adaptive_theme_style": ["analog", "digital", "mix", "remix"]
             },
             "layer2.tint": "var(popup-html-border-light)"
         },
@@ -11347,11 +11451,20 @@
         //     // ],
         //     "layer2.tint": "var(popup-html-border-dark)"
         // },
-        // Pop control Mix Digital Analog
+        // Pop control - Analog, Digital, Mix and Remix
         {
             "class": "popup_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
+                "adaptive_theme_style": "analog"
+            },
+            "layer0.texture": "Theme - Treble/textures/views/popup-shadow-square.png",
+            "layer1.texture": "Theme - Treble/textures/views/popup-bg-square.png",
+            "layer2.texture": "Theme - Treble/textures/views/popup-bg-square-border.png"
+        },
+        {
+            "class": "popup_control",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix"]
             },
             // Shadow is defined on class popup_shadow
             // It semms needed this to show shadow.
@@ -11362,11 +11475,11 @@
         {
             "class": "popup_control",
             "settings": {
-                "adaptive_theme_style": "analog"
+                "adaptive_theme_style": "remix"
             },
-            "layer0.texture": "Theme - Treble/textures/views/popup-shadow-square.png",
-            "layer1.texture": "Theme - Treble/textures/views/popup-bg-square.png",
-            "layer2.texture": "Theme - Treble/textures/views/popup-bg-square-border.png"
+            "layer0.texture": "Theme - Treble/textures/views/popup-shadow-full-round.png",
+            "layer1.texture": "Theme - Treble/textures/views/popup-bg-full-round.png",
+            "layer2.texture": "Theme - Treble/textures/views/popup-bg-full-round-border.png"
         },
         /** popup_control annotation_popup */
         // The primary container for the annotations added to the right-hand side of the editor pane by 
@@ -11439,16 +11552,23 @@
         {
             "class": "table_row",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
+                "adaptive_theme_style": "analog"
+            },
+            "layer0.texture": "Theme - Treble/textures/auto-complete/selected-row-square.png"
+        },
+        {
+            "class": "table_row",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix"]
             },
             "layer0.texture": "Theme - Treble/textures/auto-complete/selected-row-round.png"
         },
         {
             "class": "table_row",
             "settings": {
-                "adaptive_theme_style": "analog"
+                "adaptive_theme_style": "remix"
             },
-            "layer0.texture": "Theme - Treble/textures/auto-complete/selected-row-square.png"
+            "layer0.texture": "Theme - Treble/textures/auto-complete/selected-row-full-round.png"
         },
         // Table row Accent color Blue
         {
@@ -12191,21 +12311,21 @@
             "layer0.tint": "var(panel-square-circle-button-hover-light)",
             "layer1.tint": "var(panel-x-button-hover-light)"
         },
-        // Panel close button Mix and Analog
+        // Panel close button Analog and Mix
         {
             "class": "panel_close_button",
             "settings": {
                 "show_panel_close_button": true,
-                "adaptive_theme_style": ["mix", "analog"]
+                "adaptive_theme_style": ["analog", "mix"]
             },
             "layer0.texture": "Theme - Treble/textures/panels/panel-x-square.png"
         },
-        // Panel close button Digital
+        // Panel close button Digital and Remix
         {
             "class": "panel_close_button",
             "settings": {
                 "show_panel_close_button": true,
-                "adaptive_theme_style": "digital"
+                "adaptive_theme_style": ["digital", "remix"]
             },
             "layer0.texture": "Theme - Treble/textures/panels/panel-x-circle.png"
         },
@@ -12356,19 +12476,19 @@
             ],
             "layer0.tint": "var(branch-icon-light)"
         },
-        // Vcs branch icon Mix and Analog
+        // Vcs branch icon Analog and Mix
         {
             "class": "vcs_branch_icon",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog"]
+                "adaptive_theme_style": ["analog", "mix"]
             },
             "layer0.texture": "Theme - Treble/textures/status-bar/vcs-branch-icon.png"
         },
-        // Vcs branch icon Digital
+        // Vcs branch icon Digital and Remix
         {
             "class": "vcs_branch_icon",
             "settings": {
-                "adaptive_theme_style": "digital"
+                "adaptive_theme_style": ["digital", "remix"]
             },
             "layer0.texture": "Theme - Treble/textures/status-bar/vcs-branch-icon1.png"
         },
@@ -12524,14 +12644,14 @@
         {
             "class": "progress_bar_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog"]
+                "adaptive_theme_style": ["analog", "mix"]
             },
             "layer0.texture": "Theme - Treble/textures/dialogs/progress-control-square.png"
         },
         {
             "class": "progress_bar_control",
             "settings": {
-                "adaptive_theme_style": "digital"
+                "adaptive_theme_style": ["digital", "remix"]
             },
             "layer0.texture": "Theme - Treble/textures/dialogs/progress-control-round.png"
         },
@@ -12544,14 +12664,14 @@
         {
             "class": "progress_gauge_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "analog"]
+                "adaptive_theme_style": ["analog", "mix"]
             },
             "layer0.texture": "Theme - Treble/textures/dialogs/progress-control-square.png"
         },
         {
             "class": "progress_gauge_control",
             "settings": {
-                "adaptive_theme_style": "digital"
+                "adaptive_theme_style": ["digital", "remix"]
             },
             "layer0.texture": "Theme - Treble/textures/dialogs/progress-control-round.png"
         },
@@ -12908,27 +13028,6 @@
             "layer0.opacity": "var(puck-control-opacity)",
             "layer0.inner_margin": 3
         },
-        // Puck control Mix
-        {
-            "class": "puck_control",
-            "settings": {
-                "adaptive_theme_style": "mix"
-            },
-            "attributes": [
-                "!horizontal"
-            ],
-            "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-vert-mix.png"
-        },
-        {
-            "class": "puck_control",
-            "settings": {
-                "adaptive_theme_style": "mix"
-            },
-            "attributes": [
-                "horizontal"
-            ],
-            "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-mix.png"
-        },
         // Puck control Analog
         {
             "class": "puck_control",
@@ -12950,11 +13049,11 @@
             ],
             "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-square.png"
         },
-        // Puck control Digital
+        // Puck control Digital and Remix
         {
             "class": "puck_control",
             "settings": {
-                "adaptive_theme_style": "digital"
+                "adaptive_theme_style": ["digital", "remix"]
             },
             "attributes": [
                 "!horizontal"
@@ -12964,12 +13063,33 @@
         {
             "class": "puck_control",
             "settings": {
-                "adaptive_theme_style": "digital"
+                "adaptive_theme_style": ["digital", "remix"]
             },
             "attributes": [
                 "horizontal"
             ],
             "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-round.png"
+        },
+        // Puck control Mix
+        {
+            "class": "puck_control",
+            "settings": {
+                "adaptive_theme_style": "mix"
+            },
+            "attributes": [
+                "!horizontal"
+            ],
+            "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-vert-mix.png"
+        },
+        {
+            "class": "puck_control",
+            "settings": {
+                "adaptive_theme_style": "mix"
+            },
+            "attributes": [
+                "horizontal"
+            ],
+            "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-mix.png"
         },
         // Puck control color
         {
@@ -13009,35 +13129,6 @@
             "layer0.opacity": "var(puck-control-opacity-hover)",
             "layer0.inner_margin": 4
         },
-        // Puck control hover Mix
-        {
-            "class": "puck_control",
-            "settings": {
-                "adaptive_theme_style": "mix"
-            },
-            "attributes": [
-                "!horizontal"
-            ],
-            "parents": [
-                {"class": "scroll_bar_control", "attributes": ["hover"]},
-                {"class": "scroll_track_control"}
-            ],
-            "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-vert-mix-hover.png"
-        },
-        {
-            "class": "puck_control",
-            "settings": {
-                "adaptive_theme_style": "mix"
-            },
-            "attributes": [
-                "horizontal"
-            ],
-            "parents": [
-                {"class": "scroll_bar_control", "attributes": ["hover"]},
-                {"class": "scroll_track_control"}
-            ],
-            "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-mix-hover.png"
-        },
         // Puck control hover Analog
         {
             "class": "puck_control",
@@ -13067,11 +13158,11 @@
             ],
             "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-square-hover.png"
         },
-        // Puck control hover Digital
+        // Puck control hover Digital and Remix
         {
             "class": "puck_control",
             "settings": {
-                "adaptive_theme_style": "digital"
+                "adaptive_theme_style": ["digital", "remix"]
             },
             "attributes": [
                 "!horizontal"
@@ -13085,7 +13176,7 @@
         {
             "class": "puck_control",
             "settings": {
-                "adaptive_theme_style": "digital"
+                "adaptive_theme_style": ["digital", "remix"]
             },
             "attributes": [
                 "horizontal"
@@ -13095,6 +13186,35 @@
                 {"class": "scroll_track_control"}
             ],
             "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-round-hover.png"
+        },
+        // Puck control hover Mix
+        {
+            "class": "puck_control",
+            "settings": {
+                "adaptive_theme_style": "mix"
+            },
+            "attributes": [
+                "!horizontal"
+            ],
+            "parents": [
+                {"class": "scroll_bar_control", "attributes": ["hover"]},
+                {"class": "scroll_track_control"}
+            ],
+            "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-vert-mix-hover.png"
+        },
+        {
+            "class": "puck_control",
+            "settings": {
+                "adaptive_theme_style": "mix"
+            },
+            "attributes": [
+                "horizontal"
+            ],
+            "parents": [
+                {"class": "scroll_bar_control", "attributes": ["hover"]},
+                {"class": "scroll_track_control"}
+            ],
+            "layer0.texture": "Theme - Treble/textures/scroll-bars/scroll-bar-horiz-mix-hover.png"
         },
         // Puck control hover color
         {
@@ -13190,19 +13310,19 @@
         {
             "class": "text_line_control",
             "content_margin": [
-                8, 
-                10
+                10, // 11
+                8   // 18
             ],
             "tint_index": 0,
             "layer0.opacity": 1,
             "layer0.inner_margin": [
-                10,
-                8
+                11, // 10
+                18  // 8
             ],
             "layer1.tint": "var(text-line-control-bg-border-panel-dark)",
             "layer1.inner_margin": [
-                10, 
-                8
+                11, // 10
+                18  // 8
             ]
         },
         {
@@ -13320,15 +13440,6 @@
             ],
             "color_scheme_tint": "var(text-line-control-bg-switch-proj-window-adaptive-contrast)"
         },
-        // Text line control Mix and Digital
-        {
-            "class": "text_line_control",
-            "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
-            },
-            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-panel-round.png",
-            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-panel-round-border.png"
-        },
         // Text line control Analog
         {
             "class": "text_line_control",
@@ -13338,17 +13449,23 @@
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-panel-square.png",
             "layer1.texture": "Theme - Treble/textures/inputs/input-bg-panel-square-border.png"
         },
-        // Text line control Console control Mix and Digital
+        // Text line control Digital and Mix
         {
             "class": "text_line_control",
             "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
+                "adaptive_theme_style": ["digital", "mix"]
             },
-            "parents": [
-                {"class": "panel_control console_panel"}
-            ],
-            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-console-round.png",
-            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-console-round-border.png"
+            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-panel-round.png",
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-panel-round-border.png"
+        },
+        // Text line control Remix
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_theme_style": "remix"
+            },
+            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-panel-full-round.png",
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-panel-full-round-border.png"
         },
         // Text line control Console control Analog
         {
@@ -13361,6 +13478,30 @@
             ],
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-console-square.png",
             "layer1.texture": "Theme - Treble/textures/inputs/input-bg-console-square-border.png"
+        },
+        // Text line control Console control Digital and Mix
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix"]
+            },
+            "parents": [
+                {"class": "panel_control console_panel"}
+            ],
+            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-console-round.png",
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-console-round-border.png"
+        },
+        // Text line control Console control Remix
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_theme_style": "remix"
+            },
+            "parents": [
+                {"class": "panel_control console_panel"}
+            ],
+            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-console-full-round.png",
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-console-full-round-border.png"
         },
         // Text line control Show input panel textures setting
         {
@@ -13708,18 +13849,6 @@
             ],
             "layer2.tint": "var(text-line-control-overlay-control-icon-light)"
         },
-        // Text line control Overlay control Mix and Digital
-        {
-            "class": "text_line_control",
-            "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
-            },
-            "parents": [
-                {"class": "overlay_control"}
-            ],
-            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round.png",
-            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round-border-selected.png"
-        },
         // Text line control Overlay control Analog
         {
             "class": "text_line_control",
@@ -13731,6 +13860,30 @@
             ],
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square.png",
             "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square-border-selected.png"
+        },
+        // Text line control Overlay control Digital and Mix
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix"]
+            },
+            "parents": [
+                {"class": "overlay_control"}
+            ],
+            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round.png",
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round-border-selected.png"
+        },
+        // Text line control Overlay control Remix
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_theme_style": "remix"
+            },
+            "parents": [
+                {"class": "overlay_control"}
+            ],
+            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round.png",
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round-border-selected.png"
         },
         // Text line control Overlay control Accent color Blue
         {
@@ -13853,8 +14006,6 @@
             ],
             "content_margin": [
                 24,
-                6,
-                20,
                 6
             ],
             "font.size": "var(font-size-text-line-control-overlay)",
@@ -13862,25 +14013,13 @@
             "layer0.opacity": 1,
             "layer0.inner_margin": [
                 24, 
-                15
+                6 // 15
             ],
             "layer1.opacity": "var(text-line-control-border-selected-accent-opacity)",
             "layer1.inner_margin": [
                 24,
-                15
+                6 // 15
             ]
-        },
-        // Text line control Switch project window Mix and Digital
-        {
-            "class": "text_line_control",
-            "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
-            },
-            "parents": [
-                {"class": "switch_project_window"}
-            ],
-            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round.png",
-            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round-border-selected.png"
         },
         // Text line control Switch project window Analog
         {
@@ -13893,6 +14032,30 @@
             ],
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square.png",
             "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square-border-selected.png"
+        },
+        // Text line control Switch project window Digital and Mix
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix"]
+            },
+            "parents": [
+                {"class": "switch_project_window"}
+            ],
+            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round.png",
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round-border-selected.png"
+        },
+        // Text line control Switch project window Remix
+        {
+            "class": "text_line_control",
+            "settings": {
+                "adaptive_theme_style": "remix"
+            },
+            "parents": [
+                {"class": "switch_project_window"}
+            ],
+            "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round.png",
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round-border-selected.png"
         },
         // Text line control Switch project window Accent color Blue
         {
@@ -14037,7 +14200,7 @@
                 8 // 8
             ],
             "layer0.tint": "var(button-control-bg-dark)",
-            "layer0.inner_margin": 8,
+            "layer0.inner_margin": 11, // 8
             "layer1.opacity": 0
         },
         {
@@ -14222,15 +14385,6 @@
             },
             "layer1.opacity": "var(button-control-bg-border-opacity-low)"
         },
-        // Button control Mix and Digital
-        {
-            "class": "button_control",
-            "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
-            },
-            "layer0.texture": "Theme - Treble/textures/buttons/button-control-bg-round.png",
-            "layer1.texture": "Theme - Treble/textures/buttons/button-control-bg-round-border.png"
-        },
         // Button control Analog
         {
             "class": "button_control",
@@ -14239,6 +14393,24 @@
             },
             "layer0.texture": "Theme - Treble/textures/buttons/button-control-bg-square.png",
             "layer1.texture": "Theme - Treble/textures/buttons/button-control-bg-square-border.png"
+        },
+        // Button control Digital and Mix
+        {
+            "class": "button_control",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix"]
+            },
+            "layer0.texture": "Theme - Treble/textures/buttons/button-control-bg-round.png",
+            "layer1.texture": "Theme - Treble/textures/buttons/button-control-bg-round-border.png"
+        },
+        // Button control Remix
+        {
+            "class": "button_control",
+            "settings": {
+                "adaptive_theme_style": "remix"
+            },
+            "layer0.texture": "Theme - Treble/textures/buttons/button-control-bg-full-round.png",
+            "layer1.texture": "Theme - Treble/textures/buttons/button-control-bg-full-round-border.png"
         },
         // Button control hover
         {
@@ -14606,16 +14778,6 @@
             "layer0.tint": "var(icon-button-control-bg-transparent)",
             "layer1.tint": "var(icon-button-control-bg-border-transparent)"
         },
-        // Icon button control Mix and Digital
-        {
-            "class": "icon_button_control",
-            "settings": {
-                "show_buttons_grouping": false,
-                "adaptive_theme_style": ["mix", "digital"]
-            },
-            "layer0.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-round-single.png",
-            "layer1.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-round-single-border.png"
-        },
         // Icon button control Analog
         {
             "class": "icon_button_control",
@@ -14625,6 +14787,26 @@
             },
             "layer0.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-square-single.png",
             "layer1.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-square-single-border.png"
+        },
+        // Icon button control Digital and Mix
+        {
+            "class": "icon_button_control",
+            "settings": {
+                "show_buttons_grouping": false,
+                "adaptive_theme_style": ["digital", "mix"]
+            },
+            "layer0.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-round-single.png",
+            "layer1.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-round-single-border.png"
+        },
+        // Icon button control Remix
+        {
+            "class": "icon_button_control",
+            "settings": {
+                "show_buttons_grouping": false,
+                "adaptive_theme_style": "remix"
+            },
+            "layer0.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-full-round-single.png",
+            "layer1.texture": "Theme - Treble/textures/buttons/icon-button-control-bg-round-single-border.png"
         },
         // Icon button control Button group middle Mix and Digital Show buttons grouping setting
         {
@@ -18035,16 +18217,6 @@
             "parents": [{"class": "window", "attributes": ["file_light"]}],
             "layer1.tint": "var(checkbox-box-control-bg-border-light)"
         },
-        // Checkbox box control Mix and Digital
-        {
-            "class": "checkbox_box_control",
-            "settings": {
-                "adaptive_theme_style": ["mix", "digital"]
-            },
-            "layer0.texture": "Theme - Treble/textures/checkbox/checkbox-round-bg.png",
-            "layer1.texture": "Theme - Treble/textures/checkbox/checkbox-round-bg-border.png",
-            "layer2.texture": "Theme - Treble/textures/checkbox/checkbox-check.png"
-        },
         // Checkbox box control Analog
         {
             "class": "checkbox_box_control",
@@ -18053,6 +18225,16 @@
             },
             "layer0.texture": "Theme - Treble/textures/checkbox/checkbox-square-bg.png",
             "layer1.texture": "Theme - Treble/textures/checkbox/checkbox-square-bg-border.png",
+            "layer2.texture": "Theme - Treble/textures/checkbox/checkbox-check.png"
+        },
+        // Checkbox box control Digital, Mix and Remix
+        {
+            "class": "checkbox_box_control",
+            "settings": {
+                "adaptive_theme_style": ["digital", "mix", "remix"]
+            },
+            "layer0.texture": "Theme - Treble/textures/checkbox/checkbox-round-bg.png",
+            "layer1.texture": "Theme - Treble/textures/checkbox/checkbox-round-bg-border.png",
             "layer2.texture": "Theme - Treble/textures/checkbox/checkbox-check.png"
         },
         // Checkbox box control checked
