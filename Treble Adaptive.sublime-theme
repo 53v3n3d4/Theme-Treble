@@ -3338,7 +3338,7 @@
    "settings": {
     "adaptive_theme_style": "remix"
    },
-   "layer0.texture": "Theme - Treble/textures/tabs/tab-remix.png",
+   "layer0.texture": "Theme - Treble/textures/tabs/tab-remix-inverse.png",
    "layer1.texture": "Theme - Treble/textures/tabs/tab-remix.png"
   },
   {
@@ -16166,14 +16166,16 @@
    "layer1.inner_margin": [
     11,
     18
-   ]
+   ],
+   "layer3.tint": "color(var(--background) l(+ 8.8%))"
   },
   {
    "class": "text_line_control",
    "attributes": [
     "file_light"
    ],
-   "layer1.tint": "color(var(--background) l(- 11.8%))"
+   "layer1.tint": "color(var(--background) l(- 11.8%))",
+   "layer3.tint": "color(var(--background) l(- 11.8%))"
   },
   {
    "class": "text_line_control",
@@ -16569,7 +16571,7 @@
    ],
    "content_margin": [
     20,
-    6
+    10
    ],
    "font.size": "1.2rem",
    "tint_index": 0,
@@ -16580,6 +16582,11 @@
    ],
    "layer1.opacity": {"target":0.6,"speed":1,"interpolation":"smoothstep"},
    "layer1.inner_margin": [
+    24,
+    15
+   ],
+   "layer3.opacity": {"target":0.6,"speed":1,"interpolation":"smoothstep"},
+   "layer3.inner_margin": [
     24,
     15
    ]
@@ -16596,9 +16603,9 @@
    ],
    "content_margin": [
     41,
-    6,
+    9,
     20,
-    6
+    9
    ],
    "layer2.tint": "#B4B4B4",
    "layer2.opacity": 0.8,
@@ -16640,9 +16647,9 @@
    ],
    "content_margin": [
     33,
-    6,
+    9,
     20,
-    6
+    9
    ],
    "layer2.tint": "#B4B4B4",
    "layer2.opacity": 0.8,
@@ -16683,7 +16690,8 @@
     }
    ],
    "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square.png",
-   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square-border-selected.png"
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square-border-selected.png",
+   "layer3.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square-border.png"
   },
   {
    "class": "text_line_control",
@@ -16699,7 +16707,8 @@
     }
    ],
    "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round.png",
-   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round-border-selected.png"
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round-border-selected.png",
+   "layer3.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round-border.png"
   },
   {
    "class": "text_line_control",
@@ -16712,7 +16721,8 @@
     }
    ],
    "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round.png",
-   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round-border-selected.png"
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round-border-selected.png",
+   "layer3.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round-border.png"
   },
   {
    "class": "text_line_control",
@@ -16846,7 +16856,7 @@
    ],
    "content_margin": [
     24,
-    6
+    9
    ],
    "font.size": "1.2rem",
    "tint_index": 0,
@@ -16857,6 +16867,11 @@
    ],
    "layer1.opacity": {"target":0.6,"speed":1,"interpolation":"smoothstep"},
    "layer1.inner_margin": [
+    24,
+    6
+   ],
+   "layer3.opacity": {"target":0.6,"speed":1,"interpolation":"smoothstep"},
+   "layer3.inner_margin": [
     24,
     6
    ]
@@ -16872,7 +16887,8 @@
     }
    ],
    "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square.png",
-   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square-border-selected.png"
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square-border-selected.png",
+   "layer3.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square-border.png"
   },
   {
    "class": "text_line_control",
@@ -16888,7 +16904,8 @@
     }
    ],
    "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round.png",
-   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round-border-selected.png"
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round-border-selected.png",
+   "layer3.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round-border.png"
   },
   {
    "class": "text_line_control",
@@ -16901,7 +16918,8 @@
     }
    ],
    "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round.png",
-   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round-border-selected.png"
+   "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round-border-selected.png",
+   "layer3.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round-border.png"
   },
   {
    "class": "text_line_control",

@@ -2256,7 +2256,7 @@
             "settings": {
                 "light_theme_style": "remix"
             },
-            "layer0.texture": "Theme - Treble/textures/tabs/tab-remix.png",
+            "layer0.texture": "Theme - Treble/textures/tabs/tab-remix-inverse.png",
             "layer1.texture": "Theme - Treble/textures/tabs/tab-remix.png"
         },
         // Tab control Digital Tab style Do Tabset background setting
@@ -12114,7 +12114,8 @@
             "layer1.inner_margin": [
                 11, // 10
                 18  // 8
-            ]
+            ],
+            "layer3.tint": "var(text-line-control-bg-border-panel)"
         },
         // Text line control Theme opacity setting
         {
@@ -12347,7 +12348,7 @@
             ],
             "content_margin": [
                 20,
-                6
+                10
             ],
             "font.size": "var(font-size-text-line-control-overlay)",
             "tint_index": 0,
@@ -12358,6 +12359,11 @@
             ],
             "layer1.opacity": "var(text-line-control-border-selected-accent-opacity)",
             "layer1.inner_margin": [
+                24,
+                15
+            ],
+            "layer3.opacity": "var(text-line-control-border-selected-accent-opacity)",
+            "layer3.inner_margin": [
                 24,
                 15
             ]
@@ -12388,9 +12394,9 @@
             ],
             "content_margin": [
                 41,
-                6,
+                9,
                 20,
-                6
+                9
             ],
             "layer2.tint": "var(text-line-control-overlay-control-icon)",
             "layer2.opacity": "var(text-line-control-overlay-control-icon-opacity)",
@@ -12412,9 +12418,9 @@
             ],
             "content_margin": [
                 33,
-                6,
+                9,
                 20,
-                6
+                9
             ],
             "layer2.tint": "var(text-line-control-overlay-control-icon)",
             "layer2.opacity": "var(text-line-control-overlay-control-icon-opacity)",
@@ -12436,7 +12442,8 @@
                 {"class": "overlay_control"}
             ],
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square.png",
-            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square-border-selected.png"
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square-border-selected.png",
+            "layer3.texture": "Theme - Treble/textures/inputs/input-bg-overlay-square-border.png"
         },
         // Text line control Overlay control Digital and Mix
         {
@@ -12448,7 +12455,8 @@
                 {"class": "overlay_control"}
             ],
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round.png",
-            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round-border-selected.png"
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round-border-selected.png",
+            "layer3.texture": "Theme - Treble/textures/inputs/input-bg-overlay-round-border.png"
         },
         // Text line control Overlay control Remix
         {
@@ -12460,7 +12468,8 @@
                 {"class": "overlay_control"}
             ],
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round.png",
-            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round-border-selected.png"
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round-border-selected.png",
+            "layer3.texture": "Theme - Treble/textures/inputs/input-bg-overlay-full-round-border.png"
         },
         // Text line control Overlay control Accent color Blue
         {
@@ -12570,9 +12579,9 @@
             ],
             "content_margin": [
                 24,
-                6,
+                9,
                 20,
-                6
+                9
             ],
             "font.size": "var(font-size-text-line-control-overlay)",
             "tint_index": 0,
@@ -12583,6 +12592,11 @@
             ],
             "layer1.opacity": "var(text-line-control-border-selected-accent-opacity)",
             "layer1.inner_margin": [
+                24,
+                6 // 15
+            ],
+            "layer3.opacity": "var(text-line-control-border-selected-accent-opacity)",
+            "layer3.inner_margin": [
                 24,
                 6 // 15
             ]
@@ -12597,7 +12611,8 @@
                 {"class": "switch_project_window"}
             ],
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square.png",
-            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square-border-selected.png"
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square-border-selected.png",
+            "layer3.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-square-border.png"
         },
         // Text line control Switch project window Digital and Mix
         {
@@ -12609,7 +12624,8 @@
                 {"class": "switch_project_window"}
             ],
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round.png",
-            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round-border-selected.png"
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round-border-selected.png",
+            "layer3.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-round-border.png"
         },
         // Text line control Switch project window Remix
         {
@@ -12621,7 +12637,8 @@
                 {"class": "switch_project_window"}
             ],
             "layer0.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round.png",
-            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round-border-selected.png"
+            "layer1.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round-border-selected.png",
+            "layer3.texture": "Theme - Treble/textures/inputs/input-bg-switch-proj-full-round-border.png"
         },
         // Text line control Switch project window Accent color Blue
         {

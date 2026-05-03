@@ -1,6 +1,8 @@
 # Changelog
 
 ## [0.2.13] - 2026
+- Change overlay and quick switch project inputs
+- Add `remix` theme style
 - Add `folder_icon_color` option `adaptive`
 - Change tab modified added and deleted to lighter tone
 
