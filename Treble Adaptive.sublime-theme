@@ -4499,6 +4499,15 @@
   {
    "class": "tab_control",
    "settings": {
+    "adaptive_theme_style": "remix",
+    "tab_modified_style": "8va",
+    "highlight_modified_tabs": true
+   },
+   "layer2.texture": "Theme - Treble/textures/tabs/tab-modified-do-digital-8va-bottom.png"
+  },
+  {
+   "class": "tab_control",
+   "settings": {
     "highlight_modified_tabs": true
    },
    "attributes": [
@@ -16611,7 +16620,7 @@
    "layer2.opacity": 0.8,
    "layer2.texture": "Theme - Treble/textures/inputs/input-goto-file.png",
    "layer2.inner_margin": [
-    40,
+    39,
     0,
     0,
     0

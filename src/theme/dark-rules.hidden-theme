@@ -3077,6 +3077,15 @@
             "layer2.opacity": 1,
             "layer2.texture": "Theme - Treble/textures/tabs/tab-modified-8va-bottom.png"
         },
+        {
+            "class": "tab_control",
+            "settings": {
+                "dark_theme_style": "remix",
+                "tab_modified_style": "8va",
+                "highlight_modified_tabs": true
+            },
+            "layer2.texture": "Theme - Treble/textures/tabs/tab-modified-do-digital-8va-bottom.png"
+        },
         // Tab control colors Highlight modified tabs setting
         {
             "class": "tab_control",
@@ -12112,9 +12121,9 @@
             "layer2.opacity": "var(text-line-control-overlay-control-icon-opacity)",
             "layer2.texture": "Theme - Treble/textures/inputs/input-goto-file.png",
             "layer2.inner_margin": [
-                40, 
-                0, 
-                0, 
+                39,
+                0,
+                0,
                 0
             ]
         },
